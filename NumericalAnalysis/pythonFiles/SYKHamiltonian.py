@@ -32,6 +32,7 @@ def Hamiltonain(numberOfParticles, psiSet):
             for _ in range(2 ** numberOfFermions)])
 
     for a in range(numberOfParticles):
+        print("Creating Hamiltonian: a = " + str(a))
         for b in range(numberOfParticles):
             for c in range(numberOfParticles):
                 for d in range(numberOfParticles):
