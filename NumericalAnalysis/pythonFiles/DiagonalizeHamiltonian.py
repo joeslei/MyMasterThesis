@@ -1,5 +1,5 @@
-from SYKHamiltonian import *
 import scipy.linalg
+from SYKHamiltonian import *
 
 
 def diagonalizeHamiltonian(numberOfPaticles):
