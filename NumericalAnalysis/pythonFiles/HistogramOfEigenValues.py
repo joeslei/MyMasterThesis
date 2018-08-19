@@ -5,10 +5,11 @@ import matplotlib.pyplot as plt
 
 def createHistogram():
     numberOfParticles = int(input("input the number of particles: "))
+    numberOfbins = 50
 
     data = diagonalizeHamiltonian(numberOfParticles)["eigenValue"]
 
-    plt.hist(data, bins=30)
+    plt.hist(data, bins=numberOfbins)
 
     plt.show()
 
