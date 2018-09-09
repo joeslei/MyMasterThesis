@@ -3,13 +3,13 @@ from SYKHamiltonian import *
 
 
 def diagonalizeHamiltonian(numberOfPaticles):
-    eigenValue, eigenVector = scipy.linalg.eig(Hamiltonain(numberOfPaticles, psiSet))
+    eigenValue, eigenVector = scipy.linalg.eig(Hamiltonian(numberOfPaticles, psiSet))
 
     return {"eigenValue": eigenValue, "eigenVector": eigenVector}
 
 
 def main():
-    numberOfPaticles = 4
+    numberOfPaticles = 8
     result = diagonalizeHamiltonian(numberOfPaticles)
     print("eigenValue = {}".format(result["eigenValue"]))
     print("eigenVector = {}".format(result["eigenVector"]))

@@ -1,4 +1,4 @@
-from numpy import mat
+from numpy import mat, sqrt, zeros
 from KroneckerDeltaFunction import delta
 
 
@@ -65,6 +65,14 @@ def creationOperatorMatrixElement(fermionIndex, leftStateVector, rightStateVecto
         else:
             matrixElement *= delta(left[i], right[i])
 
+    # calculate the phase factor
+    n = 0
+    for i in range(fermionIndex):
+        n += rightStateVector[i]
+    phaseFactor = pow(-1, n) * sqrt(1 - rightStateVector[fermionIndex])
+
+    matrixElement *= phaseFactor
+
     return matrixElement
 
 
@@ -77,9 +85,9 @@ def creationOperatorMatricesSet(numberOfPaticles, stateVectorSet):
     numberOfFermions = int(numberOfPaticles / 2)
 
     for fermionIndex in range(numberOfFermions):
-        creationOperatorMatrix = mat([\
-                [creationOperatorMatrixElement(fermionIndex, l, r) for l in stateVectorSet]\
-                for r in stateVectorSet])
+        creationOperatorMatrix = mat([
+            [creationOperatorMatrixElement(fermionIndex, l, r) for l in stateVectorSet]
+            for r in stateVectorSet])
 
         # note: the two indices of each matrix are transversed as default,
         # so we need to transverse the indices again.
@@ -108,6 +116,16 @@ def annihilationOperatorMatrixElement(fermionIndex, leftStateVector, rightStateV
         else:
             matrixElement *= delta(left[i], right[i])
 
+    # calculate the phase factor
+
+    n = 0
+    for i in range(fermionIndex):
+        n += rightStateVector[i]
+
+    phaseFactor = pow(-1, n) * sqrt(rightStateVector[fermionIndex])
+
+    matrixElement *= phaseFactor
+
     return matrixElement
 
 
@@ -120,9 +138,9 @@ def annihilationOperatorMatricesSet(numberOfPaticles, stateVectorSet):
     numberOfFermions = int(numberOfPaticles / 2)
 
     for fermionIndex in range(numberOfFermions):
-        annihilationOperatorMatrix = mat([\
-                [annihilationOperatorMatrixElement(fermionIndex, l, r) for l in stateVectorSet]\
-                for r in stateVectorSet])
+        annihilationOperatorMatrix = mat([
+            [annihilationOperatorMatrixElement(fermionIndex, l, r) for l in stateVectorSet]
+            for r in stateVectorSet])
 
         # note: the two indices of each matrix are transversed as default,
         # so we need to transverse the  indices again.
@@ -134,14 +152,19 @@ def annihilationOperatorMatricesSet(numberOfPaticles, stateVectorSet):
 
 
 def main():
-    numberOfPaticles = 4
-
+    numberOfPaticles = 8
     stateVectors = stateVectorSet(numberOfPaticles)
-    print("annihilationOperatorMatricesSet")
-    print(*annihilationOperatorMatricesSet(numberOfPaticles, stateVectors))
-    print("creationOperatorMatricesSet")
-    print(*creationOperatorMatricesSet(numberOfPaticles, stateVectors))
+    creationOperators = creationOperatorMatricesSet(numberOfPaticles, stateVectors)
+    annihilationOperators = annihilationOperatorMatricesSet(numberOfPaticles, stateVectors)
+
+    for i in range(len(creationOperators)):
+        for j in range(len(creationOperators)):
+            print("i = {}, j = {}".format(i, j))
+            antiCommutator = creationOperators[i] * creationOperators[j] + creationOperators[j] * creationOperators[i]
+            print(antiCommutator)
+            print("-------------------------------")
+
+
 
 if __name__ == '__main__':
     main()
-

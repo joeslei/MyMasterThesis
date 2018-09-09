@@ -22,7 +22,7 @@ def psiSet(numberOfParticles):
     return psiArray
 
 
-def Hamiltonain(numberOfParticles, psiSet):
+def Hamiltonian(numberOfParticles, psiSet):
 
     J = randomCouplingTensor(numberOfParticles)
     psiArray = psiSet(numberOfParticles)
@@ -43,8 +43,15 @@ def Hamiltonain(numberOfParticles, psiSet):
 
 
 def main():
-    numberOfParticles = 4
-    print(Hamiltonain(numberOfParticles, psiSet))
+    numberOfParticles = 8
+    dimOfHilbertSpace = int(2 ** (numberOfParticles / 2))
+    h = Hamiltonian(numberOfParticles, psiSet)
+    for i in range(dimOfHilbertSpace):
+        for j in range(dimOfHilbertSpace):
+            if h[i,j] != h[j,i].conjugate():
+                print("i = {}, j = {}".format(i, j))
+                print("h[i,j] = {}, h[j, i] = {}".format(h[i,j], h[j,i]))
+                print("-------------------------------------------------")
 
             
 if __name__ == '__main__':
