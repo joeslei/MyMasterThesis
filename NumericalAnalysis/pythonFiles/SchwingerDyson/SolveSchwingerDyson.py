@@ -7,10 +7,12 @@ from sgnFunction import sgn
 # ---------------------------------
 # constant parameters of the system
 # ---------------------------------
+# beta times J
+betaTimesJ = 50
 # the inverse of the temperature
 beta = 5
 # the average of the components of the random coupling tensor
-J = 10
+J = betaTimesJ / beta
 # the number of the interacting particles
 q = 4
 # the anomalous dimension
@@ -29,7 +31,7 @@ theta = [theta_min + i * delta_theta for i in range(n + 1)]
 t = [beta * i / 2 / np.pi for i in theta]
 
 # a parameter for making the correlator be convergence
-x = 0.5
+x = float(1 / pow(2, 3))
 
 
 def freeTwoPointFunction(t):
@@ -41,7 +43,10 @@ twoPointFunction = freeTwoPointFunction(t)
 # the Fourier transformed initial two point function
 transformedTwoPointFunction = fft(twoPointFunction)
 
+difference = []
 for i in range(1000):
+    previousTransformedTwoPointFunction = transformedTwoPointFunction
+
     # the self energy in the time-coordinate
     selfEnergy = [(J ** 2) * (i ** (q - 1)) for i in twoPointFunction]
     # the Fourier transformed self energy
@@ -50,10 +55,18 @@ for i in range(1000):
     # the next transformed two point function
     transformedTwoPointFunction = [(1 - x) * transformedTwoPointFunction[i] + x / (-1j - transformedSelfEnergy[i]) for i in range(n + 1)]
     # the next two point function
-twoPointFunction = ifft(transformedTwoPointFunction)
+    twoPointFunction = ifft(transformedTwoPointFunction)
 
-print(t)
-# print(twoPointFunction)
+    sum = 0
+    for i in range(n + 1):
+        sum += abs(transformedTwoPointFunction[i] - previousTransformedTwoPointFunction[i]) ** 2
+    difference.append(sum)
 
-# plt.plot(t, twoPointFunction)
-# plt.show()
+
+# print(*difference, sep="\n")
+
+# for i in range(n + 1):
+#     print("t = {}    G(t) = {}".format(t[i], twoPointFunction[i]))
+
+plt.plot(t[1:], twoPointFunction[1:])
+plt.show()
