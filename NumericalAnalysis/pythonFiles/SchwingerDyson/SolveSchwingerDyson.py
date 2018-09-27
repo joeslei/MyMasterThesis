@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.fftpack import fft, ifft  # for Fast Fourier Transform
+from numpy.fft import fft, ifft
 from sgnFunction import sgn
 
 # ---------------------------------
@@ -21,15 +21,16 @@ delta = float(1 / q)
 # the coordinate i.e. time of the system
 # ---------------------------------------
 # the number of discrete components of time
-n = 100
+n = 1000
 
 theta_min = 0
-theta_max = 6
+theta_max = 10
 theta = np.linspace(theta_min, theta_max, n, endpoint=True)
 t = [beta * i / 2 / np.pi for i in theta]
 
 # a parameter for making the correlator be convergence
-x = 1 / 4.0
+# NOTE: the two point function does not depend on this parameter
+x = 1.0 / 16
 
 
 def freeTwoPointFunction(t):
@@ -39,25 +40,26 @@ def freeTwoPointFunction(t):
 # the initial two point function
 twoPointFunction = freeTwoPointFunction(t)
 # the Fourier transformed initial two point function
-transformedTwoPointFunction = fft(twoPointFunction)
+transformedTwoPointFunction = fft(twoPointFunction, norm="ortho")
 
-difference = []
-for i in range(1000):
+for i in range(1000000):
+    if i % 2000 == 0:
+        print(i)
     # the self energy in the time-coordinate
     selfEnergy = [(J ** 2) * (i ** (q - 1)) for i in twoPointFunction]
     # the Fourier transformed self energy
-    transformedSelfEnergy = fft(selfEnergy)
+    transformedSelfEnergy = fft(selfEnergy, norm="ortho")
 
     # the next transformed two point function
     nextTransformedTwoPointFunction = []
-    for omega in range(n + 1):
-        term1 = (1 - x) * transformedTwoPointFunction[omega]
-        term2 = x / (-1j * omega / 2 / np.pi - transformedSelfEnergy[omega])
+    for i in range(len(t)):
+        term1 = (1 - x) * transformedTwoPointFunction[i]
+        term2 = x / (-1j * i / 2 / np.pi - transformedSelfEnergy[i])
         nextTransformedTwoPointFunction.append(term1 + term2)
     transformedTwoPointFunction = nextTransformedTwoPointFunction[:]
     # the next two point function
-    twoPointFunction = ifft(transformedTwoPointFunction)
+    twoPointFunction = ifft(transformedTwoPointFunction, norm="ortho")
 
 
-plt.plot(t[1:], twoPointFunction[1:])
+plt.plot(t, twoPointFunction)
 plt.show()
