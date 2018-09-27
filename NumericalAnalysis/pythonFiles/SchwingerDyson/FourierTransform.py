@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.fftpack import fft, ifft
 
 
 def fourierTransform(array):
@@ -32,13 +33,13 @@ def inverseFourierTransform(array):
 
 def main():
     x = np.linspace(0, 2 * np.pi, 100, endpoint=True)
-    array = np.sin(x)
-    transformedArray = fourierTransform(array)
-    inverseTransformedArray = inverseFourierTransform(transformedArray)
+    array = [1 for _ in range(len(x))]
+    transformedArray = fft(array)
+    inverseTransformedArray = ifft(transformedArray)
 
     plt.plot(x, array)
-    # plt.plot(x, transformedArray)
-    plt.plot(x, inverseTransformedArray)
+    # plt.plot(x, transformedArray, 'r')
+    plt.plot(x, inverseTransformedArray, 'g')
     plt.show()
 
 

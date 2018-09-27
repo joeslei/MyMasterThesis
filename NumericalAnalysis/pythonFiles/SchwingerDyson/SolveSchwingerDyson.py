@@ -25,8 +25,7 @@ n = 100
 
 theta_min = 0
 theta_max = 6
-delta_theta = (theta_max - theta_min) / n
-theta = [theta_min + i * delta_theta for i in range(n + 1)]
+theta = np.linspace(theta_min, theta_max, n, endpoint=True)
 t = [beta * i / 2 / np.pi for i in theta]
 
 # a parameter for making the correlator be convergence
