@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import fft, ifft  # for Fast Fourier Transform
-from scipy import integrate
 from sgnFunction import sgn
 
 # ---------------------------------
@@ -31,7 +30,7 @@ theta = [theta_min + i * delta_theta for i in range(n + 1)]
 t = [beta * i / 2 / np.pi for i in theta]
 
 # a parameter for making the correlator be convergence
-x = float(1 / pow(2, 3))
+x = 1 / 4.0
 
 
 def freeTwoPointFunction(t):
@@ -45,28 +44,21 @@ transformedTwoPointFunction = fft(twoPointFunction)
 
 difference = []
 for i in range(1000):
-    previousTransformedTwoPointFunction = transformedTwoPointFunction
-
     # the self energy in the time-coordinate
     selfEnergy = [(J ** 2) * (i ** (q - 1)) for i in twoPointFunction]
     # the Fourier transformed self energy
     transformedSelfEnergy = fft(selfEnergy)
 
     # the next transformed two point function
-    transformedTwoPointFunction = [(1 - x) * transformedTwoPointFunction[i] + x / (-1j - transformedSelfEnergy[i]) for i in range(n + 1)]
+    nextTransformedTwoPointFunction = []
+    for omega in range(n + 1):
+        term1 = (1 - x) * transformedTwoPointFunction[omega]
+        term2 = x / (-1j * omega / 2 / np.pi - transformedSelfEnergy[omega])
+        nextTransformedTwoPointFunction.append(term1 + term2)
+    transformedTwoPointFunction = nextTransformedTwoPointFunction[:]
     # the next two point function
     twoPointFunction = ifft(transformedTwoPointFunction)
 
-    sum = 0
-    for i in range(n + 1):
-        sum += abs(transformedTwoPointFunction[i] - previousTransformedTwoPointFunction[i]) ** 2
-    difference.append(sum)
-
-
-# print(*difference, sep="\n")
-
-# for i in range(n + 1):
-#     print("t = {}    G(t) = {}".format(t[i], twoPointFunction[i]))
 
 plt.plot(t[1:], twoPointFunction[1:])
 plt.show()
