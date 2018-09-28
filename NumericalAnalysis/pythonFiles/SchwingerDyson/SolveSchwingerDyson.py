@@ -42,7 +42,7 @@ twoPointFunction = freeTwoPointFunction(t)
 # the Fourier transformed initial two point function
 transformedTwoPointFunction = fft(twoPointFunction, norm="ortho")
 
-for i in range(1000000):
+for i in range(100000):
     if i % 2000 == 0:
         print(i)
     # the self energy in the time-coordinate
