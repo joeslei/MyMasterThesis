@@ -12,19 +12,19 @@ beta = 1
 # The scale of the random coupling tensor
 J = 50
 # Number of particles
-numOfParticles = 1000
+numOfParticles = 2 ** 15
 # Number of the interacting particles
 q = 4
 
 
 # The speed of convergence of the Fourier series of the two point function
-x = 1.0 / 256
+x = 1.0 / 2
 
 # the real space__
 theta = [np.pi * k / numOfParticles for k in range(numOfParticles + 1)]
 
 # The number of times of iteration loop
-iterationLoop = numOfParticles * 10
+iterationLoop = 100
 
 
 # -------------------------------------------
@@ -47,8 +47,8 @@ for iteration in range(iterationLoop):
 
     nextTransformedTwoPointFunction = []
     for n in range(len(transformedSelfEnergy)):
-        omega = 2 * np.pi * (n + 0.5)
-        # omega = n + 0.5
+        # omega = 2 * np.pi * (n + 0.5)
+        omega = n + 0.5
         term1 = x / (- 1j * omega - transformedSelfEnergy[n])
         term2 = (1 - x) * transformedTwoPointFunction[n]
         nextTransformedTwoPointFunction.append(term1 + term2)
@@ -58,5 +58,6 @@ for iteration in range(iterationLoop):
     twoPointFunction = DiscreteSineTransform(object, type=2, norm="ortho")
 
 
-plt.plot(theta, [k.real for k in twoPointFunction])
+plt.plot(theta, [k.real for k in twoPointFunction], 'r')
+plt.plot(theta, [k.imag for k in twoPointFunction], 'g')
 plt.show()
