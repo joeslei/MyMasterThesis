@@ -31,7 +31,7 @@ def isConvergentEnough(previousArray, nextArray, epsilon=0.0001):
 # The inverse temperature; we set its value to one for simplicity
 beta = 1
 # The scale of the random coupling tensor
-J = 10
+J = 50
 # Number of particles
 numOfParticles = 2 ** 15
 # Number of the interacting particles
@@ -118,4 +118,21 @@ plt.plot(theta, conformalTwoPointFunc, "g")
 plt.plot(theta, approxTwoPointFunc, "r")
 plt.xlim(0, 6.3)
 plt.ylim(0, 0.6)
+plt.show()
+
+
+# -------------------------------------------------------------
+# Calculate the sub-leading order of large J
+# -------------------------------------------------------------
+
+subleadingTwoPointFunc = []
+for k in range(len(theta)):
+    component = J * J * (twoPointFunction[k] - approxTwoPointFunc[k])
+    subleadingTwoPointFunc.append(component)
+
+plt.grid(True)
+plt.plot(theta, subleadingTwoPointFunc)
+plt.title("Sub-leading order of large $J$ of two point function")
+plt.xlim(0, 1)
+plt.ylim(0, 50)
 plt.show()
