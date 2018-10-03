@@ -1,0 +1,19 @@
+\documentclass[a4]{ltjsarticle}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue]{hyperref}
+
+% 式番号に節を追加
+\makeatletter
+	\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+	\@addtoreset{equation}{section}
+\makeatother
+
+
+\begin{document}
+	\input{sections/titlePage}
+	\tableofcontents
+	\pagebreak
+	\input{sections/introduction}
+	\input{sections/references}
+\end{document}
