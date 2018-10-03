@@ -81,6 +81,7 @@ while True:
 
     cnt += 1
 
+twoPointFunction = [k.real for k in twoPointFunction]
 x = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
 y = list(twoPointFunction[:-1:]) + list(twoPointFunction[-1::-1])
 plt.grid(True)
