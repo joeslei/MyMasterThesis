@@ -12,11 +12,10 @@ def discreteSineTransform(array):
 
 def inverseDiscreteSineTransform(array):
     # normalization factor
-    f = np.sqrt(1.0 / (2 * len(array)))
-    g = np.sqrt(1.0 / (4 * len(array)))
+    f = 1.0 / (2 * len(array))
 
     result = dst(array, type=3)
-    result = [result[0] * g * g] + [k * f * f for k in result[1:]]
+    result = [k * f for k in result]
 
     return result
 
@@ -37,12 +36,14 @@ J = 50
 numOfParticles = 2 ** 15
 # Number of the interacting particles
 q = 4
+# Anomalous dimension
+delta = 1.0 / q
 
 
 # The speed of convergence of the Fourier series of the two point function
 x = 1.0 / 2
 
-# the real space__
+# the real space
 theta = [np.pi * k / numOfParticles for k in range(numOfParticles + 1)]
 
 
@@ -82,8 +83,27 @@ while True:
     cnt += 1
 
 twoPointFunction = [k.real for k in twoPointFunction]
-x = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
-y = list(twoPointFunction[:-1:]) + list(twoPointFunction[-1::-1])
+
+theta = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
+twoPointFunction = list(twoPointFunction[:-1:]) + list(twoPointFunction[-1::-1])
+
+
+# -------------------------------------
+# Conformal Two Point Function
+# -------------------------------------
+b = pow((0.5 - delta) * np.tan(np.pi * delta) / (J * J * np.pi), delta)
+conformalTwoPointFunc = []
+for k in range(len(theta)):
+    if k == 0 or k == len(theta) - 1:
+        conformalTwoPointFunc.append(1)
+    else:
+        component = b * pow(np.pi / np.sin(theta[k] * 0.5), 2 * delta)
+        conformalTwoPointFunc.append(component)
+
 plt.grid(True)
-plt.plot(x, y)
+plt.plot(theta, twoPointFunction, "b")
+plt.plot(theta, conformalTwoPointFunc, "g")
+plt.xlim(0, 6.3)
+plt.ylim(0, 0.6)
+plt.title("$G_c$ is the green line")
 plt.show()
