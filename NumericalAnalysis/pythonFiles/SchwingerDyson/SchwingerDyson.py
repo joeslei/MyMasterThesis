@@ -31,7 +31,7 @@ def isConvergentEnough(previousArray, nextArray, epsilon=0.0001):
 # The inverse temperature; we set its value to one for simplicity
 beta = 1
 # The scale of the random coupling tensor
-J = 50
+J = 10
 # Number of particles
 numOfParticles = 2 ** 15
 # Number of the interacting particles
@@ -100,10 +100,22 @@ for k in range(len(theta)):
         component = b * pow(np.pi / np.sin(theta[k] * 0.5), 2 * delta)
         conformalTwoPointFunc.append(component)
 
+# -------------------------------------------------------------
+# Correction from the conformal limit to the exact solution
+# -------------------------------------------------------------
+
+alpha = 2 * (q - 2) / (16 / np.pi + 6.18 * (q - 2) + (q - 2) ** 2)
+f0 = [2 + (np.pi - abs(k)) / np.tan(abs(k) * 0.5) for k in theta]
+approxTwoPointFunc = []
+for k in range(len(theta)):
+    correctingTerm = np.sqrt(pow(2, q - 1) / q) * alpha * f0[k]
+    component = conformalTwoPointFunc[k] * (1 - correctingTerm / J)
+    approxTwoPointFunc.append(component)
+
 plt.grid(True)
 plt.plot(theta, twoPointFunction, "b")
 plt.plot(theta, conformalTwoPointFunc, "g")
+plt.plot(theta, approxTwoPointFunc, "r")
 plt.xlim(0, 6.3)
 plt.ylim(0, 0.6)
-plt.title("$G_c$ is the green line")
 plt.show()
