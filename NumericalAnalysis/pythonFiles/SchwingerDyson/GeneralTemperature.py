@@ -70,6 +70,7 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
         cnt += 1
 
     result = [k.real for k in result]
+    selfEnergy = [k.real for k in selfEnergy]
 
     return {"twoPointFunction": result, "selfEnergy": selfEnergy}
 
@@ -81,37 +82,41 @@ def main():
     # Number of particles
     numOfParticles = 2 ** 15
     # The inverse of a temperature
-    beta = 0.5
+    beta = 1.5
+    # The scale of the random coupling tensor
+    J = 50
 
     # the real space
     thetaValue = theta(numOfParticles, beta)
 
-    result = twoPointFunction(thetaValue, beta)
+    result = twoPointFunction(thetaValue, beta, J, q=4, x=0.5)
     result = result["twoPointFunction"]
     result = list(result[:-1:]) + list(result[-1::-1])
 
-    thetaValue = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
+    thetaValue = [np.pi * k / numOfParticles / beta for k in range(2 * numOfParticles + 1)]
 
     # -------------------------------------
     # Conformal Two Point Function
     # -------------------------------------
 
     delta = 1.0 / 4.0
-    J = 50
     b = pow((0.5 - delta) * np.tan(np.pi * delta) / (J * J * np.pi), delta)
     conformalTwoPointFunc = []
     for k in range(len(thetaValue)):
         if k == 0 or k == len(thetaValue) - 1:
-            conformalTwoPointFunc.append(1)
+            # conformalTwoPointFunc.append(1)
+            component = b * pow(np.pi / (beta * np.sin(thetaValue[k] * 0.5)), 2 * delta)
+            conformalTwoPointFunc.append(component)
         else:
-            component = b * pow(np.pi / np.sin(thetaValue[k] * 0.5), 2 * delta)
+            component = b * pow(np.pi / (beta * np.sin(thetaValue[k] * 0.5)), 2 * delta)
             conformalTwoPointFunc.append(component)
 
     plt.grid(True)
     plt.plot(thetaValue, result, "b")
-    plt.plot(thetaValue, conformalTwoPointFunc, "g")
-    plt.xlim(0, 6.3)
-    plt.ylim(0, 0.6)
+    # plt.plot(thetaValue, conformalTwoPointFunc, "g")
+    plt.xlim(0, max(thetaValue))
+    plt.ylim(0, 0.8)
+    # plt.ylim(0, 3)
     plt.show()
 
 
