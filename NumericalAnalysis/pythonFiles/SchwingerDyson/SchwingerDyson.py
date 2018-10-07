@@ -88,9 +88,16 @@ theta = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
 twoPointFunction = list(twoPointFunction[:-1:]) + list(twoPointFunction[-1::-1])
 
 
+# Write the numerical data on an external text file.
+
+selfEnergyData = [str(k.real) for k in selfEnergy]
+with open("selfEnergyData.txt", "w") as f:
+    f.write("\n".join(selfEnergyData))
+
 # -------------------------------------
 # Conformal Two Point Function
 # -------------------------------------
+
 b = pow((0.5 - delta) * np.tan(np.pi * delta) / (J * J * np.pi), delta)
 conformalTwoPointFunc = []
 for k in range(len(theta)):
@@ -115,24 +122,23 @@ for k in range(len(theta)):
 plt.grid(True)
 plt.plot(theta, twoPointFunction, "b")
 plt.plot(theta, conformalTwoPointFunc, "g")
-plt.plot(theta, approxTwoPointFunc, "r")
+# plt.plot(theta, approxTwoPointFunc, "r")
 plt.xlim(0, 6.3)
 plt.ylim(0, 0.6)
 plt.show()
 
-
 # -------------------------------------------------------------
 # Calculate the sub-leading order of large J
 # -------------------------------------------------------------
-
+"""
 subleadingTwoPointFunc = []
 for k in range(len(theta)):
     component = J * J * (twoPointFunction[k] - approxTwoPointFunc[k])
     subleadingTwoPointFunc.append(component)
 
 plt.grid(True)
+plt.yscale("log")
 plt.plot(theta, subleadingTwoPointFunc)
 plt.title("Sub-leading order of large $J$ of two point function")
-plt.xlim(0, 1)
-plt.ylim(0, 50)
 plt.show()
+"""
