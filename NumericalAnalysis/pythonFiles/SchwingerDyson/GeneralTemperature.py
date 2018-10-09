@@ -25,12 +25,19 @@ def isConvergentEnough(previousArray, nextArray, epsilon=0.0001):
     return sum(array) < epsilon
 
 
-def theta(numOfParticles, beta=1):
-    return [np.pi * k / numOfParticles / beta for k in range(numOfParticles + 1)]
+def theta(numOfParticles):
+    """
+    The two point function has a period t ~ t + beta.
+    Thus by transforming the variable of the function
+    from time to theta defined below,
+    the period changes from beta to 2pi.
+    """
+    return [np.pi * k / numOfParticles for k in range(numOfParticles + 1)]
 
 
 def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
     """
+    return: two point function and self energy as dictionary
     theta = a coordinate of the two point function
     beta = the inverse of a temperature
     J = the scale of the random coupling tensor
@@ -82,18 +89,18 @@ def main():
     # Number of particles
     numOfParticles = 2 ** 15
     # The inverse of a temperature
-    beta = 1.5
+    beta = 10
     # The scale of the random coupling tensor
     J = 50
 
     # the real space
-    thetaValue = theta(numOfParticles, beta)
+    thetaValue = theta(numOfParticles)
 
     result = twoPointFunction(thetaValue, beta, J, q=4, x=0.5)
     result = result["twoPointFunction"]
     result = list(result[:-1:]) + list(result[-1::-1])
 
-    thetaValue = [np.pi * k / numOfParticles / beta for k in range(2 * numOfParticles + 1)]
+    thetaValue = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
 
     # -------------------------------------
     # Conformal Two Point Function
@@ -113,7 +120,7 @@ def main():
 
     plt.grid(True)
     plt.plot(thetaValue, result, "b")
-    # plt.plot(thetaValue, conformalTwoPointFunc, "g")
+    plt.plot(thetaValue, conformalTwoPointFunc, "g")
     plt.xlim(0, max(thetaValue))
     plt.ylim(0, 0.8)
     # plt.ylim(0, 3)

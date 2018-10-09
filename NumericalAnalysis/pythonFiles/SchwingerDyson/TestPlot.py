@@ -1,13 +1,22 @@
 import matplotlib.pyplot as plt
-from SchwingerDyson import J
+from ConformalTwoPointFunc import betaArray
 
+dataArray = []
+
+for beta in betaArray:
+    fileName = "conformalTwoPointFuncWithBeta{}.txt".format(beta)
+    print("beta = {}".format(beta))
+
+    with open(fileName, "r") as f:
+        data = [float(k[:-1]) for k in f.readlines()[:-1]]
+        dataArray.append(data)
 
 with open("theta.txt", "r") as f:
-    theta = [float(k) for k in f.readlines().split("\n")]
+    theta = [float(k[:-1]) for k in f.readlines()[:-1]]
 
-dataNameForTwoPointFunc = "twoPointFunctionDataWithJ{}.txt".format(J)
-with open(dataNameForTwoPointFunc, "r") as f:
-    twoPointFunction = [float(k) for k in f.readlines().split("\n")]
-
-plt.plot(theta, twoPointFunction)
+plt.grid(True)
+for data in dataArray:
+    plt.plot(theta, data)
+plt.xlim(0, max(theta))
+plt.ylim(0, 1)
 plt.show()
