@@ -5,7 +5,6 @@ dataArray = []
 
 for beta in betaArray:
     fileName = "conformalTwoPointFuncWithBeta{}.txt".format(beta)
-    print("beta = {}".format(beta))
 
     with open(fileName, "r") as f:
         data = [float(k[:-1]) for k in f.readlines()[:-1]]
