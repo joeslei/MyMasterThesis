@@ -89,9 +89,9 @@ def main():
     # Number of particles
     numOfParticles = 2 ** 15
     # The inverse of a temperature
-    beta = 10
+    beta = 50
     # The scale of the random coupling tensor
-    J = 50
+    J = 1
 
     # the real space
     thetaValue = theta(numOfParticles)
@@ -122,8 +122,8 @@ def main():
     plt.plot(thetaValue, result, "b")
     plt.plot(thetaValue, conformalTwoPointFunc, "g")
     plt.xlim(0, max(thetaValue))
-    plt.ylim(0, 0.8)
-    # plt.ylim(0, 3)
+    # plt.ylim(0, 0.8)
+    plt.title("$G_c$ is the green line")
     plt.show()
 
 
