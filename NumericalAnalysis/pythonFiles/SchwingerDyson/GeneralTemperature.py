@@ -6,16 +6,17 @@ from sgnFunction import sgn
 
 def discreteSineTransform(array):
     result = dst(array, type=2)
+    result = [-1j * k for k in result]
 
     return result
 
 
-def inverseDiscreteSineTransform(array):
+def inverseDiscreteSineTransform(array, beta=1):
     # normalization factor
-    f = 1.0 / (2 * len(array))
+    f = 1.0 / (2 * len(array)) * beta
 
     result = dst(array, type=3)
-    result = [k * f for k in result]
+    result = [1j * k * f for k in result]
 
     return result
 
@@ -47,17 +48,14 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
 
     # The initial two point function is the free one.
     result = [0.5 * k for k in sgn(theta)]
-    object = [1j * k for k in result]
-    transformedTwoPointFunction = inverseDiscreteSineTransform(object)
-
+    transformedTwoPointFunction = inverseDiscreteSineTransform(result, beta)
     cnt = 0
 
     while True:
         previousTwoPointFunction = result[:]
 
         selfEnergy = [J * J * (k ** (q - 1)) for k in result]
-        object = [1j * k for k in selfEnergy]
-        transformedSelfEnergy = inverseDiscreteSineTransform(object)
+        transformedSelfEnergy = inverseDiscreteSineTransform(selfEnergy, beta)
 
         nextTransformedTwoPointFunction = []
         for n in range(len(transformedSelfEnergy)):
@@ -67,8 +65,7 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
             nextTransformedTwoPointFunction.append(term1 + term2)
 
         transformedTwoPointFunction = nextTransformedTwoPointFunction[:]
-        object = [-1j * k for k in transformedTwoPointFunction]
-        result = discreteSineTransform(object)
+        result = discreteSineTransform(transformedTwoPointFunction)
 
         if isConvergentEnough(previousTwoPointFunction, result):
             print("The two point function was convergent enough at cnt = {}".format(cnt))
@@ -77,7 +74,6 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
         cnt += 1
 
     result = [k.real for k in result]
-    selfEnergy = [k.real for k in selfEnergy]
 
     return {"twoPointFunction": result, "selfEnergy": selfEnergy}
 
@@ -89,9 +85,9 @@ def main():
     # Number of particles
     numOfParticles = 2 ** 15
     # The inverse of a temperature
-    beta = 50
+    beta = 1
     # The scale of the random coupling tensor
-    J = 1
+    J = 50
 
     # the real space
     thetaValue = theta(numOfParticles)
@@ -122,7 +118,7 @@ def main():
     plt.plot(thetaValue, result, "b")
     plt.plot(thetaValue, conformalTwoPointFunc, "g")
     plt.xlim(0, max(thetaValue))
-    # plt.ylim(0, 0.8)
+    plt.ylim(0, 0.8)
     plt.title("$G_c$ is the green line")
     plt.show()
 
