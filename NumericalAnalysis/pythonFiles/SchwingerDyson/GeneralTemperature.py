@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import dst
 from sgnFunction import sgn
+from ConformalTwoPointFunc import conformalTwoPointFunc
 
 
 def discreteSineTransform(array):
@@ -60,6 +61,7 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
         nextTransformedTwoPointFunction = []
         for n in range(len(transformedSelfEnergy)):
             omega = 2 * np.pi * (n + 0.5) / beta
+            # omega = 2 * np.pi * (n + 0.5)
             term1 = x / (- 1j * omega - transformedSelfEnergy[n])
             term2 = (1 - x) * transformedTwoPointFunction[n]
             nextTransformedTwoPointFunction.append(term1 + term2)
@@ -88,6 +90,8 @@ def main():
     beta = 1
     # The scale of the random coupling tensor
     J = 50
+    # the number of interacting particles
+    q = 4
 
     # the real space
     thetaValue = theta(numOfParticles)
@@ -98,25 +102,9 @@ def main():
 
     thetaValue = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
 
-    # -------------------------------------
-    # Conformal Two Point Function
-    # -------------------------------------
-
-    delta = 1.0 / 4.0
-    b = pow((0.5 - delta) * np.tan(np.pi * delta) / (J * J * np.pi), delta)
-    conformalTwoPointFunc = []
-    for k in range(len(thetaValue)):
-        if k == 0 or k == len(thetaValue) - 1:
-            # conformalTwoPointFunc.append(1)
-            component = b * pow(np.pi / (beta * np.sin(thetaValue[k] * 0.5)), 2 * delta)
-            conformalTwoPointFunc.append(component)
-        else:
-            component = b * pow(np.pi / (beta * np.sin(thetaValue[k] * 0.5)), 2 * delta)
-            conformalTwoPointFunc.append(component)
-
     plt.grid(True)
     plt.plot(thetaValue, result, "b")
-    plt.plot(thetaValue, conformalTwoPointFunc, "g")
+    plt.plot(thetaValue, conformalTwoPointFunc(thetaValue, beta, J, q), "g")
     plt.xlim(0, max(thetaValue))
     plt.ylim(0, 0.8)
     plt.title("$G_c$ is the green line")
