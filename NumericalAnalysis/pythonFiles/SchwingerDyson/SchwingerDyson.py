@@ -87,13 +87,6 @@ twoPointFunction = [k.real for k in twoPointFunction]
 theta = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
 twoPointFunction = list(twoPointFunction[:-1:]) + list(twoPointFunction[-1::-1])
 
-
-# Write the numerical data on an external text file.
-
-selfEnergyData = [str(k.real) for k in selfEnergy]
-with open("selfEnergyData.txt", "w") as f:
-    f.write("\n".join(selfEnergyData))
-
 # -------------------------------------
 # Conformal Two Point Function
 # -------------------------------------
@@ -101,11 +94,9 @@ with open("selfEnergyData.txt", "w") as f:
 b = pow((0.5 - delta) * np.tan(np.pi * delta) / (J * J * np.pi), delta)
 conformalTwoPointFunc = []
 for k in range(len(theta)):
-    if k == 0 or k == len(theta) - 1:
-        conformalTwoPointFunc.append(1)
-    else:
-        component = b * pow(np.pi / np.sin(theta[k] * 0.5), 2 * delta)
-        conformalTwoPointFunc.append(component)
+    component = b * pow(np.pi / np.sin(theta[k] * 0.5), 2 * delta)
+    conformalTwoPointFunc.append(component)
+
 
 # -------------------------------------------------------------
 # Correction from the conformal limit to the exact solution
@@ -119,6 +110,7 @@ for k in range(len(theta)):
     component = conformalTwoPointFunc[k] * (1 - correctingTerm / J)
     approxTwoPointFunc.append(component)
 
+"""
 plt.grid(True)
 plt.plot(theta, twoPointFunction, "b")
 plt.plot(theta, conformalTwoPointFunc, "g")
@@ -126,19 +118,24 @@ plt.plot(theta, conformalTwoPointFunc, "g")
 plt.xlim(0, 6.3)
 plt.ylim(0, 0.6)
 plt.show()
+"""
 
 # -------------------------------------------------------------
 # Calculate the sub-leading order of large J
 # -------------------------------------------------------------
-"""
+
+cutOffIndex = 2 ** 12
+
+theta = theta[cutOffIndex: 2 * numOfParticles - cutOffIndex]
+twoPointFunction = twoPointFunction[cutOffIndex: 2 * numOfParticles - cutOffIndex]
+approxTwoPointFunc = approxTwoPointFunc[cutOffIndex: 2 * numOfParticles - cutOffIndex]
+
 subleadingTwoPointFunc = []
 for k in range(len(theta)):
     component = J * J * (twoPointFunction[k] - approxTwoPointFunc[k])
     subleadingTwoPointFunc.append(component)
 
 plt.grid(True)
-plt.yscale("log")
 plt.plot(theta, subleadingTwoPointFunc)
-plt.title("Sub-leading order of large $J$ of two point function")
+plt.title("Sub-leading order of two point function with $J = {}$".format(J))
 plt.show()
-"""

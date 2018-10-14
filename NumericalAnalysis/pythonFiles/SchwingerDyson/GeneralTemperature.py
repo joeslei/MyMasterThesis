@@ -5,9 +5,9 @@ from sgnFunction import sgn
 from ConformalTwoPointFunc import conformalTwoPointFunc
 
 
-def discreteSineTransform(array):
+def discreteSineTransform(array, beta=1):
     result = dst(array, type=2)
-    result = [-1j * k for k in result]
+    result = [-1j * k / beta for k in result]
 
     return result
 
