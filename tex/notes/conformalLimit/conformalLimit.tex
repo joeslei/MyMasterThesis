@@ -1,0 +1,150 @@
+\documentclass[a4j]{ltjsarticle}
+
+\usepackage{amsmath, amssymb, amsfonts}
+
+\newcommand{\deriv}{\frac{d}{dt}}
+\newcommand{\sgn}{\mathrm{sgn}}
+
+\begin{document}
+	\section{近似したシュウィンガーダイソン方程式}
+	SYK模型において一般のシュウィンガーダイソン方程式は
+	\begin{align}
+	\frac{1}{G(\omega)} = -i\omega - \Sigma(\omega),
+	\hspace{30pt}
+	\Sigma(t) = J^2G(t)^{q-1}
+	\label{eq:SDeq}
+	\end{align}
+	で与えられるが、低エネルギー極限では$\omega = 0$と近似する。
+	よって\eqref{eq:SDeq}式の最初の式は
+	\begin{align}
+	\frac{1}{G(\omega)} = -\Sigma(\omega)
+	\end{align}
+	となる。これを少し変形すると
+	\begin{align}
+	G(\omega)\Sigma(\omega) = -1 = -\int dt\ \exp(i\omega t)\delta(t)
+	\label{eq:eq1}
+	\end{align}
+	となる。
+	一方で一番左にある$G(\omega)\Sigma(\omega)$は、積の形をした関数のフーリエ変換を用いることで
+	\begin{align}
+	G(\omega)\Sigma(\omega) = \int dt\ \exp(i\omega t) \int ds\ G(s)\Sigma(s - t)
+	\label{eq:eq2}
+	\end{align}
+	とできる。
+	\eqref{eq:eq1}式と\eqref{eq:eq2}式を比較する事で
+	\begin{align}
+	\int ds\ G(s)\Sigma(s - t) = -\delta(t)
+	\end{align}
+	となる。この右辺の積分の変数を
+	\begin{align}
+	s \to s - \frac{u - t}{2}
+	\end{align}
+	のように変更し、
+	\begin{align}
+	t_1 \equiv \frac{u - t}{2},
+	\hspace{30pt}
+	t_2 \equiv \frac{u + t}{2}
+	\end{align}
+	と置くと
+	\begin{align}
+	\int ds\ G(s - t_1)\Sigma(s - t_2) = - \delta(t_2 - t_1)
+	\label{eq:intOfGSigma}
+	\end{align}
+	を得る。
+	
+	\section{共形不変性}
+	SYK模型の有効作用は
+	\begin{align}
+	\frac{I_{\rm eff}}{N} = 
+	- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
+	+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^{1 / \Delta}\right)
+	\label{eq:effectiveAction}
+	\end{align}
+	であるが、これは次のようなパラメータ付け替え不変性を持つ:
+	\begin{align}
+	G(t, u) \to (f'(t)f'(u))^{\Delta}G(f(t), f(u)),
+	\hspace{20pt}
+	\Sigma(t, u) = (f'(t)f'(u))^{1 - \Delta}\Sigma(f(t), f(u)).
+	\label{eq:reparametrizarion}
+	\end{align}
+	\eqref{eq:effectiveAction}式の右辺にある積分の項はこのような不変性を持つことはすぐにわかるが、
+	第一項目はどのようにして確かめればよいのだろうか。
+	
+	さて、\eqref{eq:SDeq}式と\eqref{eq:intOfGSigma}式を組み合わせると
+	\begin{align}
+	J^2\int ds\ G(s - t_1)G(s - t_2)^{q - 1} = -\delta(t_2 - t_1)
+	\label{eq:intOfGG}
+	\end{align}
+	となるが、この積分方程式の解として
+	\begin{align}
+	G_c(t) = \frac{b}{|t|^{2\Delta}}\sgn(t)
+	\label{eq:conformalAnsatz}
+	\end{align}
+	が存在する。実際にこれを代入してみれば、
+	\begin{align}
+	hogehoge
+	\end{align}
+	となり、確かに解となっている。
+	有限温度の場合は、
+	\begin{align}
+	f(t) = \tan\left(\frac{\pi t}{\beta}\right)
+	\end{align}
+	として\eqref{eq:reparametrizarion}式の変換を施せば
+	\begin{align}
+	G_c(t) = b\left(\frac{\pi}{\beta \sin(\pi t / \beta)}\right)\sgn(t)
+	\end{align}
+	を得る。
+	係数$b$は次のようにして定まる。
+	まず\eqref{eq:conformalAnsatz}式を\eqref{eq:intOfGG}式に代入する。
+	この際に$G^{q-1}$が現れるが、$q-1$は奇数なので$\sgn^{q-1} = \sgn$である事を用いて
+	\begin{align}
+	G_c(t)^{q-1} = \frac{b^q}{|t|^{2(1 - \Delta)}}\sgn(t)
+	\end{align}
+	となり、
+	\begin{align}
+	-\delta(t) = J^2b^q\int ds\ 
+		\frac{\sgn(t - s)}{|t - s|^{2\Delta}}
+		\frac{\sgn(s)}{|s|^{2(1 - \Delta)}}
+	\end{align}
+	を得る。この積分を実行するには、
+	\begin{align}
+	\frac{\sgn(t)}{|t|^{2\Delta}} = 
+		\int \frac{d\omega}{2\pi}\exp(-i\omega t)\ 
+		i\, 2^{1 - 2\Delta}\sqrt{\pi}\frac{\Gamma(1 - \Delta)}{\Gamma(1/2 + \Delta)}
+		|\omega|^{2\Delta - 1}\sgn(\omega)
+	\end{align}
+	を使用すると便利である\footnote{J. Maldacena and D. Stanford, 
+		"Comments on the Sachdev-Ye-Kitaev model", [arXiv:1604.07818 [hep-th]]}。
+	少しの計算のあとに、
+	\begin{align}
+	-\delta(t) = &-J^2b^q\pi
+		\frac{\Gamma(1 - \Delta)\Gamma(\Delta)}{\Gamma(1/2 + \Delta)\Gamma(3/2 - \Delta)}
+		\nonumber\\
+		&\times \int ds\ 
+		\int \frac{d\omega}{2\pi}\ \exp(-i\omega(t - s))\ |\omega|^{2\Delta - 1}\sgn(\omega)
+		\int \frac{d\Omega}{2\pi}\ \exp(-i\Omega s)\ |\Omega|^{1 - 2\Delta}\sgn(\Omega)
+	\end{align}
+	という式にたどり着く。
+	積分の部分は最初に$s$について実行すると$\delta(\omega - \Omega)$が現れ、その後
+	$\omega$および$\Omega$で積分すると$\delta(t)$が現れる。
+	またガンマ関数の部分については
+	\begin{align}
+	\Gamma(z)\Gamma(1 - z) = \frac{\pi}{\sin(\pi z)}
+	\hspace{30pt}
+	{\rm for}\ {}^{\forall}z \notin \mathbb{Z}
+	\end{align}
+	という性質と$\Gamma(1 + z)\Gamma(z) = z\Gamma(z)$を用いることで\footnote{en.wikipedia: Gamma function}
+	\begin{align}
+	\frac{\Gamma(1 - \Delta)\Gamma(\Delta)}{\Gamma(1/2 + \Delta)\Gamma(3/2 - \Delta)}
+	= \frac{1}{(1/2 - \Delta) \tan(\pi\Delta)}
+	\end{align}
+	となる\footnote{分母については
+	\begin{align}
+	\Delta' = \frac{1}{2} - \Delta
+	\end{align}と置くと良い.}。
+	以上より、係数$b$は
+	\begin{align}
+	J^2b^q\pi = \left(\frac{1}{2} - \Delta\right)\tan(\pi\Delta)
+	\end{align}
+	という式により決定できる。
+\end{document}
