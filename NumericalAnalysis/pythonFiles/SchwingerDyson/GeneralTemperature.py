@@ -61,7 +61,6 @@ def twoPointFunction(theta, beta=1, J=50, q=4, x=0.5):
         nextTransformedTwoPointFunction = []
         for n in range(len(transformedSelfEnergy)):
             omega = 2 * np.pi * (n + 0.5) / beta
-            # omega = 2 * np.pi * (n + 0.5)
             term1 = x / (- 1j * omega - transformedSelfEnergy[n])
             term2 = (1 - x) * transformedTwoPointFunction[n]
             nextTransformedTwoPointFunction.append(term1 + term2)
