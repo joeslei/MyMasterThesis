@@ -39,20 +39,17 @@ def Hamiltonian(numberOfParticles, psiSet):
                     hamiltonian = hamiltonian + \
                             J[a, b, c, d] * psiArray[a] * psiArray[b] * psiArray[c] * psiArray[d]
 
-    return hamiltonian / scipy.special.factorial(numberOfParticles, exact=True)
+    return hamiltonian
 
 
 def main():
-    numberOfParticles = 8
+    numberOfParticles = 14
     dimOfHilbertSpace = int(2 ** (numberOfParticles / 2))
     h = Hamiltonian(numberOfParticles, psiSet)
     for i in range(dimOfHilbertSpace):
-        for j in range(dimOfHilbertSpace):
-            if h[i,j] != h[j,i].conjugate():
-                print("i = {}, j = {}".format(i, j))
-                print("h[i,j] = {}, h[j, i] = {}".format(h[i,j], h[j,i]))
-                print("-------------------------------------------------")
+        for j in range(i + 1, dimOfHilbertSpace):
+            print("H[{}, {}] = {}".format(i, j, h[i, j]))
 
-            
+
 if __name__ == '__main__':
     main()

@@ -9,7 +9,7 @@ def diagonalizeHamiltonian(numberOfPaticles):
 
 
 def main():
-    numberOfPaticles = 8
+    numberOfPaticles = 14
     result = diagonalizeHamiltonian(numberOfPaticles)
     print("eigenValue = {}".format(result["eigenValue"]))
     print("eigenVector = {}".format(result["eigenVector"]))
@@ -17,4 +17,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

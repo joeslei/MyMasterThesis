@@ -1,9 +1,11 @@
-import random
 import numpy as np
+import matplotlib.pyplot as plt
+import scipy.special
+
 
 def randomCouplingTensor(numberOfParticles):
     N = numberOfParticles
-    random.seed()
+    np.random.seed
 
     # Initialize the tonsor with zeros
     J = np.zeros((N, N, N, N))
@@ -13,7 +15,7 @@ def randomCouplingTensor(numberOfParticles):
         for b in range(N):
             for c in range(N):
                 for d in range(N):
-                    J[a,b,c,d] = random.gauss(0, 6.0 / (N * N * N))
+                    J[a, b, c, d] = np.random.normal(0, np.sqrt(6.0 / (N * N * N))) / scipy.special.factorial(4)
 
     # Make the tensor be totally anti-symmetric
     for a in range(N):
@@ -53,15 +55,23 @@ def randomCouplingTensor(numberOfParticles):
                         J[d, a, c, b] = J[a, b, c, d]
                         J[d, b, a, c] = J[a, b, c, d]
                         J[d, c, b, a] = J[a, b, c, d]
-    
+
     return J
 
 
 def main():
-    numberOfParticles = 4
-    print(randomCouplingTensor(numberOfParticles))
+    numberOfParticles = 30
+    data = []
+    J = randomCouplingTensor(numberOfParticles)
+    for a in range(numberOfParticles):
+        for b in range(a + 1, numberOfParticles):
+            for c in range(b + 1, numberOfParticles):
+                for d in range(c + 1, numberOfParticles):
+                    data.append(J[a, b, c, d])
+
+    plt.hist(data, bins=100)
+    plt.show()
 
 
 if __name__ == '__main__':
     main()
-
