@@ -9,10 +9,11 @@ def diagonalizeHamiltonian(numberOfPaticles):
 
 
 def main():
-    numberOfPaticles = 14
+    numberOfPaticles = 8
     result = diagonalizeHamiltonian(numberOfPaticles)
-    print("eigenValue = {}".format(result["eigenValue"]))
-    print("eigenVector = {}".format(result["eigenVector"]))
+    eigenValue = [e.real for e in result["eigenValue"]]
+    for e in eigenValue:
+        print(e)
 
 
 if __name__ == '__main__':
