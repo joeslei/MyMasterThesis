@@ -1,29 +1,27 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.7.20)  3 OCT 2018 15:37
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.11)  23 OCT 2018 15:15
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
-LaTeX2e <2017-04-15>
-Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
-Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using write cache: /home/kuro/.texlive2017/texmf-var/luatex-cache/gene
-ric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/kuro/.texlive20
-17/texmf-var/luatex-cache/generic)
-luaotfload | conf : Root cache directory is /home/kuro/.texlive2017/texmf-var/lu
-atex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
--resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
--2017-02-11.lua”.
+LaTeX2e <2018-04-01> patch level 5
+Lua module: luaotfload-main 2018/10/03 2.91001 OpenType layout system.
+Lua module: lualibs 2018-09-21 2.6 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2018-09-21 2.6 ConTeXt Lua libraries -- extended co
+llection.
+luaotfload | conf : Root cache directory is /Users/kosuke/Library/texlive/2018/t
+exmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2018-10-02.lua” from kpse
+-resolved path “/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2018-10-02.lua”.
 Lua-only attribute luaotfload@state = 1
 Lua-only attribute luaotfload@noligature = 2
 Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.027”
+luaotfload | init : Context OpenType loader version “3.106”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /home/kuro/.texlive2017/texmf-var/lu
-atex-cache/generic/names.
+luaotfload | conf : Root cache directory is /Users/kosuke/Library/texlive/2018/t
+exmf-var/luatex-cache/generic/names.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -34,69 +32,82 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.083 seconds
-Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
-Document Class: ltjsarticle 2018/01/14 ltjsclasses 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/luatexja.sty
-Package: luatexja 2018/01/21 Japanese Typesetting with Lua(La)TeX
+luaotfload | main : initialization completed in 0.130 seconds (/usr/local/texli
+ve/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
+Document Class: ltjsarticle 2018/09/23 ltjsclasses 
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2018/09/30 Japanese Typesetting with Lua(La)TeX
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
 Package: luatexja-core 2017/11/12 Core of LuaTeX-ja
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count79
+\@catcodetablestackcnt=\count80
 )
 \CatcodeTableOther=\catcodetable5
 \CatcodeTableExpl=\catcodetable6
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count80
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count81
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count81
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count82
 )
 \AtBeginShipoutBox=\box26
-\ltjlineendcomment=\count82
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/everyhook/everyhook.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX everyX
+ primitives.
+\everypar=\toks17
+\frozen@everymath=\toks18
+\frozen@everydisplay=\toks19
+\everyhbox=\toks20
+\everyvbox=\toks21
+\everycr=\toks22
+)
+\ltjlineendcomment=\count83
 \ltj@zw=\dimen102
 \ltj@zh=\dimen103
 \jQ=\dimen104
@@ -115,7 +126,7 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \jfam=\attribute17
 \ltj@dir=\attribute18
 \ltj@@japanese=\language2
-\ltj@tempcnta=\count83
+\ltj@tempcnta=\count84
 \ltj@kcat0=\attribute19
 \ltj@kcat1=\attribute20
 \ltj@kcat2=\attribute21
@@ -127,17 +138,18 @@ Custom whatsit inhibitglue = 1
 Custom whatsit stack_marker = 2
 Custom whatsit begin_par = 3
 Custom whatsit direction = 4
-Custom whatsit box_boundary = 5(load cache: /home/kuro/.texlive2017/texmf-var/lu
-atexja/ltj-cid-auto-adobe-japan1.luc)
-Lua module: luatexja.charrange 2017/05/05 Handling the range of Japanese charact
+Custom whatsit box_boundary = 5(load cache: /Users/kosuke/Library/texlive/2018/t
+exmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc)
+Lua module: luatexja.charrange 2018/02/18 Handling the range of Japanese charact
 ers
-Lua module: luatexja.stack 2017/05/05 LuaTeX-ja stack system
+Lua module: luatexja.stack 2018/02/18 LuaTeX-ja stack system
 Inserting `ltj.create_dir_whatsit' at position 2 in `hpack_filter'.
 Inserting `ltj.create_dir_whatsit' at position 1 in `post_linebreak_filter'.
 Inserting `ltj.direction' at position 1 in `vpack_filter'.
 Inserting `ltj.direction' at position 1 in `pre_output_filter'.
-Inserting `ltj.direction' at position 1 in `append_to_vlist_filter'.
-Lua module: luatexja.jfont 2017/09/04 Loader for Japanese fonts
+Inserting `ltj.lineskip' at position 2 in `post_linebreak_filter'.
+Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
+Lua module: luatexja.jfont 2018/06/15 Loader for Japanese fonts
 Removing  `luaotfload.define_font' from `define_font'.
 Inserting `luatexja.font_callback' at position 1 in `define_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
@@ -183,14 +195,13 @@ Inserting `ltj.create_dir_whatsit' at position 3 in `hpack_filter'.
 Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
 Inserting `ltj.set_stack_level' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 2 in `pre_linebreak_filter'.
-Lua module: luatexja.jfmglue 2017/05/05 Insertion process of JFM glues and kanji
-skip
+Lua module: luatexja.jfmglue 2018/08/11 Insertion process of JFM glues, [x]kanji
+skip and others
 Inserting `luatexja.beginpar.np_info' at position 1 in `luatexja.jfmglue.whatsit
 _getinfo'.
 Inserting `luatexja.beginpar.np_info_after' at position 1 in `luatexja.jfmglue.w
 hatsit_after'.
 Inserting `ltj.mlist_to_hlist' at position 1 in `mlist_to_hlist'.
-Lua module: luatexja.tangle 2011/05/14 
 Inserting `ltj.main' at position 3 in `pre_linebreak_filter'.
 Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
 Inserting `ltj.main' at position 3 in `hpack_filter'.
@@ -210,11 +221,11 @@ Inserting `ltj.adjust_icflag' at position 1 in `hpack_filter'.
 Inserting `ltj.set_stack_level' at position 2 in `hpack_filter'.
 Inserting `luaotfload.node_processor' at position 3 in `hpack_filter'.
 Inserting `ltj.main' at position 4 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'.
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'. (/usr/local
+/texlive/2018/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 Package: ltj-base 2017/05/05
-\ltj@tempcntb=\count84
-\ltj@tempcntc=\count85
+\ltj@tempcntb=\count85
+\ltj@tempcntc=\count86
 \ltj@tempdima=\dimen105
 \ltj@afbox=\box27
 )
@@ -227,22 +238,20 @@ Package: ltj-base 2017/05/05
 \ltj@@ihb@inner=\luafunction7
 \ltj@@fakeparbegin@inner=\luafunction8
 \ltj@@fakeboxbdd@inner=\luafunction9
-\ltj@@stack=\count86
-\ltj@@group@level=\count87
+\ltj@@stack=\count87
+\ltj@@group@level=\count88
 \ltjsetkanjiskip@inner=\luafunction10
 \ltjsetxkanjiskip@inner=\luafunction11
-\ltj@@i@everyhbox=\toks17
-\ltj@@i@everyvbox=\toks18
 \ltj@@box@dirhook=\luafunction12
 \ltj@@reset@badness@inner=\luafunction13
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
-Package: ltj-latex 2017/06/18 LaTeX support of LuaTeX-ja
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+Package: ltj-latex 2018/08/24 LaTeX support of LuaTeX-ja
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
 Package: lltjfont 2018/01/12 Patch to NFSS2 for LuaTeX-ja
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 )
@@ -261,7 +270,7 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 \tstrutbox=\box29
 \zstrutbox=\box30
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 ABD: EverySelectfont initializing macros
@@ -273,35 +282,33 @@ LaTeX Info: Redefining \fontseries on input line 547.
 LaTeX Info: Redefining \fontshape on input line 550.
 LaTeX Info: Redefining \normalfont on input line 562.
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
-Package: lltjdefs 2017/12/31 Default font settings of LuaTeX-ja
-luaotfload | db : Font names database loaded from /home/kuro/.texlive2017/texmf-
-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/kuro/.texliv
-e2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+Package: lltjdefs 2018/09/05 Default font settings of LuaTeX-ja
+luaotfload | db : Font names database loaded from /Users/kosuke/Library/texlive/
+2018/texmf-var/luatex-cache/generic/names/luaotfload-names.luc
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 53.
-luaotfload | cache : Lookup cache loaded from /home/kuro/.texlive2017/texmf-var/
-luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/kuro/.te
-xlive2017/texmf-var/luatex-cache/generic/fonts/otl/fonts-japanese-mincho.luc)(lo
-ad cache: /home/kuro/.texlive2017/texmf-var/luatexja/extra_ipaexmincho.luc)
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
+(Font)              scaled to size 9.24713pt on input line 59.
+luaotfload | cache : Lookup cache loaded from /Users/kosuke/Library/texlive/2018
+/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: /
+Users/kosuke/Library/texlive/2018/texmf-var/luatexja/extra_ipaexmincho.luc)
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
 luaotfload | aux : font no 16 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 16
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 53.
+(Font)              scaled to size 9.24713pt on input line 59.
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 62.
-LaTeX Info: Redefining \rmfamily on input line 69.
-LaTeX Info: Redefining \sffamily on input line 73.
-LaTeX Info: Redefining \ttfamily on input line 77.
-LaTeX Info: Redefining \em on input line 82.
+(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 68.
+LaTeX Info: Redefining \rmfamily on input line 75.
+LaTeX Info: Redefining \sffamily on input line 79.
+LaTeX Info: Redefining \ttfamily on input line 83.
+LaTeX Info: Redefining \em on input line 88.
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
-Package: lltjcore 2017/11/12 Patch to LaTeX2e Kernel for LuaTeX-ja
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
+Package: lltjcore 2018/06/15 Patch to LaTeX2e Kernel for LuaTeX-ja
 \@tombowwidth=\dimen117
 \@TL=\box31
 \@Tl=\box32
@@ -315,94 +322,99 @@ Package: lltjcore 2017/11/12 Patch to LaTeX2e Kernel for LuaTeX-ja
 \@Br=\box40
 \@CL=\box41
 \@CR=\box42
-\@bannertoken=\toks19
+\@bannertoken=\toks23
 \@@paperheight=\dimen118
 \@@paperwidth=\dimen119
 \@@topmargin=\dimen120
-\hour=\count88
-\minute=\count89
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+sty
 Package: lltjp-geometry 2018/01/19 Patch to geometry for LuaTeX-ja with vertical
  writing mode
-
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2011/10/12 v0.5d Hooks for input files
-)))
+))
 \ltj@temp@cctb=\catcodetable7
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
-Package: luatexja-compat 2017/05/05 Compatibility with pTeX
-(load cache: /home/kuro/.texlive2017/texmf-var/luatexja/ltj-jisx0208.luc)
-\hour=\count90
-\minute=\count91
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+Package: luatexja-compat 2018/03/29 Compatibility with pTeX
+(load cache: /Users/kosuke/Library/texlive/2018/texmf-var/luatexja/ltj-jisx0208.
+luc)
+\hour=\count89
+\minute=\count90
 ))
 \jsc@mpt=\dimen121
 \jsc@mmm=\dimen122
 \jsc@smallskipamount=\skip41
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 408.
+(Font)              scaled to size 9.24713pt on input line 412.
 \fullwidth=\dimen123
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 549.
-luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 7.3977pt on input line 553.
+luaotfload | aux : font no 20 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 21
+luaotfload | aux : no font with id 20
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 549.
-\c@part=\count92
-\c@section=\count93
-\c@subsection=\count94
-\c@subsubsection=\count95
-\c@paragraph=\count96
-\c@subparagraph=\count97
+(Font)              scaled to size 7.3977pt on input line 553.
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
 \@abstractbox=\box43
-\c@figure=\count98
-\c@table=\count99
+\c@figure=\count97
+\c@table=\count98
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-LaTeX Info: Redefining \mc on input line 1202.
-LaTeX Info: Redefining \gt on input line 1203.
+LaTeX Info: Redefining \mc on input line 1206.
+LaTeX Info: Redefining \gt on input line 1207.
 \jsc@tocl@width=\dimen124
 \@lnumwidth=\dimen125
 \bibindent=\dimen126
- (/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
 Package: jslogo 2017/02/24 okumura, texjporg
 LaTeX Info: Redefining \TeX on input line 94.
 LaTeX Info: Redefining \LaTeX on input line 147.
 LaTeX Info: Redefining \LaTeXe on input line 200.
 )
-\heisei=\count100
+\heisei=\count99
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip setti
+ngs
+\@dblbotnum=\count100
+\c@dblbotnumber=\count101
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
+sty)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks24
 \ex@=\dimen127
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen128
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count101
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count102
-\leftroot@=\count103
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count104
-\DOTSCASE@=\count105
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -411,66 +423,66 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen129
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
-\tag@help=\toks21
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
-\andhelp@=\toks22
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks25
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks26
 \eqnshift@=\dimen130
 \alignsep@=\dimen131
 \tagshift@=\dimen132
 \tagwidth@=\dimen133
 \totwidth@=\dimen134
 \lineht@=\dimen135
-\@envbody=\toks23
+\@envbody=\toks27
 \multlinegap=\skip45
 \multlinetaggap=\skip46
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -485,7 +497,7 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
 
-(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+(/usr/local/texlive/2018/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
@@ -502,67 +514,68 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen138
-\Hy@linkcounter=\count113
-\Hy@pagecounter=\count114
+\Hy@linkcounter=\count114
+\Hy@pagecounter=\count115
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count115
+\Hy@SavedSpaceFactor=\count116
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4409.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count116
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count117
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5141.
 \XeTeXLinkMargin=\dimen139
-\Fld@menulength=\count117
+\Fld@menulength=\count118
 \Field@Width=\dimen140
 \Fld@charsize=\dimen141
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring ON on input line 6387.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count118
-\c@Item=\count119
-\c@Hfootnote=\count120
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring ON on input line 6414.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
-\Fld@listcount=\count121
-\c@bookmark@seq@number=\count122
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/09/30 v6.88a Hyperref driver for luaTeX
+\Fld@listcount=\count122
+\c@bookmark@seq@number=\count123
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
@@ -576,46 +589,46 @@ LaTeX Warning: Unused global option(s):
 (./masterThesis.aux)
 \openout1 = masterThesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 13.
+LaTeX Info: Redefining \selectfont on input line 21.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
+\scratchcounter=\count124
 \scratchdimen=\dimen142
 \scratchbox=\box46
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count126
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen143
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
@@ -625,154 +638,217 @@ Package grfext Info: Graphics extension search list:
 ,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: luatex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 13.
+Package hyperref Info: Link coloring ON on input line 21.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (./masterThesis.out) (./masterThesis.out)
 \@outlinefile=\write3
 
 \openout3 = masterThesis.out
- (./sections/titlePage.tex(load luc: /home/kuro/.texlive2017/texmf-var/luatex-ca
-che/generic/fonts/otl/lmroman17-regular.luc)
+ (./sections/titlePage.tex
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 5.
-luaotfload | aux : font no 24 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 23 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 24
+luaotfload | aux : no font with id 23
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 5.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 5.
-luaotfload | aux : font no 27 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 26 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 27
+luaotfload | aux : no font with id 26
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 5.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 5.
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
-oman9-regular.luc)
+)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 6.
-luaotfload | aux : font no 49 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 48 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 49
+luaotfload | aux : no font with id 48
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 6.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 6.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/font
-s-japanese-gothic.luc)(load cache: /home/kuro/.texlive2017/texmf-var/luatexja/ex
-tra_ipaexgothic.luc)
-luaotfload | aux : font no 51 (nil) does not define feature vrt2 for script dflt
+(load cache: /Users/kosuke/Library/texlive/2018/texmf-var/luatexja/extra_ipaexgo
+thic.luc)
+luaotfload | aux : font no 50 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 51
+luaotfload | aux : no font with id 50
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 6.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
-ns9-regular.luc)) [1
+)
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 15.
-luaotfload | aux : font no 54 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 9.24713pt on input line 24.
+luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 54
+luaotfload | aux : no font with id 53
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 15.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
-ns10-regular.luc)
+(Font)              scaled to size 9.24713pt on input line 24.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 15.
-luaotfload | aux : font no 58 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 13.31586pt on input line 24.
+luaotfload | aux : font no 57 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 58
+luaotfload | aux : no font with id 57
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 15.
+(Font)              scaled to size 13.31586pt on input line 24.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 15.
-luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 13.31586pt on input line 24.
+luaotfload | aux : font no 59 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 60
+luaotfload | aux : no font with id 59
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 15.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
-ns12-regular.luc) (./masterThesis.toc)
-\tf@toc=\write4
+(Font)              scaled to size 13.31586pt on input line 24.
 
-\openout4 = masterThesis.toc
- [2]
-(./sections/introduction.tex
+(./masterThesis.toc
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.47299pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 3.
-) [3] (./sections/references.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 19.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 19.
+)
+\tf@toc=\write4
 
-(./masterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 19.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 19.
+\openout4 = masterThesis.toc
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1] (./sections/introduction.tex
+LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 20.
+luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 53
+LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 20.
+) [2] (./sections/twopointfunc.tex
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 2.
+luaotfload | aux : font no 83 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 83
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 2.
+<figures/melonDiagram.jpeg, id=102, 1027.84pt x 550.055pt>
+File: figures/melonDiagram.jpeg Graphic file (type jpg)
+<use figures/melonDiagram.jpeg>
+Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 5.
+(luatex.def)             Requested size: 398.33858pt x 213.17767pt.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 27.
+luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 93
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 5.54828pt on input line 27.
+luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 95 [3<./figures/melonDiagram.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 63.
+
+) [4] (./sections/fourpointfunc.tex) [5] (./sections/quantumChaos.tex) [6]
+(./sections/randomMatrixTheory.tex) [7] (./sections/SYKasChaos.tex) [8]
+(./sections/conclusion.tex) [9] (./appendices/effective_action.tex [10]
+[11]) [12] (./appendices/hypergeometricfunc.tex) [13]
+(./sections/references.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+ (./masterThesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 616AB30E66B0B72A79E68537A6D7EB47;47.
+(rerunfilecheck)             Checksum: 34DCFAD5178011B54777B69A035D9880;716.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8031 strings out of 494480
- 100000,221844 words of node,token memory allocated
- 7702 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 108 kern, 2980 attribute, 119 glue_spec, 1
-58 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:4,2:9715,3:48,4:81,5:32,6:554,7:180,8:48,9:74,10:5,11:36
- 11705 multiletter control sequences out of 65536+600000
- 82 fonts using 48206607 bytes
- 51i,8n,43p,893b,345s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype
-/public/lm/lmroman10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothi
-c.ttf></usr/share/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fon
-ts/opentype/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on masterThesis.pdf (4 pages, 244888 bytes).
+ 8416 strings out of 494407
+ 156261,266212 words of node,token memory allocated
+ 13996 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 18 glue, 162 kern, 1 glyph, 4321 attribute, 736 gl
+ue_spec, 226 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:15,2:36828,3:232,4:394,5:241,6:38,7:3266,8:1238,9:1080,10:22,1
+1:76
+ 11961 multiletter control sequences out of 65536+600000
+ 95 fonts using 55123639 bytes
+ 51i,17n,43p,1007b,432s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.
+otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7-regula
+r.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-regu
+lar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-b
+old.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans12-re
+gular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10
+-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans
+10-regular.otf></usr/local/texlive/texmf-local/fonts/truetype/cjk-gs-integrate/i
+paexg.ttf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17
+-regular.otf></usr/local/texlive/texmf-local/fonts/truetype/cjk-gs-integrate/ipa
+exm.ttf></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+ex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on masterThesis.pdf (15 pages, 567768 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 131072)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 354 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,7 +1,11 @@
 \documentclass[a4]{ltjsarticle}
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage{graphicx}
-\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[linktocpage,
+						colorlinks=true,
+						linkcolor=blue,
+						citecolor=blue,
+						urlcolor=blue]{hyperref}
 
 % 式番号に節を追加
 \makeatletter
@@ -9,11 +13,25 @@
 	\@addtoreset{equation}{section}
 \makeatother
 
+\newcommand{\deriv}{\frac{d}{dt}}
+\newcommand{\pathint}[1]{\int \mathcal{D}#1 \ }
+\newcommand{\average}[1]{\langle #1 \rangle}
+\newcommand{\combination}[2]{{}_{#1} \mathrm{C}_{#2}}
 
 \begin{document}
 	\input{sections/titlePage}
+	\setcounter{page}{1}
 	\tableofcontents
 	\pagebreak
 	\input{sections/introduction}
+	\input{sections/twopointfunc}
+	\input{sections/fourpointfunc}
+	\input{sections/quantumChaos}
+	\input{sections/randomMatrixTheory}
+	\input{sections/SYKasChaos}
+	\input{sections/conclusion}
+	\appendix
+	\input{appendices/effective_action}
+	\input{appendices/hypergeometricfunc}
 	\input{sections/references}
 \end{document}

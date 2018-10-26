@@ -1,18 +1,15 @@
-\secction{有効作用の計算}
+\section{有効作用の計算 \label{app:effective_action}}
+	\renewcommand{\theequation}{A.\arabic{equation} }
+	\setcounter{equation}{0}
+
 	SYK模型のラグランジアンは
 	\begin{align}
 	L = \frac{1}{2}\sum_{i = 1}^{N} \psi_i \deriv \psi_i
 		- \frac{1}{4!} \sum_{i,j,k,l = 1}^{N} J_{ijkl} \psi_i\psi_j\psi_k\psi_l
 	\label{eq:laglangian}
 	\end{align}
-	で与えられる。ここで$J_{ijkl}$は反対称テンソルであり、かつ確率分布が次式で与えられる乱数である:
-	\begin{align}
-	P(J_{ijkl}) =
-		\sqrt{\frac{N^3}{12\pi J^2}}\exp\left(-\frac{N^3}{12J^2}J_{ijkl}^{\, 2}\right).
-	\end{align}
-	SYK模型において次元を持つパラメータのひとつは\eqref{eq:gaussianProbability}式の$J$であり、
-	$[J] = 1$である。\eqref{eq:laglangian}式の相互作用項の大きさはこの$J$によって決まる。
-	またSYK模型ではしばしば有限温度を考慮するため、分配関数はユークリッド化したものを計算する:
+	で与えられる。
+	SYK模型ではしばしば有限温度を考慮するため、分配関数はユークリッド化したものを計算する:
 	\begin{align}
 	Z = \pathint{\psi} \exp\left(- \int dt\  L\right).
 	\label{eq:partition}
@@ -84,7 +81,7 @@
 	\end{align}
 	を$\average{Z}$に挿入する\footnote{ディラックのデルタ関数をフーリエ変換したものはもちろん
 	\begin{align}
-	\delta(x) \propto \int dp\ \exp(ipx)
+	\delta(x) \propto \int dp\ \exp(ipx)\nonumber
 	\end{align}であるが、今は$\Sigma(t_1, t_2)$を虚軸方向に積分していると考えているため、
 	結果として虚数単位$i$がさらに$i$倍され負号となる。}。
 	この時、挿入したデルタ関数によって
@@ -146,3 +143,5 @@
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
 	\end{align}
 	を得た。
+
+	\pagebreak
