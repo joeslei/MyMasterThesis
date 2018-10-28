@@ -7,15 +7,14 @@ def potentialPrime(x, K):
 
 
 def main():
-    numberOfLoops = 5000
+    numberOfLoops = 1000
 
-    initialMomentum = np.linspace(start=0, stop=1, num=50, endpoint=True)
     initialMomentum = [0.02 * i for i in range(16)]
     initialMomentum += [0.03 * i for i in range(10, 23)]
     initialMomentum += [0.02 * i for i in range(35, 51)]
     initialPosition = [0, 1]
 
-    K = 0.05
+    K = 1.5
 
     for p0 in initialMomentum:
         for x0 in initialPosition:
