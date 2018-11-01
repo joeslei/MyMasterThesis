@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from plotSpectrum import plotSpectrum
 
+
 def gaussianOrthogonalEnsemble(matrixSize, mean=0, deviation=1):
     randomMatrix = []
     for _ in range(matrixSize):

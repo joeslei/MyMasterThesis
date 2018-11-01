@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 def createHistogram():
-    numberOfParticles = int(input("input the number of particles: "))
-    numberOfbins = 150
+    numberOfParticles = 12
+    numberOfbins = 15
 
     data = diagonalizeHamiltonian(numberOfParticles)["eigenValue"]
     data = [d.real for d in data]
