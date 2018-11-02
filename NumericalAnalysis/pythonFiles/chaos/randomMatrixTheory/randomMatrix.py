@@ -28,14 +28,14 @@ def diagnalizeHermitianMatrix(matrix):
 def partitionFunction(beta, time, matrix):
     eigenValues = diagnalizeHermitianMatrix(matrix)
 
-    return sum([-(beta + 1j * time) * eigenValue for eigenValue in eigenValues])
+    return sum([np.exp(-(beta + 1j * time) * eigenValue) for eigenValue in eigenValues])
 
 
 if __name__ == '__main__':
-    size = 2 ** 5
-    time_max = 10 ** 3
+    size = 2 ** 8
+    time_max = 10 ** 5
     time = [t for t in range(time_max)]
-    numberOfEnsembles = 30
+    numberOfEnsembles = 10
 
     p = ProgressBar(widgets=[Percentage(), Bar()], maxval=time_max)
 
@@ -47,10 +47,12 @@ if __name__ == '__main__':
         denumeratorArray = []
         for i in range(numberOfEnsembles):
             matrix = hermitianRandomMatrix(size)
-            Z_beta = partitionFunction(beta=5, time=t, matrix=matrix)
+
+            Z = partitionFunction(beta=5, time=t, matrix=matrix)
             Z_0 = partitionFunction(beta=5, time=0, matrix=matrix)
-            numeratorArray.append(Z_beta * Z_beta.conjugate())
-            denumeratorArray.append(Z_0)
+
+            numeratorArray.append((Z * Z.conjugate()).real)
+            denumeratorArray.append(Z_0.real)
         numerator = sum(numeratorArray) / numberOfEnsembles
         denumerator = (sum(denumeratorArray) / numberOfEnsembles) ** 2
         spectrumFormFactor.append(numerator / denumerator)
