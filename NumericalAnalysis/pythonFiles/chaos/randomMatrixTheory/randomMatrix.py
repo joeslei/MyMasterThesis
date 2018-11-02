@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.linalg
+from progressbar import ProgressBar, Percentage, Bar
 
 
 def hermitianRandomMatrix(size):
@@ -31,14 +32,17 @@ def partitionFunction(beta, time, matrix):
 
 
 if __name__ == '__main__':
-    size = 2 ** 10
-    time_max = 10 ** 5
+    size = 2 ** 5
+    time_max = 10 ** 3
     time = [t for t in range(time_max)]
     numberOfEnsembles = 30
 
+    p = ProgressBar(widgets=[Percentage(), Bar()], maxval=time_max)
+
     spectrumFormFactor = []
     for t in time:
-        print("{}% done".format(t / time_max * 100))
+        p.update(t+1)
+
         numeratorArray = []
         denumeratorArray = []
         for i in range(numberOfEnsembles):
