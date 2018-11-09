@@ -31,10 +31,11 @@ def partitionFunction(beta, time, matrix):
 
 
 if __name__ == '__main__':
-    size = 2 ** 10
-    time_max = 10 ** 5
+    size = 2 ** 8
+    beta = 5
+    time_max = 10 ** 2
     time = np.linspace(0, time_max, num=time_max * 10, endpoint=True)
-    numberOfEnsembles = 300
+    numberOfEnsembles = 100
     spectrumFormFactor = []
 
     previous_t = 0
@@ -43,18 +44,18 @@ if __name__ == '__main__':
             print("t = {} / {}".format(str(int(t)), time_max))
             previous_t = int(t)
 
-        numeratorArray = []
-        denumeratorArray = []
+        numerator = 0
+        denumerator = 0
         for i in range(numberOfEnsembles):
             matrix = hermitianRandomMatrix(size)
 
-            Z = partitionFunction(beta=5, time=t, matrix=matrix)
-            Z_0 = partitionFunction(beta=5, time=0, matrix=matrix)
+            Z = partitionFunction(beta=beta, time=t, matrix=matrix)
+            Z_0 = partitionFunction(beta=beta, time=0, matrix=matrix)
 
-            numeratorArray.append((Z * Z.conjugate()).real)
-            denumeratorArray.append(Z_0.real)
-        numerator = sum(numeratorArray) / numberOfEnsembles
-        denumerator = (sum(denumeratorArray) / numberOfEnsembles) ** 2
+            numerator += (Z * Z.conjugate()).real
+            denumerator += Z_0.real
+        numerator /= numberOfEnsembles
+        denumerator = (numerator / numberOfEnsembles) ** 2
         spectrumFormFactor.append(numerator / denumerator)
     plt.plot(time, spectrumFormFactor)
     plt.grid(True)
