@@ -1,27 +1,43 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.11)  4 NOV 2018 18:11
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  16 NOV 2018 21:06
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
 LaTeX2e <2018-04-01> patch level 5
-Lua module: luaotfload-main 2018/10/03 2.91001 OpenType layout system.
-Lua module: lualibs 2018-09-21 2.6 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2018-09-21 2.6 ConTeXt Lua libraries -- extended co
-llection.
+Lua module: luaotfload-main 2018-10-28 2.93 luaotfload entry point
+Lua module: luaotfload-init 2018-10-28 2.93 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2018-10-18 2.61 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2018-10-18 2.61 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2018-10-28 2.93 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2018-10-28 2.93 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2018-10-28 2.93 luaotfload submodule / conf
+ig file reader
 luaotfload | conf : Root cache directory is /Users/kosuke/Library/texlive/2018/t
 exmf-var/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2018-10-02.lua” from kpse
+luaotfload | init : Loading fontloader “fontloader-2018-10-28.lua” from kpse
 -resolved path “/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontl
-oader-2018-10-02.lua”.
+oader-2018-10-28.lua”.
 Lua-only attribute luaotfload@state = 1
 Lua-only attribute luaotfload@noligature = 2
 Lua-only attribute luaotfload@syllabe = 3
 luaotfload | init : Context OpenType loader version “3.106”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2018-10-28 2.93 luaotfload submodule / callback h
+andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2018-10-28 2.93 luaotfload submodule / database
+Lua module: luaotfload-colors 2018-10-28 2.93 luaotfload submodule / color
 Lua-only attribute luaotfload_color_attribute = 4
+Lua module: luaotfload-resolvers 2018-10-28 2.93 luaotfload submodule / resolver
+s
 luaotfload | conf : Root cache directory is /Users/kosuke/Library/texlive/2018/t
 exmf-var/luatex-cache/generic/names.
+Lua module: luaotfload-features 2018-10-28 2.93 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2018-10-28 2.93 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2018-10-28 2.93 luaotfload submodule / auxiliar
+y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -32,9 +48,9 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.121 seconds (/usr/local/texli
-ve/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
-Document Class: ltjsarticle 2018/09/23 ltjsclasses 
+luaotfload | main : initialization completed in 0.144 seconds
+(/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
+Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
 Package: luatexja 2018/09/30 Japanese Typesetting with Lua(La)TeX
 
@@ -149,7 +165,7 @@ Inserting `ltj.direction' at position 1 in `vpack_filter'.
 Inserting `ltj.direction' at position 1 in `pre_output_filter'.
 Inserting `ltj.lineskip' at position 2 in `post_linebreak_filter'.
 Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
-Lua module: luatexja.jfont 2018/06/15 Loader for Japanese fonts
+Lua module: luatexja.jfont 2018/11/01 Loader for Japanese fonts
 Removing  `luaotfload.define_font' from `define_font'.
 Inserting `luatexja.font_callback' at position 1 in `define_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
@@ -249,7 +265,7 @@ Package: ltj-base 2017/05/05
 Package: ltj-latex 2018/08/24 LaTeX support of LuaTeX-ja
 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
-Package: lltjfont 2018/01/12 Patch to NFSS2 for LuaTeX-ja
+Package: lltjfont 2018/10/08 Patch to NFSS2 for LuaTeX-ja
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
@@ -276,14 +292,14 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 316.
 \ltj@@adjust@baseline@inner=\luafunction14
-LaTeX Info: Redefining \fontencoding on input line 468.
-LaTeX Info: Redefining \fontfamily on input line 513.
-LaTeX Info: Redefining \fontseries on input line 547.
-LaTeX Info: Redefining \fontshape on input line 550.
-LaTeX Info: Redefining \normalfont on input line 562.
+LaTeX Info: Redefining \fontencoding on input line 469.
+LaTeX Info: Redefining \fontfamily on input line 514.
+LaTeX Info: Redefining \fontseries on input line 548.
+LaTeX Info: Redefining \fontshape on input line 551.
+LaTeX Info: Redefining \normalfont on input line 563.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
-Package: lltjdefs 2018/09/05 Default font settings of LuaTeX-ja
+Package: lltjdefs 2018/10/08 Default font settings of LuaTeX-ja
 luaotfload | db : Font names database loaded from /Users/kosuke/Library/texlive/
 2018/texmf-var/luatex-cache/generic/names/luaotfload-names.luc
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
@@ -301,11 +317,11 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 68.
-LaTeX Info: Redefining \rmfamily on input line 75.
-LaTeX Info: Redefining \sffamily on input line 79.
-LaTeX Info: Redefining \ttfamily on input line 83.
-LaTeX Info: Redefining \em on input line 88.
+(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 77.
+LaTeX Info: Redefining \sffamily on input line 81.
+LaTeX Info: Redefining \ttfamily on input line 85.
+LaTeX Info: Redefining \em on input line 90.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
 Package: lltjcore 2018/06/15 Patch to LaTeX2e Kernel for LuaTeX-ja
@@ -348,15 +364,15 @@ luc)
 \jsc@mmm=\dimen122
 \jsc@smallskipamount=\skip41
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 412.
+(Font)              scaled to size 9.24713pt on input line 413.
 \fullwidth=\dimen123
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 553.
+(Font)              scaled to size 7.3977pt on input line 554.
 luaotfload | aux : font no 20 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 20
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 553.
+(Font)              scaled to size 7.3977pt on input line 554.
 \c@part=\count91
 \c@section=\count92
 \c@subsection=\count93
@@ -368,8 +384,8 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 \c@table=\count98
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-LaTeX Info: Redefining \mc on input line 1206.
-LaTeX Info: Redefining \gt on input line 1207.
+LaTeX Info: Redefining \mc on input line 1207.
+LaTeX Info: Redefining \gt on input line 1208.
 \jsc@tocl@width=\dimen124
 \@lnumwidth=\dimen125
 \bibindent=\dimen126
@@ -844,14 +860,14 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8476 strings out of 494407
+ 8482 strings out of 494407
  195337,266212 words of node,token memory allocated
- 16033 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 20 glue, 184 kern, 1 glyph, 4801 attribute, 917 gl
-ue_spec, 250 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:14,2:45260,3:319,4:395,5:145,6:37,7:3694,8:1238,9:1080,10:22,1
+ 16227 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 20 glue, 186 kern, 1 glyph, 4841 attribute, 937 gl
+ue_spec, 252 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:14,2:45218,3:319,4:395,5:145,6:37,7:3694,8:1238,9:1080,10:22,1
 1:76
- 11982 multiletter control sequences out of 65536+600000
+ 11987 multiletter control sequences out of 65536+600000
  101 fonts using 55495743 bytes
  51i,17n,43p,1007b,575s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
@@ -884,10 +900,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (16 pages, 719594 bytes).
+Output written on masterThesis.pdf (16 pages, 720362 bytes).
 
-PDF statistics: 393 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 131072)
+PDF statistics: 394 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
