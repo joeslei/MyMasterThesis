@@ -124,11 +124,57 @@ SYK模型ではラージ$q$極限においても(あるオーダーで)解析解
 \subsubsection{リーディングオーダー}
 まず最初に$1/q$オーダーでの解を考える:
 \begin{align}
-  G(t) = \frac{1}{2}\sgn\left(1 + \frac{1}{q}g(t)\right)
+  G(t) = \frac{1}{2}\sgn(t)\left(1 + \frac{1}{q}g(t)\right),
+  \hspace{30pt}
+  \Sigma(t) = J^22^{1-q}\sgn(t)e^{g(t)}.
+  \label{eq:firstOrder}
 \end{align}
+一方で$G(t)$をフーリエ変換したものは
+\begin{align}
+\frac{1}{G(\omega)}
+	= \frac{1}{-\frac{1}{i\omega} + \frac{[\sgn \times g](\omega)}{2q}}
+	= -i\omega + \omega^2\frac{[\sgn \times g](\omega)}{2q}
+	= -i\omega - \Sigma(\omega)
+\end{align}
+で与えられる。
+ここで$[\sgn \times g](\omega)$は$\sgn(t)g(t)$の積のフーリエ変換を表す。
+また２番目の等号は$1/q$で展開した。
+３番目の等号より
+\begin{align}
+	\Sigma(\omega) = -\omega^2\frac{[\sgn \times g](\omega)}{2q}
+\end{align}
+を得るので、これを更にフーリエ変換したもの$\Sigma(t)$と\eqref{eq:firstOrder}式の$\Sigma(t)$
+を比べると次のような微分方程式を得る:
+\begin{align}
+\partial_t^2(\sgn(t)g(t)) = 2\mathcal{J}^2\sgn(t)e^{g(t)},
+\hspace{30pt}
+\mathcal{J} \equiv \sqrt{q}\frac{J}{2^{\frac{q-1}{2}}}.
+\label{eq:diffeq_for_g}
+\end{align}
+$q \to \infty$の極限で$\mathcal{J}$は固定されているものとする。
+この微分方程式の一般解は次のような形をしている事が知られている:
+\begin{align}
+e^{g(t)} = \frac{c^2}{\mathcal{J}^2}\frac{1}{\sin^2(c|t| + t_0)}.
+\end{align}
+我々が興味ある解は、$g(0)=0$かつ$g(\beta)=0$を満たすものである。
+なぜなら$J$は質量次元が1であり、したがって\eqref{eq:diffeq_for_g}式が有効となるようなスケールの
+$t$が常に存在する。
+特に$t=0$は$J$のスケールで言い換えればUV領域なので、理論は相互作用なしの場合のものになるからである。
+これを考慮すると、
+\begin{align}
+	e^{g(t)} = \left[
+		\frac{\cos\frac{\pi v}{2}}{\cos\left(\pi v(\frac{1}{2} - \frac{|t|}{\beta})\right)}
+		\right]^2,
+	\hspace{30pt}
+	\beta\mathcal{J} = \frac{\pi v}{\cos\frac{\pi v}{2}}
+\end{align}
+を得る。２つ目の式によってパラメータ$v\in[0, 1]$を決定する。
 
-\subsubsection{サブリーディングオーダー}
-
+\subsubsection{サブリーディングオーダー\footnote{この節の内容は\cite{tarnopolsky}による.}}
+次に我々は$1/q^2$のオーダーを計算する:
+\begin{align}
+	G(t) = \frac{1}{2}\sgn(t)\left(1 + \frac{1}{q}g(t) + \frac{1}{q^2}h(t)\right).
+\end{align}
 
 
 

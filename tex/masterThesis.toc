@@ -4,11 +4,11 @@
 \contentsline {subsection}{\numberline {2.2}共形不変性}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{5}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{5}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー}{5}{subsubsection.2.3.2}
-\contentsline {section}{\numberline {3}4点関数}{6}{section.3}
-\contentsline {section}{\numberline {4}量子カオス}{7}{section.4}
-\contentsline {section}{\numberline {5}ランダム行列理論}{8}{section.5}
-\contentsline {section}{\numberline {6}カオスとしてのSYK模型}{9}{section.6}
-\contentsline {section}{\numberline {7}終わりに}{10}{section.7}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{11}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{14}{appendix.B}
+\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{6}{subsubsection.2.3.2}
+\contentsline {section}{\numberline {3}4点関数}{7}{section.3}
+\contentsline {section}{\numberline {4}量子カオス}{8}{section.4}
+\contentsline {section}{\numberline {5}ランダム行列理論}{9}{section.5}
+\contentsline {section}{\numberline {6}カオスとしてのSYK模型}{10}{section.6}
+\contentsline {section}{\numberline {7}終わりに}{11}{section.7}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{12}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{15}{appendix.B}
