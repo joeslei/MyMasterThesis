@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  16 NOV 2018 21:56
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  20 NOV 2018 13:47
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.098 seconds
+luaotfload | main : initialization completed in 0.080 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -787,7 +787,7 @@ luaotfload | aux : font no 84 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 84
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 2.
-<figures/melonDiagram.jpeg, id=102, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=87, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 5.
@@ -805,7 +805,7 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 luaotfload | aux : font no 96 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 96 [3<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=128, 462.528pt x 346.896pt>
+<figures/J10.png, id=113, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 65.
@@ -815,7 +815,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 65--68
  [][] 
  []
 
-<figures/J50.png, id=129, 462.528pt x 346.896pt>
+<figures/J50.png, id=114, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 73.
@@ -834,10 +834,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 120.
 
-[5]) [6] (./sections/fourpointfunc.tex) [7] (./sections/quantumChaos.tex)
-[8] (./sections/randomMatrixTheory.tex) [9] (./sections/SYKasChaos.tex)
-[10] (./sections/conclusion.tex) [11] (./appendices/effective_action.tex
-[12] [13]) [14] (./appendices/b.tex
+[5]) [6] (./sections/fourpointfunc.tex) [7] (./sections/conclusion.tex)
+[8] (./appendices/effective_action.tex [9] [10]) [11] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -854,26 +852,26 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 36.
 
-) [15] (./sections/references.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+) [12] (./sections/references.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./masterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: DFC5C5478E0B35C420FF0E93A48E4964;712.
+(rerunfilecheck)             Checksum: F8366BD8F0D3EC7EEA0F8DDD70896643;535.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8483 strings out of 494480
- 195332,266212 words of node,token memory allocated
- 16377 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 22 glue, 207 kern, 5420 attribute, 701 glue_spec, 
+ 8450 strings out of 494480
+ 195345,266212 words of node,token memory allocated
+ 16227 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 22 glue, 207 kern, 5420 attribute, 671 glue_spec, 
 280 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:14,2:45692,3:341,4:406,5:249,6:1934,7:1863,8:1238,9:1080,10:22
+   avail lists: 1:11,2:46070,3:340,4:407,5:249,6:1952,7:1881,8:1238,9:1080,10:22
 ,11:86
- 11927 multiletter control sequences out of 65536+600000
+ 11924 multiletter control sequences out of 65536+600000
  102 fonts using 57502751 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -883,8 +881,8 @@ an9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></
 usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/
 fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/
 public/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.
-ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share
-/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texlive/texmf-dist/fonts/t
+ttf></usr/share/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fonts
+/opentype/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
@@ -903,10 +901,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (17 pages, 737059 bytes).
+Output written on masterThesis.pdf (14 pages, 733783 bytes).
 
-PDF statistics: 416 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 131072)
- 97 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 389 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 131072)
+ 73 words of extra memory for PDF output out of 10000 (max. 100000000)
 
