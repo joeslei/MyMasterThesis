@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import dst
+from scipy.optimize import curve_fit
 from sgnFunction import sgn
 
 
@@ -23,6 +24,11 @@ def inverseDiscreteSineTransform(array):
 def isConvergentEnough(previousArray, nextArray, epsilon=0.0001):
     array = [abs(nextArray[n] - previousArray[n]) ** 2 for n in range(len(previousArray))]
     return sum(array) < epsilon
+
+
+def fittingFunc(x, a, b):
+    func = x ** (a) + b
+    return func
 
 
 # ---------------------------------
@@ -82,20 +88,23 @@ while True:
 
     cnt += 1
 
-selfEnergy = [k.real for k in selfEnergy]
+omega = [2 * np.pi * (n + 0.5) for n in range(len(transformedSelfEnergy))]
+transformedSelfEnergy = [k.imag for k in transformedSelfEnergy]
 
-theta = [np.pi * k / numOfParticles for k in range(2 * numOfParticles + 1)]
-selfEnergy = list(selfEnergy[:-1:]) + list(selfEnergy[-1::-1])
+with open("dataFiles/omega.txt", "w") as f:
+    f.write("\n".join(list(map(str, omega))))
+with open("dataFiles/transformedSelfEnergy.txt", "w") as f:
+    f.write("\n".join(list(map(str, transformedSelfEnergy))))
 
-# corresponds to J = 50
-v = 0.94625
-selfEnergyLarge_q = []
-for t in theta:
-    selfEnergyLarge_q.append((np.pi * v / (2 * np.cos(np.pi * v / 2 * (1 - t / np.pi)))) ** 2)
+popt, pcov = curve_fit(fittingFunc, omega, transformedSelfEnergy)
 
-plt.plot(theta, selfEnergy, 'b', label="selfEnergy")
-plt.plot(theta, selfEnergyLarge_q, 'g', label="selfEnergyLarge_q")
+fitting_data = []
+for o in omega:
+    fitting_data.append(fittingFunc(o, *popt))
+
+plt.plot(omega, transformedSelfEnergy, 'b', label="transformedSelfEnergy")
+plt.plot(omega, fitting_data, 'y', label="x ** {} + {}".format(popt[0], popt[1]))
 plt.legend()
-plt.xlabel("theta")
+plt.xlabel("omega")
 plt.title("beta = {}, J = {}".format(beta, J))
 plt.show()
