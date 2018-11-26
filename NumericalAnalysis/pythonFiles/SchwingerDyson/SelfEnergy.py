@@ -96,4 +96,6 @@ for t in theta:
 plt.plot(theta, selfEnergy, 'b', label="selfEnergy")
 plt.plot(theta, selfEnergyLarge_q, 'g', label="selfEnergyLarge_q")
 plt.legend()
+plt.xlabel("t")
+plt.title("beta = {}, J = {}".format(beta, J))
 plt.show()
