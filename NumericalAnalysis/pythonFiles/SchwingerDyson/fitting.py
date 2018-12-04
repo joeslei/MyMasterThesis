@@ -27,4 +27,6 @@ if 1:
     plt.plot(omega, transformedSelfEnergy, 'b', label="Sigma(omega)")
     plt.plot(omega, fitting_data, 'y', label="%5.3f * (x ** %5.3f)" % tuple(popt))
     plt.legend()
+    plt.xscale("log")
+    plt.yscale("log")
     plt.show()
