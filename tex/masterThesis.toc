@@ -1,11 +1,15 @@
-\contentsline {section}{\numberline {1}はじめに: SYK模型とは}{2}{section.1}
-\contentsline {section}{\numberline {2}2点関数}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}シュウィンガー・ダイソン方程式}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}共形不変性}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{5}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{5}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{6}{subsubsection.2.3.2}
-\contentsline {section}{\numberline {3}4点関数}{7}{section.3}
-\contentsline {section}{\numberline {4}終わりに}{8}{section.4}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{9}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{12}{appendix.B}
+\contentsline {section}{\numberline {1}はじめに: SYK模型とは}{1}{section.1}
+\contentsline {section}{\numberline {2}2点関数}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}シュウィンガー・ダイソン方程式}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}共形不変性}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{4}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{5}{subsubsection.2.3.2}
+\contentsline {section}{\numberline {3}4点関数}{6}{section.3}
+\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{7}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{8}{section.5}
+\contentsline {section}{\numberline {6}終わりに}{9}{section.6}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{10}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{13}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{14}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{15}{appendix.D}

@@ -7,12 +7,6 @@
 						citecolor=blue,
 						urlcolor=blue]{hyperref}
 
-% 式番号に節を追加
-\makeatletter
-	\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-	\@addtoreset{equation}{section}
-\makeatother
-
 \newcommand{\deriv}{\frac{d}{dt}}
 \newcommand{\pathint}[1]{\int \mathcal{D}#1 \ }
 \newcommand{\average}[1]{\langle #1 \rangle}
@@ -21,15 +15,20 @@
 
 \begin{document}
 	\input{sections/titlePage}
-	\setcounter{page}{1}
 	\tableofcontents
+	\thispagestyle{empty}
 	\pagebreak
+	\setcounter{page}{1}
 	\input{sections/introduction}
 	\input{sections/twopointfunc}
 	\input{sections/fourpointfunc}
+	\input{sections/syk_as_quantum_chaos}
+	\input{sections/gravity}
 	\input{sections/conclusion}
 	\appendix
 	\input{appendices/effective_action}
 	\input{appendices/b}
+	\input{appendices/ads_cft}
+	\input{appendices/quantum_chaos}
 	\input{sections/references}
 \end{document}

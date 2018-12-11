@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  20 NOV 2018 13:47
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  11 DEC 2018 14:17
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.080 seconds
+luaotfload | main : initialization completed in 0.090 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -595,32 +595,32 @@ LaTeX Warning: Unused global option(s):
 (./masterThesis.aux)
 \openout1 = masterThesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty
 Package: lltjp-stfloats 2017/05/05 Patch to stfloats for LuaTeX-ja
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 22.
+LaTeX Info: Redefining \selectfont on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -660,7 +660,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: luatex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -670,9 +670,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./masterThesis.out) (./masterThesis.out)
 \@outlinefile=\write3
@@ -731,28 +731,28 @@ ns9-regular.luc)) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 25.
+(Font)              scaled to size 9.24713pt on input line 18.
 luaotfload | aux : font no 54 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 54
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 25.
+(Font)              scaled to size 9.24713pt on input line 18.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
 ns10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 25.
+(Font)              scaled to size 13.31586pt on input line 18.
 luaotfload | aux : font no 58 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 58
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 25.
+(Font)              scaled to size 13.31586pt on input line 18.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 25.
+(Font)              scaled to size 13.31586pt on input line 18.
 luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 60
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 25.
+(Font)              scaled to size 13.31586pt on input line 18.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
 ns12-regular.luc) (./masterThesis.toc
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
@@ -763,10 +763,9 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 \tf@toc=\write4
 
 \openout4 = masterThesis.toc
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] (./sections/introduction.tex(load luc: /home/kuro/.texlive2017/texmf-var/lua
-tex-cache/generic/fonts/otl/lmroman10-bold.luc)
+ [2]
+(./sections/introduction.tex(load luc: /home/kuro/.texlive2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
@@ -778,8 +777,9 @@ LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 20.
-) [2]
-(./sections/twopointfunc.tex
+)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1] (./sections/twopointfunc.tex
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 2.
 luaotfload | aux : font no 84 (nil) does not define feature vrt2 for script dflt
@@ -787,7 +787,7 @@ luaotfload | aux : font no 84 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 84
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 2.
-<figures/melonDiagram.jpeg, id=87, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=107, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 5.
@@ -804,8 +804,10 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 27.
 luaotfload | aux : font no 96 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 96 [3<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=113, 462.528pt x 346.896pt>
+luaotfload | aux : no font with id 96
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2<./figures/melonDiagram.jpeg>]
+<figures/J10.png, id=132, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 65.
@@ -815,7 +817,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 65--68
  [][] 
  []
 
-<figures/J50.png, id=114, 462.528pt x 346.896pt>
+<figures/J50.png, id=133, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 73.
@@ -825,7 +827,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 73--75
  [][] 
  []
 
-[4<./figures/J10.png><./figures/J50.png>]
+[3<./figures/J10.png><./figures/J50.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 120.
@@ -834,8 +836,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 120.
 
-[5]) [6] (./sections/fourpointfunc.tex) [7] (./sections/conclusion.tex)
-[8] (./appendices/effective_action.tex [9] [10]) [11] (./appendices/b.tex
+[4]) [5] (./sections/fourpointfunc.tex) [6]
+(./sections/syk_as_quantum_chaos.tex) [7] (./sections/gravity.tex) [8]
+(./sections/conclusion.tex) [9] (./appendices/effective_action.tex [10]
+[11]) [12] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -850,28 +854,29 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              new font selection scheme called NFSS2 with several
 (ltjsarticle)              new, combinable font commands. This ltjsarticle
 (ltjsarticle)              class has defined the old font commands like
-(ltjsarticle)              `\rm' only for compatibility on input line 36.
+(ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [12] (./sections/references.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+) [13] (./appendices/ads_cft.tex) [14] (./appendices/quantum_chaos.tex)
+[15] (./sections/references.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./masterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8366BD8F0D3EC7EEA0F8DDD70896643;535.
+(rerunfilecheck)             Checksum: 6413527B2ED70FE714DA3B67A215A389;830.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8450 strings out of 494480
- 195345,266212 words of node,token memory allocated
- 16227 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 22 glue, 207 kern, 5420 attribute, 671 glue_spec, 
+ 8503 strings out of 494480
+ 195329,266212 words of node,token memory allocated
+ 16580 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 25 glue, 207 kern, 5426 attribute, 735 glue_spec, 
 280 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:11,2:46070,3:340,4:407,5:249,6:1952,7:1881,8:1238,9:1080,10:22
-,11:86
- 11924 multiletter control sequences out of 65536+600000
+   avail lists: 1:14,2:46043,3:340,4:406,5:219,6:1946,7:1888,8:1238,9:1076,10:22
+,11:122
+ 11932 multiletter control sequences out of 65536+600000
  102 fonts using 57502751 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -881,8 +886,8 @@ an9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></
 usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/
 fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/
 public/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.
-ttf></usr/share/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fonts
-/opentype/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/t
+ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share
+/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
@@ -901,10 +906,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (14 pages, 733783 bytes).
+Output written on masterThesis.pdf (18 pages, 745745 bytes).
 
-PDF statistics: 389 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 445 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 99 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
