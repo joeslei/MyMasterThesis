@@ -5,6 +5,7 @@
 \contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{4}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{4}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{5}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}自由エネルギー及びエントロピー}{5}{subsection.2.4}
 \contentsline {section}{\numberline {3}4点関数}{6}{section.3}
 \contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{7}{section.4}
 \contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{8}{section.5}

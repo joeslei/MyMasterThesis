@@ -143,7 +143,7 @@ SYK模型ではラージ$q$極限においても(あるオーダーで)解析解
 \begin{align}
 	\Sigma(\omega) = -\omega^2\frac{[\sgn \times g](\omega)}{2q}
 \end{align}
-を得るので、これを更にフーリエ変換したもの$\Sigma(t)$と\eqref{eq:firstOrder}式の$\Sigma(t)$
+を得るので、これを更にフーリエ変換したものと\eqref{eq:firstOrder}式の$\Sigma(t)$
 を比べると次のような微分方程式を得る:
 \begin{align}
 \partial_t^2(\sgn(t)g(t)) = 2\mathcal{J}^2\sgn(t)e^{g(t)},
@@ -167,6 +167,7 @@ $t$が常に存在する。
 		\right]^2,
 	\hspace{30pt}
 	\beta\mathcal{J} = \frac{\pi v}{\cos\frac{\pi v}{2}}
+	\label{eq:explicit_g}
 \end{align}
 を得る。２つ目の式によってパラメータ$v\in[0, 1]$を決定する。
 
@@ -174,9 +175,63 @@ $t$が常に存在する。
 次に我々は$1/q^2$のオーダーを計算する($q$は偶数とする):
 \begin{align}
 	G(t) = \frac{1}{2}\sgn(t)\left(1 + \frac{1}{q}g(t) + \frac{1}{q^2}h(t)\right).
+	\label{eq:subleading_of_G_t}
 \end{align}
+自己エネルギー$\Sigma(t)$は\eqref{eq:conformalSD}式より
+\begin{align}
+	\Sigma(t) = \frac{\mathcal{J}^2}{q}\sgn(t)e^g
+		\left(
+			1 + \frac{1}{q}\left(h - g - \frac{1}{2}g^2\right)
+		\right)
+	\label{eq:subleading_selfenergy_t}
+\end{align}
+となる。
+以下では$t \in [0, \beta]$とする(従って$\sgn(t) = 1$である)。
+$G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展開すると
+\begin{align}
+	G(\omega)^{-1} = -i\omega + \frac{1}{2q}\omega^2 g(\omega)
+		+ \frac{\omega^2}{2q^2}\left(
+			h(\omega) + \frac{i\omega}{2}[g \times g](\omega)
+		\right)
+		= -i\omega - \Sigma(\omega)
+\end{align}
+となるので、フーリエ変換された自己エネルギーとして
+\begin{align}
+	\Sigma(\omega) = -\frac{1}{2q}\omega^2 g(\omega) - \frac{\omega^2}{2q^2}\left(
+			h(\omega) + \frac{i\omega}{2}[g \times g](\omega)
+		\right)
+\end{align}
+を得る。
+これを$\omega$から$t$へ逆変換したものと\eqref{eq:subleading_selfenergy_t}を比べれば、
+\eqref{eq:diffeq_for_g}式及び$h(t)$に関する微分方程式を得る:
+\begin{align}
+	\partial_t^2 h = 2 \mathcal{J}^2 e^g h + \frac{1}{2}\partial_t^3[g \times g]
+		- 2\mathcal{J}^2 e^g \left(g + \frac{1}{2}g^2\right)
+	\label{eq:diffeq_for_h}.
+\end{align}
+リーディングオーダーの場合と同様に$g$と$h$は次の境界条件を満たすとする:
+\begin{align}
+	g(0) = g(\beta) = h(0) = h(\beta) = 0.
+\end{align}
+この時$g(t)$は\eqref{eq:explicit_g}式で与えられる。
+また\eqref{eq:diffeq_for_h}式の解は次式で与えられる:
+\begin{align}
+	h(x) = \frac{1}{2}g^2(x) - 2L(x)
+		&- 4\left(\tan x\ \int_0^x dy\ L(y) + 1\right)\nonumber\\
+		&+ 4\frac{1 + x\tan x}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\left(
+			\tan \frac{\pi v}{2}\ \int_0^{\frac{\pi v}{2}} dy\ L(y) + 1
+		\right).
+\end{align}
+ここで$x = \frac{\pi v}{2} - \frac{\pi v}{\beta}t$、
+また
+\begin{align}
+	L(x) = g(x) - e^{-g(x)}\mathrm{Li}_2(1 - e^{g(x)})
+	\hspace{30pt}
+	\left(\mathrm{Li}_2(z) = \sum_{k=1}^{\infty}\frac{z^k}{k^2}\right)
+\end{align}
+である\footnote{$\mathrm{Li}_2(z)$は
+\href{http://mathworld.wolfram.com/Dilogarithm.html}{http://mathworld.wolfram.com/Dilogarithm.html}を参照した。}。
 
-
-
+\subsection{自由エネルギー及びエントロピー}
 
 \pagebreak
