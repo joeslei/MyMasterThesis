@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  11 DEC 2018 16:53
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  12 DEC 2018 15:06
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.081 seconds
+luaotfload | main : initialization completed in 0.113 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -832,10 +832,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 120.
 
-[4]) [5] (./sections/fourpointfunc.tex) [6]
-(./sections/syk_as_quantum_chaos.tex) [7] (./sections/gravity.tex) [8]
-(./sections/conclusion.tex) [9] (./appendices/effective_action.tex [10]
-[11]) [12] (./appendices/b.tex
+[4] [5] [6]) [7] (./sections/fourpointfunc.tex) [8]
+(./sections/syk_as_quantum_chaos.tex) [9] (./sections/gravity.tex) [10]
+(./sections/conclusion.tex) [11] (./appendices/effective_action.tex [12]
+[13]) [14] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -852,10 +852,10 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [13] (./appendices/ads_cft.tex) [14] (./appendices/quantum_chaos.tex)
-[15] (./sections/references.tex)
+) [15] (./appendices/ads_cft.tex) [16] (./appendices/quantum_chaos.tex)
+[17] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
- [16]
+ [18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
@@ -865,14 +865,14 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8511 strings out of 494480
+ 8529 strings out of 494480
  195326,266212 words of node,token memory allocated
- 17635 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 28 glue, 221 kern, 5766 attribute, 785 glue_spec, 
-297 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:12,2:45587,3:341,4:453,5:219,6:1946,7:1876,8:1238,9:1076,10:22
+ 19474 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 31 glue, 247 kern, 6346 attribute, 879 glue_spec, 
+326 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:12,2:44978,3:341,4:529,5:238,6:1946,7:1873,8:1239,9:1605,10:22
 ,11:122
- 11934 multiletter control sequences out of 65536+600000
+ 11936 multiletter control sequences out of 65536+600000
  99 fonts using 53358887 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -889,24 +889,25 @@ fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 mextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (18 pages, 757307 bytes).
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on masterThesis.pdf (20 pages, 780714 bytes).
 
-PDF statistics: 473 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 131072)
+PDF statistics: 511 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
