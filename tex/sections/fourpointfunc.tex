@@ -1,4 +1,85 @@
 \section{4点関数}
 
+この節では強結合領域$\beta J \gg 1$における4点関数を論じる。
+disorder-averageを取る事によって最も一般的な4点関数は
+\begin{align}
+	\average{\psi_i(t_1)\psi_i(t_2)\psi_j(t_3)\psi_j(t_4)}
+\end{align}
+という形に制限される。
+これを$i$と$j$について平均を取ったものを考える:
+\begin{align}
+	\frac{1}{N^2}\sum_{i,j=1}^{N}\average{T\psi_i(t_1)\psi_i(t_2)\psi_j(t_3)\psi_j(t_4)}
+	= G(t_{12})G(t_{34}) + \frac{1}{N}\mathcal{F}(t_1, \cdots, t_4).
+	\label{eq:fourpointfunc}
+\end{align}
+以下では$\mathcal{F}$について解析する。
+
+\begin{figure}[h]
+	\centering
+	\vspace{1cm}
+	\includegraphics[width=13cm]{figures/ladderDiagram}
+	\caption{\eqref{eq:fourpointfunc}式の$1/N$の項を表すダイアグラム。
+		特に$q=4$の場合について描画した。ラダーダイアグラムと呼ぶ。}
+	\label{fig:ladderdiagram}
+\end{figure}
+
+$\mathcal{F}$を表すダイアグラムはラダーダイアグラムである(図\ref{fig:ladderdiagram})。
+$n$個の輪があるものを$\mathcal{F}_n$とすると、計算するべきは
+\begin{align}
+	\mathcal{F} = \sum_n \mathcal{F}_n
+\end{align}
+である。
+図\ref{fig:ladderdiagram}の最初にある輪を持たないラダーダイアグラムは単なるプロパゲーターの積である:
+\begin{align}
+	\mathcal{F}_0(t_1, \cdots, t_4) = -G(t_{13})G(t_{24}) + G(t_{14})G(t_{23}).
+\end{align}
+次に並ぶ、輪を1個だけ持つラダーダイアグラムでは、輪の端の位置について積分した形で与えられる:
+\begin{align}
+	\mathcal{F}_1(t_1, &\cdots, t_4)\nonumber\\
+	&= J^2(q - 1)\int dtdt'\ \left(
+		G(t_1 - t)G(t_2 - t')G(t - t')^{q-2}G(t - t_3)G(t' - t_4) - (t_3 \leftrightarrow t_4)
+	\right).
+\end{align}
+積分の前にある$q-1$という因子は、どの線をレールや輪にするかのパターン数に起因する。
+上述した2つのラダーダイアグラム$\mathcal{F}_0$、$\mathcal{F}_1$に限らず、
+全てのラダーダイアグラムは$1/N$に比例する。
+
+あるラダーダイアグラム$\mathcal{F}_n$と次の$\mathcal{F}_{n+1}$の間には
+\begin{align}
+	\mathcal{F}_{n+1}(t_1, \cdots, t_4)
+	= \int dtdt'\ K(t_1, t_2; t, t')\mathcal{F}_n(t, t', t_3, t_4)
+	\label{eq:F_n+1_and_F_n}
+\end{align}
+という漸化式的な関係がある。
+ここで積分核$K$は
+\begin{align}
+	K(t_1, t_2; t_3, t_4) = -J^2(q-1)G(t_{13})G(t_{24})G(t_{34})^{q-2}
+	\label{eq:def_of_K}
+\end{align}
+である。
+\eqref{eq:F_n+1_and_F_n}式の計算では、$K$の最初の2つの変数を1つめの添字、残りの2つを2つ目の添字
+と見なす事によって積分を行列計算としてしまうのが便利である。
+こうする事で全てのラダーダイアグラムの総和を
+\begin{align}
+	\mathcal{F}
+	= \sum_{n=0}^{\infty}\mathcal{F}_n
+	= \sum_{n=0}^{\infty}K^n \mathcal{F}_0
+	= \frac{1}{1 - K}\mathcal{F}_0
+\end{align}
+という様に表す事ができる。
+これを更に計算するために、以下では$K$を対角化する事を考える。
+\eqref{eq:def_of_K}式による定義では$K$は対称行列ではないが、
+次のような操作により対称化する事が可能である:
+\begin{align}
+	\tilde{K}(t_1, t_2; t_3, t_4) \equiv
+	|G(t_{12})|^{\frac{q-2}{2}}K(t_1, t_2; t_3, t_4)|G(t_{34})|^{\frac{2-q}{2}}.
+\end{align}
+従って$K$は固有関数(固有ベクトル)の完全系を持つとして良い。
+行列$K$は2変数反対称関数の空間に作用する。
+
+\subsection{$\mathcal{F}$の対角化}
+ここまでの話は一般の$\beta J$について成り立つ。
+解析を進めるために、以下では共変対称性の成り立つ極限$\beta J \gg 1$で考える。
+よって2点関数は$\eqref{eq:conformal_ansatz}$式の$G_c(t)$で与えられる。
 
 \pagebreak

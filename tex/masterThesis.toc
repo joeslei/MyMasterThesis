@@ -7,10 +7,11 @@
 \contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{5}{subsubsection.2.3.2}
 \contentsline {subsection}{\numberline {2.4}自由エネルギー及びエントロピー}{6}{subsection.2.4}
 \contentsline {section}{\numberline {3}4点関数}{8}{section.3}
-\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{9}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{10}{section.5}
-\contentsline {section}{\numberline {6}終わりに}{11}{section.6}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{12}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{15}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{16}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{17}{appendix.D}
+\contentsline {subsection}{\numberline {3.1}$\mathcal {F}$の対角化}{9}{subsection.3.1}
+\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{10}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{11}{section.5}
+\contentsline {section}{\numberline {6}終わりに}{12}{section.6}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{13}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{16}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{17}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{18}{appendix.D}
