@@ -58,7 +58,7 @@ $n$個の輪があるものを$\mathcal{F}_n$とすると、計算するべき�
 \end{align}
 である。
 \eqref{eq:F_n+1_and_F_n}式の計算では、$K$の最初の2つの変数を1つめの添字、残りの2つを2つ目の添字
-と見なす事によって積分を行列計算としてしまうのが便利である。
+と見なす事によって積分を行列計算としてしまうのが便利である(行列$K$は2変数反対称関数の空間に作用する)。
 こうする事で全てのラダーダイアグラムの総和を
 \begin{align}
 	\mathcal{F}
@@ -76,9 +76,37 @@ $n$個の輪があるものを$\mathcal{F}_n$とすると、計算するべき�
 	|G(t_{12})|^{\frac{q-2}{2}}K(t_1, t_2; t_3, t_4)|G(t_{34})|^{\frac{2-q}{2}}.
 \end{align}
 従って$K$は固有関数(固有ベクトル)の完全系を持つとして良い。
-行列$K$は2変数反対称関数の空間に作用する。
+今、固有値を$g(\alpha)$、固有関数を$v_{\alpha}(t_a, t_b)$とすると
+\begin{align}
+	\int dt_a dt_b\ v_{\alpha}(t_a, t_b)K(t_a, t_b; t_3, t_4)
+	= g(\alpha)v_{\alpha}(t_3, t_4),
+\end{align}
+あるいは行列とベクトルの様に表記するなら
+\begin{align}
+	Kv_{\alpha} = g(\alpha)v_{\alpha}
+\end{align}
+である。
+固有関数$v_{\alpha}$を用いて\eqref{eq:geometric_series_of_F}式の行列$\frac{1}{1-K}$
+を展開すると
+\begin{align}
+	\mathcal{F}
+	= \sum_{\alpha} v_{\alpha}\frac{1}{1 - g(\alpha)}\langle v_{\alpha}, \mathcal{F}_0\rangle
+\end{align}
+と書ける。
+ここで$\langle v_{\alpha}, \mathcal{F}_0\rangle$は何らかの内積を表わす。
+$\mathcal{F}_0$は$v_{\alpha}$を用いれば
+\begin{align}
+	\mathcal{F}_0(t_1, t_2, t_3, t_4)
+	= \sum_{\alpha} \gamma_{0\alpha}(t_1, t_2)v_{\alpha}(t_3, t_4)
+\end{align}
+と展開でき、これを使うと$\langle v_{\alpha}, \mathcal{F}_0\rangle = \gamma_{0\alpha}$より
+\begin{align}
+	\mathcal{F}
+	= \sum_{\alpha} v_{\alpha}\frac{\gamma_{0\alpha}}{1 - g(\alpha)}
+\end{align}
+となる。
 
-\subsection{$\mathcal{F}$の対角化}
+\subsection{Kの対角化}
 ここまでの話は一般の$\beta J$について成り立つ。
 解析を進めるために、以下では共変対称性の成り立つ極限$\beta J \gg 1$で考える。
 よって2点関数は$\eqref{eq:conformal_ansatz}$式の$G_c(t)$で与えられる。
@@ -95,7 +123,7 @@ $K$の共変不変なものとして
 	\alpha_0 \equiv \frac{2\pi q}{(q-1)(q-2)\tan\frac{\pi}{q}}
 \end{align}
 である。
-$K_c$を対角化した暁には、実は固有関数の中に固有値として$K_c = 1$を持つものも存在する。
+$K_c$を対角化した暁には、実は固有関数の中に固有値$g(\alpha) = 1$を持つものも存在する。
 従って\eqref{eq:geometric_series_of_F}式の級数は発散するが、これは共変極限から摂動的に少し
 ずれる事によって対処する事ができる。
 それを議論するまでは、ひとまず\eqref{eq:confomarl_K}式を用いる事にする。
@@ -106,14 +134,12 @@ SYK模型は時間1次元しか持たないので、1次元共形場理論$\math
 Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もある。}、
 共変変換群は$SL(2, \mathbb{R})$で与えられる\cite{andrzejewski}:
 \begin{align}
-	\hat{D} = -t\partial_t - \Delta, \hspace{20pt}
-	\hat{P} = \partial_t, \hspace{20pt}
-	\hat{K} = t^2\partial_t + 2t\Delta,
+	L_p = t_1^p\partial_1 + t_2^p\partial_2,\hspace{20pt}
+	[L_p, L_q] = (q - p)L_{p + q - 1},\hspace{30pt}
+	p,q = 0, 1, 2.
 \end{align}
-\begin{align}
-	[\hat{D}, \hat{P}] = \hat{P},\hspace{20pt}
-	[\hat{D}, \hat{K}] = -\hat{K},\hspace{20pt}
-	[\hat{P}, \hat{K}] = -2\hat{D}.
-\end{align}
+ここから$\tilde{L}_p = |t_{12}|^{-3/2}L_p|t_{12}|^{3/2}$とすると便利とかあるけど
+この3/2って多分$q=4$の時のなので、$K$を対称化する式と可換であることを用いて一般の$q$について
+やってみるしかない。
 
 \pagebreak
