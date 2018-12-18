@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  18 DEC 2018 16:56
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  18 DEC 2018 17:47
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.079 seconds
+luaotfload | main : initialization completed in 0.083 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -857,10 +857,16 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 83.
 luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 95 [9]) [10] (./sections/syk_as_quantum_chao
-s.tex) [11]
-(./sections/gravity.tex) [12] (./sections/conclusion.tex) [13]
-(./appendices/effective_action.tex [14] [15]) [16] (./appendices/b.tex
+luaotfload | aux : no font with id 95 [9]
+<figures/circle.jpg, id=303, 1024.82875pt x 301.125pt>
+File: figures/circle.jpg Graphic file (type jpg)
+<use figures/circle.jpg>
+Package luatex.def Info: figures/circle.jpg  used on input line 187.
+(luatex.def)             Requested size: 312.9803pt x 91.96014pt.
+ [10<./figures/circle.jpg>])
+(./sections/syk_as_quantum_chaos.tex [11]) [12] (./sections/gravity.tex)
+[13] (./sections/conclusion.tex) [14] (./appendices/effective_action.tex
+[15] [16]) [17] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -877,10 +883,10 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [17] (./appendices/ads_cft.tex) [18] (./appendices/quantum_chaos.tex)
-[19] (./sections/references.tex)
+) [18] (./appendices/ads_cft.tex) [19] (./appendices/quantum_chaos.tex)
+[20] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
- [20]
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
@@ -890,14 +896,14 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8586 strings out of 494480
+ 8610 strings out of 494480
  195334,266212 words of node,token memory allocated
- 23878 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 56 glue, 292 kern, 7746 attribute, 1093 glue_spec,
- 396 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:14,2:54950,3:341,4:510,5:219,6:2394,7:2209,8:1304,9:1572,10:41
+ 24871 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 59 glue, 304 kern, 8066 attribute, 1141 glue_spec,
+ 412 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:14,2:54614,3:341,4:510,5:219,6:2394,7:2206,8:1304,9:1572,10:41
 ,11:138
- 11952 multiletter control sequences out of 65536+600000
+ 11956 multiletter control sequences out of 65536+600000
  101 fonts using 55496663 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -928,11 +934,12 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (22 pages, 843788 bytes).
+/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on masterThesis.pdf (23 pages, 883744 bytes).
 
-PDF statistics: 572 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 151 named destinations out of 1000 (max. 131072)
+PDF statistics: 590 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 159 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 100000000)
 

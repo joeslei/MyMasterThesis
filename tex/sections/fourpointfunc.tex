@@ -181,5 +181,64 @@ $\chi > 1$の領域では、ある離散的な対称性が存在する。
 として$t$を円周上に写像すると良い。
 $t = 0, 1, \infty$はそれぞれ$\theta = -\pi, -\frac{\pi}{2}, \frac{\pi}{2}$に写される。
 $t_2 = \chi$はある$\theta$が対応する。
+対称性$\theta \to -\theta$によって$\chi \to \frac{\chi}{\chi - 1}$となる。
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=11cm]{figures/circle}
+	\caption{$\theta \to -\theta$という対称性は
+		$\chi > 1$において$\chi \to \frac{\chi}{\chi - 1}$と対応する。}
+\end{figure}
 
+これは$\chi > 1$では$\mathcal{F}(\chi) = \mathcal{F}(\frac{\chi}{\chi - 1})$が成り立つ
+事を意味する。
+この変換は$1 < \chi < 2$の区間を$2 < \chi < \infty$へと写す事に注意すると、
+$\mathcal{F}(\chi)$を決定するには$0 < \chi < 2$という区間で十分である事に気付く。
+また$\chi = 2$は固定点なので、$\mathcal{F}$の一階微分の$\chi = 2$における値は0であるという条件もつく。
+
+$\mathcal{F}_{n+1}$と$\mathcal{F}_n$の間の関係式
+\eqref{eq:F_n+1_and_F_n}式を$\chi$を用いて書き直すと
+\begin{align}
+	\mathcal{F}_{n+1}(\chi)
+	= \int_0^2 \frac{d\tilde{\chi}}{\tilde{\chi}^2}\ 
+		K_c(\chi; \tilde{\chi})\mathcal{F}_n(\chi)
+\end{align}
+となる。
+$K_c(\chi; \tilde{\chi})$は次式で与えられる:
+\begin{align}
+	K_c(\chi; \tilde{\chi}) = \frac{1}{\alpha_0}\left[
+		\frac{\chi^{2\Delta}\tilde{\chi}^{2\Delta}}{|\chi - \tilde{\chi}|^{2\Delta}}
+		m(\chi, \tilde{\chi}) + \sgn(\tilde{\chi} - 1)
+		\frac{\chi^{2\Delta}\tilde{\chi}^{2\Delta}}
+			 {|\chi + \tilde{\chi} - \chi\tilde{\chi}|^{2\Delta}}
+		m\left(\chi, \frac{\tilde{\chi}}{\tilde{\chi} - 1}\right)
+	\right].
+\end{align}
+ここで$m(\chi, \tilde{\chi})$は次のような超幾何関数${}_2F_1$で与えられる関数である:
+\begin{align}
+	z \equiv \frac{1 - \min(\chi, \tilde{\chi})}{|\chi - \tilde{\chi}|},\hspace{20pt}
+	B_h(x) = \frac{\Gamma(h)^2}{\Gamma(2h)}x^h\ {}_2F_1(h, h, 2h, x)
+\end{align}
+という2つの記号を導入して、
+\begin{align}
+	m(\chi, \tilde{\chi})
+	= \frac{2\pi}{\sin 2\pi\Delta}{}_2F_1(1 - 2\Delta, 2\Delta, 1, z)
+	- B_{2\Delta}\left(\frac{1}{1 - z}\right)
+	- B_{1 - 2\Delta}\left(\frac{1}{1 - z}\right)
+	\hspace{20pt} z \leq 0,
+\end{align}
+\begin{align}
+	m(\chi, \tilde{\chi})
+	= -\frac{2\pi}{z^{2\Delta}\sin 2\pi\Delta}{}_2F_1\left(
+		2\Delta, 2\Delta, 1, \frac{z - 1}{z}\right)
+	+ \frac{2\pi}{\sin 2\pi\Delta}{}_2F_1(2\Delta, 1 - 2\Delta, 1, z)
+	\hspace{20pt} 0 \leq z \leq 1,
+\end{align}
+\begin{align}
+	m(\chi, \tilde{\chi})
+	= -\frac{2\pi}{\sin 2\pi\Delta}{}_2F_1(2\Delta, 1 - 2\Delta, 1, 1 - z)
+	- B_{2\Delta}\left(\frac{1}{z}\right)
+	- B_{1 - 2\Delta}\left(\frac{1}{z}\right)
+	\hspace{20pt} 1 \leq z 
+\end{align}
+である。
 \pagebreak
