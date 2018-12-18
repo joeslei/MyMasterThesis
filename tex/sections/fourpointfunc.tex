@@ -79,10 +79,10 @@ $n$個の輪があるものを$\mathcal{F}_n$とすると、計算するべき�
 
 \subsection{$K_c$の対角化}
 ここまでの話は一般の$\beta J$について成り立つ。
-解析を進めるために、以下では共変対称性の成り立つ極限$\beta J \gg 1$で考える。
+解析を進めるために、以下では共形対称性の成り立つ極限$\beta J \gg 1$で考える。
 よって2点関数は$\eqref{eq:conformal_ansatz}$式の$G_c(t)$で与えられる。
 \eqref{eq:conformal_ansatz}式を\eqref{eq:def_of_K}式に代入すると、
-$K$の共変不変なものとして
+$K$の共形不変なものとして
 \begin{align}
 	K_c(t_1, t_2; t_3, t_4)
 	= -\frac{1}{\alpha_0}
@@ -95,15 +95,15 @@ $K$の共変不変なものとして
 \end{align}
 である。
 $K_c$を対角化した暁には、実は固有関数の中に固有値$g(\alpha) = 1$を持つものも存在する。
-従って\eqref{eq:geometric_series_of_F}式の級数は発散するが、これは共変極限から摂動的に少し
+従って\eqref{eq:geometric_series_of_F}式の級数は発散するが、これは共形極限から摂動的に少し
 ずれる事によって対処する事ができる。
 それを議論するまでは、ひとまず\eqref{eq:confomarl_K}式を用いる事にする。
 
-$K_c$の対角化では共変不変性を活用する事になる。
+$K_c$の対角化では共形不変性を活用する事になる。
 SYK模型は時間1次元しか持たないので、1次元共形場理論$\mathrm{CFT}_1$であり
 \footnote{1次元の場の量子論は本質的に量子力学なので、
 Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もある。}、
-共変変換群は$SL(2, \mathbb{R})$で与えられる\cite{andrzejewski}:
+共形変換群は$SL(2, \mathbb{R})$で与えられる\cite{andrzejewski}:
 \begin{align}
 	\hat{D} = -t\partial_t - \Delta,\hspace{20pt}
 	\hat{P} = \partial_t,\hspace{20pt}
@@ -116,8 +116,70 @@ Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もあ�
 \end{align}
 これらの生成子は$K_c$と交換し、
 \begin{align}
-	(\hat{D}_1 + \hat{D}_2)K_c(t_1, t_2; t_3, t_4)(\hat{D}_3 + \hat{D}_4)
+	(\hat{D}_1 + \hat{D}_2)K_c(t_1, t_2; t_3, t_4)
+	= K_c(t_1, t_2; t_3, t_4)(\hat{D}_3 + \hat{D}_4)
 \end{align}
 となる。$\hat{P}$や$\hat{K}$についても同様である。
+この対称性により、まずラダーダイアグラム$\mathcal{F}_n$は$SL(2, \mathbb{R})$不変の
+断面比(cross ratio)
+\begin{align}
+	\chi = \frac{t_{12}t_{34}}{t_{13}t_{24}}
+\end{align}
+の関数である事が示唆される。
+これは$\mathcal{F}_0$が共形4点関数のように変換するからである。
+この性質は$SL(2, \mathbb{R})$不変の演算子を作用させても変わらない。
+従って$K_c(t_1, t_2; t_3, t_4)$とする代わりに$K_c(\chi; \tilde{\chi})$とする事ができる。
+2つ目の示唆は、$K_c$が次式で与えられるカシミール演算子$C_{1+2}$と可換というものである:
+\begin{align}
+	C_{1+2}
+	&= (\hat{D}_1 + \hat{D}_2)^2
+	- \frac{1}{2}(\hat{K}_1 + \hat{K}_2)(\hat{P}_1 + \hat{P}_2)
+	- \frac{1}{2}(\hat{P}_1 + \hat{P}_2)(\hat{K}_1 + \hat{K}_2)\nonumber\\
+	&= 2(\Delta^2 - \Delta) - \hat{K}_1\hat{P}_2 - \hat{P}_1\hat{K}_2 + 2\hat{D}_1\hat{D}_2.
+\end{align}
+スペクトラムに縮退はないため、これは$K_c$の固有関数が$C_{1+2}$のそれと同じである事を意味する。
+\eqref{eq:geometric_series_of_F}式を$C_{1+2}$の固有関数$\Psi_h(\chi)$で展開すれば、
+何らかの内積を用いて
+\begin{align}
+	\mathcal{F}(\chi)
+	= \sum_h \Psi_h(\chi)\frac{1}{1 - k_c(h)}
+		\frac{\innerprod{\Psi_h}{\mathcal{F}_0}}{\innerprod{\Psi_h}{\Psi_h}}
+\end{align}
+と変形できる。
+よって我々が行うべき仕事は$\Psi_h$と$k_c(h)$を求め、そして内積を計算する事である。
+そのために、まず$\chi$の関数としての$\mathcal{F}_n$の性質を調べる事から始める。
+
+\subsubsection{$\mathcal{F}_n(\chi)$の性質}
+共形極限では、ラダーダイアグラム$\mathcal{F}_n$は$SL(2, \mathbb{R})$変換のもとで
+次元$\Delta$を持つ4点関数として振る舞う:
+\begin{align}
+	\mathcal{F}_n(t_1, t_2; t_3, t_4)
+	= G_c(t_{12})G_c(t_{34})\mathcal{F}_n(\chi).
+\end{align}
+$t_1$と$t_2$の間、および$t_3$と$t_4$の間の反対称性、さらに$(t_1, t_2)$と$(t_3, t_4)$の間の対称性
+や$SL(2, \mathbb{R})$変換を駆使すると、$t_1 = 0$、$t_3 = 1$、$t_4 = \infty$さらに$t_2 > 0$
+という様に移す事ができ、$\chi = t_2$の値を正であるとして制限できる。
+\eqref{eq:fourpointfunc}式の時間順序積の存在により、$\chi > 1$か$\chi < 1$かによって
+\begin{align}
+	\mathcal{F}_n(\chi)
+	\approx \left\{
+		\begin{array}{l}
+			+\average{\psi_j(\infty)\psi_j(1)\psi_i(\chi)\psi_i(0)}\hspace{20pt}
+			0 < \chi < 1\\
+			-\average{\psi_j(\infty)\psi_i(\chi)\psi_j(1)\psi_i(0)}\hspace{20pt}
+			1 < \chi < \infty
+		\end{array}
+	\right.
+\end{align}
+となる。
+
+$\chi > 1$の領域では、ある離散的な対称性が存在する。
+これを見るには
+\begin{align}
+	\frac{t-2}{t} = \tan \frac{\theta}{2}
+\end{align}
+として$t$を円周上に写像すると良い。
+$t = 0, 1, \infty$はそれぞれ$\theta = -\pi, -\frac{\pi}{2}, \frac{\pi}{2}$に写される。
+$t_2 = \chi$はある$\theta$が対応する。
 
 \pagebreak
