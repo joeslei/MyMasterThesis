@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  17 DEC 2018 16:02
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  18 DEC 2018 15:40
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -838,16 +838,29 @@ File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
 (luatex.def)             Requested size: 369.88582pt x 54.84296pt.
- [8<./figures/ladderDiagram.jpg>](load luc: /home/kuro/.texlive2017/texmf-var/lu
-atex-cache/generic/fonts/otl/lmroman5-regular.luc)
+ [8<./figures/ladderDiagram.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 112.
+(Font)              scaled to size 4.62357pt on input line 83.
 luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 95 [9]) [10] (./sections/syk_as_quantum_chao
-s.tex) [11]
-(./sections/gravity.tex) [12] (./sections/conclusion.tex) [13]
-(./appendices/effective_action.tex [14] [15]) [16] (./appendices/b.tex
+luaotfload | aux : no font with id 95) [9] (./sections/syk_as_quantum_chaos.tex
+) [10]
+(./sections/gravity.tex) [11] (./sections/conclusion.tex) [12]
+(./appendices/effective_action.tex [13] [14]) [15] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -864,25 +877,25 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [17] (./appendices/ads_cft.tex) [18] (./appendices/quantum_chaos.tex)
-[19] (./sections/references.tex)
+) [16] (./appendices/ads_cft.tex) [17] (./appendices/quantum_chaos.tex)
+[18] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
- [20]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: B5CAF0550BB73066BA05CBFD8C65F410;988.
+(rerunfilecheck)             Checksum: 62F19F2910ED9963E077B54768651129;989.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8581 strings out of 494480
- 195326,266212 words of node,token memory allocated
- 22886 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 46 glue, 286 kern, 7426 attribute, 1049 glue_spec,
- 380 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:15,2:51326,3:341,4:510,5:219,6:2088,7:1941,8:1238,9:1572,10:41
+ 8577 strings out of 494480
+ 195334,266212 words of node,token memory allocated
+ 22405 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 45 glue, 280 kern, 7286 attribute, 1019 glue_spec,
+ 373 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:14,2:43991,3:341,4:510,5:219,6:2088,7:1883,8:1238,9:1572,10:41
 ,11:138
  11951 multiletter control sequences out of 65536+600000
  101 fonts using 55496663 bytes
@@ -916,10 +929,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (22 pages, 830577 bytes).
+Output written on masterThesis.pdf (21 pages, 827574 bytes).
 
-PDF statistics: 567 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 147 named destinations out of 1000 (max. 131072)
+PDF statistics: 558 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 100000000)
 
