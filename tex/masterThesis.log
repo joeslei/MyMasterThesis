@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  20 DEC 2018 14:14
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  20 DEC 2018 17:33
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -774,7 +774,7 @@ luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 78
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 3.
-<figures/melonDiagram.jpeg, id=118, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=120, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 6.
@@ -803,7 +803,7 @@ luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 93
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=143, 462.528pt x 346.896pt>
+<figures/J10.png, id=145, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 66.
@@ -813,7 +813,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 66--69
  [][] 
  []
 
-<figures/J50.png, id=144, 462.528pt x 346.896pt>
+<figures/J50.png, id=146, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 74.
@@ -833,7 +833,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 121.
 
 [4] [5] [6]) [7] (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=253, 927.465pt x 137.51375pt>
+<figures/ladderDiagram.jpg, id=255, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
@@ -858,7 +858,7 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 95 [9]
-<figures/circle.jpg, id=304, 1024.82875pt x 301.125pt>
+<figures/circle.jpg, id=306, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
 Package luatex.def Info: figures/circle.jpg  used on input line 210.
@@ -904,14 +904,14 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8644 strings out of 494480
- 244169,266212 words of node,token memory allocated
- 28629 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 77 glue, 342 kern, 9186 attribute, 1359 glue_spec,
- 468 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:15,2:58891,3:341,4:510,5:219,6:2501,7:2485,8:1287,9:1572,10:41
+ 8653 strings out of 494480
+ 244163,266212 words of node,token memory allocated
+ 29925 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 85 glue, 354 kern, 9586 attribute, 1427 glue_spec,
+ 488 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:14,2:58576,3:341,4:510,5:219,6:2640,7:2626,8:2072,9:1572,10:41
 ,11:138
- 11964 multiletter control sequences out of 65536+600000
+ 11967 multiletter control sequences out of 65536+600000
  101 fonts using 55496663 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -944,10 +944,10 @@ nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (26 pages, 912777 bytes).
+Output written on masterThesis.pdf (26 pages, 924179 bytes).
 
-PDF statistics: 636 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
- 185 named destinations out of 1000 (max. 131072)
+PDF statistics: 645 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 191 named destinations out of 1000 (max. 131072)
  121 words of extra memory for PDF output out of 10000 (max. 100000000)
 

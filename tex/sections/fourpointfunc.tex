@@ -1,4 +1,4 @@
-\section{4点関数}
+\section{4点関数\label{sec:fourpointfunc}}
 
 この節では強結合領域$\beta J \gg 1$における4点関数を論じる。
 disorder-averageを取る事によって最も一般的な4点関数は
@@ -380,6 +380,18 @@ $SL(2, \mathbb{R})$を用いて$t_0$を動かす事が可能なため、固有�
 となる。
 $k_c(h)$は全ての$h = \frac{1}{2} + is$や$h = 2n$で実数となる。
 特に連続的なスペクトラムに対しては負、離散的なスペクトラムだと正となる。
+$q = 4, \infty, 2$の場合について具体的な式は
+\begin{align}
+	k_c(h) &= -\frac{3}{2}\frac{\tan\frac{\pi(h - 1/2)}{2}}{h - \frac{1}{2}}
+	\hspace{30pt}q = 4,\\
+	k_c(h) &= -\frac{2}{h(h-1)}
+	\hspace{53pt}q = \infty,\\
+	k_c(h) &= -1
+	\hspace{87pt}q = 2
+\end{align}
+となる。特に$q = 4, \infty$の時$k_c(h=2) = 1$となり、\eqref{eq:geometric_series_of_F}
+の級数が発散する。
+この$h = 2$についての正しい取り扱いは後に議論する。
 
 \subsubsection{$\innerprod{\Psi_h}{\Psi_h}$と$\innerprod{\Psi_h}{\mathcal{F}_0}$}
 
@@ -431,6 +443,37 @@ $\chi\to\frac{\chi}{\chi-1}$の変換で$\Psi_h(\chi) = \Psi_h\left(\frac{\chi}{
 というものがある。
 
 \subsubsection{全ラダーダイアグラムの総和}
-
+ここまでの議論を踏まえて、４点関数は
+\begin{align}
+	\mathcal{F}(\chi)
+	&= \sum_h\Psi_h(\chi)\frac{1}{1 - k_c(h)}
+		\frac{\innerprod{\Psi_h}{\mathcal{F}_0}}{\innerprod{\Psi_h}{\Psi_h}}\nonumber\\
+	&= \alpha_0\int_0^{\infty}\frac{ds}{2\pi}\frac{2h-1}{\pi\tan\pi h}
+		\frac{k_c(h)}{1-k_c(h)}\Psi_h(\chi)
+	+ \alpha_0\sum_{n=1}^{\infty}\left[
+		\frac{2h-1}{\pi^2}\frac{k_c(h)}{1-k_c(h)}\Psi_h(\chi)
+	\right]_{h=2n}
+	\label{eq:all_sum_of_ladders}
+\end{align}
+となる。
+ここで１つの問題が生じる: $n = 1$の項は$k_c(2) = 1$より発散する。
+これを取り扱うには共形極限から少しずれた領域に行かなければならない。
+ここでは、ひとまず$h\neq2$となる固有関数のみを扱い、その寄与を$\mathcal{F}_{h\neq2}$とする.
+この時
+\begin{align}
+	\frac{2}{\tan\pi h} = \frac{1}{\tan\frac{\pi h}{2}} - \frac{1}{\tan\frac{\pi(1-h)}{2}}
+\end{align}
+という公式を使い、$s$の積分領域を実数全体$-\infty\to\infty$に広げ、
+被積分関数が持つ$h\to1-h$の下での反対称性を用いて複数ある項を１つに直すと
+\begin{align}
+	\frac{\mathcal{F}_{h\neq2}}{\alpha_0}
+	= \int_{-\infty}^{\infty}\frac{ds}{2\pi}\frac{h - 1/2}{\pi\tan(\pi h / 2)}
+		\frac{k_c(h)}{1-k_c(h)}\Psi_h(\chi)
+	+ \sum_{n=2}^{\infty}\mathrm{Res}\left[
+			\frac{h-1/2}{\pi\tan(\pi h/2)}\frac{k_c(h)}{1-k_c(h)}\Psi_h(\chi)
+		\right]_{h=2n}.
+\end{align}
+となる。
+級数の項は$\frac{1}{\tan(\pi h/2)}$の極の留数を走る総和として書いた。
 
 \pagebreak
