@@ -126,6 +126,7 @@ $K_c$の固有関数を$\Psi_h$とすると、固有値方程式は
 \begin{align}
 	\int dt_1dt_2\ \Psi_h(t_1, t_2) K(t_1, t_2; t_3, t_4)
 	= k_c(h)\Psi_h(t_3, t_4)
+	\label{eq:eigen_eq_of_Kc}
 \end{align}
 となり、\eqref{eq:D_and_Kc}式は正確に書けば
 \begin{align}
@@ -134,7 +135,6 @@ $K_c$の固有関数を$\Psi_h$とすると、固有値方程式は
 	&= (\hat{D}_3 + \hat{D}_4)\int dt_1dt_2\ \Psi_h(t_1, t_2) K_c(t_1, t_2; t_3, t_4)
 	\nonumber\\
 	&= k_c(h)\left[(\hat{D}_3 + \hat{D}_4)\Psi_h(t_3, t_4)\right]
-	\label{eq:eigen_eq_of_Kc}
 \end{align}
 である。この最初の行の積分を実行する際に現れる表面項は、
 後に$K_c$の固有関数は超幾何関数${}_2F_1$のある特定の線型結合である事が判明するが、
@@ -166,6 +166,7 @@ $\hat{P}$や$\hat{K}$についても同様である。
 	\mathcal{F}(\chi)
 	= \sum_h \Psi_h(\chi)\frac{1}{1 - k_c(h)}
 		\frac{\innerprod{\Psi_h}{\mathcal{F}_0}}{\innerprod{\Psi_h}{\Psi_h}}
+	\label{eq:final_F_chi}
 \end{align}
 と変形できる。
 よって我々が行うべき仕事は$\Psi_h$と$k_c(h)$を求め、そして内積を計算する事である。
@@ -288,6 +289,7 @@ $\mathcal{C}$の固有値を$h(h-1)$とすると、固有値方程式は$\mathca
 またこの関数空間の内積は\eqref{eq:F_n+1_and_F_n_in_chi}式より
 \begin{align}
 	\innerprod{g}{f} = \int_0^2 \frac{d\chi}{\chi^2}g^*(\chi)f(\chi)
+	\label{eq:innerproduct}
 \end{align}
 のように与えられる。規格化はこの内積から計算される。
 $\mathcal{C}$がエルミート演算子であるための条件は
@@ -342,6 +344,93 @@ $h$について次の2つの解が存在する:
 この時$\Psi_h(\chi)$は$1 < \chi$で単調関数であり、また$1 > \chi$で振動する(非常に多く振動する)。
 2つ目は$h = 2n, n \in \mathbb{N}$であり、定数$B$は消滅する。この解もまた
 $0 < 1 < \chi$で単調関数であり、$1 > \chi$で振動する(0を$n$回横切る)。
+
+\subsubsection{$K_c$の固有値}
+$C_{1+2}$の固有関数$\Psi_h$に縮退はないため、$K_c$と$C_{1+2}$が可換である事から$\Psi_h$は
+$K_c$の固有関数でもある。
+原理的には\eqref{eq:eigen_eq_of_Kc}式から固有値$k_c(h)$を計算できるが、
+ここではもっと単純な方法を取る。
+固有値$h(h-1)$を持つ$C_{1+2}$の固有関数は2つのフェルミオンの共形3点関数の形を持つ:
+\begin{align}
+	\frac{\sgn(t_{12})}{|t_{10}|^h|t_{20}|^h|t_{12}|^{2\Delta - h}}.
+\end{align}
+これは任意の$t_0$や$h$において$K_c$の固有関数である。
+$SL(2, \mathbb{R})$を用いて$t_0$を動かす事が可能なため、固有値$k_c(h)$は$h$にのみ依存する。
+特に$t_0$を無限大に持っていけば、固有値は\eqref{eq:confomarl_K}式より
+\begin{align}
+	k_c(h)
+	= \int dt_1 dt_2\ K_c(1, 0; t_1, t_2)\frac{\sgn(t_{12})}{|t_{12}|^{2\Delta - h}}
+	= -\frac{1}{\alpha_0}\int dt_1dt_2\ 
+	\frac{\sgn(1 - t_1)\sgn(-t_2)\sgn(t_{12})}
+	{|1-t_1|^{2\Delta}|t_2|^{2\Delta}|t_{12}|^{2-2\Delta-h}}
+\end{align}
+となる。
+この積分の実行には
+\begin{align}
+	\frac{\sgn(t)}{|t|^a} = \int\frac{\d\omega}{2\pi}
+		e^{-i\omega t}c(a)|\omega|^{a-1}\sgn(\omega),\hspace{20pt}
+		c(a) = 2i2^{-a}\sqrt{\pi}
+		\frac{\Gamma\left(1-\frac{a}{2}\right)}{\Gamma\left(\frac{1}{2}+\frac{a}{2}\right)}
+\end{align}
+を用いると良い。
+結果は
+\begin{align}
+	k_c(h) = \frac{1}{\alpha_0}\frac{c(2-2\Delta-h)}{c(2\Delta-h)}c(2\Delta)^2
+\end{align}
+となる。
+$k_c(h)$は全ての$h = \frac{1}{2} + is$や$h = 2n$で実数となる。
+特に連続的なスペクトラムに対しては負、離散的なスペクトラムだと正となる。
+
+\subsubsection{$\innerprod{\Psi_h}{\Psi_h}$と$\innerprod{\Psi_h}{\mathcal{F}_0}$}
+
+次に\eqref{eq:final_F_chi}式の計算に必要な2つの内積
+$\innerprod{\Psi_h}{\Psi_h}$と$\innerprod{\Psi_h}{\mathcal{F}_0}$を求める。
+連続的なスペクトラム$h = \frac{1}{2} + is$に関しては
+\begin{align}
+	\innerprod{\Psi_h}{\Psi_h} = \frac{\pi\tan\pi h}{4h-2}2\pi\delta(s - s')
+\end{align}
+で与えられ、また離散的なスペクトラム$h = 2n, n\in\mathbb{N}$に関しては
+\begin{align}
+	\innerprod{\Psi_h}{\Psi_h} = \frac{\delta_{hh'}\pi^2}{4h-2}
+\end{align}
+となる。
+
+$\chi$の関数としての$\mathcal{F}_0$は
+\begin{align}
+	\mathcal{F}_0(\chi) = \left\{
+	\begin{array}{l}
+		-\chi^{2\Delta} + \left(\frac{\chi}{1 - \chi}\right)^{2\Delta}
+		\hspace{20pt}0 < \chi < 1,\\
+		-\chi^{2\Delta} - \left(\frac{\chi}{\chi - 1}\right)^{2\Delta}
+		\hspace{20pt}1 < \chi < \infty
+	\end{array}\right.
+\end{align}
+で与えられる。
+以下では内積$\innerprod{\Psi_h}{\mathcal{F}_0}$の計算には連続的なスペクトラムについてのみ考える。
+離散的なスペクトラムの場合は$h$について解析接続する事で得られる。
+固有関数$\Psi_h$は連続スペクトラムにおいて次のような積分表示を持つ:
+\begin{align}
+	\Psi_h(\chi) = \frac{1}{2}\int_{-\infty}^{\infty}dy\ 
+	\frac{|\chi|^h}{|y|^h|\chi - y|^h|1 - y|^{1-h}}.
+\end{align}
+この積分表示を用いて$\innerprod{\Psi_h}{\mathcal{F}_0}$の積分を行う。
+$\chi\to\frac{\chi}{\chi-1}$の変換で$\Psi_h(\chi) = \Psi_h\left(\frac{\chi}{\chi-1}\right)$
+であるが、$\mathcal{F}_0$はこの変換で、$\chi > 1$の時は対称、$\chi < 1$の時は反対称となる。
+この性質を用いると
+\begin{align}
+	\innerprod{\Psi_h}{\mathcal{F}_0}
+	= -\frac{1}{2}\int_{-\infty}^{\infty}dyd\chi\ 
+	\frac{\sgn(\chi)}{|\chi|^{2-h-2\Delta}|\chi-y|^h|1-y|^{1-h}|y|^h}
+\end{align}
+を得る。
+この積分は、積分領域を分割し、それぞれの領域でオイラーの$\beta$関数を用いると実行できる。
+便利な表式として
+\begin{align}
+	\innerprod{\Psi_h}{\mathcal{F}_0} = \frac{\alpha_0}{2}k_c(h)
+\end{align}
+というものがある。
+
+\subsubsection{全ラダーダイアグラムの総和}
 
 
 \pagebreak
