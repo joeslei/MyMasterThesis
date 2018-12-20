@@ -9,10 +9,11 @@
 \contentsline {section}{\numberline {3}4点関数}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}$K_c$の対角化}{9}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}$\mathcal {F}_n(\chi )$の性質}{10}{subsubsection.3.1.1}
-\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{12}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{13}{section.5}
-\contentsline {section}{\numberline {6}終わりに}{14}{section.6}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{15}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{18}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{19}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{20}{appendix.D}
+\contentsline {subsubsection}{\numberline {3.1.2}カシミール演算子$C_{1+2}の固有関数$}{11}{subsubsection.3.1.2}
+\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{13}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{14}{section.5}
+\contentsline {section}{\numberline {6}終わりに}{15}{section.6}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{16}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{19}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{20}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{21}{appendix.D}

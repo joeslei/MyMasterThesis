@@ -118,8 +118,29 @@ Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もあ�
 \begin{align}
 	(\hat{D}_1 + \hat{D}_2)K_c(t_1, t_2; t_3, t_4)
 	= K_c(t_1, t_2; t_3, t_4)(\hat{D}_3 + \hat{D}_4)
+	\label{eq:D_and_Kc}
 \end{align}
-となる。$\hat{P}$や$\hat{K}$についても同様である。
+となる。
+ただし、計算の際に現れる表面項の取扱いには注意を要する。
+$K_c$の固有関数を$\Psi_h$とすると、固有値方程式は
+\begin{align}
+	\int dt_1dt_2\ \Psi_h(t_1, t_2) K(t_1, t_2; t_3, t_4)
+	= k_c(h)\Psi_h(t_3, t_4)
+\end{align}
+となり、\eqref{eq:D_and_Kc}式は正確に書けば
+\begin{align}
+	\int dt_1 dt_2\ \left[(\hat{D}_1 + \hat{D}_2)\Psi_h(t_1, t_2)\right]
+	&K_c(t_1, t_2; t_3, t_4)\nonumber\\
+	&= (\hat{D}_3 + \hat{D}_4)\int dt_1dt_2\ \Psi_h(t_1, t_2) K_c(t_1, t_2; t_3, t_4)
+	\nonumber\\
+	&= k_c(h)\left[(\hat{D}_3 + \hat{D}_4)\Psi_h(t_3, t_4)\right]
+	\label{eq:eigen_eq_of_Kc}
+\end{align}
+である。この最初の行の積分を実行する際に現れる表面項は、
+後に$K_c$の固有関数は超幾何関数${}_2F_1$のある特定の線型結合である事が判明するが、
+これを用いた場合のみ消滅する。
+$\hat{P}$や$\hat{K}$についても同様である。
+
 この対称性により、まずラダーダイアグラム$\mathcal{F}_n$は$SL(2, \mathbb{R})$不変の
 断面比(cross ratio)
 \begin{align}
@@ -136,6 +157,7 @@ Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もあ�
 	- \frac{1}{2}(\hat{K}_1 + \hat{K}_2)(\hat{P}_1 + \hat{P}_2)
 	- \frac{1}{2}(\hat{P}_1 + \hat{P}_2)(\hat{K}_1 + \hat{K}_2)\nonumber\\
 	&= 2(\Delta^2 - \Delta) - \hat{K}_1\hat{P}_2 - \hat{P}_1\hat{K}_2 + 2\hat{D}_1\hat{D}_2.
+	\label{eq:casimir_operator}
 \end{align}
 スペクトラムに縮退はないため、これは$K_c$の固有関数が$C_{1+2}$のそれと同じである事を意味する。
 \eqref{eq:geometric_series_of_F}式を$C_{1+2}$の固有関数$\Psi_h(\chi)$で展開すれば、
@@ -201,6 +223,7 @@ $\mathcal{F}_{n+1}$と$\mathcal{F}_n$の間の関係式
 	\mathcal{F}_{n+1}(\chi)
 	= \int_0^2 \frac{d\tilde{\chi}}{\tilde{\chi}^2}\ 
 		K_c(\chi; \tilde{\chi})\mathcal{F}_n(\chi)
+	\label{eq:F_n+1_and_F_n_in_chi}
 \end{align}
 となる。
 $K_c(\chi; \tilde{\chi})$は次式で与えられる:
@@ -213,7 +236,8 @@ $K_c(\chi; \tilde{\chi})$は次式で与えられる:
 		m\left(\chi, \frac{\tilde{\chi}}{\tilde{\chi} - 1}\right)
 	\right].
 \end{align}
-ここで$m(\chi, \tilde{\chi})$は次のような超幾何関数${}_2F_1$で与えられる関数である:
+ここで$m(\chi, \tilde{\chi})$は次のような超幾何関数${}_2F_1$で与えられる
+$\chi$と$\tilde{\chi}$に関して対称な関数である:
 \begin{align}
 	z \equiv \frac{1 - \min(\chi, \tilde{\chi})}{|\chi - \tilde{\chi}|},\hspace{20pt}
 	B_h(x) = \frac{\Gamma(h)^2}{\Gamma(2h)}x^h\ {}_2F_1(h, h, 2h, x)
@@ -241,4 +265,83 @@ $K_c(\chi; \tilde{\chi})$は次式で与えられる:
 	\hspace{20pt} 1 \leq z 
 \end{align}
 である。
+
+\subsubsection{カシミール演算子$C_{1+2}の固有関数$}
+
+次にカシミール演算子$C_{1+2}$の固有関数を求める。
+\eqref{eq:casimir_operator}式から、$C_{1+2}$は
+\begin{align}
+	C_{1+2}\frac{1}{|t_{12}|^{2\Delta}}f(\chi)
+	= \frac{1}{|t_{12}|^{2\Delta}}\mathcal{C}f(\chi),\hspace{20pt}
+	\mathcal{C} = \chi^2(1 - \chi)\partial_{\chi}^2 - \chi^2\partial_{\chi}
+\end{align}
+を満たす。
+$\mathcal{C}$の固有値を$h(h-1)$とすると、固有値方程式は$\mathcal{C}f = h(h-1)f$である。
+この一般解は超幾何関数${}_2F_1$を用いて
+\begin{align}
+	\chi^h{}_2F_1(h, h, 2h, \chi),\hspace{30pt}
+	x^{1-h}{}_2F_1(1-h, 1-h, 2-2h, \chi)
+	\label{eq:eigenfunctions_of_C}
+\end{align}
+という2つの解の線型結合となる。
+それで張られる空間は$f'(2) = 0$となるような関数の空間である。
+またこの関数空間の内積は\eqref{eq:F_n+1_and_F_n_in_chi}式より
+\begin{align}
+	\innerprod{g}{f} = \int_0^2 \frac{d\chi}{\chi^2}g^*(\chi)f(\chi)
+\end{align}
+のように与えられる。規格化はこの内積から計算される。
+$\mathcal{C}$がエルミート演算子であるための条件は
+\begin{align}
+	0
+	= \innerprod{g}{\mathcal{C}f} - \innerprod{\mathcal{C}g}{f}
+	= \int_0^2 d\chi\ \frac{d}{d\chi}\left[
+		g^*(\chi)(1 - \chi)\frac{d}{d\chi}f(\chi)
+		- \frac{d}{d\chi}g^*(\chi)(1 - \chi)f(\chi)
+	\right]
+\end{align}
+である。
+$\chi = 2$では$f$や$g^*$の一階微分が0になる事から表面項は消える。
+また$\chi = 0$においても$f$や$g^*$は$\chi^{1/2}$よりも速く0となるという条件を課す事で消滅する。
+加えて\eqref{eq:eigenfunctions_of_C}式の固有関数は$\chi = 1$にて対数発散が存在するため、
+もう1つの条件を課す必要がある。
+即ち、特異点を打ち消すためには
+\begin{align}
+	f &\approx A + B\log(1 - \chi)\hspace{20pt}\mathrm{for\ \ }\chi \to 1^-,\nonumber\\
+	f &\approx A + B\log(\chi - 1)\hspace{20pt}\mathrm{for\ \ }\chi \to 1^+\nonumber
+\end{align}
+のように定数項と対数の項が1に近づくにつれ一致していなければならない。
+
+以上を踏まえて、カシミール演算子$C_{1+2}$の固有関数$\Psi_h(\chi)$は次のように書き下す事ができる。
+まず$1 < \chi$の時は
+\begin{align}
+	\Psi_h(\chi)
+	= \frac{\Gamma\left(\frac{1}{2} - \frac{h}{2}\right)\Gamma\left(\frac{h}{2}\right)}
+		{\sqrt{\pi}}
+	{}_2F_1\left(\frac{h}{2},\frac{1}{2} - \frac{h}{2},\frac{1}{2},
+	\frac{(2 - \chi)^2}{\chi^2}\right)
+	\hspace{20pt}\mathrm{for\ \ }1 < \chi
+\end{align}
+である。
+また$\chi < 1$の時は
+\begin{align}
+	\Psi_h(\chi)
+	= A\frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)
+	+ B\frac{\Gamma(1-h)^2}{\Gamma(2 - 2h)}\chi^{1-h}
+	\hspace{20pt}\mathrm{for\ \ }\chi < 1
+\end{align}
+である。ここで$A$と$B$は
+\begin{align}
+	A = \frac{1}{\tan\frac{\pi h}{2}}\frac{\tan\pi h}{2},\hspace{20pt}
+	B = A(1 - h) = -\tan\frac{\pi h}{2}\frac{\tan\pi h}{2}
+\end{align}
+で与えられる。
+$\chi > 1$と$\chi < 1$の両方の場合において$\Psi_h = \Psi_{1-h}$という性質を持つ。
+最後に$\chi \to 0$で$\Psi_h$は$\chi^{1/2}$と同じかそれ以上に速く0に近づくという条件から、
+$h$について次の2つの解が存在する:
+1つ目は$h = \frac{1}{2} + is$というものである。
+この時$\Psi_h(\chi)$は$1 < \chi$で単調関数であり、また$1 > \chi$で振動する(非常に多く振動する)。
+2つ目は$h = 2n, n \in \mathbb{N}$であり、定数$B$は消滅する。この解もまた
+$0 < 1 < \chi$で単調関数であり、$1 > \chi$で振動する(0を$n$回横切る)。
+
+
 \pagebreak
