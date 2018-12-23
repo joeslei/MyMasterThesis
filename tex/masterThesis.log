@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  23 DEC 2018 15:49
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  23 DEC 2018 16:20
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.082 seconds
+luaotfload | main : initialization completed in 0.084 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -774,7 +774,7 @@ luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 78
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 3.
-<figures/melonDiagram.jpeg, id=120, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=125, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 6.
@@ -803,7 +803,7 @@ luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 93
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=145, 462.528pt x 346.896pt>
+<figures/J10.png, id=150, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 66.
@@ -813,7 +813,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 66--69
  [][] 
  []
 
-<figures/J50.png, id=146, 462.528pt x 346.896pt>
+<figures/J50.png, id=151, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 74.
@@ -833,7 +833,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 121.
 
 [4] [5] [6]) [7] (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=255, 927.465pt x 137.51375pt>
+<figures/ladderDiagram.jpg, id=260, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
@@ -841,55 +841,55 @@ Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
  [8<./figures/ladderDiagram.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 80.
+(hyperref)                removing `subscript' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `math shift' on input line 81.
 
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
 man5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 83.
+(Font)              scaled to size 4.62357pt on input line 84.
 luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 95 [9]
-<figures/circle.jpg, id=306, 1024.82875pt x 301.125pt>
+<figures/circle.jpg, id=311, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
-Package luatex.def Info: figures/circle.jpg  used on input line 210.
+Package luatex.def Info: figures/circle.jpg  used on input line 211.
 (luatex.def)             Requested size: 312.9803pt x 91.96014pt.
  [10] [11<./figures/circle.jpg>] [12]
 
-LaTeX Warning: Command \d invalid in math mode on input line 376.
+LaTeX Warning: Command \d invalid in math mode on input line 377.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
 
-LaTeX Warning: Command \d invalid in math mode on input line 376.
+LaTeX Warning: Command \d invalid in math mode on input line 377.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
 [13] [14]
-<figures/poles.jpg, id=389, 1027.84pt x 452.69125pt>
+<figures/poles.jpg, id=394, 1027.84pt x 452.69125pt>
 File: figures/poles.jpg Graphic file (type jpg)
 <use figures/poles.jpg>
-Package luatex.def Info: figures/poles.jpg  used on input line 506.
+Package luatex.def Info: figures/poles.jpg  used on input line 507.
 (luatex.def)             Requested size: 312.9803pt x 137.84613pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 546.
+(hyperref)                removing `math shift' on input line 547.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 546.
+(hyperref)                removing `math shift' on input line 547.
 
-) [15<./figures/poles.jpg>] (./sections/syk_as_quantum_chaos.tex) [16]
-(./sections/gravity.tex) [17] (./sections/conclusion.tex) [18]
-(./appendices/effective_action.tex [19] [20]) [21] (./appendices/b.tex
+[15<./figures/poles.jpg>]) [16] (./sections/syk_as_quantum_chaos.tex) [17]
+(./sections/gravity.tex) [18] (./sections/conclusion.tex) [19]
+(./appendices/effective_action.tex [20] [21]) [22] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -906,34 +906,27 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [22] (./appendices/ads_cft.tex) [23] (./appendices/quantum_chaos.tex)
-[24] (./sections/references.tex)
+) [23] (./appendices/ads_cft.tex) [24] (./appendices/quantum_chaos.tex)
+[25] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
- [25]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
-
-
-Package rerunfilecheck Warning: File `masterThesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `masterThesis.out':
-(rerunfilecheck)             Before: 62F19F2910ED9963E077B54768651129;989
-(rerunfilecheck)             After:  B6A3238E8390104E51729B24377E9F1F;1068.
+Package rerunfilecheck Info: File `masterThesis.out' has not changed.
+(rerunfilecheck)             Checksum: B6A3238E8390104E51729B24377E9F1F;1068.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8680 strings out of 494480
- 244163,266212 words of node,token memory allocated
- 31251 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 97 glue, 362 kern, 10006 attribute, 1491 glue_spec
-, 509 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:14,2:58093,3:341,4:510,5:219,6:2640,7:2614,8:2072,9:1572,10:41
+ 8684 strings out of 494480
+ 244157,266212 words of node,token memory allocated
+ 31888 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 104 glue, 364 kern, 10186 attribute, 1531 glue_spe
+c, 518 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:14,2:57904,3:341,4:510,5:219,6:2640,7:2607,8:2072,9:1572,10:41
 ,11:138
- 11975 multiletter control sequences out of 65536+600000
+ 11977 multiletter control sequences out of 65536+600000
  101 fonts using 55496663 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
@@ -967,10 +960,10 @@ nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
 s/msbm10.pfb>
-Output written on masterThesis.pdf (27 pages, 983147 bytes).
+Output written on masterThesis.pdf (28 pages, 988149 bytes).
 
-PDF statistics: 670 PDF objects out of 1000 (max. 8388607)
- 561 compressed objects within 6 object streams
- 198 named destinations out of 1000 (max. 131072)
- 121 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 686 PDF objects out of 1000 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 200 named destinations out of 1000 (max. 131072)
+ 129 words of extra memory for PDF output out of 10000 (max. 100000000)
 

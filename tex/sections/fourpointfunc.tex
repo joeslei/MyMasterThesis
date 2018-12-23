@@ -74,6 +74,7 @@ $n$個の輪があるものを$\mathcal{F}_n$とすると、計算するべき�
 \begin{align}
 	\tilde{K}(t_1, t_2; t_3, t_4) \equiv
 	|G(t_{12})|^{\frac{q-2}{2}}K(t_1, t_2; t_3, t_4)|G(t_{34})|^{\frac{2-q}{2}}.
+	\label{eq:symmetric_K}
 \end{align}
 従って$K$は固有関数(固有ベクトル)の完全系を持つとして良い。
 
@@ -387,8 +388,8 @@ $q = 4, \infty, 2$の場合について具体的な式は
 \begin{align}
 	k_c(h) &= -\frac{3}{2}\frac{\tan\frac{\pi(h - 1/2)}{2}}{h - \frac{1}{2}}
 	\hspace{30pt}q = 4,\\
-	k_c(h) &= -\frac{2}{h(h-1)}
-	\hspace{53pt}q = \infty,\\
+	k_c(h) &= \frac{2}{h(h-1)}
+	\hspace{61pt}q = \infty,\\
 	k_c(h) &= -1
 	\hspace{87pt}q = 2
 \end{align}
@@ -544,5 +545,31 @@ $\Psi_h(\chi) = \frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)$
 を得る。
 
 \subsection{$h = 2$の場合の取り扱い}
+$K_c$は固有値$k_c(h) = 1$を持つため、\eqref{eq:geometric_series_of_F}式の級数が発散する。
+$k_c(h) = 1$となるのは$h = 2$における$SL(2, \mathbb{R})$のカシミール演算子$C_{1+2}$の固有関数である。
+４点関数の有限な解を得るために、$K$を摂動的に共形極限から$\delta K$だけずらした場所でその固有関数を
+扱う必要がある。
+摂動による補正$\delta K$は、$K$を構成する２点関数$G$の非共形極限におけるリーディングオーダーでの補正
+$\delta G$から生じる。
+摂動パラメータは結合の大きさの逆数$(\beta J)^{-1}$である。
+
+共形極限において、零温度と有限温度での両方の解$\eqref{eq:conformal_ansatz}$式は
+$t$のパラメータ付け替え不変性によって互いに等しいものであったが、摂動$\delta K$によって
+共形対称性が破れるため、2つの解を等しいとする事はできない。
+そこで最初から有限温度で議論し、周期を$\beta$から$2\pi$にするために
+角度座標$\theta = 2\pi t / \beta$を導入する。値の範囲は$\theta \in [0, 2\pi]$である。
+これは$\beta = 2\pi$と設定して議論を始めようとしているとも言える。
+$\theta$は周期的ユークリッド時間である。
+
+また$K$を直接論じるよりも、それを対称化した$\tilde{K}$の方が話を進めやすい。
+\eqref{eq:symmetric_K}式で$t\to\theta$と変数変換すると
+\begin{align}
+	\tilde{K}(\theta_1, \theta_2; \theta_3, \theta_4)
+	= -J^2(q-1)
+		|G(\theta_{12})|^{\frac{q-2}{2}}
+		G(\theta_{13})G(\theta_{24})
+		|G(\theta_{34})|^{\frac{q-2}{2}}
+\end{align}
+となる。
 
 \pagebreak
