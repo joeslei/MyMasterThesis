@@ -94,7 +94,7 @@ $K$の共形不変なものとして
 	\alpha_0 \equiv \frac{2\pi q}{(q-1)(q-2)\tan\frac{\pi}{q}}
 \end{align}
 である。
-$K_c$を対角化した暁には、実は固有関数の中に固有値$g(\alpha) = 1$を持つものも存在する。
+$K_c$を対角化した暁には、実は固有関数の中に固有値$k_c(h) = 1$を持つものも存在する。
 従って\eqref{eq:geometric_series_of_F}式の級数は発散するが、これは共形極限から摂動的に少し
 ずれる事によって対処する事ができる。
 それを議論するまでは、ひとまず\eqref{eq:confomarl_K}式を用いる事にする。
@@ -329,7 +329,7 @@ $\chi = 2$では$f$や$g^*$の一階微分が0になる事から表面項は消�
 \begin{align}
 	\Psi_h(\chi)
 	= A\frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)
-	+ B\frac{\Gamma(1-h)^2}{\Gamma(2 - 2h)}\chi^{1-h}
+	+ B\frac{\Gamma(1-h)^2}{\Gamma(2 - 2h)}\chi^{1-h}\ {}_2F_1(1-h, 1-h, 2-2h, \chi)
 	\hspace{20pt}\mathrm{for\ \ }\chi < 1
 	\label{eq:Psi_h_for_chi<1}
 \end{align}
@@ -378,6 +378,7 @@ $SL(2, \mathbb{R})$を用いて$t_0$を動かす事が可能なため、固有�
 結果は
 \begin{align}
 	k_c(h) = \frac{1}{\alpha_0}\frac{c(2-2\Delta-h)}{c(2\Delta-h)}c(2\Delta)^2
+	\label{eq:eigenvalue_of_Kc}
 \end{align}
 となる。
 $k_c(h)$は全ての$h = \frac{1}{2} + is$や$h = 2n$で実数となる。
@@ -499,6 +500,49 @@ $k_c(h) = 1$となる$h = h_m$における極を選ぶ事となり、
 	\right]_{h=h_m}
 	\hspace{30pt}\chi > 1
 \end{align}
+を得る(図\ref{fig:poles})。
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=11cm]{figures/poles}
+	\caption{$h$平面における極。$h = 2n$における極を点、$k_c(h) = 1$となるような
+	$h = h_m$における極をバツ印で表した。$h = 2 = h_0$では極が重なるため点とバツ印を重ねている。
+	$h$の連続スペクトラム$h = 1/2 + is$の直線は
+	右へずらす事ができ、点で表した$1/\tan(\pi h/2)$の極を相殺し、バツ印の極を選ぶ事になる。}
+	\label{fig:poles}
+\end{figure}
+
+次に$\chi < 1$の場合について考える。
+この場合は\eqref{eq:Psi_h_for_chi<1}式の${}_2F_1(1-h,1-h,2-2h,\chi)$を大きい$h > 0$に
+持っていく事ができないため、少し回り道をする必要がある。
+最初に、被積分関数の中の$\tan(\pi h/2)$を$\tan(\pi h)$に置き換えるために、
+${}_2F_1$以外の残りの部分が持つ$h\to 1-h$の下での反対称性を利用する。
+これによって$h\to 1-h$の下で対称となる被積分関数を得る。
+この対称性を使って\eqref{eq:Psi_h_for_chi<1}式の$B$を$A$に置き換えれば、
+\begin{align}
+	\frac{\mathcal{F}_{h\neq 2}(\chi)}{\alpha_0}
+	= \int &\frac{ds}{2\pi}\frac{h-1/2}{\pi\tan(\pi h/2)}
+		\frac{k_c(h)}{1-k_c(h)}\frac{\Gamma(h)^2}{\Gamma(2h)}
+		\chi^h\ {}_2F_1(h, h, 2h, \chi)\nonumber\\
+	&+ \sum_{n=2}^{\infty}\mathrm{Res}\left[
+		\frac{h-1/2}{\pi\tan(\pi h/2)}\frac{k_c(h)}{1-k_c(h)}\frac{\Gamma(h)^2}{\Gamma(2h)}
+		\chi^h\ {}_2F_1(h, h, 2h, \chi)
+	\right]_{h=2n}
+\end{align}
+という式に至る。
+ここで留数の総和において、$h$が偶数の時
+$\Psi_h(\chi) = \frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)$
+となる事を用いた。
+この被積分関数は$\chi > 1$の場合のように右へずらす事が可能であり、選ぶべき留数が$k_c(h)=1$
+となる$h = h_m$におけるものとなり、最終的に
+\begin{align}
+	\mathcal{F}_{h\neq 2} = -\alpha_0\sum_{m=0}^{\infty}\mathrm{Res}\left[
+		\frac{h-1/2}{\pi\tan(\pi h/2)}\frac{k_c(h)}{1-k_c(h)}\frac{\Gamma(h)^2}{\Gamma(2h)}
+		\chi^h\ {}_2F_1(h, h, 2h, \chi)
+	\right]_{h=h_m}
+	\hspace{30pt}\chi < 1
+\end{align}
 を得る。
+
+\subsection{$h = 2$の場合の取り扱い}
 
 \pagebreak
