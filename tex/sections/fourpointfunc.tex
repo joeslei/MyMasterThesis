@@ -93,6 +93,7 @@ $K$の共形不変なものとして
 を得る。ここで
 \begin{align}
 	\alpha_0 \equiv \frac{2\pi q}{(q-1)(q-2)\tan\frac{\pi}{q}}
+	\label{eq:alpha_0}
 \end{align}
 である。
 $K_c$を対角化した暁には、実は固有関数の中に固有値$k_c(h) = 1$を持つものも存在する。
@@ -571,5 +572,77 @@ $\theta$は周期的ユークリッド時間である。
 		|G(\theta_{34})|^{\frac{q-2}{2}}
 \end{align}
 となる。
+またこの積分核$\tilde{K}$の反対称な固有関数を
+\begin{align}
+	\Psi_{h,n}^{\mathrm{exact}}(\theta_1, \theta_2)
+	= - \Psi_{h,n}^{\mathrm{exact}}(\theta_2, \theta_1)
+\end{align}
+と書く事にする。
+ここで添字$h$はあるラベルであり、後に詳しく説明する。
+また$n$はフーリエ展開した際の$e^{-in(\theta_1 + \theta_2)/2}$の中の$n$である。
+$\tilde{K}$は次式で与えられる内積において対称となる:
+\begin{align}
+	\innerprod{\Psi}{\Phi} \equiv
+	\int_0^{2\pi}d\theta_1d\theta_2\ \Psi^*(\theta_1, \theta_2)\Phi(\theta_1, \theta_2).
+\end{align}
+
+4点関数の表式を得るためには、輪を持たないラダーダイアグラム$\mathcal{F}_0$が
+反対称単位行列
+\begin{align}
+	I(\theta_1, \cdots, \theta_4)
+	= -\delta(\theta_{13})\delta(\theta_{24}) + \delta(\theta_{14})\delta(\theta_{23})
+	= -2\sum_{h,n}\Psi_{h,n}^{\mathrm{exact}}(\theta_1, \theta_2)
+		\Psi_{h,n}^{\mathrm{exact}*}(\theta_3, \theta_4)
+\end{align}
+に作用する$\tilde{K}$に比例するという事を用いると良い。
+おおよそ$\mathcal{F} = (1 - \tilde{K})^{-1}\tilde{K}\cdot I$の様に書き表す事ができ、
+より正確には
+\begin{align}
+	\left[(q-1)J^2G(\theta_{12})^{\frac{q-2}{2}}G(\theta_{34})^{\frac{q-2}{2}}\right]
+	\mathcal{F}(\theta_1,\cdots,\theta_2) = 
+	2\sum_{h,n}\frac{k(h,n)}{1-k(h,n)}
+		\Psi_{h,n}^{\mathrm{exact}}(\theta_1, \theta_2)
+		\Psi_{h,n}^{\mathrm{exact}*}(\theta_3, \theta_4)
+	\label{eq:fourpointfunc_in_theta}
+\end{align}
+となる。ここで$k(h,n)$は
+固有関数$\Psi_{h,n}^{\mathrm{exact}}(\theta_1, \theta_2)$に対応する固有値である。
+適切な固有関数の完全系の下で、この4点関数の表式はあらゆるカップリングの大きさ$\beta J$において正しい。
+
+共形極限$\beta J \gg 1$に行くと、前節までの議論と接続できる。
+固有関数$\Psi_{h,n}^{\mathrm{exact}}$は、
+$SL(2,\mathbb{R})$に属する固有値$h(h-1)$を持つカシミール演算子$C_{1+2}$の固有関数$\Psi_{h,n}$となり、
+固有関数も$k(h,n)\to k_c(h)$の様に$h$だけの関数になる。
+また\eqref{eq:fourpointfunc_in_theta}式の$n$を走る総和は
+($t$を$t = \tan\frac{\theta}{2}$によって円周上に射影した後で)
+$\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
+
+4点関数の計算において$h = 2$からは無限大の寄与を得てしまう。
+これはフーリエインデックス$n$について走る関数族$\Psi_{2,n}$によって与えられる。
+この無限大を対処するには、共形極限から少し離れて共形対称性を破った上で
+リーディングオーダーでの補正を求める必要がある。
+特に共形極限での固有値$k_c(h)$への補正を計算する:
+\begin{align}
+	k(2, n) = 1 - O\left(\frac{1}{\beta J}\right).
+\end{align}
+
+\subsubsection{$\Psi_{2,n}$とパラメータ付け替え}
+共形極限では、$\tilde{K}$は共形伝搬関数\eqref{eq:conformal_ansatz}式の有限温度における表式を用いて
+\begin{align}
+	\tilde{K}_c(\theta_1, \cdots, \theta_4)
+	= -\alpha_0
+		\frac{1}{|2\sin\frac{\theta_{12}}{2}|^{1-2\Delta}}
+		\frac{\sgn(\theta_{13})}{|2\sin\frac{\theta_{24}}{2}|^{2\Delta}}
+		\frac{\sgn(\theta_{24})}{|2\sin\frac{\theta_{34}}{2}|^{2\Delta}}
+		\frac{1}{|2\sin\frac{\theta_{13}}{2}|^{1-2\Delta}}
+\end{align}
+と表される。ここで$\alpha_0$は\eqref{eq:alpha_0}式で与えられる。
+この対称積分核$\tilde{K}_c$は有限温度における$SL(2, \mathbb{R})$のリー代数の各生成子と可換である:
+\begin{align}
+	\hat{P} = e^{-i\theta}\left(\partial_{\theta} - \frac{i}{2}\right),\hspace{30pt}
+	\hat{K} = -e^{i\theta}\left(\partial_{\theta} + \frac{i}{2}\right),\hspace{30pt}
+	\hat{D} = i\partial_{\theta}.
+\end{align}
+
 
 \pagebreak
