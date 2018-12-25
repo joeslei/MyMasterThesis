@@ -584,6 +584,7 @@ $\tilde{K}$は次式で与えられる内積において対称となる:
 \begin{align}
 	\innerprod{\Psi}{\Phi} \equiv
 	\int_0^{2\pi}d\theta_1d\theta_2\ \Psi^*(\theta_1, \theta_2)\Phi(\theta_1, \theta_2).
+	\label{eq:innerprod_in_finite_temp}
 \end{align}
 
 4点関数の表式を得るためには、輪を持たないラダーダイアグラム$\mathcal{F}_0$が
@@ -656,7 +657,135 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 		+ \epsilon(\theta_1)\frac{\partial}{\partial{\theta_1}}
 		+ \epsilon(\theta_2)\frac{\partial}{\partial{\theta_2}}
 	\right]G_c
+	\label{eq:reparameterization_fomula}
 \end{align}
 となり、$G_c + \delta_{\epsilon}G_c$もまた\eqref{eq:conformalSD}式の解となる。
+\eqref{eq:conformalSD}式の最初の式から
+\begin{align}
+	\delta_{\epsilon}G_c * \Sigma_c + G_c * \delta_{\epsilon}\Sigma_c = 0\hspace{20pt}
+	\therefore\ 
+	0 = \delta_{\epsilon}G_c + G_c * [(q-1)J^2G_c^{q-2}\delta_{\epsilon}G_c] * G_c
+	= (1 - K_c)\delta_{\epsilon}G_c
+\end{align}
+を得る。
+ここで積$*$は
+\begin{align}
+	(F*G)(t_1, t_2) \equiv \int dt\ F(t_1, t)G(t, t_2)
+\end{align}
+を表す。
+つまり変化分$\delta_{\epsilon}G_c$は$1 - K_c$を作用させる事により消滅する。
+書き換えれば$K_c\delta_{\epsilon}G_c = \delta_{\epsilon}G_c$という固有値方程式になるため、
+$\delta_{\epsilon}G_c$は固有値$1$を持つ$K_c$の固有関数である。
+$\tilde{K}_c$において対応する固有関数は$|G_c|^{\frac{q-2}{2}}\delta_{\epsilon}G_c$である。
+
+便利な基底を選ぶには$\epsilon \approx e^{-in\theta}$とすると良い。
+\eqref{eq:conformal_ansatz}式の有限温度の$G_c$を\eqref{eq:reparameterization_fomula}式に代入し、
+$|G_c|^{\frac{q-2}{2}}\delta_{\epsilon}G_c$を計算し、
+最後に内積\eqref{eq:innerprod_in_finite_temp}式を用いて規格化すると、
+$\tilde{K}_c$の固有値1の固有関数として
+\begin{align}
+	\Psi_{2,n} = \gamma_n\frac{e^{-iny}}{2\sin\frac{x}{2}}f_n(x),\hspace{20pt}
+	f_n(x) = \frac{\sin\frac{nx}{2}}{\tan\frac{x}{2}} - n\cos\frac{nx}{2},
+\end{align}
+\begin{align}
+	x = \theta_1 - \theta_2,\hspace{20pt}
+	y = \frac{\theta_1 + \theta_2}{2},\hspace{20pt}
+	\gamma_n^2 = \frac{3}{\pi^2|n|(n^2 - 1)}
+	\label{eq:x_y_squaregamma}
+\end{align}
+を得る。
+$\Psi_{2,n}$はカシミール演算子$C_{1+2}$の$h=2$の固有関数でもある。
+また$n=-1,0,1$の場合、$G_c$の$SL(2,\mathbb{R})$共変性により
+変化分$\delta_{\epsilon}G_c$は消滅する。
+従って$|n| \geq 2$の場合のみ考えれば良い。
+$n \geq 2$に対して、$\Psi_{2,n=2}$に$\hat{P}_1 + \hat{P}_2$を作用させる事により
+全ての$\Psi_{2,n}$を得る事ができ、従って$SL(2,\mathbb{R})$のある表現を構成する。
+$n \leq -2$の場合も同様である。
+
+\subsubsection{固有値への補正}
+ここでは$h=2$の固有値$k(2, n)$の共形極限での値$k_c(h=2)=1$に対する$(\beta J)^{-1}$補正を、
+相互作用するフェルミオンの数$q$のラージ極限において計算する。
+伝搬関数は\eqref{eq:firstOrder}式、また$g(\theta)$は\eqref{eq:explicit_g}式より与えられる。
+ラダーダイアグラムの梯子のレールの部分の伝搬関数は
+\begin{align}
+	G(\theta) = \frac{1}{2}\sgn(\theta),
+\end{align}
+また輪の部分は($q$を偶数として)
+\begin{align}
+	G(\theta)^{q-2}
+	= \frac{1}{2^{q-2}}\left(1 + \frac{g(\theta)}{q}\right)^{q-2}
+	\to\ \frac{1}{2^{q-2}}e^{g(\theta)}
+	\hspace{20pt}\mathrm{for}\ \ \ q \to \mathrm{large}
+\end{align}
+となる。
+これらを用いると固有値方程式$\tilde{K}\Psi = k\Psi$は
+\begin{align}
+	-J^2q\int d\theta_1 d\theta_2\ 
+		\frac{\sgn(\theta_{13})}{2}\frac{\sgn(\theta_{24})}{2}
+		\frac{e^{(g(\theta_{12}) + g(\theta_{34}))/2}}{2^{q-2}}
+		\Psi(\theta_1, \theta_2)
+	= k\Psi(\theta_3, \theta_4)
+\end{align}
+と表される。
+この固有値方程式の両辺に$\partial_{\theta_3}\partial_{\theta_4}e^{g(\theta_{34})/2}$を作用させ、
+$\partial_x\sgn(x) = 2\delta(x)$を用いる積分を解消して微分方程式に直す事ができる。
+\eqref{eq:explicit_g}式の$e^g$を代入し、固有値を$k = 2/h(h-1)$のようにパラメトライズし、
+フーリエ変換した上で解くと
+\begin{align}
+	\Psi(\theta_1, \theta_2) = \frac{e^{-iny}}{\sin\frac{\tilde{x}}{2}}\psi_n)(x),
+	\hspace{20pt}\tilde{x} = vx + (1-v)\pi,
+	\label{eq:eigenfunc_of_tilde_K}
+\end{align}
+\begin{align}
+	\left(
+		n^2 + 4\frac{\partial^2}{\partial x^2} - 
+		\frac{h(h-1)v^2}{\sin^2\frac{\tilde{x}}{2}}
+	\right)\psi_n(x) = 0
+	\label{eq:diffeq_for_large_q}
+\end{align}
+という解を得る。ここで$v$は\eqref{eq:explicit_g}式の2つ目の式によって定義される。
+$x$と$y$は\eqref{eq:x_y_squaregamma}式で与えられる。
+$v=1$の時は$\beta \mathcal{J} \to \infty$であり、\eqref{eq:diffeq_for_large_q}式は
+共形変換群$SL(2,\mathbb{R})$のカシミール演算子$C_{1+2}$の固有関数を与える方程式となる。
+ここで$\mathcal{J}$は\eqref{eq:diffeq_for_g}式の2つ目の式で与えられる、ラージ$q$で
+一定となるようにリスケールされた相互作用の大きさである。
+しかし\eqref{eq:diffeq_for_large_q}式は任意の$\beta \mathcal{J}$に対して
+ラージ$q$の固有関数を与える。
+
+探したいものは然るべき対称性を備えた固有関数である。
+4点関数は$\theta_1, \theta_2$の2変数関数として
+\begin{align}
+	F(\theta_1, \theta_2) = -F(\theta_2, \theta_1),\hspace{20pt}
+	F(\theta_1 + 2\pi, \theta_2) = -F(\theta_1, \theta_2),\hspace{20pt}
+	F(\theta_1, \theta_2 + 2\pi) = -F(\theta_1, \theta_2)
+	\label{eq:properties_of_fourpointfunc}
+\end{align}
+という性質を持つ。最初の2つの性質は1つにまとめる事ができ、それを$x$と$y$を使って表すと
+\begin{align}
+	F(x, y) = F(2\pi - x, y + \pi)
+\end{align}
+というものになる。
+また\eqref{eq:properties_of_fourpointfunc}式の最初の性質より$x > 0$と制限できる。
+さらに\eqref{eq:eigenfunc_of_tilde_K}式の$e^{-iny}$の存在により、
+$\psi_n(x)$は$x=\pi$で、$n$が偶数の時は対称、奇数の時は反対称となる必要がある。
+以上を踏まえると$\psi_{h,n}$は、$\tilde{n} = n/v$として、
+\begin{align}
+	\psi_{h,n}(x)
+	&\approx \left(\sin\frac{\tilde{x}}{2}\right)^h\ 
+	{}_2F_1\left(
+		\frac{h-\tilde{n}}{2}, \frac{h+\tilde{n}}{2},
+		\frac{1}{2},\cos^2\frac{\tilde{x}}{2}
+		\right)\hspace{85pt}(n\ \ \mathrm{even})\\
+	&\approx \cos\frac{\tilde{x}}{2}\left(\sin\frac{\tilde{x}}{2}\right)^h\ 
+	{}_2F_1\left(
+		\frac{1 + h - \tilde{n}}{2},
+		\frac{1 + h + \tilde{n}}{2},
+		\frac{3}{2},
+		\cos^2\frac{\tilde{x}}{2}
+		\right)\hspace{30pt}(n\ \ \mathrm{odd})
+\end{align}
+となる。$\psi$は$x=0$で消滅するという境界条件によって$h$の量子化条件が決まる。
+
+
 
 \pagebreak

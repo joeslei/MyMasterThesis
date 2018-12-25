@@ -15,10 +15,11 @@
 \contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{14}{subsubsection.3.1.5}
 \contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{15}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{17}{subsubsection.3.2.1}
-\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{18}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{19}{section.5}
-\contentsline {section}{\numberline {6}終わりに}{20}{section.6}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{21}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{24}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{25}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{26}{appendix.D}
+\contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{17}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{19}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{20}{section.5}
+\contentsline {section}{\numberline {6}終わりに}{21}{section.6}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{22}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{25}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{26}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{27}{appendix.D}
