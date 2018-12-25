@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {3.1.4}$\delimiter "426830A \Psi _h, \Psi _h \delimiter "526930B $と$\delimiter "426830A \Psi _h, \mathcal {F}_0 \delimiter "526930B $}{13}{subsubsection.3.1.4}
 \contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{14}{subsubsection.3.1.5}
 \contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{15}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$とパラメータ付け替え}{17}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{17}{subsubsection.3.2.1}
 \contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{18}{section.4}
 \contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{19}{section.5}
 \contentsline {section}{\numberline {6}終わりに}{20}{section.6}

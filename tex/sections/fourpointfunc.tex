@@ -626,7 +626,10 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 	k(2, n) = 1 - O\left(\frac{1}{\beta J}\right).
 \end{align}
 
-\subsubsection{$\Psi_{2,n}$とパラメータ付け替え}
+\subsubsection{$\Psi_{2,n}$の具体型}
+まず最初に$\Psi_{2,n}$の具体型を求める。
+このためにパラメータ付け替え不変性を活用する。
+\begin{comment}% We probably do not need this.
 共形極限では、$\tilde{K}$は共形伝搬関数\eqref{eq:conformal_ansatz}式の有限温度における表式を用いて
 \begin{align}
 	\tilde{K}_c(\theta_1, \cdots, \theta_4)
@@ -643,6 +646,17 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 	\hat{K} = -e^{i\theta}\left(\partial_{\theta} + \frac{i}{2}\right),\hspace{30pt}
 	\hat{D} = i\partial_{\theta}.
 \end{align}
-
+\end{comment}
+共形極限におけるシュウィンガー・ダイソン方程式\eqref{eq:conformalSD}式はパラメータ付け替え不変性を持つ。
+これによって$\theta\to\theta + \epsilon(\theta)$という様にリパラメトライズしたとすると
+変化分$\delta_{\epsilon}G_c$は
+\begin{align}
+	\delta_{\epsilon}G_c
+	= \left[\Delta\epsilon'(\theta_1) + \Delta\epsilon'(\theta_2)
+		+ \epsilon(\theta_1)\frac{\partial}{\partial{\theta_1}}
+		+ \epsilon(\theta_2)\frac{\partial}{\partial{\theta_2}}
+	\right]G_c
+\end{align}
+となり、$G_c + \delta_{\epsilon}G_c$もまた\eqref{eq:conformalSD}式の解となる。
 
 \pagebreak
