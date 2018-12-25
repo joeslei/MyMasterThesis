@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  25 DEC 2018 17:44
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  26 DEC 2018 00:46
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.082 seconds
+luaotfload | main : initialization completed in 0.086 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -778,7 +778,7 @@ luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 78
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 3.
-<figures/melonDiagram.jpeg, id=125, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=130, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 6.
@@ -807,7 +807,7 @@ luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
 luaotfload | aux : no font with id 93
 warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=150, 462.528pt x 346.896pt>
+<figures/J10.png, id=155, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 66.
@@ -817,7 +817,7 @@ Overfull \hbox (23.72418pt too wide) in paragraph at lines 66--69
  [][] 
  []
 
-<figures/J50.png, id=151, 462.528pt x 346.896pt>
+<figures/J50.png, id=156, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 74.
@@ -837,7 +837,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 121.
 
 [4] [5] [6]) [7] (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=260, 927.465pt x 137.51375pt>
+<figures/ladderDiagram.jpg, id=265, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
@@ -862,7 +862,7 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 95 [9]
-<figures/circle.jpg, id=311, 1024.82875pt x 301.125pt>
+<figures/circle.jpg, id=316, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
 Package luatex.def Info: figures/circle.jpg  used on input line 212.
@@ -877,7 +877,7 @@ LaTeX Warning: Command \d invalid in math mode on input line 378.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
 [13] [14]
-<figures/poles.jpg, id=394, 1027.84pt x 452.69125pt>
+<figures/poles.jpg, id=399, 1027.84pt x 452.69125pt>
 File: figures/poles.jpg Graphic file (type jpg)
 <use figures/poles.jpg>
 Package luatex.def Info: figures/poles.jpg  used on input line 508.
@@ -911,65 +911,101 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [25] (./appendices/ads_cft.tex) [26] (./appendices/quantum_chaos.tex)
-[27] (./sections/references.tex)
+) [25] (./appendices/ads_cft.tex) [26] (./appendices/quantum_chaos.tex(load luc:
+ /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-itali
+c.luc)
+
+LaTeX Font Warning: Font shape `JT3/mc/m/it' undefined
+(Font)              using `JT3/mc/m/n' instead on input line 58.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 58.
+[27]
+<figures/figure7.png, id=574, 216.81pt x 216.81pt>
+File: figures/figure7.png Graphic file (type png)
+<use figures/figure7.png>
+Package luatex.def Info: figures/figure7.png  used on input line 84.
+(luatex.def)             Requested size: 142.26378pt x 142.27127pt.
+<figures/figure44.png, id=575, 216.81pt x 216.81pt>
+File: figures/figure44.png Graphic file (type png)
+<use figures/figure44.png>
+Package luatex.def Info: figures/figure44.png  used on input line 88.
+(luatex.def)             Requested size: 142.26378pt x 142.27127pt.
+<figures/figure99.png, id=576, 216.81pt x 216.81pt>
+File: figures/figure99.png Graphic file (type png)
+<use figures/figure99.png>
+Package luatex.def Info: figures/figure99.png  used on input line 92.
+(luatex.def)             Requested size: 142.26378pt x 142.27127pt.
+
+Overfull \hbox (14.13136pt too wide) in paragraph at lines 81--97
+ [][][][] 
+ []
+
+) [28<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>]
+(./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
- [28]
+ [29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: B6A3238E8390104E51729B24377E9F1F;1068.
+(rerunfilecheck)             Checksum: 7C426E2A85D372A72539DA0455B49BB5;1154.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 8757 strings out of 494480
- 244157,266212 words of node,token memory allocated
- 35805 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 128 glue, 402 kern, 11426 attribute, 1722 glue_spe
-c, 580 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
-   avail lists: 1:14,2:60538,3:341,4:510,5:219,6:2878,7:2680,8:2072,9:1572,10:41
-,11:138
- 12020 multiletter control sequences out of 65536+600000
- 101 fonts using 55496663 bytes
+ 8819 strings out of 494480
+ 305193,266212 words of node,token memory allocated
+ 37303 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 136 glue, 408 kern, 11806 attribute, 1840 glue_spe
+c, 599 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
+   avail lists: 1:15,2:81031,3:342,4:510,5:146,6:3281,7:3498,8:2615,9:1572,10:48
+,11:220
+ 12043 multiletter control sequences out of 65536+600000
+ 102 fonts using 55628671 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype
-/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
-an9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></
-usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/
-fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/
-public/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.
-ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share
-/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/fonts/truetype
-/fonts-japanese-mincho.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-mextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb>
-Output written on masterThesis.pdf (30 pages, 1022254 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf
+/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/
+public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
+n7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf><
+/usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/f
+onts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/pu
+blic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans1
+0-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.ttf></usr/share/t
+exmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/open
+type/public/lm/lmroman17-regular.otf></usr/share/fonts/truetype/fonts-japanese-m
+incho.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on masterThesis.pdf (31 pages, 1194664 bytes).
 
-PDF statistics: 739 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
- 223 named destinations out of 1000 (max. 131072)
- 129 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 786 PDF objects out of 1000 (max. 8388607)
+ 658 compressed objects within 7 object streams
+ 233 named destinations out of 1000 (max. 131072)
+ 137 words of extra memory for PDF output out of 10000 (max. 100000000)
 
