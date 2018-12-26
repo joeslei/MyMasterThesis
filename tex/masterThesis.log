@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  26 DEC 2018 16:15
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  26 DEC 2018 17:10
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.159 seconds
+luaotfload | main : initialization completed in 0.260 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -994,7 +994,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (32 pages, 1203703 bytes).
+Output written on masterThesis.pdf (32 pages, 1203654 bytes).
 
 PDF statistics: 803 PDF objects out of 1000 (max. 8388607)
  674 compressed objects within 7 object streams
