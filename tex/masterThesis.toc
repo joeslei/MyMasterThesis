@@ -24,3 +24,5 @@
 \contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{26}{appendix.C}
 \contentsline {section}{\numberline {付録D}量子カオス }{27}{appendix.D}
 \contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{27}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{29}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{29}{subsection.D.3}
