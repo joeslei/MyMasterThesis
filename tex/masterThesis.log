@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  26 DEC 2018 00:46
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  26 DEC 2018 13:28
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.086 seconds
+luaotfload | main : initialization completed in 0.081 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -923,23 +923,23 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.3977pt on input line 58.
 [27]
-<figures/figure7.png, id=574, 216.81pt x 216.81pt>
+<figures/figure7.png, id=575, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
-Package luatex.def Info: figures/figure7.png  used on input line 84.
+Package luatex.def Info: figures/figure7.png  used on input line 85.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=575, 216.81pt x 216.81pt>
+<figures/figure44.png, id=576, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
-Package luatex.def Info: figures/figure44.png  used on input line 88.
+Package luatex.def Info: figures/figure44.png  used on input line 89.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=576, 216.81pt x 216.81pt>
+<figures/figure99.png, id=577, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
-Package luatex.def Info: figures/figure99.png  used on input line 92.
+Package luatex.def Info: figures/figure99.png  used on input line 93.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
 
-Overfull \hbox (14.13136pt too wide) in paragraph at lines 81--97
+Overfull \hbox (14.13136pt too wide) in paragraph at lines 82--98
  [][][][] 
  []
 
@@ -1002,10 +1002,10 @@ amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (31 pages, 1194664 bytes).
+Output written on masterThesis.pdf (31 pages, 1194863 bytes).
 
-PDF statistics: 786 PDF objects out of 1000 (max. 8388607)
- 658 compressed objects within 7 object streams
+PDF statistics: 787 PDF objects out of 1000 (max. 8388607)
+ 659 compressed objects within 7 object streams
  233 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 
