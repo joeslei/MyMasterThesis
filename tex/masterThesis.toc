@@ -16,13 +16,14 @@
 \contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{15}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{17}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{17}{subsubsection.3.2.2}
-\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{19}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{20}{section.5}
-\contentsline {section}{\numberline {6}終わりに}{21}{section.6}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{22}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{25}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{26}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{27}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{27}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{29}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{29}{subsection.D.3}
+\contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{19}{subsubsection.3.2.3}
+\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{20}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{21}{section.5}
+\contentsline {section}{\numberline {6}終わりに}{22}{section.6}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{23}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{26}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{27}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{28}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{28}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{30}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{30}{subsection.D.3}

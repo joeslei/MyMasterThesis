@@ -570,6 +570,7 @@ $\theta$は周期的ユークリッド時間である。
 		|G(\theta_{12})|^{\frac{q-2}{2}}
 		G(\theta_{13})G(\theta_{24})
 		|G(\theta_{34})|^{\frac{q-2}{2}}
+	\label{eq:symmetric_K_in_theta}
 \end{align}
 となる。
 またこの積分核$\tilde{K}$の反対称な固有関数を
@@ -686,6 +687,7 @@ $\tilde{K}_c$の固有値1の固有関数として
 \begin{align}
 	\Psi_{2,n} = \gamma_n\frac{e^{-iny}}{2\sin\frac{x}{2}}f_n(x),\hspace{20pt}
 	f_n(x) = \frac{\sin\frac{nx}{2}}{\tan\frac{x}{2}} - n\cos\frac{nx}{2},
+	\label{eq:eigenfunc_with_eigenvalue_1}
 \end{align}
 \begin{align}
 	x = \theta_1 - \theta_2,\hspace{20pt}
@@ -786,6 +788,104 @@ $\psi_n(x)$は$x=\pi$で、$n$が偶数の時は対称、奇数の時は反対�
 \end{align}
 となる。$\psi$は$x=0$で消滅するという境界条件によって$h$の量子化条件が決まる。
 
+欲しい固有関数は強結合領域で$h=2$共形固有関数になるものである。
+$h\approx 2$の時、$\tilde{x}\approx 0$発散する。
+$(1-v)$の2次のオーダーにおいて、この発散が存在しないための条件は
+超幾何関数の1番目か2番目の変数の少なくともどちらかが負の整数になるというものである。
+2に近い解は$h_n = 2 + |\tilde{n}| - |n| = 2 + |n|\frac{1-v}{v}$となる。
+\eqref{eq:eigenvalue_of_Kc}式から$q = \infty$の時$k_c(h) = \frac{2}{h(h-1)}$
+であるのを思い出せば、これを展開して
+\begin{align}
+	k(2, n)
+	= 1 - \frac{3|n|}{2}(1 - v) + \left(\frac{7n^2}{4} - \frac{3|n|}{2}\right)(1 - v)^2
+		+ \cdots
+	= 1 - \frac{3|n|}{\beta \mathcal{J}} + \frac{7n^2}{(\beta \mathcal{J})^2} + \cdots
+	\label{eq:eigenvalue_at_large_q}
+\end{align}
+を得る。
+ここで最後の表式は$v$を\eqref{eq:explicit_g}式の右の式から$(\beta \mathcal{J})^{-1}$
+で展開したものを用いた:
+\begin{align}
+	1 - v = \frac{2}{\beta\mathcal{J}} - \frac{4}{(\beta\mathcal{J})^2} + \cdots.
+\end{align}
+
+次に一般の$q$について考える。
+固有値方程式$\tilde{K} \Psi_{2,n} = k(2, n)\Psi_{2,n}$を厳密に解く事はできないが、
+$\tilde{K} = \tilde{K}_c + \delta\tilde{K}$として共形極限からの摂動論を1次まで
+計算する事は可能である。
+計算するべきは$\innerprod{\Psi_{2,n}}{\delta\tilde{K}\cdot\Psi_{2,n}}$となる。
+
+摂動補正$\delta\tilde{K}$は共形伝搬関数に摂動を加えた$G_c + \delta G$というものを
+$\tilde{K}_c$の表式\eqref{eq:symmetric_K_in_theta}式に代入する事で得られる。
+ここでラージ$q$に戻って$\delta G$を求めると、\eqref{eq:conformal_ansatz}式と
+\eqref{eq:explicit_g}式から有限温度のラージ$q$共形伝搬関数は
+\begin{align}
+	G(\theta) = G_c(\theta)\left[
+		1 - \frac{2}{q}\frac{1}{\beta\mathcal{J}}
+		\left(2 + \frac{\pi - \theta}{\tan\frac{\theta}{2}}\right) + \cdots
+	\right]
+\end{align}
+となるので、$(\beta\mathcal{J})^{-1}$補正$\delta G$は
+\begin{align}
+	f_0(\theta) \equiv 2 + \frac{\pi - \theta}{\tan\frac{\theta}{2}}
+	\label{eq:f_0}
+\end{align}
+に比例する事がわかる。
+これは\eqref{eq:eigenfunc_with_eigenvalue_1}式の$f_n$で$n\to 0$としたものに一致する。
+\eqref{eq:f_0}式を用いて一般の$q$における$G_c$への補正は
+\begin{align}
+	\frac{\delta G}{G_c} = -\frac{\alpha_G}{\beta\mathcal{J}}f_0
+	\label{eq:perturbation_correction_for_Gc}
+\end{align}
+のように表せるはずである。
+ここで$\alpha_G$は$q\to\infty$で$q\alpha_G\to 2$となるような係数である。
+数値解析によって\eqref{eq:perturbation_correction_for_Gc}式は
+様々な$q$の値において精度の良いフィッティング関数となる事が示されている\cite{maldacena}。
+
+固有値への補正項を求めるために直接$\innerprod{\Psi_{2,n}}{\delta\tilde{K}\cdot\Psi_{2,n}}$
+を計算しても良いが、手っ取り早い方法が存在し、
+\begin{align}
+	\frac{1}{q\alpha_G}\frac{\innerprod{\Psi_{h,n}}{\tilde{K}\cdot\Psi_{2,n}}}{1-k_c(h)}
+\end{align}
+が実は$q$に依らない量である事を用いる\cite{maldacena}。
+この量は$h=2$で極を持ち、その留数は固有値への補正項に比例する。
+この留数とラージ$q$における固有値の表式\eqref{eq:eigenvalue_at_large_q}式、
+及びラージ$q$において成り立つ性質
+($q\alpha_G = 2,\ k'_c(2) = -3/2$)を用いると、一般の$q$における固有値
+\begin{align}
+	k(2, n) &= 1 - \frac{\alpha_K}{\beta\mathcal{J}}|n| + \cdots\\
+	\alpha_K &\equiv -qk'_c(2)\alpha_G
+		= \left[
+			\frac{\pi q}{\sin\frac{2\pi}{q}} + \frac{q^3(6-q) - 6q^2}{2(q-1)(q-2)}
+		\right]\alpha_G
+\end{align}
+を得る。
+$\alpha_K$は\eqref{eq:eigenvalue_at_large_q}式よりラージ$q$で3となる係数である。
+$\alpha_K$を$q$に関して数値的に求めると、どの$q$に対しても3に近い事がわかる\cite{maldacena}。
+
+\subsubsection{$h = 2$の4点関数への寄与}
+ここまでの議論により4点関数\eqref{eq:fourpointfunc_in_theta}式での発散は
+共形極限から少しずれる事によって処理されたので、$h=2$の4点関数への寄与は有限となり、
+$\beta\mathcal{J}$のオーダーの値を持つ。
+具体的に計算すれば、$h=2$の寄与は
+\begin{align}
+	\frac{\mathcal{F}_{\mathrm{big}}(\theta_1,\cdots,\theta_4)}{G(\theta_{12})G(\theta_{34})}
+	= \frac{6\alpha_0}{\pi^2\alpha_K}\beta\mathcal{J}\sum_{|n|\geq 2}
+		\frac{e^{in(y' - y)}}{n^2(n^2 - 1)}
+		\left[
+			\frac{\sin\frac{nx}{2}}{\tan\frac{x}{2}} - n\cos\frac{nx}{2}
+		\right]
+		\left[
+			\frac{\sin\frac{nx'}{2}}{\tan\frac{x'}{2}} - n\cos\frac{nx'}{2}
+		\right],
+\end{align}
+\begin{align}
+	x = \theta_{12},\hspace{20pt}
+	\tilde{x} = \theta_{34},\hspace{20pt}
+	y = \frac{\theta_1 + \theta_2}{2},\hspace{20pt}
+	y' = \frac{\theta_3 + \theta_4}{2}
+\end{align}
+となる。
 
 
 \pagebreak
