@@ -631,24 +631,6 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 \subsubsection{$\Psi_{2,n}$の具体型}
 まず最初に$\Psi_{2,n}$の具体型を求める。
 このためにパラメータ付け替え不変性を活用する。
-\begin{comment}% We probably do not need this.
-共形極限では、$\tilde{K}$は共形伝搬関数\eqref{eq:conformal_ansatz}式の有限温度における表式を用いて
-\begin{align}
-	\tilde{K}_c(\theta_1, \cdots, \theta_4)
-	= -\alpha_0
-		\frac{1}{|2\sin\frac{\theta_{12}}{2}|^{1-2\Delta}}
-		\frac{\sgn(\theta_{13})}{|2\sin\frac{\theta_{24}}{2}|^{2\Delta}}
-		\frac{\sgn(\theta_{24})}{|2\sin\frac{\theta_{34}}{2}|^{2\Delta}}
-		\frac{1}{|2\sin\frac{\theta_{13}}{2}|^{1-2\Delta}}
-\end{align}
-と表される。ここで$\alpha_0$は\eqref{eq:alpha_0}式で与えられる。
-この対称積分核$\tilde{K}_c$は有限温度における$SL(2, \mathbb{R})$のリー代数の各生成子と可換である:
-\begin{align}
-	\hat{P} = e^{-i\theta}\left(\partial_{\theta} - \frac{i}{2}\right),\hspace{30pt}
-	\hat{K} = -e^{i\theta}\left(\partial_{\theta} + \frac{i}{2}\right),\hspace{30pt}
-	\hat{D} = i\partial_{\theta}.
-\end{align}
-\end{comment}
 共形極限におけるシュウィンガー・ダイソン方程式\eqref{eq:conformalSD}式はパラメータ付け替え不変性を持つ。
 これによって$\theta\to\theta + \epsilon(\theta)$という様にリパラメトライズしたとすると
 変化分$\delta_{\epsilon}G_c$は
@@ -667,6 +649,7 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 	\therefore\ 
 	0 = \delta_{\epsilon}G_c + G_c * [(q-1)J^2G_c^{q-2}\delta_{\epsilon}G_c] * G_c
 	= (1 - K_c)\delta_{\epsilon}G_c
+	\label{eq:eigenfunc_of_Kc_is_reparametrization}
 \end{align}
 を得る。
 ここで積$*$は
@@ -878,6 +861,7 @@ $\beta\mathcal{J}$のオーダーの値を持つ。
 		\left[
 			\frac{\sin\frac{nx'}{2}}{\tan\frac{x'}{2}} - n\cos\frac{nx'}{2}
 		\right],
+	\label{eq:F_big}
 \end{align}
 \begin{align}
 	x = \theta_{12},\hspace{20pt}
@@ -886,6 +870,59 @@ $\beta\mathcal{J}$のオーダーの値を持つ。
 	y' = \frac{\theta_3 + \theta_4}{2}
 \end{align}
 となる。
+さらに共形極限において\eqref{eq:eigenfunc_of_Kc_is_reparametrization}式から
+$h=2$の固有関数はパラメータ付け替え$\theta\to\theta + \epsilon(\theta)$
+による変化分$\delta_{\epsilon}G$そのものであった事から、特に$\epsilon_n \propto e^{-in\theta}$
+として
+\begin{align}
+	\mathcal{F}_{\mathrm{big}} = 
+	\sum_n \average{\epsilon_n\epsilon_{-n}}\delta_{\epsilon_n}G\delta_{\epsilon_{-n}}G,
+	\hspace{20pt}
+	\average{\epsilon_n\epsilon_{-n}} = 
+	\left(\frac{6\alpha_0q^2}{\alpha_K N}\right)\frac{\beta\mathcal{J}}{n^2(n^2-1)}
+\end{align}
+と書く事ができる。
+$\average{\epsilon_n\epsilon_{-n}}$はフーリエ変換によって
+\begin{align}
+	\average{\epsilon(\theta)\epsilon(0)}
+	= \frac{1}{N}\frac{6(\beta\mathcal{J}) \beta^2 q^2 \alpha_0}{(2\pi)^4 \alpha_K}
+	\left[
+		-\frac{1}{2}(|\theta| - \pi)^2 + (|\theta| - \pi)\sin|\theta
+		+ 1 + \frac{\pi^2}{6} + \frac{5}{2}\cos\theta
+	\right]
+	\label{eq:propagator_of_epsilon}
+\end{align}
+と変換される。
+\eqref{eq:F_big}式の$n$を走る和はこの2点関数と
+パラメータ付け替え\eqref{eq:reparameterization_fomula}式を用いる事によって計算できる。
+結果は4つのフェルミオンの順番によって変わり、
+$\average{\psi_i\psi_i\psi_j\psi_j}$か$\average{\psi_i\psi_j\psi_i\psi_j}$かで場合分け
+する必要がある。
 
+最初の$iijj$という順番の場合は
+\begin{align}
+	iijj\ \ \mathrm{order:}\hspace{20pt}
+	\frac{\mathcal{F}_{\mathrm{big}}(\theta_1, \cdots, \theta_4)}{G(\theta_{12})G(\pi)}
+	= \frac{6\alpha_0}{\pi^2\alpha_K}\beta\mathcal{J}
+		\left(
+			\frac{\theta_{12}}{2\tan\frac{\theta_{12}}{2}} - 1
+		\right)
+		\left(
+			\frac{\theta_{34}}{2\tan\frac{\theta_{34}}{2}} - 1
+		\right)
+	\label{eq:h_2_contribution_in_iijj_order}
+\end{align}
+で与えられる。また$ijij$という順番の場合は、特に$\theta_3 = 0, \theta_4 = \pi$とすると
+結果が簡略化される:
+\begin{align}
+	ijij\ \ \mathrm{order:}\hspace{20pt}
+	\frac{\mathcal{F}_{\mathrm{big}}(\theta_1, \theta_2, 0, \pi)}{G(\theta_{12})G(\pi)}
+	= - \frac{6\alpha_0}{\pi^2\alpha_K}\beta\mathcal{J}
+		\left(
+			\frac{\theta_{12}}{2\tan\frac{\theta_{12}}{2}} - 1
+			- \pi \frac{\sin\frac{\theta_1}{2}\sin\frac{\theta_2}{2}}{|\sin\frac{\theta_{12}}{2}|}
+		\right).
+	\label{eq:h_2_contribution_in_ijij_order}
+\end{align}
 
 \pagebreak

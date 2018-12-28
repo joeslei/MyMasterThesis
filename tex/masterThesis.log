@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  27 DEC 2018 17:09
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  28 DEC 2018 16:54
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.080 seconds
+luaotfload | main : initialization completed in 0.079 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -891,10 +891,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 548.
 
-[15<./figures/poles.jpg>] Excluding 'comment' comment. [16] [17] [18]) [19]
-(./sections/syk_as_quantum_chaos.tex) [20] (./sections/gravity.tex) [21]
-(./sections/conclusion.tex) [22] (./appendices/effective_action.tex [23]
-[24]) [25] (./appendices/b.tex
+[15<./figures/poles.jpg>] [16] [17] [18] [19]) [20]
+(./sections/syk_as_quantum_chaos.tex) [21] (./sections/gravity.tex) [22]
+(./sections/conclusion.tex) [23] (./appendices/effective_action.tex [24]
+[25]) [26] (./appendices/b.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -911,7 +911,7 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [26] (./appendices/ads_cft.tex) [27] (./appendices/quantum_chaos.tex(load luc:
+) [27] (./appendices/ads_cft.tex) [28] (./appendices/quantum_chaos.tex(load luc:
  /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-itali
 c.luc)
 
@@ -922,18 +922,18 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.3977pt on input line 59.
-[28]
-<figures/figure7.png, id=616, 216.81pt x 216.81pt>
+[29]
+<figures/figure7.png, id=629, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
 Package luatex.def Info: figures/figure7.png  used on input line 86.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=617, 216.81pt x 216.81pt>
+<figures/figure44.png, id=630, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
 Package luatex.def Info: figures/figure44.png  used on input line 90.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=618, 216.81pt x 216.81pt>
+<figures/figure99.png, id=631, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
 Package luatex.def Info: figures/figure99.png  used on input line 94.
@@ -943,10 +943,10 @@ Overfull \hbox (14.13136pt too wide) in paragraph at lines 83--99
  [][][][] 
  []
 
-[29<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
-[30] (./sections/references.tex)
+[30<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
+[31] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
- [31]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
@@ -960,14 +960,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8843 strings out of 494480
+ 8852 strings out of 494480
  305198,266212 words of node,token memory allocated
- 39926 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 151 glue, 430 kern, 12600 attribute, 1988 glue_spe
-c, 639 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
+ 40629 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 154 glue, 438 kern, 12820 attribute, 2024 glue_spe
+c, 650 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
    avail lists: 1:15,2:81835,3:344,4:510,5:146,6:3321,7:3539,8:2653,9:1572,10:43
 ,11:220
- 12051 multiletter control sequences out of 65536+600000
+ 12055 multiletter control sequences out of 65536+600000
  102 fonts using 55628671 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf
@@ -1002,10 +1002,10 @@ amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (33 pages, 1215576 bytes).
+Output written on masterThesis.pdf (34 pages, 1220749 bytes).
 
-PDF statistics: 835 PDF objects out of 1000 (max. 8388607)
- 704 compressed objects within 8 object streams
- 249 named destinations out of 1000 (max. 131072)
+PDF statistics: 847 PDF objects out of 1000 (max. 8388607)
+ 715 compressed objects within 8 object streams
+ 254 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 100000000)
 
