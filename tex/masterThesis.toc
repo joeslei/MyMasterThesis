@@ -19,13 +19,14 @@
 \contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{19}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}$q=\infty $における$h=2$の寄与}{20}{subsubsection.3.2.4}
 \contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{21}{subsection.3.3}
-\contentsline {section}{\numberline {4}量子カオスとしてのSYK模型}{22}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのブラックホール}{23}{section.5}
-\contentsline {section}{\numberline {6}終わりに}{24}{section.6}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{25}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{28}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{29}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{30}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{30}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{32}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{32}{subsection.D.3}
+\contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論}{22}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのSYK模型}{23}{section.5}
+\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{24}{section.6}
+\contentsline {section}{\numberline {7}終わりに}{25}{section.7}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{26}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{29}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{30}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{31}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{31}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{33}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{33}{subsection.D.3}

@@ -1,0 +1,83 @@
+\section{リパラメトリゼーションの有効理論}
+この節ではSYK模型の有効理論を扱う。
+これによって第\ref{sec:fourpointfunc}節で論じた４点関数の計算に対して第２の視点を得る。
+
+有効理論の作用は\eqref{eq:effectiveActionWithGeneral_q}式で与えられるが、
+ここでもう一度掲載する:
+\begin{align}
+	\frac{S}{N}
+	= -\frac{1}{2}\log\det\left(\pdiff{t} - \tilde{\Sigma}\right)
+		+ \frac{1}{2}\int dt_1dt_2
+		\left[
+			\tilde{\Sigma}(t_1, t_2)\tilde{G}(t_1, t_2)
+			- \frac{J^2}{q}\tilde{G}(t_1, t_2)^q
+		\right].
+	\label{eq:effective_theory_of_reparametrization}
+\end{align}
+ここで$\tilde{\Sigma},\tilde{G}$は経路積分の積分変数である。
+古典解は$\Sigma, G$と表記する。
+フェルミオンの４点関数は
+\begin{align}
+	\frac{1}{N^2}\sum_{i,j}\average{\psi_i(t_1)\psi_i(t_2)\psi_j(t_3)\psi_j(t_4)}
+	= \int \mathcal{D}\tilde{\Sigma}\mathcal{D}\tilde{G}\ 
+		e^{-S}\tilde{G}(t_1, t_2)\tilde{G}(t_3, t_4)
+	\label{eq:fourpointfunc_in_G_and_Sigma}
+\end{align}
+と書き表される。
+\eqref{eq:effective_theory_of_reparametrization}式の停留点は
+シュウィンガー・ダイソン方程式の解$G,\Sigma$で与えられる。
+この解からの揺らぎを計算するならば、その揺らぎをそれぞれ
+$\tilde{G} = G + |G|^{\frac{2-q}{2}}g$、
+$\tilde{\Sigma} = \Sigma + |G|^{\frac{2-q}{2}}\sigma$とするのが便利である。
+この様にしても測度は不変である: $d\tilde{G}d\tilde{\Sigma} = dgd\sigma$。
+作用を$g,\sigma$の2次まで展開し、シュウィンガー・ダイソン方程式$G = (\partial_t - \Sigma)^{-1}$
+を用いると、揺らぎ$g,\sigma$の作用を得る:
+\begin{align}
+	\frac{S}{N}
+		= -\frac{1}{4J^2(q-1)}&\int dt_1\cdots dt_4\ 
+			\sigma(t_1, t_2)\tilde{K}(t_1, \cdots, t_4)\sigma(t_3, t_4)\nonumber\\
+		&+ \frac{1}{2}\int dt_1dt_2\ 
+		\left(
+			g(t_1, t_2)\sigma(t_1, t_2) - \frac{1}{2}J^2(q-1)g(t_1, t_2)^2
+		\right).
+\end{align}
+$\tilde{K}$は\eqref{eq:symmetric_K}式で与えられる対称化したラダーダイアグラムの積分核である。
+上式はさらに$\sigma$を積分して消去する事ができ、$g$の作用
+\begin{align}
+	\frac{S}{N} = \frac{J^2(q-1)}{4}g\cdot(\tilde{K}^{-1} - 1)\cdot g
+	\label{eq:effective_action_of_g}
+\end{align}
+を与える。
+4点関数\eqref{eq:fourpointfunc_in_G_and_Sigma}式の被積分関数の$\tilde{G}$を
+$|G|^{\frac{q-2}{2}}$に置き換え、\eqref{eq:effective_action_of_g}式を代入して
+ガウス積分を実行する事で$O(N^{-1})$の項を計算できる。
+結果は\eqref{eq:fourpointfunc_in_theta}式となる。
+
+ここまでの議論は任意のエネルギーで成り立つ。
+低エネルギー極限を取り、共形古典解$G_c,\Sigma_c$を使い、
+さらに揺らぎとして\eqref{eq:reparameterization_fomula}式で与えられる
+リパラメトリゼーション$\delta_{\epsilon}G_c$を選べば、$\delta_{\epsilon}G_c$自身が
+$\tilde{K}_c$の固有値1に対する固有関数である事から、
+揺らぎの作用\eqref{eq:effective_action_of_g}式は消滅する。
+これは\eqref{eq:effective_theory_of_reparametrization}式が
+行列式の中の$\partial_t$を捨てる事で、
+リパラメトリゼーション$t\to f(t)$及び\eqref{eq:reparametrization_of_G_and_Sigma}式の下で
+不変になる事の帰結である。
+このリパラメトリゼーション不変性は、共形古典解$G_c$が部分群$SL(2,\mathbb{R})$対称性
+しか持たないために自発的に破れる。
+$f(t)$はそれによって現れるゴールドストーンボソンである。
+
+共形極限から離れるとリパラメトリゼーション不変性は陽に破れ、
+$h=2$の固有値は1から\eqref{eq:corrected_eigenvalue}式に修正され、
+その結果ゼロモードに対する有限の作用を得る。
+これを計算するために微小変換$t\to t + \epsilon(t)$を考え、$\delta_{\epsilon}G_c$の作用を評価すれば、
+\begin{align}
+	\frac{S}{N} = \frac{\alpha_S}{\mathcal{J}}\int_0^{\beta}dt\ \frac{1}{2}
+		\left[
+			\left(\epsilon''\right)^2 - \left(\frac{2\pi}{\beta}\right)^2(\epsilon')^2
+		\right],\hspace{20pt}
+	\alpha_S \equiv \frac{\alpha_K}{6q^2\alpha_0} = \frac{q||k'_c(2)|\alpha_G}{6q^2\alpha_0}
+\end{align}
+を得る。
+
+\pagebreak
