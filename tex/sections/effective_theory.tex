@@ -29,7 +29,8 @@
 この解からの揺らぎを計算するならば、その揺らぎをそれぞれ
 $\tilde{G} = G + |G|^{\frac{2-q}{2}}g$、
 $\tilde{\Sigma} = \Sigma + |G|^{\frac{2-q}{2}}\sigma$とするのが便利である。
-この様にしても測度は不変である: $d\tilde{G}d\tilde{\Sigma} = dgd\sigma$。
+この様にしても測度は不変である: 
+$\mathcal{D}\tilde{G}\mathcal{D}\tilde{\Sigma} = \mathcal{D}g\mathcal{D}\sigma$。
 作用を$g,\sigma$の2次まで展開し、シュウィンガー・ダイソン方程式$G = (\partial_t - \Sigma)^{-1}$
 を用いると、揺らぎ$g,\sigma$の作用を得る:
 \begin{align}
@@ -76,8 +77,22 @@ $h=2$の固有値は1から\eqref{eq:corrected_eigenvalue}式に修正され、
 		\left[
 			\left(\epsilon''\right)^2 - \left(\frac{2\pi}{\beta}\right)^2(\epsilon')^2
 		\right],\hspace{20pt}
-	\alpha_S \equiv \frac{\alpha_K}{6q^2\alpha_0} = \frac{q||k'_c(2)|\alpha_G}{6q^2\alpha_0}
+	\alpha_S \equiv \frac{\alpha_K}{6q^2\alpha_0} = \frac{q|k'_c(2)|\alpha_G}{6q^2\alpha_0}
+	\label{eq:action_for_epsilon}
 \end{align}
-を得る。
+という有限の作用を得る。
+従って共形対称性は自発的にも、また陽にも破れる。
+次に\eqref{eq:action_for_epsilon}式に有限のリパラメトリゼーション$t\to f(t)$を施した表式を求めたい。
+これには零温度から始めるのが良い。
+従って$t$や$f$は直線上の座標となる。
+$f(t)$はマクローリン展開すれば
+\begin{align}
+	f(t) = f(0) + f'(0)\left(t
+		+ \frac{1}{2}\frac{f''(0)}{f'(0)}t^2 + \cdots
+	\right)
+\end{align}
+となり、小さい$t$に関しては、スケーリングや並進によって
+$\epsilon' = 0, \epsilon'' = f''/f'$となるような微小変換を得る。
+
 
 \pagebreak

@@ -123,7 +123,7 @@ Conformal Quantum Mechanicsの頭文字を取ってCQMと表記する事もあ�
 	\label{eq:D_and_Kc}
 \end{align}
 となる。
-ただし、計算の際に現れる表面項の取扱いには注意を要する。
+ただし、この可換性を示す計算の際に現れる表面項の取扱いには注意を要する。
 $K_c$の固有関数を$\Psi_h$とすると、固有値方程式は
 \begin{align}
 	\int dt_1dt_2\ \Psi_h(t_1, t_2) K(t_1, t_2; t_3, t_4)
@@ -555,7 +555,7 @@ $\delta G$から生じる。
 摂動パラメータは結合の大きさの逆数$(\beta J)^{-1}$である。
 
 共形極限において、零温度と有限温度での両方の解$\eqref{eq:conformal_ansatz}$式は
-$t$のパラメータ付け替え不変性によって互いに等しいものであったが、摂動$\delta K$によって
+$t$のリパラメトリゼーション不変性によって互いに等しいものであったが、摂動$\delta K$によって
 共形対称性が破れるため、2つの解を等しいとする事はできない。
 そこで最初から有限温度で議論し、周期を$\beta$から$2\pi$にするために
 角度座標$\theta = 2\pi t / \beta$を導入する。値の範囲は$\theta \in [0, 2\pi]$である。
@@ -630,8 +630,8 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 
 \subsubsection{$\Psi_{2,n}$の具体型}
 まず最初に$\Psi_{2,n}$の具体型を求める。
-このためにパラメータ付け替え不変性を活用する。
-共形極限におけるシュウィンガー・ダイソン方程式\eqref{eq:conformalSD}式はパラメータ付け替え不変性を持つ。
+このためにリパラメトリゼーション不変性を活用する。
+共形極限におけるシュウィンガー・ダイソン方程式\eqref{eq:conformalSD}式はリパラメトリゼーション不変性を持つ。
 これによって$\theta\to\theta + \epsilon(\theta)$という様にリパラメトライズしたとすると
 変化分$\delta_{\epsilon}G_c$は
 \begin{align}
@@ -882,7 +882,7 @@ $O(1)$の寄与の計算は後で$q=\infty$において計算する。
 \end{align}
 となる。
 さらに共形極限において\eqref{eq:eigenfunc_of_Kc_is_reparametrization}式から
-$h=2$の固有関数はパラメータ付け替え$\theta\to\theta + \epsilon(\theta)$
+$h=2$の固有関数はリパラメトリゼーション$\theta\to\theta + \epsilon(\theta)$
 による変化分$\delta_{\epsilon}G$そのものであった事から、特に$\epsilon_n \propto e^{-in\theta}$
 として
 \begin{align}
@@ -905,7 +905,7 @@ $\average{\epsilon_n\epsilon_{-n}}$はフーリエ変換によって
 \end{align}
 と変換される。
 \eqref{eq:F_big}式の$n$を走る和はこの2点関数と
-パラメータ付け替え\eqref{eq:reparameterization_fomula}式を用いる事によって計算できる。
+リパラメトリゼーション\eqref{eq:reparameterization_fomula}式を用いる事によって計算できる。
 結果は4つのフェルミオンの順番によって変わり、
 $\average{\psi_i\psi_i\psi_j\psi_j}$か$\average{\psi_i\psi_j\psi_i\psi_j}$かで場合分け
 する必要がある。
@@ -1063,6 +1063,5 @@ $\chi < 1$の時は
 $\chi > 1$に関しては
 $\frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)\to \Psi_h(\chi)$
 という置き換えをすると得る事ができる。
-
 
 \pagebreak

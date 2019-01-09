@@ -1,4 +1,18 @@
 \section{2点関数\label{sec:twopointfunc}}
+ここではラージ$N$におけるSYK模型の2点関数について述べる。
+最初に2点関数の従うシュウィンガー・ダイソン方程式を示し、そこから
+リーディングオーダーで寄与するファインマンダイアグラムがメロンダイアグラムと呼ばれる
+ものである事を見る。
+
+次にシュウィンガー・ダイソン方程式が低エネルギー極限でリパラメトリゼーション不変性を
+持つ事を見る。
+この不変性は、古典解として共形対称性を持つものを選ぶ事によって自発的に破れる。
+この共形古典解を用いて、第\ref{sec:fourpointfunc}節で4点関数の解析を行う。
+
+シュウィンガー・ダイソン方程式の解析解は共形古典解の他にも、
+相互作用するフェルミオンの数$q$についてラージ極限を取ったものや、$q=2$の時にも知られている。
+ただし本論文では$q=2$のケースは重要ではないので扱わない。
+特にラージ$q$については自由エネルギーやエントロピーにも触れる。
 
 \subsection{シュウィンガー・ダイソン方程式}
 \begin{figure}[ht]
@@ -18,7 +32,7 @@ SYK模型の作用は
 \end{align}
 である。
 これを$J_{ijkl}$について期待値を取り、その後フェルミオンを積分するために
-2つのbi-local場$G(t_1, t_2)$, $\Sigma(t_1, t_2)$を導入すると
+2つの双局所場$G(t_1, t_2)$, $\Sigma(t_1, t_2)$を導入すると
 \begin{align}
   \frac{I_{\mathrm eff}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
@@ -26,6 +40,8 @@ SYK模型の作用は
   \label{eq:effectiveAction}
 \end{align}
 を得る\footnote{詳しい計算は\ref{app:effective_action}を参照すること.}。
+$\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
+ラグランジュの未定乗数である。
 \eqref{eq:effectiveAction}式の停留点が次式のシュウィンガー・ダイソン方程式を与える:
 \begin{align}
   G(\omega)^{-1} = -i\omega - \Sigma(\omega),
@@ -94,7 +110,7 @@ SYK模型の作用は
 	\label{eq:conformalSD}
 \end{align}
 と書き改める事ができる.
-これらの2つの式は次のようなパラメータ付け替え不変性を持つ:
+これらの2つの式は次のようなリパラメトリゼーション不変性を持つ:
 \begin{align}
 	G(t_1, t_2) \to (f(t_1)f(t_2))^{\Delta}G(f(t_1),f(t_2)),
 	\hspace{20pt}
@@ -102,7 +118,7 @@ SYK模型の作用は
 	\label{eq:reparametrization_of_G_and_Sigma}
 \end{align}
 ここで$\Delta = 1 / q$である。
-我々は解として次のような形を仮定する:
+この不変性は、解として次のような形を仮定すると共形対称性に自発的に破れる:
 \begin{align}
 	G_c(t) = \frac{b}{|t|^{2\Delta}}\mathrm{sgn}(t),
 	\hspace{20pt}

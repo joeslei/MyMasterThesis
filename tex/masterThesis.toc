@@ -1,32 +1,32 @@
 \contentsline {section}{\numberline {1}はじめに: SYK模型とは}{1}{section.1}
-\contentsline {section}{\numberline {2}2点関数}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}シュウィンガー・ダイソン方程式}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}共形不変性}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{4}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{4}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{5}{subsubsection.2.3.2}
-\contentsline {subsection}{\numberline {2.4}自由エネルギー及びエントロピー}{6}{subsection.2.4}
-\contentsline {section}{\numberline {3}4点関数}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}$K_c$の対角化}{9}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}$\mathcal {F}_n(\chi )$の性質}{10}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}カシミール演算子$C_{1+2}の固有関数$}{11}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}$K_c$の固有値}{12}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}$\delimiter "426830A \Psi _h, \Psi _h \delimiter "526930B $と$\delimiter "426830A \Psi _h, \mathcal {F}_0 \delimiter "526930B $}{13}{subsubsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{14}{subsubsection.3.1.5}
-\contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{15}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{17}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{17}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{19}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}$q=\infty $における$h=2$の寄与}{20}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{21}{subsection.3.3}
-\contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論}{22}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのSYK模型}{23}{section.5}
-\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{24}{section.6}
-\contentsline {section}{\numberline {7}終わりに}{25}{section.7}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{26}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{29}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{30}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{31}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{31}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{33}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{33}{subsection.D.3}
+\contentsline {section}{\numberline {2}2点関数}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}シュウィンガー・ダイソン方程式}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}共形不変性}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{5}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{5}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{6}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}自由エネルギー及びエントロピー}{7}{subsection.2.4}
+\contentsline {section}{\numberline {3}4点関数}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}$K_c$の対角化}{10}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}$\mathcal {F}_n(\chi )$の性質}{12}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}カシミール演算子$C_{1+2}の固有関数$}{13}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}$K_c$の固有値}{14}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}$\delimiter "426830A \Psi _h, \Psi _h \delimiter "526930B $と$\delimiter "426830A \Psi _h, \mathcal {F}_0 \delimiter "526930B $}{15}{subsubsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{16}{subsubsection.3.1.5}
+\contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{17}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{19}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{19}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{22}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}$q=\infty $における$h=2$の寄与}{23}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{24}{subsection.3.3}
+\contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論}{25}{section.4}
+\contentsline {section}{\numberline {5}量子カオスとしてのSYK模型}{27}{section.5}
+\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{28}{section.6}
+\contentsline {section}{\numberline {7}終わりに}{29}{section.7}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{30}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{33}{appendix.B}
+\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{34}{appendix.C}
+\contentsline {section}{\numberline {付録D}量子カオス }{35}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{35}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{37}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{37}{subsection.D.3}

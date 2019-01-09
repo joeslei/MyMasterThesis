@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  29 DEC 2018 21:46
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  9 JAN 2019 15:47
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -351,7 +351,17 @@ Package: luatexja-compat 2017/05/05 Compatibility with pTeX
 ))
 \jsc@mpt=\dimen121
 \jsc@mmm=\dimen122
+\ltjs@@magnify@font@calc=\luafunction15
 \jsc@smallskipamount=\skip41
+(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man9-regular.luc)
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.44485pt on input line 408.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 408.
+luaotfload | aux : font no 22 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 22
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 408.
 \fullwidth=\dimen123
@@ -359,9 +369,9 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 man8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 7.3977pt on input line 549.
-luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 25 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 21
+luaotfload | aux : no font with id 25
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.3977pt on input line 549.
 \c@part=\count92
@@ -380,7 +390,8 @@ LaTeX Info: Redefining \gt on input line 1203.
 \jsc@tocl@width=\dimen124
 \@lnumwidth=\dimen125
 \bibindent=\dimen126
- (/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty
+
+(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty
 Package: jslogo 2017/02/24 okumura, texjporg
 LaTeX Info: Redefining \TeX on input line 94.
 LaTeX Info: Redefining \LaTeX on input line 147.
@@ -686,20 +697,23 @@ LaTeX Info: Redefining \nameref on input line 19.
 che/generic/fonts/otl/lmroman17-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 3.
-luaotfload | aux : font no 24 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 28 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 24
+luaotfload | aux : no font with id 28
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 3.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
 man12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 3.
-luaotfload | aux : font no 27 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 31 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 27
+luaotfload | aux : no font with id 31
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 3.
+LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 3.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 7.76755pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 3.
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
@@ -723,31 +737,32 @@ LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/font
 s-japanese-gothic.luc)(load cache: /home/kuro/.texlive2017/texmf-var/luatexja/ex
 tra_ipaexgothic.luc)
-luaotfload | aux : font no 48 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 48
+luaotfload | aux : no font with id 53
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 21.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
 ns10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 21.
-luaotfload | aux : font no 52 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 13.31584pt on input line 21.
+luaotfload | aux : font no 57 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 52
+luaotfload | aux : no font with id 57
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 21.
+(Font)              scaled to size 13.31584pt on input line 21.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 21.
-luaotfload | aux : font no 54 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 13.31584pt on input line 21.
+luaotfload | aux : font no 59 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 54
+luaotfload | aux : no font with id 59
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 21.
+(Font)              scaled to size 13.31584pt on input line 21.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
 ns12-regular.luc) (./masterThesis.toc
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 3.
+(Font)              scaled to size 6.47295pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 3.
 )
@@ -758,91 +773,139 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (./sections/introduction.tex(load luc: /home/kuro/.texlive2017/texmf-var/luatex-
 cache/generic/fonts/otl/lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 20.
-luaotfload | aux : font no 48 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 8.44485pt on input line 21.
+luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 48
+luaotfload | aux : no font with id 53
 LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 20.
-)
+(Font)              scaled to size 8.44485pt on input line 21.
+
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] (./sections/twopointfunc.tex
+[1])
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2] (./sections/twopointfunc.tex
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 3.
-luaotfload | aux : font no 78 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 11.09656pt on input line 17.
+luaotfload | aux : font no 83 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 78
+luaotfload | aux : no font with id 83
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 3.
-<figures/melonDiagram.jpeg, id=150, 1027.84pt x 550.055pt>
+(Font)              scaled to size 11.09656pt on input line 17.
+<figures/melonDiagram.jpeg, id=160, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
-Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 6.
+Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 20.
 (luatex.def)             Requested size: 398.33858pt x 213.17767pt.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 9.
-luaotfload | aux : font no 82 (nil) does not define feature vrt2 for script dflt
+(Font)              scaled to size 8.32242pt on input line 23.
+luaotfload | aux : font no 87 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 82
+luaotfload | aux : no font with id 87
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 9.
+(Font)              scaled to size 8.32242pt on input line 23.
+LaTeX Font Info:    Calculating math sizes for size <9.85501> on input line 23.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 23.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5> not available
+(Font)              size <5> substituted on input line 23.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 23.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.82565pt on input line 23.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.16121pt on input line 23.
+[3<./figures/melonDiagram.jpeg>](load luc: /home/kuro/.texlive2017/texmf-var/lua
+tex-cache/generic/fonts/otl/lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 42.
+luaotfload | aux : font no 104 (nil) does not define feature vrt2 for script dfl
+t with language dflt
+luaotfload | aux : no font with id 104
+LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 42.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 42.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 42.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
+(Font)              size <6> substituted on input line 42.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
+(Font)              size <5> substituted on input line 42.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 42.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 42.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.17834pt on input line 42.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 3.69885pt on input line 42.
 (load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man7-regular.luc)
+man6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 28.
-luaotfload | aux : font no 91 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 91(load luc: /home/kuro/.texlive2017/texmf-va
-r/luatex-cache/generic/fonts/otl/lmroman6-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.54828pt on input line 28.
-luaotfload | aux : font no 93 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 93
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=175, 462.528pt x 346.896pt>
+(Font)              scaled to size 5.17834pt on input line 42.
+luaotfload | aux : font no 117 (nil) does not define feature vrt2 for script dfl
+t with language dflt
+luaotfload | aux : no font with id 117
+<figures/J10.png, id=178, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
-Package luatex.def Info: figures/J10.png  used on input line 66.
+Package luatex.def Info: figures/J10.png  used on input line 82.
 (luatex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-Overfull \hbox (23.72418pt too wide) in paragraph at lines 66--69
+Overfull \hbox (27.13602pt too wide) in paragraph at lines 82--85
  [][] 
  []
 
-<figures/J50.png, id=176, 462.528pt x 346.896pt>
+<figures/J50.png, id=179, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
-Package luatex.def Info: figures/J50.png  used on input line 74.
+Package luatex.def Info: figures/J50.png  used on input line 90.
 (luatex.def)             Requested size: 227.62204pt x 170.71628pt.
 
-Overfull \hbox (23.72418pt too wide) in paragraph at lines 74--76
+Overfull \hbox (27.13602pt too wide) in paragraph at lines 90--92
  [][] 
  []
 
-[3<./figures/J10.png><./figures/J50.png>]
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 138.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 138.
 
-[4] [5] [6]) [7] (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=285, 927.465pt x 137.51375pt>
+[5<./figures/J10.png><./figures/J50.png>] [6] [7]) [8]
+(./sections/fourpointfunc.tex
+<figures/ladderDiagram.jpg, id=296, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
 (luatex.def)             Requested size: 369.88582pt x 54.84296pt.
- [8<./figures/ladderDiagram.jpg>]
+ [9<./figures/ladderDiagram.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 81.
@@ -859,15 +922,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 man5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 84.
-luaotfload | aux : font no 95 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 95 [9]
-<figures/circle.jpg, id=336, 1024.82875pt x 301.125pt>
+luaotfload | aux : font no 119 (nil) does not define feature vrt2 for script dfl
+t with language dflt
+luaotfload | aux : no font with id 119 [10] [11]
+<figures/circle.jpg, id=353, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
 Package luatex.def Info: figures/circle.jpg  used on input line 212.
 (luatex.def)             Requested size: 312.9803pt x 91.96014pt.
- [10] [11<./figures/circle.jpg>] [12]
+ [12<./figures/circle.jpg>]
+Overfull \hbox (3.52211pt too wide) detected at line 262
+[][]
+ []
+
+[13]
+Overfull \hbox (16.62383pt too wide) detected at line 337
+[][]
+ []
+
 
 LaTeX Warning: Command \d invalid in math mode on input line 378.
 
@@ -876,25 +948,40 @@ Missing character: There is no ̣ (U+0323) in font cmmi10!
 LaTeX Warning: Command \d invalid in math mode on input line 378.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
-[13] [14]
-<figures/poles.jpg, id=420, 1027.84pt x 452.69125pt>
+[14] [15]
+<figures/poles.jpg, id=424, 1027.84pt x 452.69125pt>
 File: figures/poles.jpg Graphic file (type jpg)
 <use figures/poles.jpg>
 Package luatex.def Info: figures/poles.jpg  used on input line 508.
 (luatex.def)             Requested size: 312.9803pt x 137.84613pt.
+ [16]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 548.
 
+[17<./figures/poles.jpg>] [18] [19] [20] [21] [22] [23]
+Overfull \hbox (8.9058pt too wide) detected at line 1061
+[][]
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 548.
+) [24] (./sections/effective_theory.tex [25]) [26]
+(./sections/syk_as_quantum_chaos.tex) [27] (./sections/gravity.tex) [28]
+(./sections/conclusion.tex) [29] (./appendices/effective_action.tex [30]
+Overfull \hbox (9.60281pt too wide) detected at line 103
+[][]
+ []
 
-[15<./figures/poles.jpg>] [16] [17] [18] [19] [20]) [21]
-(./sections/effective_theory.tex) [22] (./sections/syk_as_quantum_chaos.tex)
-[23] (./sections/gravity.tex) [24] (./sections/conclusion.tex) [25]
-(./appendices/effective_action.tex [26] [27]) [28] (./appendices/b.tex
+[31]) [32] (./appendices/b.tex
+LaTeX Font Info:    Calculating math sizes for size <15.768> on input line 1.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.32104pt on input line 1.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.65793pt on input line 1.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -911,7 +998,7 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [29] (./appendices/ads_cft.tex) [30] (./appendices/quantum_chaos.tex(load luc:
+) [33] (./appendices/ads_cft.tex) [34] (./appendices/quantum_chaos.tex(load luc:
  /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-itali
 c.luc)
 
@@ -921,32 +1008,32 @@ LaTeX Font Warning: Font shape `JT3/mc/m/it' undefined
 LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 59.
-[31]
-<figures/figure7.png, id=688, 216.81pt x 216.81pt>
+(Font)              scaled to size 6.75587pt on input line 59.
+[35]
+<figures/figure7.png, id=713, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
 Package luatex.def Info: figures/figure7.png  used on input line 86.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=689, 216.81pt x 216.81pt>
+<figures/figure44.png, id=714, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
 Package luatex.def Info: figures/figure44.png  used on input line 90.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=690, 216.81pt x 216.81pt>
+<figures/figure99.png, id=715, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
 Package luatex.def Info: figures/figure99.png  used on input line 94.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
 
-Overfull \hbox (14.13136pt too wide) in paragraph at lines 83--99
+Overfull \hbox (15.97984pt too wide) in paragraph at lines 83--99
  [][][][] 
  []
 
-[32<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
-[33] (./sections/references.tex)
+[36<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
+[37] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
- [34]
+ [38]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
@@ -955,20 +1042,24 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8DE181CF452F51E2F240A1D095373FC9;1467.
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 8895 strings out of 494480
- 305193,266212 words of node,token memory allocated
- 44615 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 180 glue, 474 kern, 14060 attribute, 2228 glue_spe
-c, 712 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
-   avail lists: 1:13,2:81835,3:344,4:510,5:146,6:3321,7:3539,8:2653,9:1572,10:43
+ 9065 strings out of 494480
+ 305198,266212 words of node,token memory allocated
+ 49544 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 190 glue, 539 kern, 15680 attribute, 2458 glue_spe
+c, 793 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:14,2:76636,3:377,4:481,5:146,6:3045,7:3083,8:2307,9:1458,10:43
 ,11:220
- 12067 multiletter control sequences out of 65536+600000
- 102 fonts using 55628671 bytes
+ 12152 multiletter control sequences out of 65536+600000
+ 135 fonts using 77268487 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/
@@ -1002,10 +1093,10 @@ amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (36 pages, 1249909 bytes).
+Output written on masterThesis.pdf (40 pages, 1261312 bytes).
 
-PDF statistics: 906 PDF objects out of 1000 (max. 8388607)
- 772 compressed objects within 8 object streams
- 277 named destinations out of 1000 (max. 131072)
+PDF statistics: 931 PDF objects out of 1000 (max. 8388607)
+ 793 compressed objects within 8 object streams
+ 282 named destinations out of 1000 (max. 131072)
  169 words of extra memory for PDF output out of 10000 (max. 100000000)
 
