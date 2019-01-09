@@ -93,6 +93,25 @@ $f(t)$はマクローリン展開すれば
 \end{align}
 となり、小さい$t$に関しては、スケーリングや並進によって
 $\epsilon' = 0, \epsilon'' = f''/f'$となるような微小変換を得る。
-
+このスケーリングや並進は零温度2点関数に影響しないため、
+次式のような微小変換から有限の変換への一般化が可能である:
+\begin{align}
+	\frac{1}{2}\int dt\ (\epsilon'')^2 \to 
+	\frac{1}{2}\int dt\ \left(\frac{f''}{f'}\right)^2.
+\end{align}
+これによって作用\eqref{eq:action_for_epsilon}式は
+\begin{align}
+	S = -N\frac{\alpha_S}{\mathcal{J}}\int dt\ \{f, t\},\hspace{20pt}
+	\{f, t\} = \frac{f'''}{f'} - \frac{3}{2}\left(\frac{f''}{f'}\right)
+	\label{eq:Schwartzian_action}
+\end{align}
+となる。$\{f,t\}$はシュワルツ微分である。
+シュワルツ微分は$SL(2, \mathbb{R})$変換$f \to \frac{af + b}{cf + d}$の下で不変である。
+零温度では$G_c$が$SL(2, \mathbb{R})$不変なので、この対称性は厳密なものである。
+有限温度に移るには
+\begin{align}
+	f(t) = \tan\left(\frac{\pi t}{\beta}\right)
+\end{align}
+という変換をすればよい。
 
 \pagebreak

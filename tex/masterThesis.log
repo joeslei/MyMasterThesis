@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  9 JAN 2019 15:47
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  9 JAN 2019 18:19
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.081 seconds
+luaotfload | main : initialization completed in 0.085 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -1010,17 +1010,17 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.75587pt on input line 59.
 [35]
-<figures/figure7.png, id=713, 216.81pt x 216.81pt>
+<figures/figure7.png, id=717, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
 Package luatex.def Info: figures/figure7.png  used on input line 86.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=714, 216.81pt x 216.81pt>
+<figures/figure44.png, id=718, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
 Package luatex.def Info: figures/figure44.png  used on input line 90.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=715, 216.81pt x 216.81pt>
+<figures/figure99.png, id=719, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
 Package luatex.def Info: figures/figure99.png  used on input line 94.
@@ -1051,14 +1051,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9065 strings out of 494480
+ 9069 strings out of 494480
  305198,266212 words of node,token memory allocated
- 49544 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 190 glue, 539 kern, 15680 attribute, 2458 glue_spe
-c, 793 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+ 49995 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 191 glue, 545 kern, 15820 attribute, 2482 glue_spe
+c, 800 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
    avail lists: 1:14,2:76636,3:377,4:481,5:146,6:3045,7:3083,8:2307,9:1458,10:43
 ,11:220
- 12152 multiletter control sequences out of 65536+600000
+ 12153 multiletter control sequences out of 65536+600000
  135 fonts using 77268487 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf
@@ -1093,10 +1093,10 @@ amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (40 pages, 1261312 bytes).
+Output written on masterThesis.pdf (40 pages, 1263957 bytes).
 
-PDF statistics: 931 PDF objects out of 1000 (max. 8388607)
- 793 compressed objects within 8 object streams
- 282 named destinations out of 1000 (max. 131072)
+PDF statistics: 935 PDF objects out of 1000 (max. 8388607)
+ 797 compressed objects within 8 object streams
+ 285 named destinations out of 1000 (max. 131072)
  169 words of extra memory for PDF output out of 10000 (max. 100000000)
 
