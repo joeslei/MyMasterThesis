@@ -1,5 +1,34 @@
 \section{量子カオスとしてのSYK模型}
-この節ではSYK模型の量子カオスの性質を述べる
-\footnote{この節の内容は\cite{polchinski_chaos}及び\cite{stanford_chaos}による。}。
+
+\subsection{量子重力}
+量子重力の大きい謎の1つは、ブラックホールのミクロな状態が持つ離散スペクトラムの起源である。
+量子論が本質的に持つ離散スペクトラムの存在は、2点関数を用いる事によって調べる事ができる:
+\begin{align}
+	G(t)
+		&= \frac{1}{Z(\beta)}\mathrm{tr}\left[e^{-\beta H}O(t)O(0)\right]\nonumber\\
+		&= \frac{1}{Z(\beta)}\sum_{m, n}e^{-\beta E_m}
+			|\langle m|O|n \rangle|^2e^{i(E_m - E_n)t}.
+	\label{eq:twopointfunc_of_O}
+\end{align}
+ここで$O$はあるエルミート演算子、$Z = \mathrm{tr}(e^{-\beta H})$は分配関数、
+そして$|n\rangle$は固有値$E_n$を持つエネルギーの固有状態である。
+$t$が小さい時は級数を粗子化して滑らかな密度の積分に置き換える事ができ、$G(t)$は指数関数的に0に落ちる。
+しかしこの振る舞いはずっと続く訳ではなく、$t$が大きい時にはスペクトラムの離散性が重要になっていき、
+\eqref{eq:twopointfunc_of_O}式の波の位相によって$G(t)$は激しく振動し、もはや0には落ちない。
+
+ホログラフィック原理において、粗子化による近似は古典重力への量子補正を加えた摂動計算と同じであり、
+この近似の範疇では$G(t)$の値はずっと落ち続ける。
+よって量子論の持つ離散性が見えておらず、量子重力ではそれに対する補正項の存在があるはずである。
+
+離散スペクトラムの存在を調べるには、2点関数よりも次式のような量を用いる方が単純化される:
+\begin{align}
+	Z(\beta, t) = \mathrm{tr}\ e^{-\beta H - itH}.
+\end{align}
+これは分配関数$Z(\beta)$を$\beta\to\beta + it$のように解析接続して得られる。
+$t$が大きい時では$Z(\beta, t)$は$G(t)$と同様に激しく振動する。
+
+\subsection{SYK模型のスペクトラル形状因子}
+
+\subsection{スペクトラル形状因子の$G$、$\Sigma$による記述}
 
 \pagebreak
