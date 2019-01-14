@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  14 JAN 2019 18:13
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  14 JAN 2019 21:19
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.084 seconds
+luaotfload | main : initialization completed in 0.083 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -961,40 +961,40 @@ Overfull \hbox (8.9058pt too wide) detected at line 1061
 
 ) [24] (./sections/effective_theory.tex [25]) [26]
 (./sections/syk_as_quantum_chaos.tex [27]
-<figures/spectralformfactor.png, id=650, 656.4525pt x 461.725pt>
+<figures/spectralformfactor.png, id=649, 656.4525pt x 461.725pt>
 File: figures/spectralformfactor.png Graphic file (type png)
 <use figures/spectralformfactor.png>
-Package luatex.def Info: figures/spectralformfactor.png  used on input line 100.
+Package luatex.def Info: figures/spectralformfactor.png  used on input line 108.
 
 (luatex.def)             Requested size: 284.52756pt x 200.13013pt.
  [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 124.
+(hyperref)                removing `\Sigma' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 143.
 
-) [29<./figures/spectralformfactor.png>] (./sections/gravity.tex) [30]
-(./sections/conclusion.tex) [31] (./appendices/effective_action.tex [32]
+) [29<./figures/spectralformfactor.png>] [30] (./sections/gravity.tex) [31]
+(./sections/conclusion.tex) [32] (./appendices/effective_action.tex [33]
 Overfull \hbox (9.60281pt too wide) detected at line 103
 [][]
  []
 
-[33]) [34] (./appendices/b.tex
+[34]) [35] (./appendices/b.tex
 LaTeX Font Info:    Calculating math sizes for size <15.768> on input line 1.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.32104pt on input line 1.
@@ -1017,7 +1017,7 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [35] (./appendices/quantum_chaos.tex(load luc: /home/kuro/.texlive2017/texmf-v
+) [36] (./appendices/quantum_chaos.tex(load luc: /home/kuro/.texlive2017/texmf-v
 ar/luatex-cache/generic/fonts/otl/lmroman8-italic.luc)
 
 LaTeX Font Warning: Font shape `JT3/mc/m/it' undefined
@@ -1027,18 +1027,18 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.75587pt on input line 59.
-[36]
-<figures/figure7.png, id=760, 216.81pt x 216.81pt>
+[37]
+<figures/figure7.png, id=765, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
 Package luatex.def Info: figures/figure7.png  used on input line 86.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=761, 216.81pt x 216.81pt>
+<figures/figure44.png, id=766, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
 Package luatex.def Info: figures/figure44.png  used on input line 90.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=762, 216.81pt x 216.81pt>
+<figures/figure99.png, id=767, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
 Package luatex.def Info: figures/figure99.png  used on input line 94.
@@ -1048,16 +1048,16 @@ Overfull \hbox (15.97984pt too wide) in paragraph at lines 83--99
  [][][][] 
  []
 
-[37<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
-[38] (./sections/references.tex)
+[38<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
+[39] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
- [39]
+ [40]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3C9E82E6C70B601907B01210C3491476;1649.
+(rerunfilecheck)             Checksum: AD9D35216A7CCA20DAF9BBC761DB957A;1637.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1069,12 +1069,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9086 strings out of 494480
- 305197,266212 words of node,token memory allocated
- 52224 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 220 glue, 545 kern, 16380 attribute, 2652 glue_spe
-c, 828 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:15,2:83197,3:377,4:481,5:146,6:3162,7:3106,8:2325,9:1458,10:43
+ 9089 strings out of 494480
+ 381498,266212 words of node,token memory allocated
+ 52890 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 228 glue, 545 kern, 16580 attribute, 2690 glue_spe
+c, 838 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:18,2:90209,3:377,4:481,5:146,6:3477,7:3248,8:2448,9:1458,10:43
 ,11:220
  12161 multiletter control sequences out of 65536+600000
  132 fonts using 73124623 bytes
@@ -1111,10 +1111,10 @@ msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb>
-Output written on masterThesis.pdf (42 pages, 1388515 bytes).
+Output written on masterThesis.pdf (43 pages, 1393472 bytes).
 
-PDF statistics: 974 PDF objects out of 1000 (max. 8388607)
- 833 compressed objects within 9 object streams
- 296 named destinations out of 1000 (max. 131072)
+PDF statistics: 979 PDF objects out of 1000 (max. 8388607)
+ 837 compressed objects within 9 object streams
+ 299 named destinations out of 1000 (max. 131072)
  185 words of extra memory for PDF output out of 10000 (max. 100000000)
 
