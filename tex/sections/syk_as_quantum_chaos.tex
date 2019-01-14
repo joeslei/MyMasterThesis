@@ -86,8 +86,40 @@ SYK模型は良い"研究室"となっている。
 \eqref{eq:spectral_form_factor}式は量子カオスの分野において重要なスペクトラル統計の量であり、
 スペクトラル形状因子と呼ばれる
 \footnote{量子カオスやスペクトラル統計の詳細は\ref{app:quantum_chaos}を参照する事。}。
+これをフーリエ変換したものはエネルギー固有値の2点関数である。
 
 \subsection{SYK模型のスペクトラル形状因子}
+スペクトラル形状因子\eqref{eq:spectral_form_factor}式は、数値解析によって
+SYKハミルトニアンを対角化し、その固有値を集め、これを複数回施行してdisorder averageを取ると
+グラフにプロットする事ができる(図\ref{fig:spectralformfactor})。
+$g(t)$の値は最初は落ちていくが、ある時刻からは上昇し始める。
+その後に長時間平均を与えるplateauに乗る。
+この節の目標のひとつはこの振る舞いの起源や、示唆する所を理解する事である。
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figures/spectralformfactor}
+	\caption{SYK模型のスペクトラル形状因子。粒子数は34個であり、逆温度を$\beta = 5$としている。
+		また$J_{ijkl}$のサンプルを90個用意した。
+		ここでは横軸として時間に$J_{ijkl}$のスケール$J$を掛けて無次元化したものを用いた。
+		最初は$g(t)$の値がゼロに落ちている。この領域をslopeと呼ぶ。
+		その次には値が上昇している領域があり、この部分はrampと呼ぶ。
+		rampは$t$に比例している。
+		その後の水平な領域はplateauと呼ばれ、長時間平均を取った際に現れる値である。
+		rampが終わってplateauに乗る時間をplateau時間$t_p$とする。
+		この図は\cite{polchinski_chaos}より引用した。
+	}
+	\label{fig:spectralformfactor}
+\end{figure}
+
+$g(t)$はdisorder averageを取った量であり、ランダムカップリング$J_{ijkl}$についての揺らぎを
+均したものであるため、図\ref{fig:spectralformfactor}のplateauには量子論で期待される大きい揺らぎ
+が存在しない
+\footnote{小さい揺らぎは見られるが、
+	これは$J_{ijkl}$のサンプルを無限個にはできない事による数値計算上の理由である。}。
+disorder averageを取らず、
+1つの$J_{ijkl}$に対してのみプロットすると揺らぎが見られる\cite{polchinski_chaos}。
+
+
 
 \subsection{スペクトラル形状因子の$G$、$\Sigma$による記述}
 

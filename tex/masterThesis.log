@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  14 JAN 2019 17:07
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  14 JAN 2019 18:13
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -473,6 +473,17 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -486,10 +497,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
-))
+)
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
 )
@@ -610,32 +618,32 @@ LaTeX Warning: Unused global option(s):
 (./masterThesis.aux)
 \openout1 = masterThesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty
 Package: lltjp-stfloats 2017/05/05 Patch to stfloats for LuaTeX-ja
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 20.
+LaTeX Info: Redefining \selectfont on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -667,15 +675,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: luatex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -685,37 +685,59 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (./masterThesis.out) (./masterThesis.out)
 \@outlinefile=\write4
 
 \openout4 = masterThesis.out
  (./sections/titlePage.tex(load luc: /home/kuro/.texlive2017/texmf-var/luatex-ca
-che/generic/fonts/otl/lmroman17-regular.luc)
+che/generic/fonts/otl/lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 3.
+(Font)              scaled to size 13.31584pt on input line 1.
 luaotfload | aux : font no 28 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 28
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 3.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man12-regular.luc)
+(Font)              scaled to size 13.31584pt on input line 1.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 3.
+(Font)              scaled to size 11.09656pt on input line 19.
 luaotfload | aux : font no 31 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 31
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 3.
-LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 3.
+(Font)              scaled to size 11.09656pt on input line 19.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 23.
+(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/font
+s-japanese-gothic.luc)(load cache: /home/kuro/.texlive2017/texmf-var/luatexja/ex
+tra_ipaexgothic.luc)
+luaotfload | aux : font no 33 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 33
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 23.
+(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
+ns10-regular.luc) [2]
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 23.
+luaotfload | aux : font no 36 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 36
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 23.
+(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
+ns12-regular.luc) (./masterThesis.toc
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.76755pt on input line 3.
+(Font)              scaled to size 6.47295pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.54828pt on input line 3.
+(Font)              scaled to size 4.62357pt on input line 3.
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -725,60 +747,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: No \author given.
-
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 22.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/font
-s-japanese-gothic.luc)(load cache: /home/kuro/.texlive2017/texmf-var/luatexja/ex
-tra_ipaexgothic.luc)
-luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 53
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 22.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
-ns10-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 22.
-luaotfload | aux : font no 57 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 57
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 22.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 22.
-luaotfload | aux : font no 59 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 59
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 22.
-(load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmsa
-ns12-regular.luc) (./masterThesis.toc
-LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 3.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 3.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 3.
-)
+))
 \tf@toc=\write5
 
 \openout5 = masterThesis.toc
- [2]
+ [3]
 (./sections/introduction.tex(load luc: /home/kuro/.texlive2017/texmf-var/luatex-
 cache/generic/fonts/otl/lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 23.
-luaotfload | aux : font no 53 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 33 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 53
+luaotfload | aux : no font with id 33
 LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
@@ -790,21 +772,21 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2] (./sections/twopointfunc.tex
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 17.
-luaotfload | aux : font no 83 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 60 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 83
+luaotfload | aux : no font with id 60
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 17.
-<figures/melonDiagram.jpeg, id=170, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=173, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 20.
 (luatex.def)             Requested size: 398.33858pt x 213.17767pt.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 23.
-luaotfload | aux : font no 87 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 87
+luaotfload | aux : no font with id 64
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 23.
 LaTeX Font Info:    Calculating math sizes for size <9.85501> on input line 23.
@@ -825,13 +807,15 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.82565pt on input line 23.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 4.16121pt on input line 23.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 [3<./figures/melonDiagram.jpeg>](load luc: /home/kuro/.texlive2017/texmf-var/lua
 tex-cache/generic/fonts/otl/lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 6.47295pt on input line 42.
-luaotfload | aux : font no 104 (nil) does not define feature vrt2 for script dfl
-t with language dflt
-luaotfload | aux : no font with id 104
+luaotfload | aux : font no 84 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 84
 LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 42.
 
 
@@ -866,10 +850,10 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 man6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 5.17834pt on input line 42.
-luaotfload | aux : font no 117 (nil) does not define feature vrt2 for script dfl
+luaotfload | aux : font no 100 (nil) does not define feature vrt2 for script dfl
 t with language dflt
-luaotfload | aux : no font with id 117
-<figures/J10.png, id=189, 462.528pt x 346.896pt>
+luaotfload | aux : no font with id 100
+<figures/J10.png, id=191, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 82.
@@ -879,7 +863,7 @@ Overfull \hbox (27.13602pt too wide) in paragraph at lines 82--85
  [][] 
  []
 
-<figures/J50.png, id=190, 462.528pt x 346.896pt>
+<figures/J50.png, id=192, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 90.
@@ -890,6 +874,13 @@ Overfull \hbox (27.13602pt too wide) in paragraph at lines 90--92
  []
 
 [4]
+LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 138
+.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 7.76755pt on input line 138.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.54828pt on input line 138.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 138.
@@ -900,7 +891,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [5<./figures/J10.png><./figures/J50.png>] [6] [7]) [8]
 (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=306, 927.465pt x 137.51375pt>
+<figures/ladderDiagram.jpg, id=309, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 20.
@@ -922,10 +913,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 man5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 84.
-luaotfload | aux : font no 119 (nil) does not define feature vrt2 for script dfl
+luaotfload | aux : font no 116 (nil) does not define feature vrt2 for script dfl
 t with language dflt
-luaotfload | aux : no font with id 119 [10] [11]
-<figures/circle.jpg, id=363, 1024.82875pt x 301.125pt>
+luaotfload | aux : no font with id 116 [10] [11]
+<figures/circle.jpg, id=365, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
 Package luatex.def Info: figures/circle.jpg  used on input line 212.
@@ -949,7 +940,7 @@ LaTeX Warning: Command \d invalid in math mode on input line 378.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
 [14] [15]
-<figures/poles.jpg, id=434, 1027.84pt x 452.69125pt>
+<figures/poles.jpg, id=436, 1027.84pt x 452.69125pt>
 File: figures/poles.jpg Graphic file (type jpg)
 <use figures/poles.jpg>
 Package luatex.def Info: figures/poles.jpg  used on input line 508.
@@ -970,33 +961,40 @@ Overfull \hbox (8.9058pt too wide) detected at line 1061
 
 ) [24] (./sections/effective_theory.tex [25]) [26]
 (./sections/syk_as_quantum_chaos.tex [27]
+<figures/spectralformfactor.png, id=650, 656.4525pt x 461.725pt>
+File: figures/spectralformfactor.png Graphic file (type png)
+<use figures/spectralformfactor.png>
+Package luatex.def Info: figures/spectralformfactor.png  used on input line 100.
+
+(luatex.def)             Requested size: 284.52756pt x 200.13013pt.
+ [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 92.
+(hyperref)                removing `math shift' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 92.
+(hyperref)                removing `math shift' on input line 124.
 
-) [28] (./sections/gravity.tex) [29] (./sections/conclusion.tex) [30]
-(./appendices/effective_action.tex [31]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Sigma' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+) [29<./figures/spectralformfactor.png>] (./sections/gravity.tex) [30]
+(./sections/conclusion.tex) [31] (./appendices/effective_action.tex [32]
 Overfull \hbox (9.60281pt too wide) detected at line 103
 [][]
  []
 
-[32]) [33] (./appendices/b.tex
+[33]) [34] (./appendices/b.tex
 LaTeX Font Info:    Calculating math sizes for size <15.768> on input line 1.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.32104pt on input line 1.
@@ -1019,7 +1017,7 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [34] (./appendices/quantum_chaos.tex(load luc: /home/kuro/.texlive2017/texmf-v
+) [35] (./appendices/quantum_chaos.tex(load luc: /home/kuro/.texlive2017/texmf-v
 ar/luatex-cache/generic/fonts/otl/lmroman8-italic.luc)
 
 LaTeX Font Warning: Font shape `JT3/mc/m/it' undefined
@@ -1029,18 +1027,18 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 6.75587pt on input line 59.
-[35]
-<figures/figure7.png, id=741, 216.81pt x 216.81pt>
+[36]
+<figures/figure7.png, id=760, 216.81pt x 216.81pt>
 File: figures/figure7.png Graphic file (type png)
 <use figures/figure7.png>
 Package luatex.def Info: figures/figure7.png  used on input line 86.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure44.png, id=742, 216.81pt x 216.81pt>
+<figures/figure44.png, id=761, 216.81pt x 216.81pt>
 File: figures/figure44.png Graphic file (type png)
 <use figures/figure44.png>
 Package luatex.def Info: figures/figure44.png  used on input line 90.
 (luatex.def)             Requested size: 142.26378pt x 142.27127pt.
-<figures/figure99.png, id=743, 216.81pt x 216.81pt>
+<figures/figure99.png, id=762, 216.81pt x 216.81pt>
 File: figures/figure99.png Graphic file (type png)
 <use figures/figure99.png>
 Package luatex.def Info: figures/figure99.png  used on input line 94.
@@ -1050,14 +1048,14 @@ Overfull \hbox (15.97984pt too wide) in paragraph at lines 83--99
  [][][][] 
  []
 
-[36<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
-[37] (./sections/references.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
- [38]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+[37<./figures/figure7.png><./figures/figure44.png><./figures/figure99.png>])
+[38] (./sections/references.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+ [39]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./masterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3C9E82E6C70B601907B01210C3491476;1649.
 
@@ -1071,15 +1069,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 9075 strings out of 494480
- 305212,266212 words of node,token memory allocated
- 52129 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 211 glue, 557 kern, 16460 attribute, 2600 glue_spe
-c, 832 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:15,2:76636,3:377,4:481,5:146,6:3045,7:3083,8:2307,9:1458,10:43
+ 9086 strings out of 494480
+ 305197,266212 words of node,token memory allocated
+ 52224 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 220 glue, 545 kern, 16380 attribute, 2652 glue_spe
+c, 828 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:15,2:83197,3:377,4:481,5:146,6:3162,7:3106,8:2325,9:1458,10:43
 ,11:220
- 12159 multiletter control sequences out of 65536+600000
- 135 fonts using 77268487 bytes
+ 12161 multiletter control sequences out of 65536+600000
+ 132 fonts using 73124623 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/
@@ -1087,36 +1085,36 @@ public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
 n7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf><
 /usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/f
 onts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/pu
-blic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans1
-0-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.ttf></usr/share/t
-exmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/open
-type/public/lm/lmroman17-regular.otf></usr/share/fonts/truetype/fonts-japanese-m
-incho.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (40 pages, 1281920 bytes).
+blic/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.tt
+f></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/f
+onts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fonts/opentype/public/
+lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cme
+xtra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on masterThesis.pdf (42 pages, 1388515 bytes).
 
-PDF statistics: 961 PDF objects out of 1000 (max. 8388607)
- 822 compressed objects within 9 object streams
- 293 named destinations out of 1000 (max. 131072)
+PDF statistics: 974 PDF objects out of 1000 (max. 8388607)
+ 833 compressed objects within 9 object streams
+ 296 named destinations out of 1000 (max. 131072)
  185 words of extra memory for PDF output out of 10000 (max. 100000000)
 
