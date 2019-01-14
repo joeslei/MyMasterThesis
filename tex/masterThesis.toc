@@ -21,15 +21,14 @@
 \contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{24}{subsection.3.3}
 \contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論}{25}{section.4}
 \contentsline {section}{\numberline {5}量子カオスとしてのSYK模型}{27}{section.5}
-\contentsline {subsection}{\numberline {5.1}量子重力}{27}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}SYK模型のスペクトラル形状因子}{27}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{27}{subsection.5.3}
-\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{28}{section.6}
-\contentsline {section}{\numberline {7}終わりに}{29}{section.7}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{30}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{33}{appendix.B}
-\contentsline {section}{\numberline {付録C}AdS/CFT対応及びブラックホール熱力学}{34}{appendix.C}
-\contentsline {section}{\numberline {付録D}量子カオス }{35}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}はじめに: カオスとは何か}{35}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}時間順序外相関関数}{37}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}スペクトラル統計}{37}{subsection.D.3}
+\contentsline {subsection}{\numberline {5.1}量子重力の揺らぎ}{27}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}SYK模型のスペクトラル形状因子}{28}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{28}{subsection.5.3}
+\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{29}{section.6}
+\contentsline {section}{\numberline {7}終わりに}{30}{section.7}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{31}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{34}{appendix.B}
+\contentsline {section}{\numberline {付録C}量子カオス }{35}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}はじめに: カオスとは何か}{35}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}時間順序外相関関数}{37}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}スペクトラル統計}{37}{subsection.C.3}

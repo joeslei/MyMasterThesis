@@ -1,6 +1,6 @@
 \section{量子カオスとしてのSYK模型}
 
-\subsection{量子重力}
+\subsection{量子重力の揺らぎ}
 量子重力の大きい謎の1つは、ブラックホールのミクロな状態が持つ離散スペクトラムの起源である。
 量子論が本質的に持つ離散スペクトラムの存在は、2点関数を用いる事によって調べる事ができる:
 \begin{align}
@@ -26,6 +26,66 @@ $t$が小さい時は級数を粗子化して滑らかな密度の積分に置�
 \end{align}
 これは分配関数$Z(\beta)$を$\beta\to\beta + it$のように解析接続して得られる。
 $t$が大きい時では$Z(\beta, t)$は$G(t)$と同様に激しく振動する。
+
+$t$が大きい時のある量の振る舞いを調べるには時間平均を取るという事がしばしば行われる。
+$Z(\beta, t)$の時間平均はゼロであるので、$Z(\beta, t)$は大きい$t$でゼロのまわりで揺らぐという事が言える。
+その揺らぎの大体のサイズは
+\begin{align}
+	\left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
+	= \frac{1}{Z(\beta)^2}\sum_{m,n}e^{-\beta(E_m + E_n)}e^{i(E_m - E_n)t}
+\end{align}
+で与えられる。
+一般にこの揺らぎのサイズの$t \gg 1$での振る舞いを調べるのは容易ではないが、
+長時間平均を取る事によって計算がいくらか簡単になる。
+長時間平均を取ると有限の位相を持つ波は全てゼロに均され、$E_n-E_m = 0$の項のみが残り次式にたどり着く:
+\begin{align}
+	\lim_{T\to\infty}\frac{1}{T}\int_0^Tdt\ \left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
+	= \frac{1}{Z(\beta)^2}\sum_E N_E^2e^{-2\beta E}.
+\end{align}
+ここで$N_E$は縮退度であり、スペクトラムに縮退が存在しない i.e. $N_E = 1$であるならば
+\begin{align}
+	\lim_{T\to\infty}\frac{1}{T}\int_0^Tdt\ \left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
+	= \frac{Z(2\beta)}{Z(\beta)^2}
+	\label{eq:average_of_fluctuation_of_Z}
+\end{align} 
+となる。
+$Z$のスケールは一般的にエントロピー$S$とある定数$a > 0$を用いて$Z \approx e^{aS}$である。
+よって$Z$の揺らぎの長時間平均\eqref{eq:average_of_fluctuation_of_Z}式は大体
+$e^{-aS}$という大きさを持つ。
+AdS/CFT対応の文脈では$S$はブラックホールエントロピーであり、そのスケールは、
+バルク理論のストリング結合定数$g_s$とニュートン定数$G_N$を用いて、$1/g_s^2 \approx 1/G_N$で与えられる。
+よって\eqref{eq:average_of_fluctuation_of_Z}式はバルク理論における非摂動計算となる。
+ラージブラックホールでは$S$は境界側の場の理論の熱力学的エントロピーであり、その大きさは系の自由度で
+与えられる。
+超対称性非可換ゲージ理論ならば$S\approx N^2$であり、SYK模型ならば$S\approx N$となる。
+いずれにせよ\eqref{eq:average_of_fluctuation_of_Z}式は$1/N$の非摂動的量である。
+
+ここで\eqref{eq:average_of_fluctuation_of_Z}式の左辺を粗子化近似によって計算しようとすると、
+離散スペクトラムを走る和が滑らかな密度の積分に置き換わり、結果としてゼロとなり
+\eqref{eq:average_of_fluctuation_of_Z}式の右辺と一致しない。
+よって$Z$の揺らぎの大きさがゼロにならないのは何故かを探求する事で、
+ブラックホールのスペクトラムの離散性や量子論を探る事ができる。
+この研究において、$\mathcal{N}=4$超対称非可換ゲージ理論よりも解析が可能という理由で
+SYK模型は良い"研究室"となっている。
+
+以下では、基本的にはSYK模型における分配関数の揺らぎの大きさの平均を調べる事になる。
+ただしSYK模型はランダム結合定数$J_{ijkl}$を持つので、長時間平均の代わりに$J_{ijkl}$で平均を
+取る(disorder average):
+\begin{align}
+	g(t) \equiv
+	\frac{\average{Z(\beta, t)Z(\beta, t)^*}_J}{\average{Z(\beta)^2}_J}.
+	\label{eq:spectral_form_factor}
+\end{align}
+ここで分母と分子をまとめて平均操作を施すという選択肢もあるが、ここでは別々に分子と分母の平均を取った。
+このような量を annealed quantity という。
+こうするメリットとしてはレプリカの数が有限で済むという事が挙げられる。
+すなわち、\eqref{eq:spectral_form_factor}式は基本的に$ZZ^*$の期待値なので、
+言ってみれば$Z$に対応する系と$Z^*$のそれというようにSYKの系を２つコピーしたと言える。
+もし分母と分子をまとめて平均取ったとすると、このコピーの数が任意個になってしまう。
+
+\eqref{eq:spectral_form_factor}式は量子カオスの分野において重要なスペクトラル統計の量であり、
+スペクトラル形状因子と呼ばれる
+\footnote{量子カオスやスペクトラル統計の詳細は\ref{app:quantum_chaos}を参照する事。}。
 
 \subsection{SYK模型のスペクトラル形状因子}
 
