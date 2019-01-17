@@ -28,9 +28,3 @@
 \contentsline {subsection}{\numberline {5.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{30}{subsection.5.3}
 \contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{31}{section.6}
 \contentsline {section}{\numberline {7}終わりに}{32}{section.7}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{33}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{36}{appendix.B}
-\contentsline {section}{\numberline {付録C}量子カオス }{37}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}はじめに: カオスとは何か}{37}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}時間順序外相関関数}{39}{subsection.C.2}
-\contentsline {subsection}{\numberline {C.3}スペクトラル統計}{39}{subsection.C.3}

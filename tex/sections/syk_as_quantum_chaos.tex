@@ -137,6 +137,33 @@ RMTにおける$g(t)$は具体的な解析が行われおり、特に行列の�
 その後、それを踏まえてSYK模型に話を移す事にする。
 
 \subsubsection{ランダム行列理論のスペクトラル形状因子}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figures/spectralformfactor_inRMT}
+	\caption{GUEにおけるスペクトラル形状因子。逆温度は$\beta=5$、行列のサイズは$L=4096$であり、
+		サンプル数は1200個である。この図は\cite{polchinski_chaos}より引用した。
+	}
+	\label{fig:spectralformfactor_inRMT}
+\end{figure}
+ここではRMTの簡単なレビューを記述する。
+特にランダム行列の持つ乱数の従う統計集団としてGUEを選ぶ。
+この節の目標は図\ref{fig:spectralformfactor_inRMT}に表示されているGUEスペクトラル形状因子の、
+slopeのlate-timeでの振る舞いやrampの初期の振る舞いを理解する事である。
+結果は両方ともべき乗で表され、それを用いてslopeとrampが接続する時間を計算する。
+なお、この時間をdip timeと呼ぶ。
+
+階数$L$を持つエルミート行列$M$を考える。
+これがGUEに属するとすると、統計平均は
+\begin{align}
+	\mathcal{Z}_{\mathrm{GUE}} = \int \prod_{i, ,j} dM_{ij}\ \exp\left(
+		-\frac{L}{2}\tr\ M^2
+	\right)
+\end{align}
+で与えられる。
+エルミート行列$M$はSYK模型でのハミルトニアンに相当し、階数$L$はヒルベルト空間の次元に
+対応する。
+RMTとSYK模型の間の重要な違いの1つは摂動パラメータの違いである; SYK模型は$1/N$なのに対し、
+RMTは$1/L \approx e^{-N}$である。
 
 \subsubsection{SYK模型のスペクトラル形状因子}
 
