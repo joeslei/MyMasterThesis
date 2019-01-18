@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  17 JAN 2019 16:42
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  18 JAN 2019 13:12
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.168 seconds
+luaotfload | main : initialization completed in 0.141 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -989,34 +989,34 @@ File: figures/spectralformfactor_inRMT.png Graphic file (type png)
 Package luatex.def Info: figures/spectralformfactor_inRMT.png  used on input lin
 e 142.
 (luatex.def)             Requested size: 284.52756pt x 200.13013pt.
- [29<./figures/spectralformfactor.png>]
+ [29<./figures/spectralformfactor.png>] [30<./figures/spectralformfactor_inRMT.p
+ng>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 170.
+(hyperref)                removing `math shift' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `\Sigma' on input line 202.
 
-) [30<./figures/spectralformfactor_inRMT.png>] (./sections/gravity.tex)
-[31] (./sections/conclusion.tex) [32] (./sections/references.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
+
+) [31] (./sections/gravity.tex) [32] (./sections/conclusion.tex) [33]
+(./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
- [33]
+ [34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
-
-(./masterThesis.aux)
+ (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `masterThesis.out' has not changed.
@@ -1032,14 +1032,14 @@ LaTeX Warning: There were undefined references.
 )
 
 Here is how much of LuaTeX's memory you used:
- 8940 strings out of 494407
+ 8946 strings out of 494407
  381503,266212 words of node,token memory allocated
- 52246 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 216 glue, 476 kern, 1 glyph, 14787 attribute, 3398
- glue_spec, 749 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:13,2:91939,3:375,4:479,5:145,6:52,7:6704,8:2442,9:1458,10:43,1
+ 52891 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 218 glue, 482 kern, 1 glyph, 14947 attribute, 3451
+ glue_spec, 757 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:13,2:91771,3:375,4:479,5:145,6:52,7:6702,8:2442,9:1458,10:43,1
 1:216
- 12178 multiletter control sequences out of 65536+600000
+ 12180 multiletter control sequences out of 65536+600000
  118 fonts using 68362487 bytes
  51i,15n,43p,1007b,575s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
@@ -1076,10 +1076,10 @@ public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on masterThesis.pdf (36 pages, 1264091 bytes).
+Output written on masterThesis.pdf (37 pages, 1268187 bytes).
 
-PDF statistics: 853 PDF objects out of 1000 (max. 8388607)
- 725 compressed objects within 8 object streams
- 256 named destinations out of 1000 (max. 131072)
+PDF statistics: 865 PDF objects out of 1000 (max. 8388607)
+ 736 compressed objects within 8 object streams
+ 260 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

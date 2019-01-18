@@ -155,15 +155,48 @@ slopeのlate-timeでの振る舞いやrampの初期の振る舞いを理解す�
 階数$L$を持つエルミート行列$M$を考える。
 これがGUEに属するとすると、統計平均は
 \begin{align}
-	\mathcal{Z}_{\mathrm{GUE}} = \int \prod_{i, ,j} dM_{ij}\ \exp\left(
+	\mathcal{Z}_{\mathrm{GUE}} = \int \prod_{i, j} dM_{ij}\ \exp\left(
 		-\frac{L}{2}\tr\ M^2
 	\right)
+	\label{eq:GUEstatistics}
 \end{align}
 で与えられる。
 エルミート行列$M$はSYK模型でのハミルトニアンに相当し、階数$L$はヒルベルト空間の次元に
 対応する。
 RMTとSYK模型の間の重要な違いの1つは摂動パラメータの違いである; SYK模型は$1/N$なのに対し、
 RMTは$1/L \approx e^{-N}$である。
+
+$M$の分配関数は
+\begin{align}
+	Z(\beta, t) = \tr\ e^{-\beta M - iMt}
+	\label{eq:GUEpartition_function}
+\end{align}
+で定義される。
+スペクトラル形状因子は\eqref{eq:spectral_form_factor}式と同様に定義される。
+ただしdisorder average$\langle \cdot\rangle_J$は\eqref{eq:GUEstatistics}式によるGUEの
+統計平均$\langle\cdot\rangle_{\mathrm{GUE}}$に置き換わる。
+
+次にエルミート行列$M$を対角化し、基底をユニタリ変換する事を考える。
+この変換により、固有値同士の"排斥力"を表すヤコビアンが現れる。
+行列のサイズ$L$のラージ極限を取ると固有値分布はある密度$\rho$によって記述できる。
+この$\rho$を物理的な密度として使い、$\tilde{\rho}$を規格化したものとする:
+\begin{align}
+	\int d\lambda\ \rho(\lambda) = L,\hspace{20pt}
+	\int d\lambda\ \tilde{\rho}(\lambda) = 1,\hspace{20pt}
+	\rho(\lambda) = L\tilde{\rho}(\lambda).
+\end{align}
+\eqref{eq:GUEstatistics}式において$M$のスペクトルを$\tilde{\rho}$として滑らかにすると、
+GUEの統計平均は
+\begin{align}
+	\mathcal{Z}_{\mathrm{GUE}} = \int \mathcal{D}\tilde{\rho}(\lambda)\ e^{-S},
+	\hspace{10pt}
+	S 
+	= -\frac{L^2}{2} \int d\lambda\ \tilde{\rho}(\lambda)\lambda^2
+	+ L^2 \int d\lambda_1 d\lambda_2\ \tilde{\rho}(\lambda_1)\tilde{\rho}(\lambda_2)
+		\log|\lambda_1 - \lambda_2|
+\end{align}
+と書き改められる。
+
 
 \subsubsection{SYK模型のスペクトラル形状因子}
 
