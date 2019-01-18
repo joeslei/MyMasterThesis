@@ -72,7 +72,7 @@ SYK模型は良い"研究室"となっている。
 ただしSYK模型はランダム結合定数$J_{ijkl}$を持つので、長時間平均の代わりに$J_{ijkl}$で平均を
 取る(disorder average):
 \begin{align}
-	g(t) \equiv
+	g(\beta, t) \equiv
 	\frac{\average{Z(\beta, t)Z(\beta, t)^*}_J}{\average{Z(\beta)^2}_J}.
 	\label{eq:spectral_form_factor}
 \end{align}
@@ -196,7 +196,104 @@ GUEの統計平均は
 		\log|\lambda_1 - \lambda_2|
 \end{align}
 と書き改められる。
+この$\mathcal{Z}_{\mathrm{GUE}}$のラージ$L$鞍点はウィグナー半円分布(Wigner semicircle law)
+となる:
+\begin{align}
+	\average{\tilde{\rho}(\lambda)} = \tilde{\rho}_s(\lambda)\equiv
+	\frac{1}{2\pi}\sqrt{4 - \lambda^2}.
+	\label{eq:semicircle_law}
+\end{align}
+固有値間の間隔の平均値はおよそ$1/L$である。
 
+ここまでの準備を踏まえて、GUEのスペクトラル形状因子のslopeとrampについて議論する。
+直接$g$を計算しても良いが、dip time以前と以後で$g$に大きく寄与する成分を大雑把に
+近似する事ができ、dip timeより前ならば非連結部分$g_d$、後ならば連結部分$g_c$となる。
+$g_d$および$g_c$はそれぞれ次式で与えられる:
+\begin{align}
+	g_d(\beta, t)
+	= \frac{\average{Z(\beta, t)}_{\mathrm{GUE}}\average{Z^*(\beta, t)}_{\mathrm{GUE}}}
+		{\average{Z(\beta)}_{\mathrm{GUE}}^2},
+	\label{eq:disconnected_piece}
+\end{align}
+\begin{align}
+	g_c(\beta, t) = g(\beta, t) - g_d(\beta, t).
+	\label{eq:connected_piece}
+\end{align}
+なおSYK模型においても$g_c$と$g_d$は同様にして与えられる(期待値計算はdisorder averageである)。
+
+最初にdip time以前の振る舞いを調べる事にすると、計算するべきは$g_d$である。
+簡単のため$\beta = 0$とする。
+分配関数のラージ$L$での振る舞いは半円分布によって与えられ、次式のような結果となる:
+\begin{align}
+	\average{Z(\beta=0, t)}_{\mathrm{GUE}}
+	= \int_{-2}^2 d\lambda\ L\tilde{\rho}_s(\lambda)e^{-i\lambda t)}
+	= L\frac{J_1(2t)}{t}
+	\approx \frac{L}{t^{3/2}}
+	\hspace{10pt}(t \approx \mathrm{large}).
+\end{align}
+ここで$J_1$は第1種ベッセル関数である。
+よって$t \gg 1$において
+\begin{align}
+	g(\beta = 0, t) \approx g_d(\beta = 0, t) \approx \frac{1}{t^3}
+\end{align}
+となる。有限温度で計算しても計算結果は同じである。
+
+次にdip time以降の時間に移り、rampの存在を導く。
+この時$g \approx g_c$となり、両方とも
+rampやplateauを与えるため$g$と$g_c$のどちらを選んでも良いが、
+$g_c$のrampは初期時刻のあたりまで伸びているため摂動計算がやりやすい。
+
+$g_c$は
+\begin{align}
+	g_c(\beta = 0, t)
+	= \int d\lambda_1 d\lambda_2\ 
+		R_2(\lambda_1, \lambda_2)e^{i(\lambda_1 - \lambda_2)t},
+	\label{eq:g_c_with_beta_0}
+\end{align}
+\begin{align}
+	R_2(\lambda_1, \lambda_2)
+	= \average{\delta\tilde{\rho}(\lambda_1)\delta\tilde{\rho}(\lambda_2)}_{\mathrm{GUE}}
+	\label{eq:fourier_transfomed_g_c}
+\end{align}
+で与えられる。
+ここで$R_2$は$\tilde{\rho}$の連結2点関数であり、また
+$\delta\tilde{\rho}(\lambda) = \tilde{\rho}(\lambda) - \tilde{\rho}_s(\lambda)$
+は半円分布からなる固有値密度\eqref{eq:semicircle_law}式まわりの揺らぎである。
+半円分布のちょうど真ん中付近では、$R_2$は次式のような正弦核の2乗とデルタ関数の和で与えられる:
+\begin{align}
+	R_2(\lambda_1, \lambda_2)
+	= -\frac{\sin^2(L(\lambda_1 - \lambda_2))}{(\pi L(\lambda_1 - \lambda_2))^2}
+		+ \frac{\delta(\lambda_1 - \lambda_2)}{\pi L}.
+	\label{eq:sine_kernel_in_R2}
+\end{align}
+これを\eqref{eq:g_c_with_beta_0}式に代入して積分を計算すると
+\begin{align}
+	g_c(0, t) \approx 
+	\left\{
+		\begin{matrix}
+			t/(2\pi L^2) \hspace{20pt}t < 2L\\
+			1/(\pi L)    \hspace{29pt}t \geq 2L
+		\end{matrix}			
+	\right.
+\end{align}
+となる。
+これによってrampとplateauの存在が見て取れる:
+$t = 2L$まではrampであり、その後は一定値を取りplateauに乗っている。
+ただしrampを見るには\eqref{eq:sine_kernel_in_R2}式において正弦核の近似値を
+用いたもので十分である。すなわりrampそのものは
+\begin{align}
+	R_2(\lambda_1, \lambda_2) \approx -\frac{1}{2(\pi L(\lambda_1 - \lambda_2))^2}
+\end{align}
+から与えられる。
+しかしplateauの存在は正弦核を近似せずそのまま扱う必要がある。
+この議論が示唆するのは、rampは$1/L^2$を摂動パラメータとする摂動論による効果であり、
+plateauはそうではないという事である。
+
+これによってSYK模型に応用する際に次のような事が言える:
+SYK模型ではヒルベルト空間の次元は$L = 2^{N/2}$なので$1/L \approx e^{-aN}$となる。
+従ってRMTにおける摂動的な効果はSYK模型では非摂動的である。
+またRMTでの非摂動効果は$O(e^{-L})$の大きさであり、これはSYK模型では$O(\exp(-e^{aN}))$
+という極めて小さい非摂動的効果となる。
 
 \subsubsection{SYK模型のスペクトラル形状因子}
 
