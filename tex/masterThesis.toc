@@ -5,32 +5,28 @@
 \contentsline {subsection}{\numberline {2.3}ラージ$q$極限}{5}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}リーディングオーダー}{5}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}サブリーディングオーダー\inhibitglue \footnotes@ve {この節の内容は\cite {tarnopolsky}による.}}{6}{subsubsection.2.3.2}
-\contentsline {subsection}{\numberline {2.4}自由エネルギー及びエントロピー}{7}{subsection.2.4}
-\contentsline {section}{\numberline {3}4点関数}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}$K_c$の対角化}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}$\mathcal {F}_n(\chi )$の性質}{12}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}カシミール演算子$C_{1+2}の固有関数$}{13}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}$K_c$の固有値}{14}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}$\delimiter "426830A \Psi _h, \Psi _h \delimiter "526930B $と$\delimiter "426830A \Psi _h, \mathcal {F}_0 \delimiter "526930B $}{15}{subsubsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{16}{subsubsection.3.1.5}
-\contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{17}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{19}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{19}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{22}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}$q=\infty $における$h=2$の寄与}{23}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{24}{subsection.3.3}
-\contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論}{25}{section.4}
-\contentsline {section}{\numberline {5}量子カオスとしてのSYK模型}{27}{section.5}
-\contentsline {subsection}{\numberline {5.1}量子重力の揺らぎ}{27}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}スペクトラル形状因子}{29}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}ランダム行列理論のスペクトラル形状因子}{30}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}SYK模型のスペクトラル形状因子}{32}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{32}{subsection.5.3}
-\contentsline {section}{\numberline {6}量子カオスとしてのブラックホール}{33}{section.6}
-\contentsline {section}{\numberline {7}終わりに}{34}{section.7}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{35}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{38}{appendix.B}
-\contentsline {section}{\numberline {付録C}量子カオス }{39}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}はじめに: カオスとは何か}{39}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}時間順序外相関関数}{41}{subsection.C.2}
-\contentsline {subsection}{\numberline {C.3}スペクトラル統計}{41}{subsection.C.3}
+\contentsline {section}{\numberline {3}4点関数}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}$K_c$の対角化}{9}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}$\mathcal {F}_n(\chi )$の性質}{11}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}カシミール演算子$C_{1+2}の固有関数$}{12}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}$K_c$の固有値}{13}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}$\delimiter "426830A \Psi _h, \Psi _h \delimiter "526930B $と$\delimiter "426830A \Psi _h, \mathcal {F}_0 \delimiter "526930B $}{14}{subsubsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.5}全ラダーダイアグラムの総和}{15}{subsubsection.3.1.5}
+\contentsline {subsection}{\numberline {3.2}$h = 2$の場合の取り扱い}{16}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}$\Psi _{2,n}$の具体型}{18}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}固有値への補正}{18}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}$h = 2$の4点関数への寄与}{21}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}$q=\infty $における$h=2$の寄与}{22}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}４点関数: 最終結果}{23}{subsection.3.3}
+\contentsline {section}{\numberline {4}リパラメトリゼーションの有効理論 }{24}{section.4}
+\contentsline {section}{\numberline {5}SYK模型の熱力学的諸量}{26}{section.5}
+\contentsline {section}{\numberline {6}量子カオスとしてのSYK模型}{27}{section.6}
+\contentsline {subsection}{\numberline {6.1}量子重力の揺らぎ}{27}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}スペクトラル形状因子}{29}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}ランダム行列理論のスペクトラル形状因子}{30}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}SYK模型のスペクトラル形状因子}{32}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{34}{subsection.6.3}
+\contentsline {section}{\numberline {7}量子カオスとしてのブラックホール}{35}{section.7}
+\contentsline {section}{\numberline {8}終わりに}{36}{section.8}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{37}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{40}{appendix.B}

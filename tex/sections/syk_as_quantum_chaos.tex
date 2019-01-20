@@ -194,6 +194,7 @@ GUEの統計平均は
 	= -\frac{L^2}{2} \int d\lambda\ \tilde{\rho}(\lambda)\lambda^2
 	+ L^2 \int d\lambda_1 d\lambda_2\ \tilde{\rho}(\lambda_1)\tilde{\rho}(\lambda_2)
 		\log|\lambda_1 - \lambda_2|
+	\label{eq:GUEstatistics_in_large_L}
 \end{align}
 と書き改められる。
 この$\mathcal{Z}_{\mathrm{GUE}}$のラージ$L$鞍点はウィグナー半円分布(Wigner semicircle law)
@@ -235,6 +236,7 @@ $g_d$および$g_c$はそれぞれ次式で与えられる:
 よって$t \gg 1$において
 \begin{align}
 	g(\beta = 0, t) \approx g_d(\beta = 0, t) \approx \frac{1}{t^3}
+	\label{eq:late_time_slope_in_RMT}
 \end{align}
 となる。有限温度で計算しても計算結果は同じである。
 
@@ -295,8 +297,115 @@ SYK模型ではヒルベルト空間の次元は$L = 2^{N/2}$なので$1/L \appr
 またRMTでの非摂動効果は$O(e^{-L})$の大きさであり、これはSYK模型では$O(\exp(-e^{aN}))$
 という極めて小さい非摂動的効果となる。
 
-
 \subsubsection{SYK模型のスペクトラル形状因子}
+ここではラージ$N$ SYK模型におけるスペクトラル形状因子のrampやplateauの導出を行う。
+基本的には$\average{Z(\beta + it)Z(\beta - it)}$の計算であり、
+SYK模型における期待値$\average{\cdot}$はdisorder average$\average{\cdot}_J$となるが、
+これをGUEのラージ$L$での期待値\eqref{eq:GUEstatistics_in_large_L}式に近似して計算を進める。
+rampとplateauは第\ref{sec:effective_theory}節で論じたシュワルツ理論から与えられる。
+ただし、この解析はSYK模型の元々の作用\eqref{eq:effective_theory_of_reparametrization}式
+から計算したラージ$N$の結果とは本質的な違いがある可能性がある。
+この点についてはこの節の最後に触れる。
+
+最初に系がGUE統計に従うとした場合の一般論からrampやplateauがどのように現れるかを見る。
+その後議論をSYK模型へ適用する。
+$\average{ZZ^*}$は一般に
+\begin{align}
+	\average{Z(\beta + it)Z(\beta - it)}
+	= \int d\lambda_1d\lambda_2\ \average{\rho(\lambda_1)\rho(\lambda_2)}
+		e^{-2\beta E}e^{-ixt}
+\end{align}
+と書ける。ここで
+\begin{align}
+	x = \lambda_1 - \lambda_2,\hspace{20pt}
+	E = \frac{\lambda_1 + \lambda_2}{2}
+\end{align}
+である。
+なおここでは密度$\rho$は規格化されていないのものであり、$\int d\lambda\ \rho = L$である。
+
+$t \gg 1$においては$x \ll 1$となるような領域のみが積分に寄与すると考え、かつこの領域では
+$\average{\rho(\lambda_1)\rho(\lambda_2)}$はRMTの統計集団で近似できると仮定する。
+簡単のため、ここでは前節で扱ったGUE統計を採用すると
+\begin{align}
+	\average{\rho(\lambda_1)\rho(\lambda_2)}
+	= \average{\rho(E)}\delta(x)
+		+ \average{\rho(\lambda_1)}\average{\rho(\lambda_2)}
+		\left(1 - 
+			\frac{\sin^2(\pi\average{\rho(E)}x)}{(\pi\average{\rho(E)}x)^2}		
+		\right)
+\end{align}
+となり、これを用いて$\average{ZZ^*}$を計算すると
+\begin{align}
+	\average{Z(\beta + it)Z(\beta - it)}
+	= |\average{Z(\beta + it)}|^2 + \int dE\ e^{-2\beta E}
+		\min\left(\frac{t}{2\pi}, \average{\rho(E)}\right)
+	\label{eq:average_of_ZZ}
+\end{align}
+を得る。
+
+次に\eqref{eq:average_of_ZZ}式をラージ$N$ SYK模型に適用して議論する。
+最初に右辺の第1項$|\average{Z(\beta + it)}|^2$を計算する。
+ラージ$N$の鞍点を用いて数値的に$\average{Z(\beta + it)}$を評価できるが、
+大きい$\beta + it$においては鞍点周りの揺らぎも考慮しなければならない。
+この揺らぎは第\ref{sec:effective_theory}節で論じたシュワルツ理論で与えられる:
+\begin{align}
+	Z_{\mathrm{Sch}}(\beta)
+	= \int \frac{\mathcal{D}t(u)}{SL(2, \mathbb{R})}\ 
+		\exp\left[
+			-\frac{\pi N\alpha_S}{\beta\mathcal{J}}\int_0^{2\pi}du\ 
+			\left(\left(\frac{t''}{t'}\right)^2 - t'^2\right)		
+		\right].
+	\label{eq:Schwartzian_theory_as_fluctuation}
+\end{align}
+ここで指数関数の肩の作用は\eqref{eq:action_for_epsilon}式で
+$\epsilon$を$t$に書き換え、さらに$t\to 2\pi t/\beta$としたものを用いた。
+また$\mathcal{D}t$の下に存在する$SL(2,\mathbb{R})$は、測度がこの変換群で不変という事を表している。
+この分配関数の古典的な寄与や1ループの寄与は\cite{maldacena}によって計算されており、
+\begin{align}
+	Z_{\mathrm{Sch}}^{\mathrm{1-loop}}(\beta)
+	= \frac{\mathrm{numerical\ const}}{(\beta \mathcal{J})^{3/2}}
+		\exp\left(\frac{2\pi^2N\alpha_S}{\beta\mathcal{J}}\right)
+	\label{eq:one_loop_Schwartzian}
+\end{align}
+という結果がある。
+しかしながら$\beta + it\gg 1$の時は\eqref{eq:Schwartzian_theory_as_fluctuation}式の
+作用積分の前の係数は小さくなり、$t(u)$は大きく揺らぐ。
+大雑把に言えばこれによって摂動計算が破綻し、$Z$の計算が難しいものとなっているが、
+実は適切な測度のもとで理論は1-ループ完全である事が(間接的に)示されている\cite{polchinski_chaos}。
+従って\eqref{eq:average_of_ZZ}式の第1項$|\average{Z(\beta + it)}|^2$はスペクトラル形状因子
+に次のような寄与を与える:
+\begin{align}
+	\frac{|\average{Z(\beta + it)}|^2}{\average{Z(\beta)}^2}
+	= \frac{\beta^3}{(\beta^2 + t^2)^{3/2}}\exp\left(
+		-\frac{cNt^2}{\beta(\beta^2 + t^2)}	
+	\right).
+	\label{eq:slope_in_SYK}
+\end{align}
+ここで$c$は\eqref{eq:specific_heat}式で与えられる比熱である。
+上式の指数関数による時間依存性は$t\sim \sqrt{N}$以降で無視でき、
+左辺は$\sim t^{-3}$となりRMTでのdip time直前の
+slopeの振る舞い\eqref{eq:late_time_slope_in_RMT}式と一致する。
+
+次に\eqref{eq:average_of_ZZ}式の第2項の積分を計算する。
+ホログラフィック極限$\beta \sim \mathrm{large}$ においてエントロピーは
+$S(E) = NS_0 + \sqrt{2c(E-E_0)N}$となる事を用い、さらに\eqref{eq:average_of_ZZ}式の積分から
+1-ループの寄与を無視すると、$g(t)$に対して次のようなrampとplateauを与える寄与を得る:
+\begin{align}
+	g_{\mathrm{ramp}}\approx\left\{
+		\begin{array}{l}
+			\frac{t}{2\pi}\exp\left(-2NS_0 - \frac{cN}{\beta}\right)
+				\hspace{110pt}\frac{t}{2\pi} < e^{NS_0}\\
+			\frac{t}{2\pi}\exp\left(-2NS_0 - \frac{cN}{\beta}
+			- \frac{\beta}{cN}\log^2\left(\frac{t/(2\pi)}{e^{NS_0}}\right)\right)
+				\hspace{20pt}e^{NS_0} < \frac{t}{2\pi} < \frac{t_p}{2\pi}\\
+			\exp\left(-NS_0 - \frac{3cN}{4\beta}\right)
+				\hspace{120pt}t_p < t
+		\end{array}		
+	\right. .
+	\label{eq:SYK_ramp_and_plateau_contribution}
+\end{align}
+ここで$t_p = 2\pi e^{NS_0 + cN/(2\beta)} = 2\pi e^{S(\beta)}$である。
+この式と\eqref{eq:slope_in_SYK}式を連立させるとdip time $t_d \sim e^{NS_0/2}$を得る。
 
 \subsection{スペクトラル形状因子の$G$、$\Sigma$による記述}
 

@@ -251,90 +251,90 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 である\footnote{$\mathrm{Li}_2(z)$は
 \href{http://mathworld.wolfram.com/Dilogarithm.html}{http://mathworld.wolfram.com/Dilogarithm.html}を参照した。}。
 
-\subsection{自由エネルギー及びエントロピー}
-自由エネルギーは\eqref{eq:effectiveActionWithGeneral_q}式より
-\begin{align}
-	-\frac{\beta F}{N} = \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
-		- \frac{1}{2}\int_0^{\beta} dt_1 dt_2
-		\left(\Sigma(t_{12})G(t_{12}) - \frac{J^2}{q} G(t_{12})^q \right)
-\end{align}
-で与えられる。
-ここで$t_{ij} \equiv t_i - t_j$とした。
-右辺の第一項目の計算を避けるためには自由エネルギーを$J\partial_J$で微分すると良い
-\footnote{$G$と$\Sigma$が運動方程式に従っているため、
-$\partial_J$はあらわに$J$に依存している項のみに作用する。}:
-\begin{align}
-	J\frac{\partial}{\partial J}\left(-\frac{\beta F}{N}\right)
-	= \frac{J^2 \beta}{q}\int_0^{\beta} dt\ G(t)^q
-	= -\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+).
-	\label{eq:differentiated_free_energy}
-\end{align}
-ここで２つ目の等号では\eqref{eq:SDeqWithGeneral_q}式の２つ目の式を用いた。
-\eqref{eq:subleading_of_G_t}式を代入すると
-\begin{align}
-	-\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+)
-	= \frac{\pi v}{2q}\left(
-		\frac{1}{q}\frac{\partial g}{\partial x}\left(x \to \frac{\pi v}{2}\right)
-		+ \frac{1}{q^2}\frac{\partial h}{\partial x}\left(x \to \frac{\pi v}{2}\right)
-	\right)
-\end{align}
-となり、更に\eqref{eq:explicit_g}式と\eqref{eq:explicit_h}式を代入して計算を進めると
-\begin{align}
-	\frac{\partial g}{\partial x}\left(x \to \frac{\pi v}{2}\right)
-	= 2 \tan \frac{\pi v}{2}
-\end{align}
-及び
-\begin{align}
-	\frac{\partial h}{\partial x}\left(x \to \frac{\pi v}{2}\right)
-	= \frac{4}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\left(
-		\frac{\pi v}{2}
-		- \tan \frac{\pi v}{2}\left(1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}\right)
-		- \int_0^{\frac{\pi v}{2}} dy\ L(y)
-	\right)
-\end{align}
-を得る。
-上式の$L(y)$に対する積分は具体的に実行する事ができ、
-\begin{align}
-	\int_0^{\frac{\pi v}{2}} dy\ L(y)
-		= -\frac{\pi^2 v^2(\pi v + 3\sin \pi v)}{24 \cos^2 \frac{\pi v}{2}}
-\end{align}
-で与えられる\cite{tarnopolsky}。この積分結果及び
-\begin{align}
-	J\frac{\partial}{\partial J} 
-		= \frac{v}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\frac{\partial}{\partial v}
-\end{align}
-を用いて\eqref{eq:differentiated_free_energy}式を積分すると自由エネルギーをラージ$q$
-で展開した式を求める事ができる:
-\begin{align}
-	-\frac{\beta F}{N} &= \frac{1}{2}\log 2 + \frac{1}{q^2}F_{1/q^2}
-		+ \frac{1}{q^3}F_{1/q^3} + \cdots,\\
-	F_{1/q^2}(v) &= \pi v \left(\tan \frac{\pi v}{2} - \frac{\pi v}{4}\right),\\
-	F_{1/q^3}(v) &= \pi v \left(
-	\pi v - 2\tan \frac{\pi v}{2}\left(1 - \frac{\pi^2 v^2}{12}\right)
-	\right).
-\end{align}
-パラメータ$v$は相互作用の大きさ$\beta\mathcal{J}$で展開すると
-\begin{align}
-	v = 1 - \frac{2}{\beta\mathcal{J}} + \frac{4}{(\beta\mathcal{J})^2}
-		- \frac{24 + \pi^2}{3(\beta\mathcal{J})^2} + \cdots
-\end{align}
-となる。
-これを用いて自由エネルギーを強結合領域で展開すると
-\begin{align}
-	-\frac{\beta F}{N}
-	&= \beta\mathcal{J}\left(\frac{1}{q^2} - \frac{12 - \pi^2}{6q^3}\right)\nonumber\\
-	&+ \left(\frac{1}{2}\log 2 - \frac{\pi^2}{4q^2} + \frac{\pi^2}{3q^3}\right)
-	+ \frac{1}{\beta\mathcal{J}}\left(
-		\frac{\pi^2}{2q^2} - \frac{\pi^2(\pi^2 + 12)}{12q^3}
-	\right)\cdots
-	\label{eq:expanded_free_energy}
-\end{align}
-となる。
-右辺の一行目は基底状態のエネルギー、二行目の１つめの括弧は零温度エントロピー、２つ目はその補正項である。
-零温度エントロピーは次式をラージ$q$で展開したものと一致する\cite{maldacena}:
-\begin{align}
-	\frac{S_0}{N}
-		= \frac{1}{2}\log 2 - \int_0^{1/q} dx\ \left(\frac{1}{2} - x\right)\tan \pi x.
-\end{align}
+%\subsection{自由エネルギー及びエントロピー}
+%自由エネルギーは\eqref{eq:effectiveActionWithGeneral_q}式より
+%\begin{align}
+%	-\frac{\beta F}{N} = \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
+%		- \frac{1}{2}\int_0^{\beta} dt_1 dt_2
+%		\left(\Sigma(t_{12})G(t_{12}) - \frac{J^2}{q} G(t_{12})^q \right)
+%\end{align}
+%で与えられる。
+%ここで$t_{ij} \equiv t_i - t_j$とした。
+%右辺の第一項目の計算を避けるためには自由エネルギーを$J\partial_J$で微分すると良い
+%\footnote{$G$と$\Sigma$が運動方程式に従っているため、
+%$\partial_J$はあらわに$J$に依存している項のみに作用する。}:
+%\begin{align}
+%	J\frac{\partial}{\partial J}\left(-\frac{\beta F}{N}\right)
+%	= \frac{J^2 \beta}{q}\int_0^{\beta} dt\ G(t)^q
+%	= -\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+).
+%	\label{eq:differentiated_free_energy}
+%\end{align}
+%ここで２つ目の等号では\eqref{eq:SDeqWithGeneral_q}式の２つ目の式を用いた。
+%\eqref{eq:subleading_of_G_t}式を代入すると
+%\begin{align}
+%	-\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+)
+%	= \frac{\pi v}{2q}\left(
+%		\frac{1}{q}\frac{\partial g}{\partial x}\left(x \to \frac{\pi v}{2}\right)
+%		+ \frac{1}{q^2}\frac{\partial h}{\partial x}\left(x \to \frac{\pi v}{2}\right)
+%	\right)
+%\end{align}
+%となり、更に\eqref{eq:explicit_g}式と\eqref{eq:explicit_h}式を代入して計算を進めると
+%\begin{align}
+%	\frac{\partial g}{\partial x}\left(x \to \frac{\pi v}{2}\right)
+%	= 2 \tan \frac{\pi v}{2}
+%\end{align}
+%及び
+%\begin{align}
+%	\frac{\partial h}{\partial x}\left(x \to \frac{\pi v}{2}\right)
+%	= \frac{4}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\left(
+%		\frac{\pi v}{2}
+%		- \tan \frac{\pi v}{2}\left(1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}\right)
+%		- \int_0^{\frac{\pi v}{2}} dy\ L(y)
+%	\right)
+%\end{align}
+%を得る。
+%上式の$L(y)$に対する積分は具体的に実行する事ができ、
+%\begin{align}
+%	\int_0^{\frac{\pi v}{2}} dy\ L(y)
+%		= -\frac{\pi^2 v^2(\pi v + 3\sin \pi v)}{24 \cos^2 \frac{\pi v}{2}}
+%\end{align}
+%で与えられる\cite{tarnopolsky}。この積分結果及び
+%\begin{align}
+%	J\frac{\partial}{\partial J} 
+%		= \frac{v}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\frac{\partial}{\partial v}
+%\end{align}
+%を用いて\eqref{eq:differentiated_free_energy}式を積分すると自由エネルギーをラージ$q$
+%で展開した式を求める事ができる:
+%\begin{align}
+%	-\frac{\beta F}{N} &= \frac{1}{2}\log 2 + \frac{1}{q^2}F_{1/q^2}
+%		+ \frac{1}{q^3}F_{1/q^3} + \cdots,\\
+%	F_{1/q^2}(v) &= \pi v \left(\tan \frac{\pi v}{2} - \frac{\pi v}{4}\right),\\
+%	F_{1/q^3}(v) &= \pi v \left(
+%	\pi v - 2\tan \frac{\pi v}{2}\left(1 - \frac{\pi^2 v^2}{12}\right)
+%	\right).
+%\end{align}
+%パラメータ$v$は相互作用の大きさ$\beta\mathcal{J}$で展開すると
+%\begin{align}
+%	v = 1 - \frac{2}{\beta\mathcal{J}} + \frac{4}{(\beta\mathcal{J})^2}
+%		- \frac{24 + \pi^2}{3(\beta\mathcal{J})^2} + \cdots
+%\end{align}
+%となる。
+%これを用いて自由エネルギーを強結合領域で展開すると
+%\begin{align}
+%	-\frac{\beta F}{N}
+%	&= \beta\mathcal{J}\left(\frac{1}{q^2} - \frac{12 - \pi^2}{6q^3}\right)\nonumber\\
+%	&+ \left(\frac{1}{2}\log 2 - \frac{\pi^2}{4q^2} + \frac{\pi^2}{3q^3}\right)
+%	+ \frac{1}{\beta\mathcal{J}}\left(
+%		\frac{\pi^2}{2q^2} - \frac{\pi^2(\pi^2 + 12)}{12q^3}
+%	\right)\cdots
+%	\label{eq:expanded_free_energy}
+%\end{align}
+%となる。
+%右辺の一行目は基底状態のエネルギー、二行目の１つめの括弧は零温度エントロピー、２つ目はその補正項である。
+%零温度エントロピーは次式をラージ$q$で展開したものと一致する\cite{maldacena}:
+%\begin{align}
+%	\frac{S_0}{N}
+%		= \frac{1}{2}\log 2 - \int_0^{1/q} dx\ \left(\frac{1}{2} - x\right)\tan \pi x.
+%\end{align}
 
 \pagebreak
