@@ -449,7 +449,22 @@ slopeを与える鞍点は自明な解から構成されるものであり、L�
 $G$や$\Sigma$の持つ時間変数には小文字の$t$を割り当て$G(t)$などと表記する。
 
 \subsubsection{$\beta = 0$の場合}
-
-
+最初に$\average{Z(iT)Z(-iT)}_J$を計算する。
+上述したように２つのレプリカが現れ、$G$や$\Sigma$はそれぞれレプリカの添字を持つようになり、
+$G_{ij}(t,t')$や$\Sigma_{ij}(t,t')\ (i,j \in \{L, R\})$のようになる。
+結果は次式の通りである:
+\begin{align}
+	\average{Z(iT)Z(-iT)}_J
+	= \int \mathcal{D}G\mathcal{D}\Sigma\ e^{-NI[G, \Sigma]},
+\end{align}
+\begin{align}
+	I[G, \Sigma]
+	= -\frac{1}{2}\log \det\left(
+			\delta_{ij}\frac{\partial}{\partial t} - \Sigma_{ij}
+		\right) + \frac{1}{2}\int_0^T\int_0^T dtdt'\ \left(
+			\Sigma_{ij}G_{ij} - \frac{J^2}{q}s_{ij}G_{ij}^q
+		\right).
+\end{align}
+ここで$s_{LL} = s_{RR} = -1,\ s_{LR} = s_{RL} = (-1)^{q/2}$である。
 
 \pagebreak
