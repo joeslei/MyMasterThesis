@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  21 JAN 2019 18:36
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  22 JAN 2019 15:55
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.081 seconds
+luaotfload | main : initialization completed in 0.079 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -1060,19 +1060,24 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 9087 strings out of 494480
+ 9092 strings out of 494480
  381507,266212 words of node,token memory allocated
- 56369 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 250 glue, 578 kern, 17680 attribute, 2860 glue_spe
-c, 893 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:16,2:89026,3:377,4:482,5:164,6:3478,7:3226,8:2442,9:1293,10:43
+ 57053 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 252 glue, 586 kern, 17880 attribute, 2902 glue_spe
+c, 903 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:16,2:88816,3:377,4:482,5:164,6:3478,7:3224,8:2442,9:1293,10:43
 ,11:220
  12164 multiletter control sequences out of 65536+600000
  133 fonts using 75130711 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
+
+warning  (pdf backend): unreferenced destination with name 'equation.A.178'
 </usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf></usr/share/texmf/f
 onts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/pu
 blic/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman7
@@ -1105,10 +1110,10 @@ fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on masterThesis.pdf (45 pages, 1342303 bytes).
+Output written on masterThesis.pdf (45 pages, 1345189 bytes).
 
-PDF statistics: 988 PDF objects out of 1000 (max. 8388607)
- 848 compressed objects within 9 object streams
- 311 named destinations out of 1000 (max. 131072)
+PDF statistics: 993 PDF objects out of 1000 (max. 8388607)
+ 853 compressed objects within 9 object streams
+ 316 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

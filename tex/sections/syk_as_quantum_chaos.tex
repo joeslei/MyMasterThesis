@@ -467,4 +467,38 @@ $G_{ij}(t,t')$や$\Sigma_{ij}(t,t')\ (i,j \in \{L, R\})$のようになる。
 \end{align}
 ここで$s_{LL} = s_{RR} = -1,\ s_{LR} = s_{RL} = (-1)^{q/2}$である。
 
+$G$と$\Sigma$は２つの時間変数を持つが、簡単のため以下ではそれらの差の関数であると仮定する:
+\begin{align}
+	G_{ij}(t, t') = G_{ij}(t - t').
+\end{align}
+$G$と$\Sigma$は元々のSYK模型のマヨラナフェルミオンに由来する周期$T$の反周期性を持つ。
+従ってフーリエ変換は
+\begin{align}
+	G_{ij}(\omega_n) = \int_0^T dt\ e^{i\omega_nt}G_{ij}(t),
+	\hspace{20pt}\omega_n = \frac{2\pi}{T}\left(n + \frac{1}{2}\right)
+\end{align}
+となる。
+シュウィンガー・ダイソン方程式は
+\begin{align}
+	\begin{pmatrix}
+		G_{LL}(\omega_n) & G_{LR}(\omega_n)\\
+		G_{RL}(\omega_n) & G_{RR}(\omega_n)
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		-1/(i\omega_n + \Sigma_{LL}(\omega_n)) & -1/\Sigma_{LR}(\omega_n)\\
+		-1/\Sigma_{RL}(\omega_n) & -1/(i\omega_n + \Sigma_{RR}(\omega_n))
+	\end{pmatrix}
+\end{align}
+\begin{align}
+	\Sigma_{ij}(t) = s_{ij}J^2G_{ij}^{q-1}(t)
+\end{align}
+で与えられる。
+
+$G_{LR} = \Sigma_{LR} = 0$とすると、L系とR系に相関がないような方程式となり、
+その解を用いて$\average{Z(iT)Z(-iT)}_J$を計算するとラージ$T$でゼロに値が落ちていき、
+slopeを構成する。
+次にrampを与える配位を探るために非自明な鞍点を見つける。
+この非自明な鞍点というものがそもそも存在するか
+
 \pagebreak
