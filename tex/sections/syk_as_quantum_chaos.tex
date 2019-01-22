@@ -84,8 +84,8 @@ SYK模型は良い"研究室"となっている。
 もし分母と分子をまとめて平均取ったとすると、このコピーの数が任意個になってしまう。
 
 $g(t)$は量子カオスの分野において重要なスペクトラル統計の量であり、
-スペクトラル形状因子と呼ばれる
-\footnote{量子カオスやスペクトラル統計の詳細は\ref{app:quantum_chaos}を参照する事。}。
+スペクトラル形状因子と呼ばれる。
+% \footnote{量子カオスやスペクトラル統計の詳細は\ref{app:quantum_chaos}を参照する事。}。
 スペクトラル統計ではランダム行列理論(Random Matrix Theory: RMT)という数学が用いられる。
 量子カオスの分野における基本的な仮定の1つに、エネルギー固有値の統計的構造がRMT
 におけるランダム行列のそれと一致するというものがある。
@@ -464,6 +464,7 @@ $G_{ij}(t,t')$や$\Sigma_{ij}(t,t')\ (i,j \in \{L, R\})$のようになる。
 		\right) + \frac{1}{2}\int_0^T\int_0^T dtdt'\ \left(
 			\Sigma_{ij}G_{ij} - \frac{J^2}{q}s_{ij}G_{ij}^q
 		\right).
+	\label{eq:action_for_the_two_replicas}
 \end{align}
 ここで$s_{LL} = s_{RR} = -1,\ s_{LR} = s_{RL} = (-1)^{q/2}$である。
 
@@ -489,9 +490,11 @@ $G$と$\Sigma$は元々のSYK模型のマヨラナフェルミオンに由来す
 		-1/(i\omega_n + \Sigma_{LL}(\omega_n)) & -1/\Sigma_{LR}(\omega_n)\\
 		-1/\Sigma_{RL}(\omega_n) & -1/(i\omega_n + \Sigma_{RR}(\omega_n))
 	\end{pmatrix}
+	\label{eq:replica_SDeq_1}
 \end{align}
 \begin{align}
 	\Sigma_{ij}(t) = s_{ij}J^2G_{ij}^{q-1}(t)
+	\label{eq:replica_SDeq_2}
 \end{align}
 で与えられる。
 
@@ -499,6 +502,115 @@ $G_{LR} = \Sigma_{LR} = 0$とすると、L系とR系に相関がないような�
 その解を用いて$\average{Z(iT)Z(-iT)}_J$を計算するとラージ$T$でゼロに値が落ちていき、
 slopeを構成する。
 次にrampを与える配位を探るために非自明な鞍点を見つける。
-この非自明な鞍点というものがそもそも存在するか
+まず、この非自明な鞍点というものがそもそも存在するという事に対して動機付けを行う。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figures/beta_aux}
+	\caption{$\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
+		の経路積分による表示。白い点と黒い点は同一のものである。
+		灰色の領域において$G$、$\Sigma$の鞍点方程式は元々の$Z(iT)Z(-iT)$でのそれに近いというのが
+		基本的なアイディアである。
+	}
+	\label{fig:beta_aux}
+\end{figure}
+$Z(iT)Z(-iT)$の事は一旦忘れて
+$\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
+という量を考える。ここで$\beta_{aux}$は任意のパラメータである。
+実時間での時間発展は互いに相殺し、$Z(\beta_{aux}$となる。
+それでもこの量を図\ref{fig:beta_aux}のような４つの経路それぞれを計算する事はできる。
+この４つの経路の$G$、$\Sigma$の鞍点の配位は逆温度$\beta_{aux}$の熱相関関数の解析接続である。
+基本的なアイディアは、図\ref{fig:beta_aux}の横に長く伸びている経路の$G$、$\Sigma$の鞍点方程式は
+元々の$Z(iT)Z(-iT)$でのそれと近似的に同じというものである。
+
+従ってシュウィンガー・ダイソン方程式\eqref{eq:replica_SDeq_1}式および
+\eqref{eq:replica_SDeq_2}式の近似解として、任意の逆温度$\beta_{aux}$を持つ
+解析接続された熱相関関数を使うと良い可能性がある。
+より正確には、次式のように試験的な解としてL系とR系に対してThermofield Double State (TDF)にある
+相関関数を用いるという事である:
+\begin{align}
+	G_{ij}^{\beta_{aux}}(t)
+	= \langle TFD(\beta_{aux})|\psi^i(t)\psi^j(0)|TFD(\beta_{aux}) \rangle,
+	\hspace{20pt}i,j \in \{L, R\}.
+\end{align}
+しかし上式はラージ$|t|$で消滅するため反周期性を持たない。
+これは
+\begin{align}
+	G_{ij}(t) = G_{ij}^{\beta_{aux}}(t) - G_{ij}^{\beta_{aux}}(t-T),\hspace{20pt}
+	0 < t < T
+	\label{eq:almost_true_solution_for_SDeq}
+\end{align}
+とする事で解消できる。
+これを厳密な解とはしないが、ラージ$T$では真の解に非常に近いと期待できる。
+
+\eqref{eq:almost_true_solution_for_SDeq}式の持つパラメータは２つあり、
+1つ目は$\beta_{aux}$である。
+2つ目は次のようにして理解できる。
+作用\eqref{eq:action_for_the_two_replicas}式はL系とR系に対してそれぞれ独立に
+時間並進対称性を持つ。
+しかし現在考えている解\eqref{eq:almost_true_solution_for_SDeq}式はL系とR系のフェルミオン
+に同時刻に相関を持たせているため、その対称性は自発的に破れている。
+残るのは対角成分(LLおよびRR)の時間並進対称性である。
+自発的に破れた対称性の生成子を\eqref{eq:almost_true_solution_for_SDeq}式に作用させると
+新しい解を得る。
+この時L系とR系で反対方向に時間並進が施され、得られた新しい解はL系とR系のフェルミオンに
+異なる時刻で相関を持たせているようなものとなる。
+言い換えると、この新しい解は$G_{LL}$、$G_{RR}$を不変に、かつ$G_{LR}(t) \to G_{LR}(t + \Delta t)$
+というように変換する事で得られる。
+$\Delta t$が2つ目のパラメータとなる。
+周期$T$の反周期性から、$\Delta t$は円周が$2T$の円上に値を持つ。
+
+以上から\eqref{eq:almost_true_solution_for_SDeq}式の寄与は
+\begin{align}
+	\average{Z(iT)Z(-iT)}_J \supset
+	\int_0^{\infty}d\beta_{aux}\ \mu(\beta_{aux})
+	\int_0^{2T} d(\Delta t)
+	= \mathrm{const.}\ \times T
+\end{align}
+となる。
+ここで積分測度$\mu(\beta_{aux})$は1-ループ行列式に由来する。
+よって$T$に比例しているためrampを構成する。
+
+\subsubsection{有限の$\beta$と$|Y_{E,\Delta}(T)|^2$}
+ここでは有限の$\beta$について$\average{Z(\beta + iT)Z(\beta - iT)}$を議論する。
+この場合には問題点が1つあり、それを説明するためにGUE統計のRMTを考えると
+\begin{align}
+	\average{Z(\beta + iT)Z(\beta - iT)}_{\mathrm{GUE}}
+	=\int dE\ \min(T, e^{S(E)})e^{-2\beta E}
+\end{align}
+となる。
+これを素朴にSYK模型に移行しようとすると、
+\begin{align}
+	\average{Z(iT)Z(-iT)}_J \supset
+	\int_0^{\infty}d\beta_{aux}\ \mu(\beta_{aux})e^{-2\beta E(\beta_{aux})}
+	\int_0^{2T} d(\Delta t)
+\end{align}
+となるであろう。
+問題は上式の$e^{-2\beta E(\beta_{aux})}$であり、これが$\beta_{aux}$に対する圧力
+のようなものとなっている。
+従って$\beta_{aux}$は最早作用の平坦な方向ではなくなり、非自明な鞍点を期待する事ができない。
+
+これを解消するには次式で定義されるようなスペクトラル形状因子の小正準集団バージョンを考えると良い:
+\begin{align}
+	|Y_{E, \Delta}(T)|^2
+	= \int_{\gamma + i\mathbb{R}}d\beta_L\ e^{\beta_LE + \beta_L^2\Delta^2}Z(\beta_L + iT)
+	\int_{\gamma + i\mathbb{R}}d\beta_R\ e^{\beta_RE + \beta_R^2\Delta^2}Z(\beta_R - iT).
+\end{align}
+次にdisorder averageを取るのだが、その際に$Z(\beta + iT)$を、SYKのハミルトニアンに
+$1 - i\beta / T$を掛けたものの分配関数$Z(iT)$と見なすのが便利である。
+これは$J$のスケールに変換を施すというものでもある:
+\begin{align}
+	J_L = \left(1 - i\frac{\beta_L}{T}\right)J,\hspace{20pt}
+	J_R = \left(1 + i\frac{\beta_R}{T}\right)J.
+\end{align}
+$\average{|Y_{E,\Delta}(T)|^2}_J$を調べる時の全体の作用は
+\begin{align}
+	-\left[(\beta_L + \beta_R)E + (\beta_L^2 + \beta_R^2)\Delta^2\right]
+	&-\frac{N}{2}\log\det\left(\delta_{ij}\frac{\partial}{\partial t}
+	- \Sigma_{ij}\right)\nonumber\\
+	&+\frac{N}{2}\int_0^T\int_0^T dtdt'\ 
+		\left[\Sigma_{ij}G_{ij} - \frac{J_iJ_j}{q}s_{ij}G_{ij}^q\right]
+\end{align}
+で与えられる。
 
 \pagebreak

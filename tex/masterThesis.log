@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  22 JAN 2019 15:55
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  22 JAN 2019 18:04
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.079 seconds
+luaotfload | main : initialization completed in 0.080 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/01/14 ltjsclasses 
@@ -961,32 +961,15 @@ Overfull \hbox (8.9058pt too wide) detected at line 1061
 
 ) [23] (./sections/effective_theory.tex [24]) [25]
 (./sections/thermodynamics.tex) [26] (./sections/syk_as_quantum_chaos.tex
-[27](load luc: /home/kuro/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
-lmroman8-bold.luc)
-LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 88.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 6.75587pt on input line 88.
-luaotfload | aux : font no 118 (nil) does not define feature vrt2 for script dfl
-t with language dflt
-luaotfload | aux : no font with id 118
-LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 88.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 6.75587pt on input line 88.
-
-
-LaTeX Warning: Reference `app:quantum_chaos' on page 28 undefined on input line 
-88.
-
-<figures/spectralformfactor.png, id=614, 656.4525pt x 461.725pt>
+[27]
+<figures/spectralformfactor.png, id=613, 656.4525pt x 461.725pt>
 File: figures/spectralformfactor.png Graphic file (type png)
 <use figures/spectralformfactor.png>
 Package luatex.def Info: figures/spectralformfactor.png  used on input line 108.
 
 (luatex.def)             Requested size: 284.52756pt x 200.13013pt.
-[28]
-<figures/spectralformfactor_inRMT.png, id=630, 656.4525pt x 461.725pt>
+ [28]
+<figures/spectralformfactor_inRMT.png, id=627, 656.4525pt x 461.725pt>
 File: figures/spectralformfactor_inRMT.png Graphic file (type png)
 <use figures/spectralformfactor_inRMT.png>
 Package luatex.def Info: figures/spectralformfactor_inRMT.png  used on input lin
@@ -1014,13 +997,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 410.
 
-[34]) [35] (./sections/gravity.tex) [36] (./sections/conclusion.tex) [37]
-(./appendices/effective_action.tex [38]
+[34]
+<figures/beta_aux.png, id=717, 512.91624pt x 169.63374pt>
+File: figures/beta_aux.png Graphic file (type png)
+<use figures/beta_aux.png>
+Package luatex.def Info: figures/beta_aux.png  used on input line 509.
+(luatex.def)             Requested size: 284.52756pt x 94.10124pt.
+ [35] [36<./figures/beta_aux.png>]) [37] (./sections/gravity.tex) [38]
+(./sections/conclusion.tex) [39] (./appendices/effective_action.tex [40]
 Overfull \hbox (9.60281pt too wide) detected at line 103
 [][]
  []
 
-[39]) [40] (./appendices/b.tex
+[41]) [42] (./appendices/b.tex
 LaTeX Font Info:    Calculating math sizes for size <15.768> on input line 1.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.32104pt on input line 1.
@@ -1043,9 +1032,9 @@ Class ltjsarticle Warning: deprecated old font command `\rm' used.
 (ltjsarticle)              class has defined the old font commands like
 (ltjsarticle)              `\rm' only for compatibility on input line 34.
 
-) [41] (./sections/references.tex)
+) [43] (./sections/references.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
- [42]
+ [44]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
  (./masterThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
@@ -1057,63 +1046,55 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
- 9092 strings out of 494480
- 381507,266212 words of node,token memory allocated
- 57053 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 252 glue, 586 kern, 17880 attribute, 2902 glue_spe
-c, 903 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
-   avail lists: 1:16,2:88816,3:377,4:482,5:164,6:3478,7:3224,8:2442,9:1293,10:43
+ 9111 strings out of 494480
+ 381501,266212 words of node,token memory allocated
+ 58317 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 262 glue, 590 kern, 18120 attribute, 3036 glue_spe
+c, 915 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
+   avail lists: 1:15,2:85810,3:377,4:481,5:164,6:3415,7:3137,8:2384,9:1293,10:43
 ,11:220
- 12164 multiletter control sequences out of 65536+600000
- 133 fonts using 75130711 bytes
+ 12167 multiletter control sequences out of 65536+600000
+ 130 fonts using 70986847 bytes
  51i,17n,43p,914b,576s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype
+/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
+an9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></
+usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/
+fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-j
+apanese-gothic.ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.
+otf></usr/share/fonts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fonts
+/opentype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm7.pfb>
+Output written on masterThesis.pdf (47 pages, 1383738 bytes).
 
-warning  (pdf backend): unreferenced destination with name 'equation.A.178'
-</usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf></usr/share/texmf/f
-onts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/pu
-blic/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman7
--regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></u
-sr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fon
-ts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/publ
-ic/lm/lmsans10-regular.otf></usr/share/fonts/truetype/fonts-japanese-gothic.ttf>
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/fon
-ts/truetype/fonts-japanese-mincho.ttf></usr/share/texmf/fonts/opentype/public/lm
-/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmext
-ra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb>
-Output written on masterThesis.pdf (45 pages, 1345189 bytes).
-
-PDF statistics: 993 PDF objects out of 1000 (max. 8388607)
- 853 compressed objects within 9 object streams
- 316 named destinations out of 1000 (max. 131072)
+PDF statistics: 1019 PDF objects out of 1200 (max. 8388607)
+ 877 compressed objects within 9 object streams
+ 326 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 100000000)
 
