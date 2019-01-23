@@ -30,6 +30,8 @@
 \contentsline {subsubsection}{\numberline {6.3.2}有限の$\beta $と$|Y_{E,\Delta }(T)|^2$}{37}{subsubsection.6.3.2}
 \contentsline {section}{\numberline {7}量子カオスとしてのブラックホール}{39}{section.7}
 \contentsline {subsection}{\numberline {7.1}JTディラトン重力}{39}{subsection.7.1}
-\contentsline {section}{\numberline {8}終わりに}{40}{section.8}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{41}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{44}{appendix.B}
+\contentsline {subsection}{\numberline {7.2}slopeおよびramp: 直感的な説明}{40}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}slopeおよびramp: 系統的な理解}{41}{subsection.7.3}
+\contentsline {section}{\numberline {8}終わりに}{42}{section.8}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{43}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{46}{appendix.B}
