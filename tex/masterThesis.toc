@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {6.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{34}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}$\beta = 0$の場合}{35}{subsubsection.6.3.1}
 \contentsline {subsubsection}{\numberline {6.3.2}有限の$\beta $と$|Y_{E,\Delta }(T)|^2$}{37}{subsubsection.6.3.2}
-\contentsline {section}{\numberline {7}量子カオスとしてのブラックホール}{38}{section.7}
-\contentsline {section}{\numberline {8}終わりに}{39}{section.8}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{40}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{43}{appendix.B}
+\contentsline {section}{\numberline {7}量子カオスとしてのブラックホール}{39}{section.7}
+\contentsline {section}{\numberline {8}終わりに}{40}{section.8}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{41}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{44}{appendix.B}

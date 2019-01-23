@@ -588,7 +588,8 @@ $\Delta t$が2つ目のパラメータとなる。
 となるであろう。
 問題は上式の$e^{-2\beta E(\beta_{aux})}$であり、これが$\beta_{aux}$に対する圧力
 のようなものとなっている。
-従って$\beta_{aux}$は最早作用の平坦な方向ではなくなり、非自明な鞍点を期待する事ができない。
+従って$\beta_{aux}$は最早作用の平坦な方向ではなくなり不安定となる。
+これが原因で非自明な鞍点を期待する事ができない。
 
 これを解消するには次式で定義されるようなスペクトラル形状因子の小正準集団バージョンを考えると良い:
 \begin{align}
@@ -612,5 +613,25 @@ $\average{|Y_{E,\Delta}(T)|^2}_J$を調べる時の全体の作用は
 		\left[\Sigma_{ij}G_{ij} - \frac{J_iJ_j}{q}s_{ij}G_{ij}^q\right]
 \end{align}
 で与えられる。
+これを$G$や$\Sigma$について変分して得られる運動方程式は\eqref{eq:replica_SDeq_1}式や
+\eqref{eq:replica_SDeq_2}式で$J^2\to J_iJ_j$と置き換えたものとなる。
+また$\beta_L$や$\beta_R$について変分を施した方程式も存在する。
+$\beta_{aux}$の不安定性により$G$、$\Sigma$の従う方程式の一般の
+$\beta_L$、$\beta_R$における解を期待できない。
+逆に言えば$G$や$\Sigma$の方程式は有効的に$\beta_L = \beta_R = 0$とする効果を持つ。
+大雑把に言えばこの事により結局$\beta = 0$の場合に話は戻る。
+よって2つのパラメータ$\beta_{aux}$と$\Delta t$を持つ解が存在する。
+しかし$\beta_L$や$\beta_R$を変分して得る方程式についても言及しなければならない。
+この方程式は、$\beta_L = \beta_R = 0$とした後で
+\begin{align}
+	E
+	= -\frac{iJ^2N}{qT}\int_0^T\int_0^T dtdt'\ [G_{LL}^q - i^qG_{LR}^q]
+	= -\frac{iJ^2N}{qT}\int_0^T\int_0^T dtdt'\ [G_{RR}^q - i^qG_{LR}^q]
+	\label{eq:energy_of_two_replicas}
+\end{align}
+を与える。ここで上述した2つのパラメータ$\beta_{aux}$、$\Delta t$を走る解の族の範囲内で
+2番めと3番目の表式は互いに等価となり、$\beta_{aux}$の関数である。
+\eqref{eq:energy_of_two_replicas}式を解く事により$\beta_{aux}$の値を$E$を用いて固定できる。
+一方で$\Delta t$は固定しておらず、これについて積分する事で$T$に比例する寄与を得る。
 
 \pagebreak
