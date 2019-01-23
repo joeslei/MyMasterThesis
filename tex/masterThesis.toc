@@ -32,6 +32,6 @@
 \contentsline {subsection}{\numberline {7.1}JTディラトン重力}{39}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}slopeおよびramp: 直感的な説明}{40}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}slopeおよびramp: 系統的な理解}{41}{subsection.7.3}
-\contentsline {section}{\numberline {8}終わりに}{42}{section.8}
-\contentsline {section}{\numberline {付録A}有効作用の計算 }{43}{appendix.A}
-\contentsline {section}{\numberline {付録B}係数$b$の計算 }{46}{appendix.B}
+\contentsline {section}{\numberline {8}終わりに}{43}{section.8}
+\contentsline {section}{\numberline {付録A}有効作用の計算 }{44}{appendix.A}
+\contentsline {section}{\numberline {付録B}係数$b$の計算 }{47}{appendix.B}

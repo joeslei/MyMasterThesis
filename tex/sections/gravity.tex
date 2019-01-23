@@ -92,6 +92,72 @@ JT重力の最も単純なLorentzian解は次式のリンドラー座標に対�
 
 \subsection{slopeおよびramp: 系統的な理解}
 ここでは前節のslopeやrampの議論を、より系統的なものにする。
+まず始めに$Z(\beta + iT)Z(\beta - iT)$を計算し、$\beta_{aux}$の不安定さを以下で解消する。
+L側の境界を表す円はユークリッド時間$\beta + iT$による周期的な同一視に対応し、
+R側は$\beta - iT$のそれに対応する。
+SYK模型での解と同様に時間並進対称性を持ち、かつ周期性を持つような時間座標$\tilde{t}$を選ぶ事は可能であり、
+またその時間座標$\tilde{t}$に対応する生成子は
+\begin{align}
+	\partial_{\tilde{t}}
+	= iK - \frac{\beta}{T}H
+	= -\partial_{t_{Rindler}} - i\frac{\beta}{T}\partial_{t_{global}}
+	\label{eq:generator_of_tilde_t}
+\end{align}
+というものである。
+そして$\tilde{t}\sim\tilde{t} + \tilde{T}$という同一視を行う。
+ここで$K$はリンドラー時間の並進操作の生成子であり、また$H$は大域的時間の並進操作の生成子である
+(図\ref{fig:time_translation})。
+\eqref{eq:generator_of_tilde_t}式のような結合を取った理由は、こうする事により
+$K$による並進がL側とR側の両境界で互いに逆方向となり、一方で$H$は同じ方向を向くため、
+$\tilde{t}$に対する周期性が両境界の$\beta \pm iT$に比例する周期性を示すためである。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=10cm]{figures/time_translation}
+	\caption{$SO(1,2)$の生成子$K$、$H$にを表すベクトル場。ダイアグラムは大域的$\mathrm{AdS}_2$であり、
+		時間は鉛直方向に流れている。
+	}
+	\label{fig:time_translation}
+\end{figure}
+
+座標をもっと具体的に表現するためには、3次元空間に$\mathrm{AdS}_2$を埋め込んだ座標を用いると良い:
+\begin{align}
+	Y_{-1} &= \cosh(\rho) \hspace{61pt} = \cosh(r)\cos(t_{global}),\nonumber\\
+	Y_0    &= \sinh(\rho)\sinh(t_{Rindler}) = \cosh(r)\sin(t_{global}),\\
+	Y_1    &= \sinh(\rho)\cosh(t_{Rindler}) = \sinh(r)\nonumber.
+\end{align}
+またここでの$SO(1,2)$アイソメトリーの基底は
+\begin{align}
+	H = \begin{pmatrix}
+		0 & -i & 0\\
+		i & 0 & 0\\
+		0 & 0 & 0
+	\end{pmatrix},\hspace{20pt}
+	K = \begin{pmatrix}
+		0 & 0 & 0\\
+		0 & 0 & i\\
+		0 & i & 0
+	\end{pmatrix},\hspace{20pt}
+	P = \begin{pmatrix}
+		0 & 0 & i\\
+		0 & 0 & 0\\
+		i & 0 & 0
+	\end{pmatrix}
+\end{align}
+とすると便利である。
+これらの生成子を用いて$Y_{-1}$、$Y_0$、$Y_1$は次式のように書ける:
+\begin{align}
+	\begin{pmatrix} Y_{-1} \\ Y_0 \\ Y_1 \end{pmatrix}
+	= \exp\left(\tilde{t}\pdiff{\tilde{t}}\right)\begin{pmatrix} \cosh(\rho) \\ 0 \\ \sinh(\rho) \end{pmatrix}
+	= \exp\left[
+		\tilde{t}\cdot\begin{pmatrix}
+			0 & i\frac{\beta}{T} & 0\\
+			-i\frac{\beta}{T} & 0 & -1\\
+			0 & -1 & 0
+		\end{pmatrix}
+	\right]\begin{pmatrix} \cosh(\rho) \\ 0 \\ \sinh(\rho) \end{pmatrix}.
+\end{align}
+この座標で計量を計算するには$ds^2 = -dY_{-1}^2 - dY_0^2 + dY_1^2$から導出する。
 
 
 \pagebreak
