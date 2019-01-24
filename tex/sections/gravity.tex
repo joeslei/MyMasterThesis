@@ -37,6 +37,7 @@ L系とR系はここではdiskのトポロジーを持つブラックホール�
 			-\frac{1}{2}\left[
 				\int \sqrt{g}\phi(R+2) + 2\phi_b\int_{bdy}\sqrt{h}K
 			\right].
+	\label{eq:JTgravity}
 \end{align}
 この理論は高次元のAdS空間を2次元にコンパクト化する事で得られる。
 ディラトン$\phi$はその際のコンパクト化半径に対応する。
@@ -72,6 +73,7 @@ JT重力の最も単純なLorentzian解は次式のリンドラー座標に対�
 \begin{align}
 	ds^2 = -\sinh^2(\rho)d\tilde{t}^2 + d\rho^2,\hspace{20pt}
 	\phi = \phi_h\cosh(\rho).
+	\label{eq:Rindler_coordinate}
 \end{align}
 この座標は$\tilde{t}$の並進対称性を持つ。
 大雑把に言えば、これに$\tilde{t}\sim\tilde{t}+\tilde{T}$という同一視を加えた幾何を求めたいのである。
@@ -115,7 +117,7 @@ $\tilde{t}$に対する周期性が両境界の$\beta \pm iT$に比例する周�
 	\centering
 	\includegraphics[width=10cm]{figures/time_translation}
 	\caption{$SO(1,2)$の生成子$K$、$H$にを表すベクトル場。ダイアグラムは大域的$\mathrm{AdS}_2$であり、
-		時間は鉛直方向に流れている。
+		時間は鉛直方向に流れている。この図は\cite{stanford_chaos}より引用した。
 	}
 	\label{fig:time_translation}
 \end{figure}
@@ -158,6 +160,41 @@ $\tilde{t}$に対する周期性が両境界の$\beta \pm iT$に比例する周�
 	\right]\begin{pmatrix} \cosh(\rho) \\ 0 \\ \sinh(\rho) \end{pmatrix}.
 \end{align}
 この座標で計量を計算するには$ds^2 = -dY_{-1}^2 - dY_0^2 + dY_1^2$から導出する。
+小さい$\tilde{t}$に対して上式の指数関数を展開して$ds^2$を計算すると
+\begin{align}
+	ds^2
+	= -\left(\sinh(\rho) + i\frac{\beta}{T}\cosh(\rho)\right)^2d\tilde{t}^2
+		+ d\rho^2,\hspace{20pt}\tilde{t}\sim\tilde{t} + \tilde{T}
+	\label{eq:embedded_metric}
+\end{align}
+となる。
+この計量では\eqref{eq:Rindler_coordinate}式で存在していた$\rho=0$での特異点が
+$i\beta / T$の項により消滅している。
+
+\eqref{eq:embedded_metric}式において特定する必要のあるパラメータが存在する。
+それは$\tilde{t}$と$t$の間の関係に起因するものである。
+ここで少し２つの時間座標が何を意味するのかを簡単に議論する。
+まず調べているのは$Z(\beta + iT)Z(\beta - iT)$であり、それはユークリッド時間$\tau$の周期性を意味する。
+L系に対しては$\tau \sim \tau + \beta + iT$であり、
+R系に対しては$\tau \sim \tau + \beta - iT$である。
+小文字の$t$は0から$T$まで走る複素時間座標として定義すると、
+L系では$\tau = (\beta / T + i)t$となり、
+R系では$\tau = (\beta / T - i)t$となる。
+ここでの基本的な発想は、境界の近くではバルク側の時間座標$\tilde{t}$は境界側の時間座標$t$に比例する
+というものである。
+その比例係数はどこにカットオフ表面を置くかに厳密に依存しており、その自由度が$\beta_{aux}$と対応する。
+
+上述した議論を明確化するために、ホログラフィック繰り込みパラメータ$\epsilon$を導入し
+境界側のユークリッド時間$\tau$とバルク側の計量$ds$を次式を通して関連付ける:
+\begin{align}
+	d\tau^2_{bdy} = \left.\epsilon^2ds^2_{bulk}\right|_{\rho = \pm\rho_c}.
+\end{align}
+この式からL側とR側の２つの境界における$\tau$と$\tilde{t}$の関係を得る事ができる。
+それを$t$と$\tilde{t}$の関係として変形すると、どちらの境界でも
+\begin{align}
+	t = \frac{\epsilon e^{\rho_c}}{2}\tilde{t} = \frac{\beta_{aux}}{2\pi}\tilde{t}
+\end{align}
+となる。
 
 
 \pagebreak
