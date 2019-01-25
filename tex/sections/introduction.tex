@@ -9,14 +9,14 @@ Sachdev--Ye--Kitaev(SYK)模型とは、KitaevがAdS/CFT対応の簡単な模型�
 また$J_{ijkl}$は乱数で与えられる時間に依らない反対称テンソルであり、その分布は
 \begin{align}
   P(J_{ijkl}) = \sqrt{\frac{N^3}{12\pi J^2}}
-                \exp\left(-\frac{N^3}{12J^2}J_{ijkl}^{\, 2}\right).
+                \exp\left(-\frac{N^3}{12J^2}J_{ijkl}^{\, 2}\right)
 	\label{eq:gaussianProbability}
 \end{align}
 に従う。
 このようなパラメータを持つ理論は quenched disorder を持つといい、
 この$J_{ijkl}$で取った平均を disorder averageと呼ぶ。
 SYK模型において次元を持つパラメータのひとつは\eqref{eq:gaussianProbability}式の$J$であり、
-$[J] = 1$である。\eqref{eq:hamiltonian}式の大きさはこの$J$によって決まる。
+その質量次元は1である。\eqref{eq:hamiltonian}式の大きさはこの$J$によって決まる。
 SYK模型のヒルベルト空間は
 \begin{align}
 	L = 2^{N/2}
@@ -54,7 +54,7 @@ SYK模型では一つ目の性質により強結合領域でも計算する事�
 
 第\ref{sec:twopointfunc}節ではSYK模型のラージ$N$極限における構造を調べる。
 SYK模型はある確率分布に従う乱数$J_{ijkl}$を持つ。
-\ref{sec:twopointfunc}節の諸々の結果は$J_{ijkl}$に対して平均操作を施したものである。
+第\ref{sec:twopointfunc}節の諸々の結果は$J_{ijkl}$に対して平均操作を施したものである。
 この結果、２つの双局所場(bi-local field)$G(t_1, t_2)$と$\Sigma(t_1, t_2)$が現れる。
 分配関数においてフェルミオンを積分して取り払うと、これらの双局所場についての作用を得る事ができ、
 $G$や$\Sigma$について変分を取ればそれらに関する運動方程式(シュウィンガー・ダイソン方程式)を得る。
