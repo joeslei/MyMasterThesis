@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  25 JAN 2019 17:58
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  25 JAN 2019 18:10
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.149 seconds
+luaotfload | main : initialization completed in 0.270 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1073,13 +1073,16 @@ Package rerunfilecheck Info: File `masterThesis.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
  9223 strings out of 494407
  381510,266212 words of node,token memory allocated
- 74270 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 324 glue, 608 kern, 1 glyph, 19681 attribute, 5464
+ 74285 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 324 glue, 608 kern, 1 glyph, 19681 attribute, 5467
  glue_spec, 994 attribute_list, 1 write, 14 user_defined, 2 pdf_action nodes
    avail lists: 1:14,2:83941,3:377,4:481,5:167,6:66,7:6580,8:2857,9:1327,10:43,1
 1:246
@@ -1122,7 +1125,7 @@ lic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm7.pfb>
-Output written on masterThesis.pdf (56 pages, 1723587 bytes).
+Output written on masterThesis.pdf (56 pages, 1723650 bytes).
 
 PDF statistics: 1140 PDF objects out of 1200 (max. 8388607)
  979 compressed objects within 10 object streams
