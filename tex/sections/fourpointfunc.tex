@@ -227,13 +227,14 @@ $\chi > 1$の領域では、ある離散的な対称性が存在する。
 \end{align}
 として$t$を円周上に写像すると良い。
 $t = 0, 1, \infty$はそれぞれ$\theta = -\pi, -\frac{\pi}{2}, \frac{\pi}{2}$に写される。
-$t_2 = \chi$はある$\theta$が対応する。
+$t_2 = \chi$はある$\theta$が対応する(図\ref{fig:circle})。
 対称性$\theta \to -\theta$によって$\chi \to \frac{\chi}{\chi - 1}$となる。
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=11cm]{figures/circle}
 	\caption{$\theta \to -\theta$という対称性は
 		$\chi > 1$において$\chi \to \frac{\chi}{\chi - 1}$と対応する。}
+	\label{fig:circle}
 \end{figure}
 
 これは$\chi > 1$では$\mathcal{F}(\chi) = \mathcal{F}(\frac{\chi}{\chi - 1})$が成り立つ
@@ -335,7 +336,7 @@ $\chi = 2$では$f$や$g^*$の一階微分が0になる事から表面項は消�
 	f &\approx A + B\log(1 - \chi)\hspace{20pt}\mathrm{for\ \ }\chi \to 1^-,\nonumber\\
 	f &\approx A + B\log(\chi - 1)\hspace{20pt}\mathrm{for\ \ }\chi \to 1^+\nonumber
 \end{align}
-のように定数項と対数の項が1に近づくにつれ一致していなければならない。
+のように定数項と対数の項が1に近づくにつれ相殺していなければならない。
 
 以上を踏まえて、カシミール演算子$C_{1+2}$の固有関数$\Psi_h(\chi)$は次のように書き下す事ができる。
 まず$1 < \chi$の時は
@@ -345,7 +346,6 @@ $\chi = 2$では$f$や$g^*$の一階微分が0になる事から表面項は消�
 		{\sqrt{\pi}}
 	{}_2F_1\left(\frac{h}{2},\frac{1}{2} - \frac{h}{2},\frac{1}{2},
 	\frac{(2 - \chi)^2}{\chi^2}\right)
-	\hspace{20pt}\mathrm{for\ \ }1 < \chi
 	\label{eq:Psi_h_for_chi>1}
 \end{align}
 である。
@@ -354,7 +354,6 @@ $\chi = 2$では$f$や$g^*$の一階微分が0になる事から表面項は消�
 	\Psi_h(\chi)
 	= A\frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)
 	+ B\frac{\Gamma(1-h)^2}{\Gamma(2 - 2h)}\chi^{1-h}\ {}_2F_1(1-h, 1-h, 2-2h, \chi)
-	\hspace{20pt}\mathrm{for\ \ }\chi < 1
 	\label{eq:Psi_h_for_chi<1}
 \end{align}
 である。ここで$A$と$B$は
@@ -368,7 +367,7 @@ $\chi > 1$と$\chi < 1$の両方の場合において$\Psi_h = \Psi_{1-h}$とい
 $h$について次の2つの解が存在する:
 1つ目は$h = \frac{1}{2} + is$というものである。
 この時$\Psi_h(\chi)$は$1 < \chi$で単調関数であり、また$1 > \chi$で振動する(非常に多く振動する)。
-2つ目は$h = 2n, n \in \mathbb{N}$であり、定数$B$は消滅する。この解もまた
+2つ目は$h = 2n\ (n \in \mathbb{N})$であり、定数$B$は消滅する。この解もまた
 $0 < 1 < \chi$で単調関数であり、$1 > \chi$で振動する(0を$n$回横切る)。
 
 \subsubsection{$K_c$の固有値}
@@ -563,7 +562,7 @@ $\Psi_h(\chi) = \frac{\Gamma(h)^2}{\Gamma(2h)}\chi^h\ {}_2F_1(h, h, 2h, \chi)$
 		\frac{h-1/2}{\pi\tan(\pi h/2)}\frac{k_c(h)}{1-k_c(h)}\frac{\Gamma(h)^2}{\Gamma(2h)}
 		\chi^h\ {}_2F_1(h, h, 2h, \chi)
 	\right]_{h=h_m}
-	\hspace{30pt}\chi < 1
+	\hspace{5pt}\chi < 1
 \end{align}
 を得る。
 
@@ -619,7 +618,7 @@ $\tilde{K}$は次式で与えられる内積において対称となる:
 		\Psi_{h,n}^{\mathrm{exact}*}(\theta_3, \theta_4)
 \end{align}
 に作用する$\tilde{K}$に比例するという事を用いると良い。
-おおよそ$\mathcal{F} = (1 - \tilde{K})^{-1}\tilde{K}\cdot I$の様に書き表す事ができ、
+記号的には$\mathcal{F} = (1 - \tilde{K})^{-1}\tilde{K}\cdot I$の様に書き表す事ができ、
 より正確には
 \begin{align}
 	\left[(q-1)J^2G(\theta_{12})^{\frac{q-2}{2}}G(\theta_{34})^{\frac{q-2}{2}}\right]
@@ -667,7 +666,7 @@ $\mathcal{F}_{h\neq 2}$の$\Psi_h$が現れる表式を与える。
 となり、$G_c + \delta_{\epsilon}G_c$もまた\eqref{eq:conformalSD}式の解となる。
 \eqref{eq:conformalSD}式の最初の式から
 \begin{align}
-	\delta_{\epsilon}G_c * \Sigma_c + G_c * \delta_{\epsilon}\Sigma_c = 0\hspace{20pt}
+	\delta_{\epsilon}G_c * \Sigma_c + G_c * \delta_{\epsilon}\Sigma_c = 0\hspace{5pt}
 	\therefore\ 
 	0 = \delta_{\epsilon}G_c + G_c * [(q-1)J^2G_c^{q-2}\delta_{\epsilon}G_c] * G_c
 	= (1 - K_c)\delta_{\epsilon}G_c
@@ -762,8 +761,8 @@ $v=1$の時は$\beta \mathcal{J} \to \infty$であり、\eqref{eq:diffeq_for_lar
 探したいものは然るべき対称性を備えた固有関数である。
 4点関数は$\theta_1, \theta_2$の2変数関数として
 \begin{align}
-	F(\theta_1, \theta_2) = -F(\theta_2, \theta_1),\hspace{20pt}
-	F(\theta_1 + 2\pi, \theta_2) = -F(\theta_1, \theta_2),\hspace{20pt}
+	F(\theta_1, \theta_2) = -F(\theta_2, \theta_1),\hspace{10pt}
+	F(\theta_1 + 2\pi, \theta_2) = -F(\theta_1, \theta_2),\hspace{10pt}
 	F(\theta_1, \theta_2 + 2\pi) = -F(\theta_1, \theta_2)
 	\label{eq:properties_of_fourpointfunc}
 \end{align}
