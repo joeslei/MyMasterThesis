@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  27 JAN 2019 16:06
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.11.5)  27 JAN 2019 16:43
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.155 seconds
+luaotfload | main : initialization completed in 0.139 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1005,20 +1005,20 @@ Package luatex.def Info: figures/beta_aux.png  used on input line 509.
 (luatex.def)             Requested size: 284.52756pt x 94.10124pt.
  [37] [38<./figures/beta_aux.png>]) [39] [40] (./sections/gravity.tex
 [41]
-<figures/double_cone.png, id=829, 746.79pt x 280.04625pt>
+<figures/double_cone.png, id=831, 746.79pt x 280.04625pt>
 File: figures/double_cone.png Graphic file (type png)
 <use figures/double_cone.png>
 Package luatex.def Info: figures/double_cone.png  used on input line 61.
 (luatex.def)             Requested size: 284.52756pt x 106.69643pt.
  [42<./figures/double_cone.png>]
-<figures/time_translation.png, id=843, 653.44125pt x 313.17pt>
+<figures/time_translation.png, id=845, 653.44125pt x 313.17pt>
 File: figures/time_translation.png Graphic file (type png)
 <use figures/time_translation.png>
 Package luatex.def Info: figures/time_translation.png  used on input line 118.
 (luatex.def)             Requested size: 284.52756pt x 136.36163pt.
  [43<./figures/time_translation.png>])
 [44] (./sections/conclusion.tex [45]
-<figures/non_disorder_averaged_g.png, id=880, 525.965pt x 350.30875pt>
+<figures/non_disorder_averaged_g.png, id=882, 525.965pt x 350.30875pt>
 File: figures/non_disorder_averaged_g.png Graphic file (type png)
 <use figures/non_disorder_averaged_g.png>
 Package luatex.def Info: figures/non_disorder_averaged_g.png  used on input line
@@ -1117,10 +1117,10 @@ lic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm7.pfb>
-Output written on masterThesis.pdf (56 pages, 1740250 bytes).
+Output written on masterThesis.pdf (56 pages, 1740452 bytes).
 
-PDF statistics: 1149 PDF objects out of 1200 (max. 8388607)
- 988 compressed objects within 10 object streams
+PDF statistics: 1151 PDF objects out of 1200 (max. 8388607)
+ 989 compressed objects within 10 object streams
  357 named destinations out of 1000 (max. 131072)
  177 words of extra memory for PDF output out of 10000 (max. 100000000)
 

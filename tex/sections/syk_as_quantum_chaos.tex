@@ -37,7 +37,7 @@ $Z(\beta, t)$の時間平均はゼロであるので, $Z(\beta, t)$は大きい$
 で与えられる. 
 一般にこの揺らぎのサイズの$t \gg 1$での振る舞いを調べるのは容易ではないが, 
 長時間平均を取る事によって計算がいくらか簡単になる. 
-長時間平均を取ると有限の位相を持つ波は全てゼロに均され, $E_n-E_m = 0$の項のみが残り次式にたどり着く:
+長時間平均を取ると有限の位相を持つ波は全てゼロに均され, $E_n-E_m = 0$の項のみが残り, 次式にたどり着く:
 \begin{align}
 	\lim_{T\to\infty}\frac{1}{T}\int_0^Tdt\ \left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
 	= \frac{1}{Z(\beta)^2}\sum_E N_E^2e^{-2\beta E}.
@@ -163,8 +163,8 @@ slopeのlate-timeでの振る舞いやrampの初期の振る舞いを理解す�
 で与えられる. 
 エルミート行列$M$はSYK模型でのハミルトニアンに相当し, 階数$L$はヒルベルト空間の次元に
 対応する. 
-RMTとSYK模型の間の重要な違いの1つは摂動パラメータの違いである; SYK模型は$1/N$なのに対し, 
-RMTは$1/L \approx e^{-N}$である. 
+RMTとSYK模型の間の重要な違いの1つは摂動パラメータの違いであり, SYK模型は$1/N$なのに対し, 
+RMTは$1/L \approx e^{-N}$となっている.
 
 $M$の分配関数は
 \begin{align}
@@ -173,7 +173,7 @@ $M$の分配関数は
 \end{align}
 で定義される. 
 スペクトラル形状因子は\eqref{eq:spectral_form_factor}式と同様に定義される. 
-ただしdisorder average$\langle \cdot\rangle_J$は\eqref{eq:GUEstatistics}式によるGUEの
+ただしdisorder average $\langle \cdot\rangle_J$は\eqref{eq:GUEstatistics}式によるGUEの
 統計平均$\langle\cdot\rangle_{\mathrm{GUE}}$に置き換わる. 
 
 次にエルミート行列$M$を対角化し, 基底をユニタリ変換する事を考える. 
@@ -300,7 +300,7 @@ SYK模型ではヒルベルト空間の次元は$L = 2^{N/2}$なので$1/L \appr
 \subsubsection{SYK模型のスペクトラル形状因子}
 ここではラージ$N$ SYK模型におけるスペクトラル形状因子のrampやplateauの導出を行う. 
 基本的には$\average{Z(\beta + it)Z(\beta - it)}$の計算であり, 
-SYK模型における期待値$\average{\cdot}$はdisorder average$\average{\cdot}_J$となるが, 
+SYK模型における期待値$\average{\cdot}$はdisorder average $\average{\cdot}_J$となるが, 
 これをGUEのラージ$L$での期待値\eqref{eq:GUEstatistics_in_large_L}式に近似して計算を進める. 
 rampとplateauは第\ref{sec:effective_theory}節で論じたシュワルツ理論から与えられる. 
 % ただし, この解析はSYK模型の元々の作用\eqref{eq:effective_theory_of_reparametrization}式
@@ -510,7 +510,7 @@ slopeを構成する.
 	\caption{$\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
 		の経路積分による表示. 白い点と黒い点は同一のものである. 
 		灰色の領域において$G$, $\Sigma$の鞍点方程式は元々の$Z(iT)Z(-iT)$でのそれに近いというのが
-		基本的なアイディアである. 
+		基本的なアイディアである. この図は\cite{stanford_chaos}より引用した.
 	}
 	\label{fig:beta_aux}
 \end{figure}
@@ -573,7 +573,8 @@ $\Delta t$が2つ目のパラメータとなる.
 
 \subsubsection{有限の$\beta$と$|Y_{E,\Delta}(T)|^2$}
 ここでは有限の$\beta$について$\average{Z(\beta + iT)Z(\beta - iT)}$を議論する. 
-この場合には問題点が1つあり, それを説明するためにGUE統計のRMTを考えると
+この場合には問題点が1つあり, それを説明するためにGUE統計のRMTを考えて$\average{ZZ^*}$
+を計算すると
 \begin{align}
 	\average{Z(\beta + iT)Z(\beta - iT)}_{\mathrm{GUE}}
 	=\int dE\ \min(T, e^{S(E)})e^{-2\beta E}
