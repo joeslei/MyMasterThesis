@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {6.2}スペクトラル形状因子}{31}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}ランダム行列理論のスペクトラル形状因子}{32}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}SYK模型のスペクトラル形状因子}{34}{subsubsection.6.2.2}
-\contentsline {subsection}{\numberline {6.3}スペクトラル形状因子の$G$、$\Sigma $による記述}{36}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}スペクトラル形状因子の$G$, $\Sigma $による記述}{36}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}$\beta = 0$の場合}{37}{subsubsection.6.3.1}
 \contentsline {subsubsection}{\numberline {6.3.2}有限の$\beta $と$|Y_{E,\Delta }(T)|^2$}{39}{subsubsection.6.3.2}
 \contentsline {section}{\numberline {7}量子カオスとしてのブラックホール}{41}{section.7}

@@ -6,26 +6,26 @@
 		- \frac{1}{4!} \sum_{i,j,k,l = 1}^{N} J_{ijkl} \psi_i\psi_j\psi_k\psi_l
 	\label{eq:laglangian}
 	\end{align}
-	で与えられる。
-	SYK模型ではしばしば有限温度を考慮するため、分配関数はユークリッド化したものを計算する:
+	で与えられる. 
+	SYK模型ではしばしば有限温度を考慮するため, 分配関数はユークリッド化したものを計算する:
 	\begin{align}
 	Z = \pathint{\psi} \exp\left(- \int dt\  L\right).
 	\label{eq:partition}
 	\end{align}
 	以下では\eqref{eq:partition}式を乱数$J_{ijkl}$について平均を取るという
-	disorder-averageの計算を行い、その後フェルミオンについて積分し有効作用を得る事を目標とする。
+	disorder-averageの計算を行い, その後フェルミオンについて積分し有効作用を得る事を目標とする. 
 
 	disorder-averageは
 	\begin{align}
 	\average{Z} = \int \prod_{i<j<k<l}^{N}\left[dJ_{ijkl}\ P(J_{ijkl})\right]Z
 	\end{align}
-	を計算すれば良い。
+	を計算すれば良い. 
 	以下では表記を簡潔にするために
 	\begin{align}
 	a &\equiv \frac{N^3}{12J^2}\\
 	I_{ijkl} &\equiv \int dt\ \psi_i\psi_j\psi_k\psi_l
 	\end{align}
-	としておく。
+	としておく. 
 	$J_{ijkl}$についての積分が実行される部分が明確になるように式変形すると
 	\begin{align}
 	\average{Z} =
@@ -36,25 +36,25 @@
 			\right]
 			\exp\left(\frac{1}{4!}\sum_{i,j,k,l}I_{ijkl}J_{ijkl}\right)}_{\equiv G}
 	\end{align}
-	となる。ここから更に$G$を複数のガウス積分の積となるように変形すると
+	となる. ここから更に$G$を複数のガウス積分の積となるように変形すると
 	\begin{align}
 	G = \left(\frac{a}{\pi}\right)^{4!\combination{N}{4} / 2}
 		\prod_{i<j<k<l}\int dJ_{ijkl}\ \exp\left(
 		-aJ_{ijkl}^{\, 2} + I_{ijkl}J_{ijkl}
 		\right)
 	\end{align}
-	となる。
+	となる. 
 	ここで$J_{ijkl}$と$I_{ijkl}$が反対称テンソルである事を用いて
 	\begin{align}
 	\frac{1}{4!}\sum_{i,j,k,l}I_{ijkl}J_{ijkl} = \sum_{i<j<k<l}I_{ijkl}J_{ijkl}
 	\end{align}
-	を使用した。
+	を使用した. 
 	あとは通常のガウス積分を実行すると
 	\begin{align}
 	G = \exp\left(\frac{3J^2}{N^3}\sum_{i<j<k<l}I_{ijkl}^{\, 2}\right)
 	  = \exp\left(\frac{3J^2}{4!N^3}\sum_{i,j,k,l}I_{ijkl}^{\, 2}\right)
 	\end{align}
-	となり、
+	となり, 
 	\begin{align}
 	\average{Z} = \pathint{\psi} &\exp\left(
 	- \int dt\ \sum_i \frac{1}{2}\psi_i\deriv\psi_i \right. \nonumber\\
@@ -64,8 +64,8 @@
 		\psi_i(t_2)\psi_j(t_2)\psi_k(t_2)\psi_l(t_2)
 	\right)
 	\end{align}
-	という結果を得る。
-	次はフェルミオンについて積分するのであるが、その前に
+	という結果を得る. 
+	次はフェルミオンについて積分するのであるが, その前に
 	\begin{align}
 	G(t_1, t_2) = \frac{1}{N}\sum_{i = 1}^{N}\psi_i(t_1)\psi_i(t_2)
 	\end{align}
@@ -80,16 +80,16 @@
 	を$\average{Z}$に挿入する\footnote{ディラックのデルタ関数をフーリエ変換したものはもちろん
 	\begin{align}
 	\delta(x) \propto \int dp\ \exp(ipx)\nonumber
-	\end{align}であるが、今は$\Sigma(t_1, t_2)$を虚軸方向に積分していると考えているため、
-	結果として虚数単位$i$がさらに$i$倍され負号となる。}。
-	この時、挿入したデルタ関数によって
+	\end{align}であるが, 今は$\Sigma(t_1, t_2)$を虚軸方向に積分していると考えているため, 
+	結果として虚数単位$i$がさらに$i$倍され負号となる. }. 
+	この時, 挿入したデルタ関数によって
 	\begin{align}
 	\sum_{i,j,k,l}\int dt_1dt_2\
 	\psi_i(t_1)\psi_j(t_1)\psi_k(t_1)\psi_l(t_1)
 	\psi_i(t_2)\psi_j(t_2)\psi_k(t_2)\psi_l(t_2)
 	\to N^4\int dt_1 dt_2 G(t_1, t_2)^4
 	\end{align}
-	という置き換えができる。
+	という置き換えができる. 
 	以上を踏まえてフェルミオンの積分が実行される部分が明確になるように式変形を行うと
 	\begin{align}
 	\average{Z} = \pathint{G}\pathint{\Sigma}&\exp\left(
@@ -101,13 +101,13 @@
 	\right)\psi_i(t_2)
 	\right)}_{\equiv F}
 	\end{align}
-	となる。
-	あとは$F$と置いた部分を計算するのだが、そのためには次の公式を使うとよい\cite{haber}:
+	となる. 
+	あとは$F$と置いた部分を計算するのだが, そのためには次の公式を使うとよい\cite{haber}:
 	\begin{align}
 	\int d\theta \exp\left(-\frac{1}{2}\theta\cdot M\cdot\theta\right) = \sqrt{\det(M)}
 	\end{align}
-	ここで$\theta = (\theta_1, \cdots, \theta_n)$は$n$個のグラスマン数であり、$M$は反対称行列である。
-	これを用いて、
+	ここで$\theta = (\theta_1, \cdots, \theta_n)$は$n$個のグラスマン数であり, $M$は反対称行列である. 
+	これを用いて, 
 	\begin{align}
 	F &= \prod_i \pathint{\psi_i} \exp\left(
 	-\int dt_1dt_2\ \frac{1}{2}\psi_i(t_1)\left(
@@ -119,11 +119,11 @@
 	&= \left[\det\left(\deriv - \Sigma\right)\right]^{N/2}\nonumber\\
 	&= \exp\left(\frac{N}{2}\log\det\left(\deriv - \Sigma\right)\right)
 	\end{align}
-	となる。ここで
+	となる. ここで
 	\begin{align}
 	\delta(t_1 - t_2)\frac{d}{dt_1} - \Sigma(t_1 - t_2) \to \deriv - \Sigma
 	\end{align}
-	という記号的な処理を施した。
+	という記号的な処理を施した. 
 
 	以上より
 	\begin{align}
@@ -134,12 +134,12 @@
 		\right)\nonumber\\
 	&\equiv \pathint{G}\pathint{\Sigma}\exp(-I_{\mathrm eff})
 	\end{align}
-	となり、有効作用として
+	となり, 有効作用として
 	\begin{align}
 	\frac{I_{\mathrm eff}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
 	\end{align}
-	を得た。
+	を得た. 
 
 	\pagebreak

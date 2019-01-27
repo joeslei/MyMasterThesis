@@ -1,12 +1,12 @@
 \section{リパラメトリゼーションの有効理論 \label{sec:effective_theory}}
-この節ではSYK模型の有効理論を扱う。
-% これによって第\ref{sec:fourpointfunc}節で論じた４点関数の計算に対して第２の視点を得る。
-\eqref{eq:effectiveActionWithGeneral_q}式で与えられる作用はリパラメトリゼーション不変性を持つが、
-それが自発的に、かつ陽に破れる事によりシュワルツ理論に従うゴールドストーンボソンが現れる事を見る。
-このシュワルツ理論はJackiw--Teitelboimディラトン重力理論と等価である事が知られており、
-SYK模型がAdS/CFT対応に従うとされる理由の1つとなっている。
+この節ではSYK模型の有効理論を扱う. 
+% これによって第\ref{sec:fourpointfunc}節で論じた４点関数の計算に対して第２の視点を得る. 
+\eqref{eq:effectiveActionWithGeneral_q}式で与えられる作用はリパラメトリゼーション不変性を持つが, 
+それが自発的に, かつ陽に破れる事によりシュワルツ理論に従うゴールドストーンボソンが現れる事を見る. 
+このシュワルツ理論はJackiw--Teitelboimディラトン重力理論と等価である事が知られており, 
+SYK模型がAdS/CFT対応に従うとされる理由の1つとなっている. 
 
-有効理論の作用は\eqref{eq:effectiveActionWithGeneral_q}式で与えられるが、
+有効理論の作用は\eqref{eq:effectiveActionWithGeneral_q}式で与えられるが, 
 ここでもう一度掲載する:
 \begin{align}
 	\frac{S}{N}
@@ -18,8 +18,8 @@ SYK模型がAdS/CFT対応に従うとされる理由の1つとなっている。
 		\right].
 	\label{eq:effective_theory_of_reparametrization}
 \end{align}
-ここで$\tilde{\Sigma},\tilde{G}$は経路積分の積分変数である。
-古典解は$\Sigma, G$と表記する。
+ここで$\tilde{\Sigma},\tilde{G}$は経路積分の積分変数である. 
+古典解は$\Sigma, G$と表記する. 
 フェルミオンの４点関数は
 \begin{align}
 	\frac{1}{N^2}\sum_{i,j}\average{\psi_i(t_1)\psi_i(t_2)\psi_j(t_3)\psi_j(t_4)}
@@ -27,16 +27,16 @@ SYK模型がAdS/CFT対応に従うとされる理由の1つとなっている。
 		e^{-S}\tilde{G}(t_1, t_2)\tilde{G}(t_3, t_4)
 	\label{eq:fourpointfunc_in_G_and_Sigma}
 \end{align}
-と書き表される。
+と書き表される. 
 \eqref{eq:effective_theory_of_reparametrization}式の停留点は
-シュウィンガー・ダイソン方程式の解$G,\Sigma$で与えられる。
-この解からの揺らぎを計算するならば、その揺らぎをそれぞれ
-$\tilde{G} = G + |G|^{\frac{2-q}{2}}g$、
-$\tilde{\Sigma} = \Sigma + |G|^{\frac{2-q}{2}}\sigma$とするのが便利である。
+シュウィンガー・ダイソン方程式の解$G,\Sigma$で与えられる. 
+この解からの揺らぎを計算するならば, その揺らぎをそれぞれ
+$\tilde{G} = G + |G|^{\frac{2-q}{2}}g$, 
+$\tilde{\Sigma} = \Sigma + |G|^{\frac{2-q}{2}}\sigma$とするのが便利である. 
 この様にしても測度は不変である: 
-$\mathcal{D}\tilde{G}\mathcal{D}\tilde{\Sigma} = \mathcal{D}g\mathcal{D}\sigma$。
-作用を$g,\sigma$の2次まで展開し、シュウィンガー・ダイソン方程式$G = (\partial_t - \Sigma)^{-1}$
-を用いると、揺らぎ$g,\sigma$の作用を得る:
+$\mathcal{D}\tilde{G}\mathcal{D}\tilde{\Sigma} = \mathcal{D}g\mathcal{D}\sigma$. 
+作用を$g,\sigma$の2次まで展開し, シュウィンガー・ダイソン方程式$G = (\partial_t - \Sigma)^{-1}$
+を用いると, 揺らぎ$g,\sigma$の作用を得る:
 \begin{align}
 	\frac{S}{N}
 		= -\frac{1}{4J^2(q-1)}&\int dt_1\cdots dt_4\ 
@@ -46,36 +46,36 @@ $\mathcal{D}\tilde{G}\mathcal{D}\tilde{\Sigma} = \mathcal{D}g\mathcal{D}\sigma$�
 			g(t_1, t_2)\sigma(t_1, t_2) - \frac{1}{2}J^2(q-1)g(t_1, t_2)^2
 		\right).
 \end{align}
-$\tilde{K}$は\eqref{eq:symmetric_K}式で与えられる対称化したラダーダイアグラムの積分核である。
-上式はさらに$\sigma$を積分して消去する事ができ、$g$の作用
+$\tilde{K}$は\eqref{eq:symmetric_K}式で与えられる対称化したラダーダイアグラムの積分核である. 
+上式はさらに$\sigma$を積分して消去する事ができ, $g$の作用
 \begin{align}
 	\frac{S}{N} = \frac{J^2(q-1)}{4}g\cdot(\tilde{K}^{-1} - 1)\cdot g
 	\label{eq:effective_action_of_g}
 \end{align}
-を与える。
+を与える. 
 4点関数\eqref{eq:fourpointfunc_in_G_and_Sigma}式の被積分関数の$\tilde{G}$を
-$|G|^{\frac{q-2}{2}}$に置き換え、\eqref{eq:effective_action_of_g}式を代入して
-ガウス積分を実行する事で$O(N^{-1})$の項を計算できる。
-結果は\eqref{eq:fourpointfunc_in_theta}式となる。
+$|G|^{\frac{q-2}{2}}$に置き換え, \eqref{eq:effective_action_of_g}式を代入して
+ガウス積分を実行する事で$O(N^{-1})$の項を計算できる. 
+結果は\eqref{eq:fourpointfunc_in_theta}式となる. 
 
-ここまでの議論は任意のエネルギーで成り立つ。
-低エネルギー極限を取り、共形古典解$G_c,\Sigma_c$を使い、
+ここまでの議論は任意のエネルギーで成り立つ. 
+低エネルギー極限を取り, 共形古典解$G_c,\Sigma_c$を使い, 
 さらに揺らぎとして\eqref{eq:reparameterization_fomula}式で与えられる
-リパラメトリゼーション$\delta_{\epsilon}G_c$を選べば、$\delta_{\epsilon}G_c$自身が
-$\tilde{K}_c$の固有値1に対する固有関数である事から、
-揺らぎの作用\eqref{eq:effective_action_of_g}式は消滅する。
+リパラメトリゼーション$\delta_{\epsilon}G_c$を選べば, $\delta_{\epsilon}G_c$自身が
+$\tilde{K}_c$の固有値1に対する固有関数である事から, 
+揺らぎの作用\eqref{eq:effective_action_of_g}式は消滅する. 
 これは\eqref{eq:effective_theory_of_reparametrization}式が
-行列式の中の$\partial_t$を捨てる事で、
+行列式の中の$\partial_t$を捨てる事で, 
 リパラメトリゼーション$t\to f(t)$及び\eqref{eq:reparametrization_of_G_and_Sigma}式の下で
-不変になる事の帰結である。
-このリパラメトリゼーション不変性は、共形古典解$G_c$が部分群$SL(2,\mathbb{R})$対称性
-しか持たないために自発的に破れる。
-$f(t)$はそれによって現れるゴールドストーンボソンである。
+不変になる事の帰結である. 
+このリパラメトリゼーション不変性は, 共形古典解$G_c$が部分群$SL(2,\mathbb{R})$対称性
+しか持たないために自発的に破れる. 
+$f(t)$はそれによって現れるゴールドストーンボソンである. 
 
-共形極限から離れるとリパラメトリゼーション不変性は陽に破れ、
-$h=2$の固有値は1から\eqref{eq:corrected_eigenvalue}式に修正され、
-その結果ゼロモードに対する有限の作用を得る。
-これを計算するために微小変換$t\to t + \epsilon(t)$を考え、$\delta_{\epsilon}G_c$の作用を評価すれば、
+共形極限から離れるとリパラメトリゼーション不変性は陽に破れ, 
+$h=2$の固有値は1から\eqref{eq:corrected_eigenvalue}式に修正され, 
+その結果ゼロモードに対する有限の作用を得る. 
+これを計算するために微小変換$t\to t + \epsilon(t)$を考え, $\delta_{\epsilon}G_c$の作用を評価すれば, 
 \begin{align}
 	\frac{S}{N} = \frac{\alpha_S}{\mathcal{J}}\int_0^{\beta}dt\ \frac{1}{2}
 		\left[
@@ -84,20 +84,20 @@ $h=2$の固有値は1から\eqref{eq:corrected_eigenvalue}式に修正され、
 	\alpha_S \equiv \frac{\alpha_K}{6q^2\alpha_0} = \frac{q|k'_c(2)|\alpha_G}{6q^2\alpha_0}
 	\label{eq:action_for_epsilon}
 \end{align}
-という有限の作用を得る。
-従って共形対称性は自発的にも、また陽にも破れる。
-次に\eqref{eq:action_for_epsilon}式に有限のリパラメトリゼーション$t\to f(t)$を施した表式を求めたい。
-これには零温度から始めるのが良い。
-従って$t$や$f$は直線上の座標となる。
+という有限の作用を得る. 
+従って共形対称性は自発的にも, また陽にも破れる. 
+次に\eqref{eq:action_for_epsilon}式に有限のリパラメトリゼーション$t\to f(t)$を施した表式を求めたい. 
+これには零温度から始めるのが良い. 
+従って$t$や$f$は直線上の座標となる. 
 $f(t)$はマクローリン展開すれば
 \begin{align}
 	f(t) = f(0) + f'(0)\left(t
 		+ \frac{1}{2}\frac{f''(0)}{f'(0)}t^2 + \cdots
 	\right)
 \end{align}
-となり、小さい$t$に関しては、スケーリングや並進によって
-$\epsilon' = 0, \epsilon'' = f''/f'$となるような微小変換を得る。
-このスケーリングや並進は零温度2点関数に影響しないため、
+となり, 小さい$t$に関しては, スケーリングや並進によって
+$\epsilon' = 0, \epsilon'' = f''/f'$となるような微小変換を得る. 
+このスケーリングや並進は零温度2点関数に影響しないため, 
 次式のような微小変換から有限の変換への一般化が可能である:
 \begin{align}
 	\frac{1}{2}\int dt\ (\epsilon'')^2 \to 
@@ -109,13 +109,13 @@ $\epsilon' = 0, \epsilon'' = f''/f'$となるような微小変換を得る。
 	\{f, t\} = \frac{f'''}{f'} - \frac{3}{2}\left(\frac{f''}{f'}\right)
 	\label{eq:Schwartzian_action}
 \end{align}
-となる。$\{f,t\}$はシュワルツ微分であり、
-$SL(2, \mathbb{R})$変換$f \to \frac{af + b}{cf + d}$の下で不変という性質を持つ。
-零温度では$G_c$が$SL(2, \mathbb{R})$不変なので、この対称性は厳密なものである。
+となる. $\{f,t\}$はシュワルツ微分であり, 
+$SL(2, \mathbb{R})$変換$f \to \frac{af + b}{cf + d}$の下で不変という性質を持つ. 
+零温度では$G_c$が$SL(2, \mathbb{R})$不変なので, この対称性は厳密なものである. 
 有限温度に移るには
 \begin{align}
 	f(t) = \tan\left(\frac{\pi t}{\beta}\right)
 \end{align}
-という変換をすればよい。
+という変換をすればよい. 
 
 \pagebreak

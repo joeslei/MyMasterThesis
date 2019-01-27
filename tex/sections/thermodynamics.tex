@@ -1,21 +1,21 @@
 \section{SYK模型の熱力学的諸量\label{sec:thermodynamics}}
-この節ではSYK模型の自由エネルギーやエントロピーなどの熱力学的な量を計算する。
-特に零温度エントロピーや比熱は後に論ずるSYK模型の量子カオス的性質に関わってくる。
+この節ではSYK模型の自由エネルギーやエントロピーなどの熱力学的な量を計算する. 
+特に零温度エントロピーや比熱は後に論ずるSYK模型の量子カオス的性質に関わってくる. 
 
-出発点は\eqref{eq:effective_theory_of_reparametrization}式であり、
+出発点は\eqref{eq:effective_theory_of_reparametrization}式であり, 
 自由エネルギーは
 \begin{align}
 	e^{-\beta F} = \int \mathcal{D}\tilde{G}\mathcal{D}\tilde{\Sigma}\ 
 		e^{-S[\tilde{G}, \tilde{\Sigma}]}
 \end{align}
-より与えられる。
+より与えられる. 
 特にこれを低温度で展開すると
 \begin{align}
 	-\frac{\beta F}{N}
 	= -\beta E_0 + S_0 + \frac{c}{2\beta} + O\left(\frac{1}{\beta^2}\right)
 \end{align}
-となる。
-ここで$E_0$は基底エネルギー、$S_0$は零温度エントロピー、そして$c/\beta$は比熱である。
+となる. 
+ここで$E_0$は基底エネルギー, $S_0$は零温度エントロピー, そして$c/\beta$は比熱である. 
 $E_0$は自由エネルギーに$J\partial_J$を作用させる事で得られる:
 \begin{align}
 	J\frac{\partial}{\partial J}\left(-\frac{\beta F}{N}\right)
@@ -23,29 +23,29 @@ $E_0$は自由エネルギーに$J\partial_J$を作用させる事で得られ�
 	= -\frac{\beta}{q}\left.\frac{\partial G}{\partial t}\right|_{t\to 0^+}
 	= \beta E.
 \end{align}
-ここで自由エネルギーを与える古典解$G$、$\Sigma$は運動方程式に従う事から、
-$\partial_J$は$J$に陽に依る項のみに作用するという事を用いた。
+ここで自由エネルギーを与える古典解$G$, $\Sigma$は運動方程式に従う事から, 
+$\partial_J$は$J$に陽に依る項のみに作用するという事を用いた. 
 零温度エントロピーは一般の$q$において
 \begin{align}
 	\frac{S_0}{N}
 	= \frac{1}{2}\log 2 - \int_0^{1/q} dx\ \pi\left(\frac{1}{2} - x\right)\tan \pi x
 \end{align}
-で与えられる。
-また比熱は\eqref{eq:Schwartzian_action}式のシュワルツ理論を有限温度にしたものから得られる。
-具体的にはパラメータ$t$に$f(t) = \tan(\pi t / \beta)$のようにリパラメトリゼーションを施し、
+で与えられる. 
+また比熱は\eqref{eq:Schwartzian_action}式のシュワルツ理論を有限温度にしたものから得られる. 
+具体的にはパラメータ$t$に$f(t) = \tan(\pi t / \beta)$のようにリパラメトリゼーションを施し, 
 自由エネルギーへの有限温度の補正を計算すると
 \begin{align}
 	-\beta F \supset \frac{N \alpha_S}{\mathcal{J}}
 		\int_0^{\beta} dt\ \left\{\tan \frac{\pi t}{\beta}, t\right\}
 	= 2\pi^2\alpha_S\frac{N}{\beta \mathcal{J}}
 \end{align}
-を得る。
-ここで$\alpha_S$は\eqref{eq:action_for_epsilon}式で与えられるシュワルツ作用の係数である。
+を得る. 
+ここで$\alpha_S$は\eqref{eq:action_for_epsilon}式で与えられるシュワルツ作用の係数である. 
 この補正項より比熱は
 \begin{align}
 	\frac{c}{2} = 2\pi^2\alpha_S\frac{N}{\mathcal{J}}
 	\label{eq:specific_heat}
 \end{align}
-から与えられる。
+から与えられる. 
 
 \pagebreak

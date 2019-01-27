@@ -1,17 +1,17 @@
 \section{2点関数\label{sec:twopointfunc}}
 ここではラージ$N$におけるSYK模型の2点関数について述べる。
-最初に2点関数の従うシュウィンガー・ダイソン方程式を示し、そこから
+最初に2点関数の従うシュウィンガー・ダイソン方程式を示し, そこから
 リーディングオーダーで寄与するファインマンダイアグラムがメロンダイアグラムと呼ばれる
 ものである事を見る。
 
 次にシュウィンガー・ダイソン方程式が低エネルギー極限でリパラメトリゼーション不変性を
 持つ事を見る。
-この不変性は、古典解として共形対称性を持つものを選ぶ事によって自発的に破れる。
-この共形古典解を用いて、第\ref{sec:fourpointfunc}節で4点関数の解析を行う。
+この不変性は, 古典解として共形対称性を持つものを選ぶ事によって自発的に破れる。
+この共形古典解を用いて, 第\ref{sec:fourpointfunc}節で4点関数の解析を行う。
 
-シュウィンガー・ダイソン方程式の解析解は共形古典解の他にも、
-相互作用するフェルミオンの数$q$についてラージ極限を取ったものや、$q=2$の時にも知られている。
-ただし本論文では$q=2$のケースは重要ではないので扱わない。
+シュウィンガー・ダイソン方程式の解析解は共形古典解の他にも, 
+相互作用するフェルミオンの数$q$についてラージ極限を取ったものや, $q=2$の時にも知られている. 
+ただし本論文では$q=2$のケースは重要ではないので扱わない. 
 
 \subsection{シュウィンガー・ダイソン方程式}
 \begin{figure}[ht]
@@ -29,8 +29,8 @@ SYK模型の作用は
 		- \frac{1}{4!} \sum_{i,j,k,l = 1}^{N} J_{ijkl} \psi_i\psi_j\psi_k\psi_l
     \right)
 \end{align}
-である。
-これを$J_{ijkl}$について期待値を取り、その後フェルミオンを積分するために
+である. 
+これを$J_{ijkl}$について期待値を取り, その後フェルミオンを積分するために
 2つの双局所場$G(t_1, t_2)$, $\Sigma(t_1, t_2)$を導入すると
 \begin{align}
   \frac{I_{\mathrm eff}}{N} =
@@ -38,9 +38,9 @@ SYK模型の作用は
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
   \label{eq:effectiveAction}
 \end{align}
-を得る\footnote{詳しい計算は\ref{app:effective_action}を参照すること.}。
+を得る\footnote{詳しい計算は\ref{app:effective_action}を参照すること.}. 
 $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
-ラグランジュの未定乗数である。
+ラグランジュの未定乗数である. 
 \eqref{eq:effectiveAction}式の停留点が次式のシュウィンガー・ダイソン方程式を与える:
 \begin{align}
   G(\omega)^{-1} = -i\omega - \Sigma(\omega),
@@ -49,8 +49,8 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
   \label{eq:SDeq}
 \end{align}
 
-なお、SYK模型では4つのフェルミオンが相互作用するとしているが、その数を$q$として一般化しても
-有効作用やシュウィンガー・ダイソン方程式は計算する事ができ、それぞれ
+なお, SYK模型では4つのフェルミオンが相互作用するとしているが, その数を$q$として一般化しても
+有効作用やシュウィンガー・ダイソン方程式は計算する事ができ, それぞれ
 \begin{align}
   \frac{I_{\mathrm eff}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
@@ -63,16 +63,16 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
   \Sigma(t) = J^2G(t)^{q-1}
   \label{eq:SDeqWithGeneral_q}
 \end{align}
-である。さらに複数の$q$について相互作用項を足し合わせたような一般化したSYK模型も
-調べられており、\cite{gross}にて詳しく論じられている。
+である. さらに複数の$q$について相互作用項を足し合わせたような一般化したSYK模型も
+調べられており, \cite{gross}にて詳しく論じられている. 
 
-ラージ$N$極限を施したSYK模型において、リーディングオーダーで2点関数に寄与する
+ラージ$N$極限を施したSYK模型において, リーディングオーダーで2点関数に寄与する
 ファインマンダイアグラムは「メロンダイアグラム」と呼ばれている
 \footnote{このメロンはwatermelonのmelonであってメロンではないらしい.
-どの辺がスイカなのかはよく分からない.}。
+どの辺がスイカなのかはよく分からない.}. 
 \eqref{eq:SDeqWithGeneral_q}式の一般の$\omega$における解析的な計算は現在のところ
-知られていないが、数値的には可能であり、図\ref{fig:melonDiagram}のダイアグラムのように
-再帰的に計算を走らせる事で2点関数のグラフをプロットできる(図\ref{fig:J10}, 図\ref{fig:J50})。
+知られていないが, 数値的には可能であり, 図\ref{fig:melonDiagram}のダイアグラムのように
+再帰的に計算を走らせる事で2点関数のグラフをプロットできる(図\ref{fig:J10}, 図\ref{fig:J50}). 
 
 \begin{figure}[ht]
 	\begin{tabular}{cc}
@@ -96,12 +96,12 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 
 \subsection{共形不変性}
 シュウィンガー・ダイソン方程式\eqref{eq:SDeqWithGeneral_q}は$\omega = 0$という
-低エネルギー極限においては解析的な解が知られている。
+低エネルギー極限においては解析的な解が知られている. 
 この時\eqref{eq:SDeqWithGeneral_q}式の一つ目の式は
 \begin{align}
 	\Sigma(\omega)G(\omega) = -1
 \end{align}
-となり、この両辺にフーリエ変換を施す事でシュウィンガー・ダイソン方程式は
+となり, この両辺にフーリエ変換を施す事でシュウィンガー・ダイソン方程式は
 \begin{align}
 	\int dt\ G(t_1, t)\Sigma(t, t_2) = -\delta(t_1 - t_2),
 	\hspace{30pt}
@@ -116,8 +116,8 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 	\Sigma(t_1, t_2) \to (f(t_1)f(t_2))^{1 - \Delta}\Sigma(f(t_1),f(t_2)).
 	\label{eq:reparametrization_of_G_and_Sigma}
 \end{align}
-ここで$\Delta = 1 / q$である。
-この不変性は、解として次のような形を仮定すると共形対称性に自発的に破れる:
+ここで$\Delta = 1 / q$である. 
+この不変性は, 解として次のような形を仮定すると共形対称性に自発的に破れる:
 \begin{align}
 	G_c(t) = \frac{b}{|t|^{2\Delta}}\mathrm{sgn}(t),
 	\hspace{20pt}
@@ -126,17 +126,17 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 	G_c(t) = b\left[\frac{\pi}{\beta\sin(\pi t / \beta)}\right]^{2\Delta}\mathrm{sgn}(t)
 	\label{eq:conformal_ansatz}
 \end{align}
-２番目の式は有限温度の場合の解であり、パラメータ$t$を$f(t) = \tan(\pi t / \beta)$と変換して得る。
-図\ref{fig:J10}および図\ref{fig:J50}において$G_c$を緑色の線でプロットしたところ、一般の$\omega$からは少しずれた。
+２番目の式は有限温度の場合の解であり, パラメータ$t$を$f(t) = \tan(\pi t / \beta)$と変換して得る. 
+図\ref{fig:J10}および図\ref{fig:J50}において$G_c$を緑色の線でプロットしたところ, 一般の$\omega$からは少しずれた. 
 係数$b$は
 \begin{align}
 	J^2 b^q \pi = \left(\frac{1}{2} - \Delta \right)\tan(\pi \Delta)
 \end{align}
-から決める事ができる\footnote{詳しくは\ref{app:b}を参照.}。
+から決める事ができる\footnote{詳しくは\ref{app:b}を参照.}. 
 
 \subsection{ラージ$q$極限}
-SYK模型ではラージ$q$極限においても(あるオーダーで)解析解が知られている。
-ここでは$1/q$オーダーおよび$1/q^2$オーダーまでの解を述べる。
+SYK模型ではラージ$q$極限においても(あるオーダーで)解析解が知られている. 
+ここでは$1/q$オーダーおよび$1/q^2$オーダーまでの解を述べる. 
 
 \subsubsection{リーディングオーダー}
 まず最初に$1/q$オーダーでの解を考える($q$は偶数とする):
@@ -153,14 +153,14 @@ SYK模型ではラージ$q$極限においても(あるオーダーで)解析解
 	= -i\omega + \omega^2\frac{[\sgn \times g](\omega)}{2q}
 	= -i\omega - \Sigma(\omega)
 \end{align}
-で与えられる。
-ここで$[\sgn \times g](\omega)$は$\sgn(t)g(t)$の積のフーリエ変換を表す。
-また２番目の等号は$1/q$で展開した。
+で与えられる. 
+ここで$[\sgn \times g](\omega)$は$\sgn(t)g(t)$の積のフーリエ変換を表す. 
+また２番目の等号は$1/q$で展開した. 
 ３番目の等号より
 \begin{align}
 	\Sigma(\omega) = -\omega^2\frac{[\sgn \times g](\omega)}{2q}
 \end{align}
-を得るので、これを更にフーリエ変換したものと\eqref{eq:firstOrder}式の$\Sigma(t)$
+を得るので, これを更にフーリエ変換したものと\eqref{eq:firstOrder}式の$\Sigma(t)$
 を比べると次のような微分方程式を得る:
 \begin{align}
 \partial_t^2(\sgn(t)g(t)) = 2\mathcal{J}^2\sgn(t)e^{g(t)},
@@ -168,16 +168,16 @@ SYK模型ではラージ$q$極限においても(あるオーダーで)解析解
 \mathcal{J} \equiv \sqrt{q}\frac{J}{2^{\frac{q-1}{2}}}.
 \label{eq:diffeq_for_g}
 \end{align}
-$q \to \infty$の極限で$\mathcal{J}$は固定されているものとする。
+$q \to \infty$の極限で$\mathcal{J}$は固定されているものとする. 
 この微分方程式の一般解は次のような形をしている事が知られている:
 \begin{align}
 e^{g(t)} = \frac{c^2}{\mathcal{J}^2}\frac{1}{\sin^2(c|t| + t_0)}.
 \end{align}
-我々が興味ある解は、$g(0)=0$かつ$g(\beta)=0$を満たすものである。
-なぜなら$J$は質量次元が1であり、したがって\eqref{eq:diffeq_for_g}式が有効となるようなスケールの
-$t$が常に存在する。
-特に$t=0$は$J$のスケールで言い換えればUV領域なので、理論は相互作用なしの場合のものになるからである。
-これを考慮すると、
+我々が興味ある解は, $g(0)=0$かつ$g(\beta)=0$を満たすものである. 
+なぜなら$J$は質量次元が1であり, したがって\eqref{eq:diffeq_for_g}式が有効となるようなスケールの
+$t$が常に存在する. 
+特に$t=0$は$J$のスケールで言い換えればUV領域なので, 理論は相互作用なしの場合のものになるからである. 
+これを考慮すると, 
 \begin{align}
 	e^{g(t)} = \left[
 		\frac{\cos\frac{\pi v}{2}}{\cos\left(\pi v(\frac{1}{2} - \frac{|t|}{\beta})\right)}
@@ -186,7 +186,7 @@ $t$が常に存在する。
 	\beta\mathcal{J} = \frac{\pi v}{\cos\frac{\pi v}{2}}
 	\label{eq:explicit_g}
 \end{align}
-を得る。２つ目の式によってパラメータ$v\in[0, 1]$を決定する。
+を得る. ２つ目の式によってパラメータ$v\in[0, 1]$を決定する. 
 
 \subsubsection{サブリーディングオーダー\footnote{この節の内容は\cite{tarnopolsky}による.}}
 次に我々は$1/q^2$のオーダーを計算する($q$は偶数とする):
@@ -202,8 +202,8 @@ $t$が常に存在する。
 		\right)
 	\label{eq:subleading_selfenergy_t}
 \end{align}
-となる。
-以下では$t \in [0, \beta]$とする(従って$\sgn(t) = 1$である)。
+となる. 
+以下では$t \in [0, \beta]$とする(従って$\sgn(t) = 1$である). 
 $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展開すると
 \begin{align}
 	G(\omega)^{-1} = -i\omega + \frac{1}{2q}\omega^2 g(\omega)
@@ -212,14 +212,14 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 		\right)
 		= -i\omega - \Sigma(\omega)
 \end{align}
-となるので、フーリエ変換された自己エネルギーとして
+となるので, フーリエ変換された自己エネルギーとして
 \begin{align}
 	\Sigma(\omega) = -\frac{1}{2q}\omega^2 g(\omega) - \frac{\omega^2}{2q^2}\left(
 			h(\omega) + \frac{i\omega}{2}[g \times g](\omega)
 		\right)
 \end{align}
-を得る。
-これを$\omega$から$t$へ逆変換したものと\eqref{eq:subleading_selfenergy_t}を比べれば、
+を得る. 
+これを$\omega$から$t$へ逆変換したものと\eqref{eq:subleading_selfenergy_t}を比べれば, 
 \eqref{eq:diffeq_for_g}式及び$h(t)$に関する微分方程式を得る:
 \begin{align}
 	\partial_t^2 h = 2 \mathcal{J}^2 e^g h + \frac{1}{2}\partial_t^3[g \times g]
@@ -230,7 +230,7 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 \begin{align}
 	g(0) = g(\beta) = h(0) = h(\beta) = 0.
 \end{align}
-この時$g(t)$は\eqref{eq:explicit_g}式で与えられる。
+この時$g(t)$は\eqref{eq:explicit_g}式で与えられる. 
 また\eqref{eq:diffeq_for_h}式の解は次式で与えられる:
 \begin{align}
 	h(x) = \frac{1}{2}g^2(x) - 2L(x)
@@ -240,7 +240,7 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 		\right).
 	\label{eq:explicit_h}
 \end{align}
-ここで$x = \frac{\pi v}{2} - \frac{\pi v}{\beta}t$、
+ここで$x = \frac{\pi v}{2} - \frac{\pi v}{\beta}t$, 
 また
 \begin{align}
 	L(x) = g(x) - e^{-g(x)}\mathrm{Li}_2(1 - e^{g(x)})
@@ -248,7 +248,7 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 	\left(\mathrm{Li}_2(z) = \sum_{k=1}^{\infty}\frac{z^k}{k^2}\right)
 \end{align}
 である\footnote{$\mathrm{Li}_2(z)$は
-\href{http://mathworld.wolfram.com/Dilogarithm.html}{http://mathworld.wolfram.com/Dilogarithm.html}を参照した。}。
+\href{http://mathworld.wolfram.com/Dilogarithm.html}{http://mathworld.wolfram.com/Dilogarithm.html}を参照した. }. 
 
 %\subsection{自由エネルギー及びエントロピー}
 %自由エネルギーは\eqref{eq:effectiveActionWithGeneral_q}式より
@@ -257,18 +257,18 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 %		- \frac{1}{2}\int_0^{\beta} dt_1 dt_2
 %		\left(\Sigma(t_{12})G(t_{12}) - \frac{J^2}{q} G(t_{12})^q \right)
 %\end{align}
-%で与えられる。
-%ここで$t_{ij} \equiv t_i - t_j$とした。
+%で与えられる. 
+%ここで$t_{ij} \equiv t_i - t_j$とした. 
 %右辺の第一項目の計算を避けるためには自由エネルギーを$J\partial_J$で微分すると良い
-%\footnote{$G$と$\Sigma$が運動方程式に従っているため、
-%$\partial_J$はあらわに$J$に依存している項のみに作用する。}:
+%\footnote{$G$と$\Sigma$が運動方程式に従っているため, 
+%$\partial_J$はあらわに$J$に依存している項のみに作用する. }:
 %\begin{align}
 %	J\frac{\partial}{\partial J}\left(-\frac{\beta F}{N}\right)
 %	= \frac{J^2 \beta}{q}\int_0^{\beta} dt\ G(t)^q
 %	= -\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+).
 %	\label{eq:differentiated_free_energy}
 %\end{align}
-%ここで２つ目の等号では\eqref{eq:SDeqWithGeneral_q}式の２つ目の式を用いた。
+%ここで２つ目の等号では\eqref{eq:SDeqWithGeneral_q}式の２つ目の式を用いた. 
 %\eqref{eq:subleading_of_G_t}式を代入すると
 %\begin{align}
 %	-\frac{\beta}{q}\frac{\partial G}{\partial t}(t \to 0^+)
@@ -277,7 +277,7 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 %		+ \frac{1}{q^2}\frac{\partial h}{\partial x}\left(x \to \frac{\pi v}{2}\right)
 %	\right)
 %\end{align}
-%となり、更に\eqref{eq:explicit_g}式と\eqref{eq:explicit_h}式を代入して計算を進めると
+%となり, 更に\eqref{eq:explicit_g}式と\eqref{eq:explicit_h}式を代入して計算を進めると
 %\begin{align}
 %	\frac{\partial g}{\partial x}\left(x \to \frac{\pi v}{2}\right)
 %	= 2 \tan \frac{\pi v}{2}
@@ -291,13 +291,13 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 %		- \int_0^{\frac{\pi v}{2}} dy\ L(y)
 %	\right)
 %\end{align}
-%を得る。
-%上式の$L(y)$に対する積分は具体的に実行する事ができ、
+%を得る. 
+%上式の$L(y)$に対する積分は具体的に実行する事ができ, 
 %\begin{align}
 %	\int_0^{\frac{\pi v}{2}} dy\ L(y)
 %		= -\frac{\pi^2 v^2(\pi v + 3\sin \pi v)}{24 \cos^2 \frac{\pi v}{2}}
 %\end{align}
-%で与えられる\cite{tarnopolsky}。この積分結果及び
+%で与えられる\cite{tarnopolsky}. この積分結果及び
 %\begin{align}
 %	J\frac{\partial}{\partial J} 
 %		= \frac{v}{1 + \frac{\pi v}{2}\tan \frac{\pi v}{2}}\frac{\partial}{\partial v}
@@ -317,7 +317,7 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 %	v = 1 - \frac{2}{\beta\mathcal{J}} + \frac{4}{(\beta\mathcal{J})^2}
 %		- \frac{24 + \pi^2}{3(\beta\mathcal{J})^2} + \cdots
 %\end{align}
-%となる。
+%となる. 
 %これを用いて自由エネルギーを強結合領域で展開すると
 %\begin{align}
 %	-\frac{\beta F}{N}
@@ -328,8 +328,8 @@ $G(\omega)^{-1}$を\eqref{eq:subleading_of_G_t}式を用いて$1/q^2$まで展�
 %	\right)\cdots
 %	\label{eq:expanded_free_energy}
 %\end{align}
-%となる。
-%右辺の一行目は基底状態のエネルギー、二行目の１つめの括弧は零温度エントロピー、２つ目はその補正項である。
+%となる. 
+%右辺の一行目は基底状態のエネルギー, 二行目の１つめの括弧は零温度エントロピー, ２つ目はその補正項である. 
 %零温度エントロピーは次式をラージ$q$で展開したものと一致する\cite{maldacena}:
 %\begin{align}
 %	\frac{S_0}{N}
