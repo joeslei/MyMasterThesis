@@ -24,7 +24,8 @@ print("standard dev = {}".format(np.sqrt(np.diag(pcov))))
 
 
 if 1:
-    plt.plot(omega, transformedSelfEnergy, 'b', label="Sigma(omega)")
+    plt.title("Fourier transformed self energy")
+    plt.plot(omega, transformedSelfEnergy, 'b', label="self energy")
     plt.plot(omega, fitting_data, 'y', label="%5.3f * (x ** %5.3f)" % tuple(popt))
     plt.legend()
     plt.xscale("log")
