@@ -42,7 +42,7 @@ $Z(\beta, t)$の時間平均はゼロであるので, $Z(\beta, t)$は大きい$
 	\lim_{T\to\infty}\frac{1}{T}\int_0^Tdt\ \left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
 	= \frac{1}{Z(\beta)^2}\sum_E N_E^2e^{-2\beta E}.
 \end{align}
-ここで$N_E$は縮退度であり, スペクトラムに縮退が存在しない ($N_E = 1$)であるならば
+ここで$N_E$は縮退度であり, スペクトラムに縮退が存在しない ($N_E = 1$)ならば
 \begin{align}
 	\lim_{T\to\infty}\frac{1}{T}\int_0^Tdt\ \left|\frac{Z(\beta, t)}{Z(\beta)}\right|^2
 	= \frac{Z(2\beta)}{Z(\beta)^2}
@@ -85,7 +85,6 @@ SYK模型は良い``実験室"となっている.
 
 $g(t)$は量子カオスの分野において重要なスペクトラル統計の量であり, 
 スペクトラル形状因子と呼ばれる. 
-% \footnote{量子カオスやスペクトラル統計の詳細は\ref{app:quantum_chaos}を参照する事. }. 
 スペクトラル統計ではランダム行列理論(Random Matrix Theory: RMT)という数学が用いられる. 
 量子カオスの分野における基本的な仮定の1つに, エネルギー固有値の統計的構造がRMT
 におけるランダム行列のそれと一致するというものがある. 
@@ -177,7 +176,7 @@ $M$の分配関数は
 統計平均$\langle\cdot\rangle_{\mathrm{GUE}}$に置き換わる. 
 
 次にエルミート行列$M$を対角化し, 基底をユニタリ変換する事を考える. 
-この変換により, 固有値同士の"排斥力"を表すヤコビアンが現れる. 
+この変換により, 固有値同士の``排斥力"を表すヤコビアンが現れる. 
 行列のサイズ$L$のラージ極限を取ると固有値分布はある密度$\rho$によって記述できる. 
 この$\rho$を物理的な密度として使い, $\tilde{\rho}$を規格化したものとする:
 \begin{align}
@@ -303,9 +302,6 @@ SYK模型ではヒルベルト空間の次元は$L = 2^{N/2}$なので$1/L \appr
 SYK模型における期待値$\average{\cdot}$はdisorder average $\average{\cdot}_J$となるが, 
 これをGUEのラージ$L$での期待値\eqref{eq:GUEstatistics_in_large_L}式に近似して計算を進める. 
 rampとplateauは第\ref{sec:effective_theory}節で論じたシュワルツ理論から与えられる. 
-% ただし, この解析はSYK模型の元々の作用\eqref{eq:effective_theory_of_reparametrization}式
-% から計算したラージ$N$の結果とは本質的な違いがある可能性がある. 
-% この点についてはこの節の最後に触れる. 
 
 最初に系がGUE統計に従うとした場合の一般論からrampやplateauがどのように現れるかを見る. 
 その後議論をSYK模型へ適用する. 
@@ -507,7 +503,7 @@ slopeを構成する.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=10cm]{figures/beta_aux}
-	\caption{$\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
+	\caption{$\tr(e^{-\frac{\beta_{\mathrm{aux}}}{2}H}e^{-iHT}e^{-\frac{\beta_{\mathrm{aux}}}{2}H}e^{iHT})$
 		の経路積分による表示. 白い点と黒い点は同一のものである. 
 		灰色の領域において$G$, $\Sigma$の鞍点方程式は元々の$Z(iT)Z(-iT)$でのそれに近いというのが
 		基本的なアイディアである. この図は\cite{stanford_chaos}より引用した.
@@ -515,28 +511,29 @@ slopeを構成する.
 	\label{fig:beta_aux}
 \end{figure}
 $Z(iT)Z(-iT)$の事は一旦忘れて
-$\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
-という量を考える. ここで$\beta_{aux}$は任意のパラメータである. 
-実時間での時間発展は互いに相殺し, $Z(\beta_{aux})$となる. 
+$\tr(e^{-\frac{\beta_{\mathrm{aux}}}{2}H}e^{-iHT}e^{-\frac{\beta_{\mathrm{aux}}}{2}H}e^{iHT})$
+という量を考える. ここで$\beta_{\mathrm{aux}}$は任意のパラメータである. 
+実時間での時間発展は互いに相殺し, $Z(\beta_{\mathrm{aux}})$となる. 
 それでもこの量を図\ref{fig:beta_aux}のような４つの経路それぞれを計算する事はできる. 
-この４つの経路の$G$, $\Sigma$の鞍点の配位は逆温度$\beta_{aux}$の熱相関関数の解析接続である. 
+この４つの経路の$G$, $\Sigma$の鞍点の配位は逆温度$\beta_{\mathrm{aux}}$の熱相関関数の解析接続である. 
 基本的なアイディアは, 図\ref{fig:beta_aux}の横に長く伸びている経路の$G$, $\Sigma$の鞍点方程式は
 元々の$Z(iT)Z(-iT)$でのそれと近似的に同じというものである. 
 
 従ってシュウィンガー・ダイソン方程式\eqref{eq:replica_SDeq_1}式および
-\eqref{eq:replica_SDeq_2}式の近似解として, 任意の逆温度$\beta_{aux}$を持つ
+\eqref{eq:replica_SDeq_2}式の近似解として, 任意の逆温度$\beta_{\mathrm{aux}}$を持つ
 解析接続された熱相関関数を使うと良い可能性がある. 
-より正確には, 次式のように試験的な解としてL系とR系に対してThermofield Double State (TDF)にある
+より正確には, 次式のように試験的な解としてL系とR系に対してThermofield Double State (TDS)にある
 相関関数を用いるという事である:
 \begin{align}
-	G_{ij}^{\beta_{aux}}(t)
-	= \langle TFD(\beta_{aux})|\psi^i(t)\psi^j(0)|TFD(\beta_{aux}) \rangle,
+	G_{ij}^{\beta_{\mathrm{aux}}}(t)
+	= \langle \mathrm{TDS}(\beta_{\mathrm{aux}})
+		|\psi^i(t)\psi^j(0)|\mathrm{TDS}(\beta_{\mathrm{aux}}) \rangle,
 	\hspace{20pt}i,j \in \{L, R\}.
 \end{align}
 しかし上式はラージ$|t|$で消滅するため反周期性を持たない. 
 これは
 \begin{align}
-	G_{ij}(t) = G_{ij}^{\beta_{aux}}(t) - G_{ij}^{\beta_{aux}}(t-T),\hspace{20pt}
+	G_{ij}(t) = G_{ij}^{\beta_{\mathrm{aux}}}(t) - G_{ij}^{\beta_{\mathrm{aux}}}(t-T),\hspace{20pt}
 	0 < t < T
 	\label{eq:almost_true_solution_for_SDeq}
 \end{align}
@@ -544,7 +541,7 @@ $\tr(e^{-\frac{\beta_{aux}}{2}H}e^{-iHT}e^{-\frac{\beta_{aux}}{2}H}e^{iHT})$
 これを厳密な解とはしないが, ラージ$T$では真の解に非常に近いと期待できる. 
 
 \eqref{eq:almost_true_solution_for_SDeq}式の持つパラメータは２つあり, 
-1つ目は$\beta_{aux}$である. 
+1つ目は$\beta_{\mathrm{aux}}$である. 
 2つ目は次のようにして理解できる. 
 作用\eqref{eq:action_for_the_two_replicas}式はL系とR系に対してそれぞれ独立に
 時間並進対称性を持つ. 
@@ -563,12 +560,13 @@ $\Delta t$が2つ目のパラメータとなる.
 以上から\eqref{eq:almost_true_solution_for_SDeq}式の寄与は
 \begin{align}
 	\average{Z(iT)Z(-iT)}_J \supset
-	\int_0^{\infty}d\beta_{aux}\ \mu(\beta_{aux})
+	\int_0^{\infty}d\beta_{\mathrm{aux}}\ \mu(\beta_{\mathrm{aux}})
 	\int_0^{2T} d(\Delta t)
-	= \mathrm{const.}\ \times T
+	= \mathrm{const}\ \times T
 \end{align}
 となる. 
-ここで積分測度$\mu(\beta_{aux})$は1-ループ行列式に由来する. 
+ここで$\supset$は複数ある項のうちの1つであるという意味で用いた.
+また積分測度$\mu(\beta_{\mathrm{aux}})$は1-ループ行列式に由来する. 
 よって$T$に比例しているためrampを構成する. 
 
 \subsubsection{有限の$\beta$と$|Y_{E,\Delta}(T)|^2$}
@@ -583,13 +581,13 @@ $\Delta t$が2つ目のパラメータとなる.
 これを素朴にSYK模型に移行しようとすると, 
 \begin{align}
 	\average{Z(iT)Z(-iT)}_J \supset
-	\int_0^{\infty}d\beta_{aux}\ \mu(\beta_{aux})e^{-2\beta E(\beta_{aux})}
+	\int_0^{\infty}d\beta_{\mathrm{aux}}\ \mu(\beta_{\mathrm{aux}})e^{-2\beta E(\beta_{\mathrm{aux}})}
 	\int_0^{2T} d(\Delta t)
 \end{align}
 となるであろう. 
-問題は上式の$e^{-2\beta E(\beta_{aux})}$であり, これが$\beta_{aux}$に対する圧力
+問題は上式の$e^{-2\beta E(\beta_{\mathrm{aux}})}$であり, これが$\beta_{\mathrm{aux}}$に対する圧力
 のようなものとなっている. 
-従って$\beta_{aux}$は最早作用の平坦な方向ではなくなり不安定となる. 
+従って$\beta_{\mathrm{aux}}$は最早作用の平坦な方向ではなくなり不安定となる. 
 これが原因で非自明な鞍点を期待する事ができない. 
 
 これを解消するには次式で定義されるようなスペクトラル形状因子の小正準集団バージョンを考えると良い:
@@ -617,11 +615,11 @@ $\average{|Y_{E,\Delta}(T)|^2}_J$を調べる時の全体の作用は
 これを$G$や$\Sigma$について変分して得られる運動方程式は\eqref{eq:replica_SDeq_1}式や
 \eqref{eq:replica_SDeq_2}式で$J^2\to J_iJ_j$と置き換えたものとなる. 
 また$\beta_L$や$\beta_R$について変分を施した方程式も存在する. 
-$\beta_{aux}$の不安定性により$G$, $\Sigma$の従う方程式の一般の
+$\beta_{\mathrm{aux}}$の不安定性により$G$, $\Sigma$の従う方程式の一般の
 $\beta_L$, $\beta_R$における解を期待できない. 
 逆に言えば$G$や$\Sigma$の方程式は有効的に$\beta_L = \beta_R = 0$とする効果を持つ. 
 大雑把に言えばこの事により結局$\beta = 0$の場合に話は戻る. 
-よって2つのパラメータ$\beta_{aux}$と$\Delta t$を持つ解が存在する. 
+よって2つのパラメータ$\beta_{\mathrm{aux}}$と$\Delta t$を持つ解が存在する. 
 しかし$\beta_L$や$\beta_R$を変分して得る方程式についても言及しなければならない. 
 この方程式は, $\beta_L = \beta_R = 0$とした後で
 \begin{align}
@@ -630,9 +628,9 @@ $\beta_L$, $\beta_R$における解を期待できない.
 	= -\frac{iJ^2N}{qT}\int_0^T\int_0^T dtdt'\ [G_{RR}^q - i^qG_{LR}^q]
 	\label{eq:energy_of_two_replicas}
 \end{align}
-を与える. ここで上述した2つのパラメータ$\beta_{aux}$, $\Delta t$を走る解の族の範囲内で
-2番めと3番目の表式は互いに等価となり, $\beta_{aux}$の関数である. 
-\eqref{eq:energy_of_two_replicas}式を解く事により$\beta_{aux}$の値を$E$を用いて固定できる. 
+を与える. ここで上述した2つのパラメータ$\beta_{\mathrm{aux}}$, $\Delta t$を走る解の族の範囲内で
+2番めと3番目の表式は互いに等価となり, $\beta_{\mathrm{aux}}$の関数である. 
+\eqref{eq:energy_of_two_replicas}式を解く事により$\beta_{\mathrm{aux}}$の値を$E$を用いて固定できる. 
 一方で$\Delta t$は固定しておらず, これについて積分する事で$T$に比例する寄与を得る. 
 
 \pagebreak
