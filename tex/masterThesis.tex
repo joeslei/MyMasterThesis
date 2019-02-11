@@ -9,6 +9,9 @@
 			urlcolor=blue]{hyperref}
 \usepackage{comment}
 
+\usepackage[backend=biber, bibencoding=utf8, sorting=none]{biblatex}
+\addbibresource{reference.bib}
+
 \makeatletter
     \renewcommand{\theequation}{%
     \thesection.\arabic{equation}}
@@ -45,8 +48,8 @@
 	\renewcommand{\theequation}{\Alph{section}.\arabic{equation}}
 	\input{appendices/effective_action}
 	\input{appendices/b}
-%	\input{appendices/ads_cft}
 %	\input{appendices/quantum_chaos}
 	\input{sections/acknowledgement}
-	\input{sections/references}
+%	\input{sections/references}
+	\printbibliography
 \end{document}

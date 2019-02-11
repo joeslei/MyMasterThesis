@@ -1,0 +1,524 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{shenker}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d611177a3d8f74b52d7eb08ae1e6e54e}{%
+           family={Maldacena},
+           familyi={M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+           family={Stanford},
+           familyi={S\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{fullhash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{bibnamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{authorbibnamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{authornamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{authorfullhash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{A bound on chaos}}
+      \field{volume}{08}
+      \field{year}{2016}
+      \field{pages}{106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP08(2016)106
+      \endverb
+      \verb{eprint}
+      \verb 1503.01409
+      \endverb
+    \endentry
+    \entry{maldacena}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d611177a3d8f74b52d7eb08ae1e6e54e}{%
+           family={Maldacena},
+           familyi={M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+           family={Stanford},
+           familyi={S\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{fullhash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{bibnamehash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{authorbibnamehash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{authornamehash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{authorfullhash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{11}
+      \field{title}{Remarks on the Sachdev-Ye-Kitaev model}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{106002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.94.106002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.94.106002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.94.106002
+      \endverb
+    \endentry
+    \entry{polchinski}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aede54e67e8b497c7bac1a17908bef51}{%
+           family={Polchinski},
+           familyi={P\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b5590d4162511dd13de2d492cb72ef2b}{%
+           family={Rosenhaus},
+           familyi={R\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{fullhash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{bibnamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{authorbibnamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{authornamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{authorfullhash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The SYK model consists of N ≫ 1 fermions in 0 + 1 dimensions with a random, all-to-all quartic interaction. Recently, Kitaev has found that the SYK model is maximally chaotic and has proposed it as a model of holography. We solve the SchwingerDyson equation and compute the spectrum of two-particle states in SYK, finding both a continuous and discrete tower. The four-point function is expressed as a sum over the spectrum. The sum over the discrete tower is evaluated.}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{The spectrum in the Sachdev-Ye-Kitaev model}
+      \field{volume}{2016}
+      \field{year}{2016}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP04(2016)001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/JHEP04(2016)001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/JHEP04(2016)001
+      \endverb
+    \endentry
+    \entry{eiki}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a2a3c33f4d2193367011eb9bf0a6589c}{%
+           family={Iyoda},
+           familyi={I\bibinitperiod},
+           given={Eiki},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d7ff105eb6c11ac1307cb66c9ecd9351}{%
+           family={Sagawa},
+           familyi={S\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{fullhash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{bibnamehash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{authorbibnamehash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{authornamehash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{authorfullhash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.stat-mech}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{4}
+      \field{title}{{Scrambling of Quantum Information in Quantum Many-Body Systems}}
+      \field{volume}{A97}
+      \field{year}{2018}
+      \field{pages}{042330}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.97.042330
+      \endverb
+      \verb{eprint}
+      \verb 1704.04850
+      \endverb
+    \endentry
+    \entry{stanford_chaos}{article}{}
+      \name{author}{3}{}{%
+        {{hash=537916959e015dd078cf9d4a079f6a6b}{%
+           family={Saad},
+           familyi={S\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+           family={Stanford},
+           familyi={S\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{fullhash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{bibnamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{authorbibnamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{authornamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{authorfullhash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{title}{{A semiclassical ramp in SYK and in gravity}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1806.06840
+      \endverb
+    \endentry
+    \entry{gross}{article}{}
+      \name{author}{2}{}{%
+        {{hash=77e5d773d459c6212a6531f46411c09c}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b5590d4162511dd13de2d492cb72ef2b}{%
+           family={Rosenhaus},
+           familyi={R\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{fullhash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{bibnamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{authorbibnamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{authornamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{authorfullhash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The SYK model: fermions with a q-body, Gaussian-random, all-to-all interaction, is the first of a fascinating new class of solvable large N models. We generalize SYK to include f flavors of fermions, each occupying Nasites and appearing with a qaorder in the interaction. Like SYK, this entire class of models generically has an infrared fixed point. We compute the infrared dimensions of the fermions, and the spectrum of singlet bilinear operators. We show that there is always a dimension-two operator in the spectrum, which implies that, like in SYK, there is breaking of conformal invariance and maximal chaos in the infrared four-point function of the generalized model. After a disorder average, the generalized model has a global O(N1) {\texttimes} O(N2) {\texttimes} {\ldots} {\texttimes} O(Nf) symmetry: a subgroup of the O(N) symmetry of SYK; thereby giving a richer spectrum. We also elucidate aspects of the large q limit and the OPE, and solve q = 2 SYK at finite N.}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{A generalization of Sachdev-Ye-Kitaev}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \field{pages}{93}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP02(2017)093
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/JHEP02(2017)093
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/JHEP02(2017)093
+      \endverb
+    \endentry
+    \entry{tarnopolsky}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2ac325e2389930b387567ed57397ec1f}{%
+           family={Tarnopolsky},
+           familyi={T\bibinitperiod},
+           given={Grigory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{fullhash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{bibnamehash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{authorbibnamehash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{authornamehash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{authorfullhash}{2ac325e2389930b387567ed57397ec1f}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{2}
+      \field{title}{{Large $q$ expansion in the Sachdev-Ye-Kitaev model}}
+      \field{volume}{D99}
+      \field{year}{2019}
+      \field{pages}{026010}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.99.026010
+      \endverb
+      \verb{eprint}
+      \verb 1801.06871
+      \endverb
+    \endentry
+    \entry{andrzejewski}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a95e928f270f4bce5f33a34348d91363}{%
+           family={Andrzejewski},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a95e928f270f4bce5f33a34348d91363}
+      \strng{fullhash}{a95e928f270f4bce5f33a34348d91363}
+      \strng{bibnamehash}{a95e928f270f4bce5f33a34348d91363}
+      \strng{authorbibnamehash}{a95e928f270f4bce5f33a34348d91363}
+      \strng{authornamehash}{a95e928f270f4bce5f33a34348d91363}
+      \strng{authorfullhash}{a95e928f270f4bce5f33a34348d91363}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Annals Phys.}
+      \field{title}{{Quantum conformal mechanics emerging from unitary representations of SL(2,$\mathbb{R}$)}}
+      \field{volume}{367}
+      \field{year}{2016}
+      \field{pages}{227\bibrangedash 250}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.aop.2016.01.020
+      \endverb
+      \verb{eprint}
+      \verb 1506.05596
+      \endverb
+    \endentry
+    \entry{polchinski_chaos}{article}{}
+      \name{author}{9}{}{%
+        {{hash=f8520a1ac87464ac7467b08a0b47e1dc}{%
+           family={Cotler},
+           familyi={C\bibinitperiod},
+           given={Jordan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4150a424a61199cfaf36bb11ca192b7b}{%
+           family={Gur-Ari},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e8d25d1a6ba5e92c28a6f2cb578bbd19}{%
+           family={Hanada},
+           familyi={H\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aede54e67e8b497c7bac1a17908bef51}{%
+           family={Polchinski},
+           familyi={P\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=537916959e015dd078cf9d4a079f6a6b}{%
+           family={Saad},
+           familyi={S\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+           family={Shenker},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+           family={Stanford},
+           familyi={S\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aa15cd912021ef1f1ae8253085e2169f}{%
+           family={Streicher},
+           familyi={S\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=025d30328080f5657683dc980c90dbf8}{%
+           family={Tezuka},
+           familyi={T\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9d12661a06f04019de2ee8173c4beb8}
+      \strng{fullhash}{90321a1e5c3b3ecc3022861fe3e1e288}
+      \strng{bibnamehash}{e9d12661a06f04019de2ee8173c4beb8}
+      \strng{authorbibnamehash}{e9d12661a06f04019de2ee8173c4beb8}
+      \strng{authornamehash}{e9d12661a06f04019de2ee8173c4beb8}
+      \strng{authorfullhash}{90321a1e5c3b3ecc3022861fe3e1e288}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{note}{[Erratum: JHEP09,002(2018)]}
+      \field{title}{{Black Holes and Random Matrices}}
+      \field{volume}{05}
+      \field{year}{2017}
+      \field{pages}{118}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP09(2018)002, 10.1007/JHEP05(2017)118
+      \endverb
+      \verb{eprint}
+      \verb 1611.04650
+      \endverb
+    \endentry
+    \entry{gaikwad}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e93fba31b354145d42ad8bd43c5e2799}{%
+           family={Gaikwad},
+           familyi={G\bibinitperiod},
+           given={Adwait},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3dd64856bad1ce37e92edc111c4fe1dc}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Lata\bibnamedelima Kh},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2b776019283a6c287d7e60f73e3d9334}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod}}}%
+        {{hash=25363bfe60bd197449b10f7fcbe27ab9}{%
+           family={Wadia},
+           familyi={W\bibinitperiod},
+           given={Spenta\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{18398f32cb3ef9332a4cada95c05029c}
+      \strng{fullhash}{7edb03c0ef24f40a5233c79165f46b9b}
+      \strng{bibnamehash}{18398f32cb3ef9332a4cada95c05029c}
+      \strng{authorbibnamehash}{18398f32cb3ef9332a4cada95c05029c}
+      \strng{authornamehash}{18398f32cb3ef9332a4cada95c05029c}
+      \strng{authorfullhash}{7edb03c0ef24f40a5233c79165f46b9b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Holographic dual to charged SYK from 3D Gravity and Chern-Simons}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1802.07746
+      \endverb
+    \endentry
+    \entry{berkooz}{article}{}
+      \name{author}{4}{}{%
+        {{hash=633e3d7d98f82691ab8f3f7e920b4ed4}{%
+           family={Berkooz},
+           familyi={B\bibinitperiod},
+           given={Micha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=95ebddcee09f454368fbe772e41cb04e}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={Prithvi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dad5c7a66c65d6d5b3f874d506d1483b}{%
+           family={Rozali},
+           familyi={R\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f41ed389d9f7251bab1690d89b63ce11}{%
+           family={Simón},
+           familyi={S\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d51d10178145e6bf76fea196c74b9e4c}
+      \strng{fullhash}{921bf46359859cfff0bd0d0a87afce2e}
+      \strng{bibnamehash}{d51d10178145e6bf76fea196c74b9e4c}
+      \strng{authorbibnamehash}{d51d10178145e6bf76fea196c74b9e4c}
+      \strng{authornamehash}{d51d10178145e6bf76fea196c74b9e4c}
+      \strng{authorfullhash}{921bf46359859cfff0bd0d0a87afce2e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Higher Dimensional Generalizations of the SYK Model}}
+      \field{volume}{01}
+      \field{year}{2017}
+      \field{pages}{138}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP01(2017)138
+      \endverb
+      \verb{eprint}
+      \verb 1610.02422
+      \endverb
+    \endentry
+    \entry{haber}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f0d367413ed69fa2334c340e5905a615}{%
+           family={Haber},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0d367413ed69fa2334c340e5905a615}
+      \strng{fullhash}{f0d367413ed69fa2334c340e5905a615}
+      \strng{bibnamehash}{f0d367413ed69fa2334c340e5905a615}
+      \strng{authorbibnamehash}{f0d367413ed69fa2334c340e5905a615}
+      \strng{authornamehash}{f0d367413ed69fa2334c340e5905a615}
+      \strng{authorfullhash}{f0d367413ed69fa2334c340e5905a615}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Notes on antisymmetric matrices and the pfaffian}}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
