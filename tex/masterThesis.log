@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.11)  11 FEB 2019 21:38
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.11)  14 FEB 2019 13:01
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.070 seconds
+luaotfload | main : initialization completed in 0.108 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1031,7 +1031,7 @@ LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 18.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 18.
-<figures/melonDiagram.jpeg, id=197, 1027.84pt x 550.055pt>
+<figures/melonDiagram.jpeg, id=201, 1027.84pt x 550.055pt>
 File: figures/melonDiagram.jpeg Graphic file (type jpg)
 <use figures/melonDiagram.jpeg>
 Package luatex.def Info: figures/melonDiagram.jpeg  used on input line 21.
@@ -1055,7 +1055,7 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 4.16121pt on input line 24.
 [5<./figures/melonDiagram.jpeg>]
-<figures/J10.png, id=216, 462.528pt x 346.896pt>
+<figures/J10.png, id=220, 462.528pt x 346.896pt>
 File: figures/J10.png Graphic file (type png)
 <use figures/J10.png>
 Package luatex.def Info: figures/J10.png  used on input line 83.
@@ -1065,7 +1065,7 @@ Overfull \hbox (27.13602pt too wide) in paragraph at lines 83--86
  [][] 
  []
 
-<figures/J50.png, id=217, 462.528pt x 346.896pt>
+<figures/J50.png, id=221, 462.528pt x 346.896pt>
 File: figures/J50.png Graphic file (type png)
 <use figures/J50.png>
 Package luatex.def Info: figures/J50.png  used on input line 91.
@@ -1093,7 +1093,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [7<./figures/J10.png><./figures/J50.png>] [8]) [9]
 (./sections/fourpointfunc.tex
-<figures/ladderDiagram.jpg, id=302, 927.465pt x 137.51375pt>
+<figures/ladderDiagram.jpg, id=306, 927.465pt x 137.51375pt>
 File: figures/ladderDiagram.jpg Graphic file (type jpg)
 <use figures/ladderDiagram.jpg>
 Package luatex.def Info: figures/ladderDiagram.jpg  used on input line 42.
@@ -1114,7 +1114,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.62357pt on input line 107.
 [11] [12]
-<figures/circle.jpg, id=357, 1024.82875pt x 301.125pt>
+<figures/circle.jpg, id=361, 1024.82875pt x 301.125pt>
 File: figures/circle.jpg Graphic file (type jpg)
 <use figures/circle.jpg>
 Package luatex.def Info: figures/circle.jpg  used on input line 235.
@@ -1134,7 +1134,7 @@ LaTeX Warning: Command \d invalid in math mode on input line 400.
 
 Missing character: There is no ̣ (U+0323) in font cmmi10!
 [16] [17]
-<figures/poles.jpg, id=439, 1027.84pt x 452.69125pt>
+<figures/poles.jpg, id=443, 1027.84pt x 452.69125pt>
 File: figures/poles.jpg Graphic file (type jpg)
 <use figures/poles.jpg>
 Package luatex.def Info: figures/poles.jpg  used on input line 530.
@@ -1156,14 +1156,14 @@ Overfull \hbox (8.9058pt too wide) detected at line 1083
 ) [26] (./sections/effective_theory.tex [27]) [28]
 (./sections/thermodynamics.tex) [29] (./sections/syk_as_quantum_chaos.tex
 [30]
-<figures/spectralformfactor.png, id=661, 656.4525pt x 461.725pt>
+<figures/spectralformfactor.png, id=665, 656.4525pt x 461.725pt>
 File: figures/spectralformfactor.png Graphic file (type png)
 <use figures/spectralformfactor.png>
 Package luatex.def Info: figures/spectralformfactor.png  used on input line 107.
 
 (luatex.def)             Requested size: 284.52756pt x 200.13013pt.
  [31]
-<figures/spectralformfactor_inRMT.png, id=674, 656.4525pt x 461.725pt>
+<figures/spectralformfactor_inRMT.png, id=678, 656.4525pt x 461.725pt>
 File: figures/spectralformfactor_inRMT.png Graphic file (type png)
 <use figures/spectralformfactor_inRMT.png>
 Package luatex.def Info: figures/spectralformfactor_inRMT.png  used on input lin
@@ -1192,27 +1192,27 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 406.
 
 [37]
-<figures/beta_aux.png, id=765, 512.91624pt x 169.63374pt>
+<figures/beta_aux.png, id=769, 512.91624pt x 169.63374pt>
 File: figures/beta_aux.png Graphic file (type png)
 <use figures/beta_aux.png>
 Package luatex.def Info: figures/beta_aux.png  used on input line 505.
 (luatex.def)             Requested size: 284.52756pt x 94.10124pt.
  [38] [39<./figures/beta_aux.png>]) [40] [41] (./sections/gravity.tex
 [42]
-<figures/double_cone.png, id=836, 746.79pt x 280.04625pt>
+<figures/double_cone.png, id=840, 746.79pt x 280.04625pt>
 File: figures/double_cone.png Graphic file (type png)
 <use figures/double_cone.png>
 Package luatex.def Info: figures/double_cone.png  used on input line 61.
 (luatex.def)             Requested size: 284.52756pt x 106.69643pt.
  [43<./figures/double_cone.png>]
-<figures/time_translation.png, id=850, 653.44125pt x 313.17pt>
+<figures/time_translation.png, id=854, 653.44125pt x 313.17pt>
 File: figures/time_translation.png Graphic file (type png)
 <use figures/time_translation.png>
 Package luatex.def Info: figures/time_translation.png  used on input line 118.
 (luatex.def)             Requested size: 284.52756pt x 136.36163pt.
  [44<./figures/time_translation.png>])
 [45] (./sections/conclusion.tex [46]
-<figures/non_disorder_averaged_g.png, id=887, 525.965pt x 350.30875pt>
+<figures/non_disorder_averaged_g.png, id=891, 525.965pt x 350.30875pt>
 File: figures/non_disorder_averaged_g.png Graphic file (type png)
 <use figures/non_disorder_averaged_g.png>
 Package luatex.def Info: figures/non_disorder_averaged_g.png  used on input line
@@ -1285,10 +1285,10 @@ Package logreq Info: Writing requests to 'masterThesis.run.xml'.
 Here is how much of LuaTeX's memory you used:
  15675 strings out of 494383
  381503,794899 words of node,token memory allocated
- 62971 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 15 glue, 677 kern, 1 glyph, 14941 attribute, 5555 
-glue_spec, 757 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
-   avail lists: 1:24,2:81094,3:396,4:493,5:159,6:66,7:7093,8:3078,9:1214,10:43,1
+ 63065 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 16 glue, 677 kern, 1 glyph, 14961 attribute, 5564 
+glue_spec, 758 attribute_list, 1 write, 14 user_defined, 5 pdf_action nodes
+   avail lists: 1:24,2:81093,3:396,4:493,5:159,6:66,7:7092,8:3078,9:1214,10:43,1
 1:200,12:1
  18643 multiletter control sequences out of 65536+600000
  122 fonts using 47432431 bytes
@@ -1332,10 +1332,10 @@ s/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on masterThesis.pdf (57 pages, 1758995 bytes).
+Output written on masterThesis.pdf (57 pages, 1759531 bytes).
 
-PDF statistics: 1176 PDF objects out of 1200 (max. 8388607)
- 1003 compressed objects within 11 object streams
+PDF statistics: 1180 PDF objects out of 1200 (max. 8388607)
+ 1007 compressed objects within 11 object streams
  352 named destinations out of 1000 (max. 131072)
  177 words of extra memory for PDF output out of 10000 (max. 100000000)
 
