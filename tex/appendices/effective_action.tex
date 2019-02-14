@@ -17,7 +17,7 @@
 
 	disorder-averageは
 	\begin{align}
-	\average{Z} = \int \prod_{i<j<k<l}^{N}\left[dJ_{ijkl}\ P(J_{ijkl})\right]Z
+	\average{Z} = \int \prod_{1\leq i<j<k<l \leq N}\left[dJ_{ijkl}\ P(J_{ijkl})\right]Z
 	\end{align}
 	を計算すれば良い. 
 	以下では表記を簡潔にするために
@@ -132,11 +132,11 @@
 		\frac{N}{2}\log\det\left(\deriv - \Sigma\right)
 		- \frac{N}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
 		\right)\nonumber\\
-	&\equiv \pathint{G}\pathint{\Sigma}\exp(-I_{\mathrm eff})
+	&\equiv \pathint{G}\pathint{\Sigma}\exp(-I_{\mathrm{eff}})
 	\end{align}
 	となり, 有効作用として
 	\begin{align}
-	\frac{I_{\mathrm eff}}{N} =
+	\frac{I_{\mathrm{eff}}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
 	\end{align}

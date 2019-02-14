@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'masterThesis.blg'
-[42] biber-darwin:315> INFO - === 月  2 11, 2019, 21:37:21
-[68] Biber.pm:371> INFO - Reading 'masterThesis.bcf'
-[189] Biber.pm:889> INFO - Found 12 citekeys in bib section 0
-[203] Biber.pm:4093> INFO - Processing section 0
-[214] Biber.pm:4254> INFO - Looking for bibtex format file 'reference.bib' for section 0
-[216] bibtex.pm:1523> INFO - LaTeX decoding ...
-[247] bibtex.pm:1340> INFO - Found BibTeX data source 'reference.bib'
-[259] Utils.pm:193> WARN - month field 'Nov' in entry 'maldacena' is not an integer - this will probably not sort properly.
-[265] Utils.pm:193> WARN - month field 'Apr' in entry 'polchinski' is not an integer - this will probably not sort properly.
-[280] Utils.pm:193> WARN - month field 'Feb' in entry 'gross' is not an integer - this will probably not sort properly.
-[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[337] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[337] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[355] bbl.pm:636> INFO - Writing 'masterThesis.bbl' with encoding 'UTF-8'
-[361] bbl.pm:739> INFO - Output to masterThesis.bbl
-[362] Biber.pm:110> INFO - WARNINGS: 3
+[58] biber-darwin:315> INFO - === 木  2 14, 2019, 18:44:44
+[86] Biber.pm:371> INFO - Reading 'masterThesis.bcf'
+[173] Biber.pm:889> INFO - Found 12 citekeys in bib section 0
+[188] Biber.pm:4093> INFO - Processing section 0
+[199] Biber.pm:4254> INFO - Looking for bibtex format file 'reference.bib' for section 0
+[202] bibtex.pm:1523> INFO - LaTeX decoding ...
+[241] bibtex.pm:1340> INFO - Found BibTeX data source 'reference.bib'
+[257] Utils.pm:193> WARN - month field 'Nov' in entry 'maldacena' is not an integer - this will probably not sort properly.
+[263] Utils.pm:193> WARN - month field 'Apr' in entry 'polchinski' is not an integer - this will probably not sort properly.
+[275] Utils.pm:193> WARN - month field 'Feb' in entry 'gross' is not an integer - this will probably not sort properly.
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[329] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[329] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[344] bbl.pm:636> INFO - Writing 'masterThesis.bbl' with encoding 'UTF-8'
+[349] bbl.pm:739> INFO - Output to masterThesis.bbl
+[350] Biber.pm:110> INFO - WARNINGS: 3

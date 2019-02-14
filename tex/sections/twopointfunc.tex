@@ -13,7 +13,10 @@
 相互作用するフェルミオンの数$q$についてラージ極限を取ったものや, $q=2$の時にも知られている. 
 ただし本論文では$q=2$のケースは重要ではないので扱わない. 
 
-なおこの節以降では, ある関数$f$のフーリエ変換を$F[f]$と表記する.
+なおこの節以降では, ある関数$f$のフーリエ変換を$F[f]$と表記する:
+\begin{align}
+	F[f](\omega) \equiv \int dt\ e^{-i\omega t}f(t).
+\end{align}
 
 \subsection{シュウィンガー・ダイソン方程式}
 \begin{figure}[ht]
@@ -35,7 +38,7 @@ SYK模型の作用は
 これを$J_{ijkl}$について期待値を取り, その後フェルミオンを積分するために
 2つの双局所場$G(t_1, t_2)$, $\Sigma(t_1, t_2)$を導入すると
 \begin{align}
-  \frac{I_{\mathrm {eff}}}{N} =
+  \frac{I_{\mathrm{eff}}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{4}G^4\right)
   \label{eq:effectiveAction}
@@ -52,9 +55,17 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 \end{align}
 
 なお, SYK模型では4つのフェルミオンが相互作用するとしているが, その数を$q$として一般化しても
-有効作用やシュウィンガー・ダイソン方程式は計算する事ができ, それぞれ
+作用を書く事ができ,
 \begin{align}
-  \frac{I_{\mathrm eff}}{N} =
+	I = \int dt\ \left(
+		\frac{1}{2}\sum_{i = 1}^N \psi_i\deriv \psi_i	
+		- i^{q/2}\sum_{1\leq i_1 < i_2 < \cdots \leq N}J_{i_1i_2\cdots i_q}\psi_{i_1}\psi_{i_2}\cdots\psi_{i_q}
+	\right)
+\end{align}
+である.
+同様に有効作用やシュウィンガー・ダイソン方程式も計算する事ができ, それぞれ
+\begin{align}
+  \frac{I_{\mathrm{eff}}}{N} =
 		- \frac{1}{2}\log\det\left(\deriv - \Sigma\right)
 		+ \frac{1}{2}\int dt_1dt_2\ \left(\Sigma G - \frac{J^2}{q}G^q\right),
   \label{eq:effectiveActionWithGeneral_q}
@@ -69,9 +80,7 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 調べられており, \cite{gross}にて詳しく論じられている. 
 
 ラージ$N$極限を施したSYK模型において, リーディングオーダーで2点関数に寄与する
-ファインマンダイアグラムは「メロンダイアグラム」と呼ばれている
-\footnote{このメロンはwatermelonのmelonであってメロンではないらしい.
-どの辺がスイカなのかはよく分からない.}. 
+ファインマンダイアグラムは「メロンダイアグラム」と呼ばれている. 
 \eqref{eq:SDeqWithGeneral_q}式の一般の$\omega$における解析的な計算は現在のところ
 知られていないが, 数値的には可能であり, 図\ref{fig:melonDiagram}のダイアグラムのように
 再帰的に計算を走らせる事で2点関数のグラフをプロットできる(図\ref{fig:J10}, 図\ref{fig:J50}). 
@@ -125,7 +134,7 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 	\hspace{20pt}
 	\mathrm{or}
 	\hspace{20pt}
-	G_c(t) = b\left[\frac{\pi}{\beta\sin(\pi t / \beta)}\right]^{2\Delta}\mathrm{sgn}(t)
+	G_c(t) = b\left[\frac{\pi}{\beta\sin(\pi t / \beta)}\right]^{2\Delta}\mathrm{sgn}(t).
 	\label{eq:conformal_ansatz}
 \end{align}
 ２番目の式は有限温度の場合の解であり, パラメータ$t$を$f(t) = \tan(\pi t / \beta)$と変換して得る. 

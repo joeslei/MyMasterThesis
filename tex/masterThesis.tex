@@ -8,9 +8,10 @@
 			citecolor=blue,
 			urlcolor=blue]{hyperref}
 \usepackage{comment}
+\usepackage{url}
 
-\usepackage[backend=biber, bibencoding=utf8, sorting=none]{biblatex}
-\addbibresource{reference.bib}
+%\usepackage[backend=biber, bibencoding=utf8, style=numeric, sorting=none]{biblatex}
+%\addbibresource{reference.bib}
 
 \makeatletter
     \renewcommand{\theequation}{%
@@ -50,6 +51,6 @@
 	\input{appendices/b}
 %	\input{appendices/quantum_chaos}
 	\input{sections/acknowledgement}
-%	\input{sections/references}
-	\printbibliography
+	\input{sections/references}
+%	\printbibliography
 \end{document}

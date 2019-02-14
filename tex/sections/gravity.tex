@@ -33,13 +33,18 @@ L系とR系はここではdiskのトポロジーを持つブラックホール�
 まず最初にJTディラトン重力について簡単に紹介する. 
 作用は次式で与えられる:
 \begin{align}
-	S_{JT} = -\frac{\phi_0}{2}\left[\int \sqrt{g}R + 2\int_{\mathrm{bdy}}\sqrt{h}K \right]
-			-\frac{1}{2}\left[
-				\int \sqrt{g}\phi(R+2) + 2\phi_b\int_{\mathrm{bdy}}\sqrt{h}K
+	S_{JT} = -&\frac{\phi_0}{2}\left[\int d^2x\ \sqrt{g}R + 2\int_{\mathrm{bdy}} d^2x\ \sqrt{h}K \right]
+			\nonumber\\
+			&-\frac{1}{2}\left[
+				\int d^2x\ \sqrt{g}\phi(R+2) + 2\phi_b\int_{\mathrm{bdy}}d^2x\ \sqrt{h}K
 			\right].
 	\label{eq:JTgravity}
 \end{align}
-この理論は高次元のAdS空間を2次元にコンパクト化する事で得られる. 
+ここで$K$と$h$はそれぞれ境界の外在的曲率(extrinsic curvature)及び計量であり,
+また$R$と$g$はバルクの曲率と計量である.
+境界上の積分$\int_{\mathrm{bdy}} d^2x\ $は経路積分において
+2次元のAdS重力の作用を有限にするために存在している.
+この理論は高次元のAdS空間を2次元にコンパクト化する事で得られ,
 ディラトン$\phi$はその際のコンパクト化半径に対応する. 
 $\phi$について変分する事で得られる運動方程式はリッチスカラーに関する方程式であり, $R = -2$となる. 
 これにより2次元においては局所的な時空の幾何が$\mathrm{AdS}_2$の一部分として固定される. 

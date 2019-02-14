@@ -21,28 +21,28 @@
   \datalist[entry]{none/global//global/global}
     \entry{shenker}{article}{}
       \name{author}{3}{}{%
-        {{hash=d611177a3d8f74b52d7eb08ae1e6e54e}{%
+        {{hash=3ffc19b709133f24abc81feee0b6bd55}{%
            family={Maldacena},
            familyi={M\bibinitperiod},
-           given={Juan},
+           given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+        {{hash=e38c5ddd110f3e91bd629855eed97fd1}{%
            family={Shenker},
            familyi={S\bibinitperiod},
-           given={Stephen\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+        {{hash=c55b8d79300c06767fa657303029b871}{%
            family={Stanford},
            familyi={S\bibinitperiod},
-           given={Douglas},
+           given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{89ebc35f5c93fc2a87e991f87c22c03a}
-      \strng{fullhash}{89ebc35f5c93fc2a87e991f87c22c03a}
-      \strng{bibnamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
-      \strng{authorbibnamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
-      \strng{authornamehash}{89ebc35f5c93fc2a87e991f87c22c03a}
-      \strng{authorfullhash}{89ebc35f5c93fc2a87e991f87c22c03a}
+      \strng{namehash}{bb37e274080bac92d86bddfb25a2a2dd}
+      \strng{fullhash}{bb37e274080bac92d86bddfb25a2a2dd}
+      \strng{bibnamehash}{bb37e274080bac92d86bddfb25a2a2dd}
+      \strng{authorbibnamehash}{bb37e274080bac92d86bddfb25a2a2dd}
+      \strng{authornamehash}{bb37e274080bac92d86bddfb25a2a2dd}
+      \strng{authorfullhash}{bb37e274080bac92d86bddfb25a2a2dd}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -64,26 +64,26 @@
     \endentry
     \entry{maldacena}{article}{}
       \name{author}{2}{}{%
-        {{hash=d611177a3d8f74b52d7eb08ae1e6e54e}{%
+        {{hash=3ffc19b709133f24abc81feee0b6bd55}{%
            family={Maldacena},
            familyi={M\bibinitperiod},
-           given={Juan},
+           given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+        {{hash=c55b8d79300c06767fa657303029b871}{%
            family={Stanford},
            familyi={S\bibinitperiod},
-           given={Douglas},
+           given={D.},
            giveni={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{2dc8280d71fa9cf6607187b1761f46cc}
-      \strng{fullhash}{2dc8280d71fa9cf6607187b1761f46cc}
-      \strng{bibnamehash}{2dc8280d71fa9cf6607187b1761f46cc}
-      \strng{authorbibnamehash}{2dc8280d71fa9cf6607187b1761f46cc}
-      \strng{authornamehash}{2dc8280d71fa9cf6607187b1761f46cc}
-      \strng{authorfullhash}{2dc8280d71fa9cf6607187b1761f46cc}
+      \strng{namehash}{5c20bf682cc04bcf984795010bbb1649}
+      \strng{fullhash}{5c20bf682cc04bcf984795010bbb1649}
+      \strng{bibnamehash}{5c20bf682cc04bcf984795010bbb1649}
+      \strng{authorbibnamehash}{5c20bf682cc04bcf984795010bbb1649}
+      \strng{authornamehash}{5c20bf682cc04bcf984795010bbb1649}
+      \strng{authorfullhash}{5c20bf682cc04bcf984795010bbb1649}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -108,23 +108,23 @@
     \endentry
     \entry{polchinski}{article}{}
       \name{author}{2}{}{%
-        {{hash=aede54e67e8b497c7bac1a17908bef51}{%
+        {{hash=97bce5888e553e210582de442dfbfcbe}{%
            family={Polchinski},
            familyi={P\bibinitperiod},
-           given={Joseph},
+           given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=b5590d4162511dd13de2d492cb72ef2b}{%
+        {{hash=2df264399d172dc1191d1b1ff060bbf1}{%
            family={Rosenhaus},
            familyi={R\bibinitperiod},
-           given={Vladimir},
+           given={V.},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
-      \strng{fullhash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
-      \strng{bibnamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
-      \strng{authorbibnamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
-      \strng{authornamehash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
-      \strng{authorfullhash}{d9058e4c33b56bfc2a2b0c2d467b8e59}
+      \strng{namehash}{7198f81857f390853daeefad0a874352}
+      \strng{fullhash}{7198f81857f390853daeefad0a874352}
+      \strng{bibnamehash}{7198f81857f390853daeefad0a874352}
+      \strng{authorbibnamehash}{7198f81857f390853daeefad0a874352}
+      \strng{authornamehash}{7198f81857f390853daeefad0a874352}
+      \strng{authorfullhash}{7198f81857f390853daeefad0a874352}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
@@ -151,23 +151,23 @@
     \endentry
     \entry{eiki}{article}{}
       \name{author}{2}{}{%
-        {{hash=a2a3c33f4d2193367011eb9bf0a6589c}{%
-           family={Iyoda},
-           familyi={I\bibinitperiod},
-           given={Eiki},
-           giveni={E\bibinitperiod}}}%
-        {{hash=d7ff105eb6c11ac1307cb66c9ecd9351}{%
-           family={Sagawa},
-           familyi={S\bibinitperiod},
-           given={Takahiro},
-           giveni={T\bibinitperiod}}}%
+        {{hash=0d6cb0c6e1a4a013a9edd284a2a758a7}{%
+           family={Eiki},
+           familyi={E\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1bfd76d4b5c88125b96ab92441a0885a}{%
+           family={Takahiro},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{5a0b615e79c52982ebdf5602858c8fdf}
-      \strng{fullhash}{5a0b615e79c52982ebdf5602858c8fdf}
-      \strng{bibnamehash}{5a0b615e79c52982ebdf5602858c8fdf}
-      \strng{authorbibnamehash}{5a0b615e79c52982ebdf5602858c8fdf}
-      \strng{authornamehash}{5a0b615e79c52982ebdf5602858c8fdf}
-      \strng{authorfullhash}{5a0b615e79c52982ebdf5602858c8fdf}
+      \strng{namehash}{e4e22f2db01b80df601a9338adfee7f4}
+      \strng{fullhash}{e4e22f2db01b80df601a9338adfee7f4}
+      \strng{bibnamehash}{e4e22f2db01b80df601a9338adfee7f4}
+      \strng{authorbibnamehash}{e4e22f2db01b80df601a9338adfee7f4}
+      \strng{authornamehash}{e4e22f2db01b80df601a9338adfee7f4}
+      \strng{authorfullhash}{e4e22f2db01b80df601a9338adfee7f4}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -190,28 +190,28 @@
     \endentry
     \entry{stanford_chaos}{article}{}
       \name{author}{3}{}{%
-        {{hash=537916959e015dd078cf9d4a079f6a6b}{%
+        {{hash=12ecc8a99361d53b11dd6f12d4fabb02}{%
            family={Saad},
            familyi={S\bibinitperiod},
-           given={Phil},
+           given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+        {{hash=e38c5ddd110f3e91bd629855eed97fd1}{%
            family={Shenker},
            familyi={S\bibinitperiod},
-           given={Stephen\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+        {{hash=c55b8d79300c06767fa657303029b871}{%
            family={Stanford},
            familyi={S\bibinitperiod},
-           given={Douglas},
+           given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
-      \strng{fullhash}{cc9f705dd1a28b0459b4aa66d8366c3a}
-      \strng{bibnamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
-      \strng{authorbibnamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
-      \strng{authornamehash}{cc9f705dd1a28b0459b4aa66d8366c3a}
-      \strng{authorfullhash}{cc9f705dd1a28b0459b4aa66d8366c3a}
+      \strng{namehash}{769d84c400f5a76ffee1b13dfe4e440c}
+      \strng{fullhash}{769d84c400f5a76ffee1b13dfe4e440c}
+      \strng{bibnamehash}{769d84c400f5a76ffee1b13dfe4e440c}
+      \strng{authorbibnamehash}{769d84c400f5a76ffee1b13dfe4e440c}
+      \strng{authornamehash}{769d84c400f5a76ffee1b13dfe4e440c}
+      \strng{authorfullhash}{769d84c400f5a76ffee1b13dfe4e440c}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -226,23 +226,23 @@
     \endentry
     \entry{gross}{article}{}
       \name{author}{2}{}{%
-        {{hash=77e5d773d459c6212a6531f46411c09c}{%
+        {{hash=8bd56385921bdd16b08c096c13b716aa}{%
            family={Gross},
            familyi={G\bibinitperiod},
-           given={David\bibnamedelima J.},
+           given={D.\bibnamedelimi J.},
            giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=b5590d4162511dd13de2d492cb72ef2b}{%
+        {{hash=2df264399d172dc1191d1b1ff060bbf1}{%
            family={Rosenhaus},
            familyi={R\bibinitperiod},
-           given={Vladimir},
+           given={V.},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
-      \strng{fullhash}{9d0d45de5bf76e2d9d21593ad4fedc84}
-      \strng{bibnamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
-      \strng{authorbibnamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
-      \strng{authornamehash}{9d0d45de5bf76e2d9d21593ad4fedc84}
-      \strng{authorfullhash}{9d0d45de5bf76e2d9d21593ad4fedc84}
+      \strng{namehash}{1f1df63fa441a068ef1dd1ce00f1ea21}
+      \strng{fullhash}{1f1df63fa441a068ef1dd1ce00f1ea21}
+      \strng{bibnamehash}{1f1df63fa441a068ef1dd1ce00f1ea21}
+      \strng{authorbibnamehash}{1f1df63fa441a068ef1dd1ce00f1ea21}
+      \strng{authornamehash}{1f1df63fa441a068ef1dd1ce00f1ea21}
+      \strng{authorfullhash}{1f1df63fa441a068ef1dd1ce00f1ea21}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -269,18 +269,18 @@
     \endentry
     \entry{tarnopolsky}{article}{}
       \name{author}{1}{}{%
-        {{hash=2ac325e2389930b387567ed57397ec1f}{%
+        {{hash=8a1f88d3953f8b5e15480051921af13e}{%
            family={Tarnopolsky},
            familyi={T\bibinitperiod},
-           given={Grigory},
+           given={G.},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{2ac325e2389930b387567ed57397ec1f}
-      \strng{fullhash}{2ac325e2389930b387567ed57397ec1f}
-      \strng{bibnamehash}{2ac325e2389930b387567ed57397ec1f}
-      \strng{authorbibnamehash}{2ac325e2389930b387567ed57397ec1f}
-      \strng{authornamehash}{2ac325e2389930b387567ed57397ec1f}
-      \strng{authorfullhash}{2ac325e2389930b387567ed57397ec1f}
+      \strng{namehash}{8a1f88d3953f8b5e15480051921af13e}
+      \strng{fullhash}{8a1f88d3953f8b5e15480051921af13e}
+      \strng{bibnamehash}{8a1f88d3953f8b5e15480051921af13e}
+      \strng{authorbibnamehash}{8a1f88d3953f8b5e15480051921af13e}
+      \strng{authornamehash}{8a1f88d3953f8b5e15480051921af13e}
+      \strng{authorfullhash}{8a1f88d3953f8b5e15480051921af13e}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -336,58 +336,58 @@
     \endentry
     \entry{polchinski_chaos}{article}{}
       \name{author}{9}{}{%
-        {{hash=f8520a1ac87464ac7467b08a0b47e1dc}{%
+        {{hash=bb7e990d860e92043ffe36a0c7101bff}{%
            family={Cotler},
            familyi={C\bibinitperiod},
-           given={Jordan\bibnamedelima S.},
+           given={J.\bibnamedelimi S.},
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=4150a424a61199cfaf36bb11ca192b7b}{%
+        {{hash=77e41f86694d2785f1b352e47d5f3ac5}{%
            family={Gur-Ari},
            familyi={G\bibinithyphendelim A\bibinitperiod},
-           given={Guy},
+           given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=e8d25d1a6ba5e92c28a6f2cb578bbd19}{%
-           family={Hanada},
-           familyi={H\bibinitperiod},
-           given={Masanori},
-           giveni={M\bibinitperiod}}}%
-        {{hash=aede54e67e8b497c7bac1a17908bef51}{%
+        {{hash=01eeb36fb174279b9bfe0b32267957cf}{%
+           family={Masanori},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=97bce5888e553e210582de442dfbfcbe}{%
            family={Polchinski},
            familyi={P\bibinitperiod},
-           given={Joseph},
+           given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=537916959e015dd078cf9d4a079f6a6b}{%
+        {{hash=12ecc8a99361d53b11dd6f12d4fabb02}{%
            family={Saad},
            familyi={S\bibinitperiod},
-           given={Phil},
+           given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=cfef3ddb9d98edc5b538dd94a8db6bc0}{%
+        {{hash=e38c5ddd110f3e91bd629855eed97fd1}{%
            family={Shenker},
            familyi={S\bibinitperiod},
-           given={Stephen\bibnamedelima H.},
+           given={S.\bibnamedelimi H.},
            giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=e4990c1de0430bbef862867f2a4a3db7}{%
+        {{hash=c55b8d79300c06767fa657303029b871}{%
            family={Stanford},
            familyi={S\bibinitperiod},
-           given={Douglas},
+           given={D.},
            giveni={D\bibinitperiod}}}%
-        {{hash=aa15cd912021ef1f1ae8253085e2169f}{%
+        {{hash=f023cc57b1e145286ac329503005a70e}{%
            family={Streicher},
            familyi={S\bibinitperiod},
-           given={Alexandre},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=025d30328080f5657683dc980c90dbf8}{%
-           family={Tezuka},
-           familyi={T\bibinitperiod},
-           given={Masaki},
-           giveni={M\bibinitperiod}}}%
+        {{hash=ec59ac82549dde6a23603319065d09a8}{%
+           family={Masaki},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{e9d12661a06f04019de2ee8173c4beb8}
-      \strng{fullhash}{90321a1e5c3b3ecc3022861fe3e1e288}
-      \strng{bibnamehash}{e9d12661a06f04019de2ee8173c4beb8}
-      \strng{authorbibnamehash}{e9d12661a06f04019de2ee8173c4beb8}
-      \strng{authornamehash}{e9d12661a06f04019de2ee8173c4beb8}
-      \strng{authorfullhash}{90321a1e5c3b3ecc3022861fe3e1e288}
+      \strng{namehash}{2d21be4d868379402fba1b35e76923fa}
+      \strng{fullhash}{b96dacf67048dc84f036ba0cd18504ce}
+      \strng{bibnamehash}{b96dacf67048dc84f036ba0cd18504ce}
+      \strng{authorbibnamehash}{b96dacf67048dc84f036ba0cd18504ce}
+      \strng{authornamehash}{2d21be4d868379402fba1b35e76923fa}
+      \strng{authorfullhash}{b96dacf67048dc84f036ba0cd18504ce}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -410,33 +410,33 @@
     \endentry
     \entry{gaikwad}{article}{}
       \name{author}{4}{}{%
-        {{hash=e93fba31b354145d42ad8bd43c5e2799}{%
+        {{hash=a02cb201fab798fe61b54ea610535d60}{%
            family={Gaikwad},
            familyi={G\bibinitperiod},
-           given={Adwait},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=3dd64856bad1ce37e92edc111c4fe1dc}{%
+        {{hash=c3347f3ff7c1bd9693b9c26a0a4b89fe}{%
            family={Joshi},
            familyi={J\bibinitperiod},
-           given={Lata\bibnamedelima Kh},
+           given={L.\bibnamedelimi K.},
            giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=2b776019283a6c287d7e60f73e3d9334}{%
+        {{hash=3bd50dc4604c7ff8643bf9093bce612b}{%
            family={Mandal},
            familyi={M\bibinitperiod},
-           given={Gautam},
+           given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=25363bfe60bd197449b10f7fcbe27ab9}{%
+        {{hash=addaaa82edf3469d3c58a4c810d2f2db}{%
            family={Wadia},
            familyi={W\bibinitperiod},
-           given={Spenta\bibnamedelima R.},
+           given={S.\bibnamedelimi R.},
            giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{18398f32cb3ef9332a4cada95c05029c}
-      \strng{fullhash}{7edb03c0ef24f40a5233c79165f46b9b}
-      \strng{bibnamehash}{18398f32cb3ef9332a4cada95c05029c}
-      \strng{authorbibnamehash}{18398f32cb3ef9332a4cada95c05029c}
-      \strng{authornamehash}{18398f32cb3ef9332a4cada95c05029c}
-      \strng{authorfullhash}{7edb03c0ef24f40a5233c79165f46b9b}
+      \strng{namehash}{e2afae74d58745d1ad6e5e5c0e9393d7}
+      \strng{fullhash}{9dc1c6dc61b597ad2e36fd2eba4b1864}
+      \strng{bibnamehash}{9dc1c6dc61b597ad2e36fd2eba4b1864}
+      \strng{authorbibnamehash}{9dc1c6dc61b597ad2e36fd2eba4b1864}
+      \strng{authornamehash}{e2afae74d58745d1ad6e5e5c0e9393d7}
+      \strng{authorfullhash}{9dc1c6dc61b597ad2e36fd2eba4b1864}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
@@ -451,33 +451,33 @@
     \endentry
     \entry{berkooz}{article}{}
       \name{author}{4}{}{%
-        {{hash=633e3d7d98f82691ab8f3f7e920b4ed4}{%
+        {{hash=fedad56c0618d1133bf5cf36210d08b0}{%
            family={Berkooz},
            familyi={B\bibinitperiod},
-           given={Micha},
+           given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=95ebddcee09f454368fbe772e41cb04e}{%
+        {{hash=be2d5ecc5f69df3c101b05ee0097f500}{%
            family={Narayan},
            familyi={N\bibinitperiod},
-           given={Prithvi},
+           given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=dad5c7a66c65d6d5b3f874d506d1483b}{%
+        {{hash=e593283aa73a5c865e8b6398d051b2ce}{%
            family={Rozali},
            familyi={R\bibinitperiod},
-           given={Moshe},
+           given={M.},
            giveni={M\bibinitperiod}}}%
-        {{hash=f41ed389d9f7251bab1690d89b63ce11}{%
+        {{hash=39b18857f518f94d5211739e68ab4c00}{%
            family={Simón},
            familyi={S\bibinitperiod},
-           given={Joan},
+           given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{d51d10178145e6bf76fea196c74b9e4c}
-      \strng{fullhash}{921bf46359859cfff0bd0d0a87afce2e}
-      \strng{bibnamehash}{d51d10178145e6bf76fea196c74b9e4c}
-      \strng{authorbibnamehash}{d51d10178145e6bf76fea196c74b9e4c}
-      \strng{authornamehash}{d51d10178145e6bf76fea196c74b9e4c}
-      \strng{authorfullhash}{921bf46359859cfff0bd0d0a87afce2e}
+      \strng{namehash}{97c38acd10d3d4a29922e3b3443c799d}
+      \strng{fullhash}{1411fd190eb34ff597f09f1b25c3eedd}
+      \strng{bibnamehash}{1411fd190eb34ff597f09f1b25c3eedd}
+      \strng{authorbibnamehash}{1411fd190eb34ff597f09f1b25c3eedd}
+      \strng{authornamehash}{97c38acd10d3d4a29922e3b3443c799d}
+      \strng{authorfullhash}{1411fd190eb34ff597f09f1b25c3eedd}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
@@ -517,6 +517,12 @@
       \field{labeltitlesource}{title}
       \field{title}{{Notes on antisymmetric matrices and the pfaffian}}
       \field{year}{2015}
+      \verb{urlraw}
+      \verb http://scipp.ucsc.edu/~haber/webpage/pfaffian2.pdf
+      \endverb
+      \verb{url}
+      \verb http://scipp.ucsc.edu/~haber/webpage/pfaffian2.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
