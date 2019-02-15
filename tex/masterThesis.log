@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.11)  14 FEB 2019 20:22
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.11)  15 FEB 2019 13:46
  restricted system commands enabled.
 **masterThesis.tex
 (./masterThesis.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.069 seconds
+luaotfload | main : initialization completed in 0.116 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/10/08 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1046,8 +1046,8 @@ LaTeX Warning: There were undefined references.
 Here is how much of LuaTeX's memory you used:
  9240 strings out of 494383
  381503,266212 words of node,token memory allocated
- 61828 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 14 glue, 654 kern, 1 glyph, 14421 attribute, 5574 
+ 61873 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 14 glue, 654 kern, 1 glyph, 14421 attribute, 5583 
 glue_spec, 731 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
    avail lists: 1:16,2:82052,3:329,4:430,5:131,6:67,7:7094,8:3078,9:1214,10:43,1
 1:190
@@ -1092,7 +1092,7 @@ blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm7.pfb>
-Output written on masterThesis.pdf (57 pages, 1755426 bytes).
+Output written on masterThesis.pdf (57 pages, 1756195 bytes).
 
 PDF statistics: 1150 PDF objects out of 1200 (max. 8388607)
  981 compressed objects within 10 object streams
