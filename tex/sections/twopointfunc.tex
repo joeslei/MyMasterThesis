@@ -15,7 +15,7 @@
 
 なおこの節以降では, ある関数$f$のフーリエ変換を$F[f]$と表記する:
 \begin{align}
-	F[f](\omega) \equiv \int dt\ e^{-i\omega t}f(t).
+	F[f](\omega) \equiv \int dt\ e^{i\omega t}f(t).
 \end{align}
 
 \subsection{シュウィンガー・ダイソン方程式}
@@ -59,7 +59,7 @@ $\Sigma$は$G = \frac{1}{N}\sum_j \psi_j(t_1)\psi_j(t_2)$とするような
 \begin{align}
 	I = \int dt\ \left(
 		\frac{1}{2}\sum_{i = 1}^N \psi_i\deriv \psi_i	
-		- i^{q/2}\sum_{1\leq i_1 < i_2 < \cdots \leq N}J_{i_1i_2\cdots i_q}\psi_{i_1}\psi_{i_2}\cdots\psi_{i_q}
+		- i^{q/2}\sum_{1\leq i_1 < i_2 < \cdots < i_q \leq N}J_{i_1i_2\cdots i_q}\psi_{i_1}\psi_{i_2}\cdots\psi_{i_q}
 	\right)
 \end{align}
 である.
